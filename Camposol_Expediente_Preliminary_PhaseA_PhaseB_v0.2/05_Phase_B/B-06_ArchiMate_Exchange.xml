@@ -1,0 +1,547 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<model xmlns="http://www.opengroup.org/xsd/archimate/3.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" identifier="MODEL-B" version="0.2">
+  <name>Camposol Chao — Baseline y Target de negocio</name>
+  <documentation>v0.2 · ROL-EA · DE asistida. B-V01 hipótesis de alcance con IA/NE, no AS-IS validado; B-V02 propuesta. G-A-BCD pendiente. Sufijos B/T comparan la misma unidad; ninguna tecnología elegida. B-09 registra convenciones y fuentes. Relaciones baseline son hipótesis explícitas de trabajo, no observaciones.</documentation>
+  <elements>
+    <element identifier="E-B-ACT" xsi:type="BusinessActor">
+      <name>Planta Packing Chao</name>
+      <documentation>Hipótesis SV/IA; operación real NE y NV-08. Unidad comparable ACT. Referencias: STK-01;NV-08. ROL-EA; versión 0.2. Reconstrucción 120 min IA; cobertura 65% IA; no atribuir al sistema real.</documentation>
+    </element>
+    <element identifier="E-B-R1" xsi:type="BusinessRole">
+      <name>Emisor / custodio de etapa</name>
+      <documentation>Hipótesis SV/IA; operación real NE y NV-08. Unidad comparable R1. Referencias: STK-05;NV-08. ROL-EA; versión 0.2. Reconstrucción 120 min IA; cobertura 65% IA; no atribuir al sistema real.</documentation>
+    </element>
+    <element identifier="E-B-R2" xsi:type="BusinessRole">
+      <name>Revisor de Calidad</name>
+      <documentation>Hipótesis SV/IA; operación real NE y NV-08. Unidad comparable R2. Referencias: STK-02;NV-08. ROL-EA; versión 0.2. Reconstrucción 120 min IA; cobertura 65% IA; no atribuir al sistema real.</documentation>
+    </element>
+    <element identifier="E-B-R3" xsi:type="BusinessRole">
+      <name>Responsable de Despacho</name>
+      <documentation>Hipótesis SV/IA; operación real NE y NV-08. Unidad comparable R3. Referencias: STK-06;NV-08. ROL-EA; versión 0.2. Reconstrucción 120 min IA; cobertura 65% IA; no atribuir al sistema real.</documentation>
+    </element>
+    <element identifier="E-B-P1" xsi:type="BusinessProcess">
+      <name>Registrar y entregar evidencia</name>
+      <documentation>Hipótesis SV/IA; operación real NE y NV-08. Unidad comparable P1. Referencias: U-B01;U-B04;U-B06;U-B07. ROL-EA; versión 0.2. Reconstrucción 120 min IA; cobertura 65% IA; no atribuir al sistema real.</documentation>
+    </element>
+    <element identifier="E-B-P2" xsi:type="BusinessProcess">
+      <name>Revisar historia y liberación</name>
+      <documentation>Hipótesis SV/IA; operación real NE y NV-08. Unidad comparable P2. Referencias: U-B02;U-B03;STK-02. ROL-EA; versión 0.2. Reconstrucción 120 min IA; cobertura 65% IA; no atribuir al sistema real.</documentation>
+    </element>
+    <element identifier="E-B-P3" xsi:type="BusinessProcess">
+      <name>Coordinar entrega en rampa</name>
+      <documentation>Hipótesis SV/IA; operación real NE y NV-08. Unidad comparable P3. Referencias: U-B05;STK-06. ROL-EA; versión 0.2. Reconstrucción 120 min IA; cobertura 65% IA; no atribuir al sistema real.</documentation>
+    </element>
+    <element identifier="E-B-O1" xsi:type="BusinessObject">
+      <name>Historia / genealogía</name>
+      <documentation>Hipótesis SV/IA; operación real NE y NV-08. Unidad comparable O1. Referencias: BO-B01;REQ-01;REQ-02. ROL-EA; versión 0.2. Reconstrucción 120 min IA; cobertura 65% IA; no atribuir al sistema real.</documentation>
+    </element>
+    <element identifier="E-B-O2" xsi:type="BusinessObject">
+      <name>Serie térmica / custodia</name>
+      <documentation>Hipótesis SV/IA; operación real NE y NV-08. Unidad comparable O2. Referencias: BO-B07;REQ-04;NV-05. ROL-EA; versión 0.2. Reconstrucción 120 min IA; cobertura 65% IA; no atribuir al sistema real.</documentation>
+    </element>
+    <element identifier="E-B-O3" xsi:type="BusinessObject">
+      <name>Liberación de Calidad</name>
+      <documentation>Hipótesis SV/IA; operación real NE y NV-08. Unidad comparable O3. Referencias: BO-B03;REQ-06;STK-02. ROL-EA; versión 0.2. Reconstrucción 120 min IA; cobertura 65% IA; no atribuir al sistema real.</documentation>
+    </element>
+    <element identifier="E-B-O4" xsi:type="BusinessObject">
+      <name>Condición de Despacho</name>
+      <documentation>Hipótesis SV/IA; operación real NE y NV-08. Unidad comparable O4. Referencias: BO-B04;REQ-06;STK-06. ROL-EA; versión 0.2. Reconstrucción 120 min IA; cobertura 65% IA; no atribuir al sistema real.</documentation>
+    </element>
+    <element identifier="E-B-S1" xsi:type="BusinessService">
+      <name>Historia auditable</name>
+      <documentation>Hipótesis SV/IA; operación real NE y NV-08. Unidad comparable S1. Referencias: BSV-C01;REQ-02. ROL-EA; versión 0.2. Reconstrucción 120 min IA; cobertura 65% IA; no atribuir al sistema real.</documentation>
+    </element>
+    <element identifier="E-B-S2" xsi:type="BusinessService">
+      <name>Coordinación de entrega</name>
+      <documentation>Hipótesis SV/IA; operación real NE y NV-08. Unidad comparable S2. Referencias: BSV-C02;REQ-06. ROL-EA; versión 0.2. Reconstrucción 120 min IA; cobertura 65% IA; no atribuir al sistema real.</documentation>
+    </element>
+    <element identifier="E-B-R4" xsi:type="BusinessRole">
+      <name>Transportista receptor</name>
+      <documentation>Hipótesis SV/IA; operación real NE y NV-08. Unidad comparable R4. Referencias: NV-08;BSV-C02. ROL-EA; versión 0.2. Reconstrucción 120 min IA; cobertura 65% IA; no atribuir al sistema real.</documentation>
+    </element>
+    <element identifier="E-T-ACT" xsi:type="BusinessActor">
+      <name>Planta Packing Chao</name>
+      <documentation>DE Target propuesto; pendiente de revisión. Unidad comparable ACT. Referencias: STK-01;NV-08. ROL-EA; versión 0.2. Historia ≤30 min y térmica ≥95% condicionadas a NV-03/05/07.</documentation>
+    </element>
+    <element identifier="E-T-R1" xsi:type="BusinessRole">
+      <name>Emisor / custodio de etapa</name>
+      <documentation>DE Target propuesto; pendiente de revisión. Unidad comparable R1. Referencias: STK-05;NV-08. ROL-EA; versión 0.2. Historia ≤30 min y térmica ≥95% condicionadas a NV-03/05/07.</documentation>
+    </element>
+    <element identifier="E-T-R2" xsi:type="BusinessRole">
+      <name>Revisor de Calidad</name>
+      <documentation>DE Target propuesto; pendiente de revisión. Unidad comparable R2. Referencias: STK-02;NV-08. ROL-EA; versión 0.2. Historia ≤30 min y térmica ≥95% condicionadas a NV-03/05/07.</documentation>
+    </element>
+    <element identifier="E-T-R3" xsi:type="BusinessRole">
+      <name>Responsable de Despacho</name>
+      <documentation>DE Target propuesto; pendiente de revisión. Unidad comparable R3. Referencias: STK-06;NV-08. ROL-EA; versión 0.2. Historia ≤30 min y térmica ≥95% condicionadas a NV-03/05/07.</documentation>
+    </element>
+    <element identifier="E-T-P1" xsi:type="BusinessProcess">
+      <name>Registrar y entregar evidencia</name>
+      <documentation>DE Target propuesto; pendiente de revisión. Unidad comparable P1. Referencias: U-B01;U-B04;U-B06;U-B07. ROL-EA; versión 0.2. Historia ≤30 min y térmica ≥95% condicionadas a NV-03/05/07.</documentation>
+    </element>
+    <element identifier="E-T-P2" xsi:type="BusinessProcess">
+      <name>Revisar historia y liberación</name>
+      <documentation>DE Target propuesto; pendiente de revisión. Unidad comparable P2. Referencias: U-B02;U-B03;STK-02. ROL-EA; versión 0.2. Historia ≤30 min y térmica ≥95% condicionadas a NV-03/05/07.</documentation>
+    </element>
+    <element identifier="E-T-P3" xsi:type="BusinessProcess">
+      <name>Coordinar entrega en rampa</name>
+      <documentation>DE Target propuesto; pendiente de revisión. Unidad comparable P3. Referencias: U-B05;STK-06. ROL-EA; versión 0.2. Historia ≤30 min y térmica ≥95% condicionadas a NV-03/05/07.</documentation>
+    </element>
+    <element identifier="E-T-O1" xsi:type="BusinessObject">
+      <name>Historia / genealogía</name>
+      <documentation>DE Target propuesto; pendiente de revisión. Unidad comparable O1. Referencias: BO-B01;REQ-01;REQ-02. ROL-EA; versión 0.2. Historia ≤30 min y térmica ≥95% condicionadas a NV-03/05/07.</documentation>
+    </element>
+    <element identifier="E-T-O2" xsi:type="BusinessObject">
+      <name>Serie térmica / custodia</name>
+      <documentation>DE Target propuesto; pendiente de revisión. Unidad comparable O2. Referencias: BO-B07;REQ-04;NV-05. ROL-EA; versión 0.2. Historia ≤30 min y térmica ≥95% condicionadas a NV-03/05/07.</documentation>
+    </element>
+    <element identifier="E-T-O3" xsi:type="BusinessObject">
+      <name>Liberación de Calidad</name>
+      <documentation>DE Target propuesto; pendiente de revisión. Unidad comparable O3. Referencias: BO-B03;REQ-06;STK-02. ROL-EA; versión 0.2. Historia ≤30 min y térmica ≥95% condicionadas a NV-03/05/07.</documentation>
+    </element>
+    <element identifier="E-T-O4" xsi:type="BusinessObject">
+      <name>Condición de Despacho</name>
+      <documentation>DE Target propuesto; pendiente de revisión. Unidad comparable O4. Referencias: BO-B04;REQ-06;STK-06. ROL-EA; versión 0.2. Historia ≤30 min y térmica ≥95% condicionadas a NV-03/05/07.</documentation>
+    </element>
+    <element identifier="E-T-S1" xsi:type="BusinessService">
+      <name>Historia auditable</name>
+      <documentation>DE Target propuesto; pendiente de revisión. Unidad comparable S1. Referencias: BSV-C01;REQ-02. ROL-EA; versión 0.2. Historia ≤30 min y térmica ≥95% condicionadas a NV-03/05/07.</documentation>
+    </element>
+    <element identifier="E-T-S2" xsi:type="BusinessService">
+      <name>Coordinación de entrega</name>
+      <documentation>DE Target propuesto; pendiente de revisión. Unidad comparable S2. Referencias: BSV-C02;REQ-06. ROL-EA; versión 0.2. Historia ≤30 min y térmica ≥95% condicionadas a NV-03/05/07.</documentation>
+    </element>
+    <element identifier="E-T-R4" xsi:type="BusinessRole">
+      <name>Transportista receptor</name>
+      <documentation>DE Target propuesto; pendiente de revisión. Unidad comparable R4. Referencias: NV-08;BSV-C02. ROL-EA; versión 0.2. Historia ≤30 min y térmica ≥95% condicionadas a NV-03/05/07.</documentation>
+    </element>
+  </elements>
+  <relationships>
+    <relationship identifier="RB-B-01" source="E-B-ACT" target="E-B-R1" xsi:type="Assignment">
+      <name>Asigna</name>
+      <documentation>Hipótesis SV/IA; operación real NE y NV-08; Asigna. Flujo normal conceptual; excepciones/variantes NV-08. </documentation>
+    </relationship>
+    <relationship identifier="RB-B-02" source="E-B-ACT" target="E-B-R2" xsi:type="Assignment">
+      <name>Asigna</name>
+      <documentation>Hipótesis SV/IA; operación real NE y NV-08; Asigna. Flujo normal conceptual; excepciones/variantes NV-08. </documentation>
+    </relationship>
+    <relationship identifier="RB-B-03" source="E-B-ACT" target="E-B-R3" xsi:type="Assignment">
+      <name>Asigna</name>
+      <documentation>Hipótesis SV/IA; operación real NE y NV-08; Asigna. Flujo normal conceptual; excepciones/variantes NV-08. </documentation>
+    </relationship>
+    <relationship identifier="RB-B-04" source="E-B-R1" target="E-B-P1" xsi:type="Assignment">
+      <name>Ejecuta</name>
+      <documentation>Hipótesis SV/IA; operación real NE y NV-08; Ejecuta. Flujo normal conceptual; excepciones/variantes NV-08. </documentation>
+    </relationship>
+    <relationship identifier="RB-B-05" source="E-B-R2" target="E-B-P2" xsi:type="Assignment">
+      <name>Ejecuta</name>
+      <documentation>Hipótesis SV/IA; operación real NE y NV-08; Ejecuta. Flujo normal conceptual; excepciones/variantes NV-08. </documentation>
+    </relationship>
+    <relationship identifier="RB-B-06" source="E-B-R3" target="E-B-P3" xsi:type="Assignment">
+      <name>Ejecuta</name>
+      <documentation>Hipótesis SV/IA; operación real NE y NV-08; Ejecuta. Flujo normal conceptual; excepciones/variantes NV-08. </documentation>
+    </relationship>
+    <relationship identifier="RB-B-07" source="E-B-P1" target="E-B-P2" xsi:type="Triggering">
+      <name>Handoff</name>
+      <documentation>Hipótesis SV/IA; operación real NE y NV-08; Handoff. Flujo normal conceptual; excepciones/variantes NV-08. Triggering indica precedencia causal propuesta; no fusiona liberación y despacho.</documentation>
+    </relationship>
+    <relationship identifier="RB-B-08" source="E-B-P2" target="E-B-P3" xsi:type="Triggering">
+      <name>Revisión previa</name>
+      <documentation>Hipótesis SV/IA; operación real NE y NV-08; Revisión previa. Flujo normal conceptual; excepciones/variantes NV-08. Triggering indica precedencia causal propuesta; no fusiona liberación y despacho.</documentation>
+    </relationship>
+    <relationship identifier="RB-B-09" source="E-B-P1" target="E-B-O1" xsi:type="Access" accessType="Write">
+      <name>Escribe</name>
+      <documentation>Hipótesis SV/IA; operación real NE y NV-08; Escribe. Flujo normal conceptual; excepciones/variantes NV-08. </documentation>
+    </relationship>
+    <relationship identifier="RB-B-10" source="E-B-P2" target="E-B-O1" xsi:type="Access" accessType="Read">
+      <name>Lee</name>
+      <documentation>Hipótesis SV/IA; operación real NE y NV-08; Lee. Flujo normal conceptual; excepciones/variantes NV-08. </documentation>
+    </relationship>
+    <relationship identifier="RB-B-11" source="E-B-P2" target="E-B-O2" xsi:type="Access" accessType="Read">
+      <name>Lee</name>
+      <documentation>Hipótesis SV/IA; operación real NE y NV-08; Lee. Flujo normal conceptual; excepciones/variantes NV-08. </documentation>
+    </relationship>
+    <relationship identifier="RB-B-12" source="E-B-P2" target="E-B-O3" xsi:type="Access" accessType="Write">
+      <name>Escribe</name>
+      <documentation>Hipótesis SV/IA; operación real NE y NV-08; Escribe. Flujo normal conceptual; excepciones/variantes NV-08. </documentation>
+    </relationship>
+    <relationship identifier="RB-B-13" source="E-B-P3" target="E-B-O3" xsi:type="Access" accessType="Read">
+      <name>Lee</name>
+      <documentation>Hipótesis SV/IA; operación real NE y NV-08; Lee. Flujo normal conceptual; excepciones/variantes NV-08. </documentation>
+    </relationship>
+    <relationship identifier="RB-B-14" source="E-B-P3" target="E-B-O4" xsi:type="Access" accessType="Write">
+      <name>Escribe</name>
+      <documentation>Hipótesis SV/IA; operación real NE y NV-08; Escribe. Flujo normal conceptual; excepciones/variantes NV-08. </documentation>
+    </relationship>
+    <relationship identifier="RB-B-15" source="E-B-P2" target="E-B-S1" xsi:type="Realization">
+      <name>Realiza</name>
+      <documentation>Hipótesis SV/IA; operación real NE y NV-08; Realiza. Flujo normal conceptual; excepciones/variantes NV-08. </documentation>
+    </relationship>
+    <relationship identifier="RB-B-16" source="E-B-P3" target="E-B-S2" xsi:type="Realization">
+      <name>Realiza</name>
+      <documentation>Hipótesis SV/IA; operación real NE y NV-08; Realiza. Flujo normal conceptual; excepciones/variantes NV-08. </documentation>
+    </relationship>
+    <relationship identifier="RB-B-17" source="E-B-S1" target="E-B-R3" xsi:type="Serving">
+      <name>Sirve</name>
+      <documentation>Hipótesis SV/IA; operación real NE y NV-08; Sirve. Flujo normal conceptual; excepciones/variantes NV-08. </documentation>
+    </relationship>
+    <relationship identifier="RB-B-18" source="E-B-S2" target="E-B-R4" xsi:type="Serving">
+      <name>Sirve</name>
+      <documentation>Hipótesis SV/IA; operación real NE y NV-08; Sirve. Flujo normal conceptual; excepciones/variantes NV-08. </documentation>
+    </relationship>
+    <relationship identifier="RB-T-01" source="E-T-ACT" target="E-T-R1" xsi:type="Assignment">
+      <name>Asigna</name>
+      <documentation>DE Target propuesto; pendiente de revisión; Asigna. Flujo normal conceptual; excepciones/variantes NV-08. </documentation>
+    </relationship>
+    <relationship identifier="RB-T-02" source="E-T-ACT" target="E-T-R2" xsi:type="Assignment">
+      <name>Asigna</name>
+      <documentation>DE Target propuesto; pendiente de revisión; Asigna. Flujo normal conceptual; excepciones/variantes NV-08. </documentation>
+    </relationship>
+    <relationship identifier="RB-T-03" source="E-T-ACT" target="E-T-R3" xsi:type="Assignment">
+      <name>Asigna</name>
+      <documentation>DE Target propuesto; pendiente de revisión; Asigna. Flujo normal conceptual; excepciones/variantes NV-08. </documentation>
+    </relationship>
+    <relationship identifier="RB-T-04" source="E-T-R1" target="E-T-P1" xsi:type="Assignment">
+      <name>Ejecuta</name>
+      <documentation>DE Target propuesto; pendiente de revisión; Ejecuta. Flujo normal conceptual; excepciones/variantes NV-08. </documentation>
+    </relationship>
+    <relationship identifier="RB-T-05" source="E-T-R2" target="E-T-P2" xsi:type="Assignment">
+      <name>Ejecuta</name>
+      <documentation>DE Target propuesto; pendiente de revisión; Ejecuta. Flujo normal conceptual; excepciones/variantes NV-08. </documentation>
+    </relationship>
+    <relationship identifier="RB-T-06" source="E-T-R3" target="E-T-P3" xsi:type="Assignment">
+      <name>Ejecuta</name>
+      <documentation>DE Target propuesto; pendiente de revisión; Ejecuta. Flujo normal conceptual; excepciones/variantes NV-08. </documentation>
+    </relationship>
+    <relationship identifier="RB-T-07" source="E-T-P1" target="E-T-P2" xsi:type="Triggering">
+      <name>Handoff</name>
+      <documentation>DE Target propuesto; pendiente de revisión; Handoff. Flujo normal conceptual; excepciones/variantes NV-08. Triggering indica precedencia causal propuesta; no fusiona liberación y despacho.</documentation>
+    </relationship>
+    <relationship identifier="RB-T-08" source="E-T-P2" target="E-T-P3" xsi:type="Triggering">
+      <name>Revisión previa</name>
+      <documentation>DE Target propuesto; pendiente de revisión; Revisión previa. Flujo normal conceptual; excepciones/variantes NV-08. Triggering indica precedencia causal propuesta; no fusiona liberación y despacho.</documentation>
+    </relationship>
+    <relationship identifier="RB-T-09" source="E-T-P1" target="E-T-O1" xsi:type="Access" accessType="Write">
+      <name>Escribe</name>
+      <documentation>DE Target propuesto; pendiente de revisión; Escribe. Flujo normal conceptual; excepciones/variantes NV-08. </documentation>
+    </relationship>
+    <relationship identifier="RB-T-10" source="E-T-P2" target="E-T-O1" xsi:type="Access" accessType="Read">
+      <name>Lee</name>
+      <documentation>DE Target propuesto; pendiente de revisión; Lee. Flujo normal conceptual; excepciones/variantes NV-08. </documentation>
+    </relationship>
+    <relationship identifier="RB-T-11" source="E-T-P2" target="E-T-O2" xsi:type="Access" accessType="Read">
+      <name>Lee</name>
+      <documentation>DE Target propuesto; pendiente de revisión; Lee. Flujo normal conceptual; excepciones/variantes NV-08. </documentation>
+    </relationship>
+    <relationship identifier="RB-T-12" source="E-T-P2" target="E-T-O3" xsi:type="Access" accessType="Write">
+      <name>Escribe</name>
+      <documentation>DE Target propuesto; pendiente de revisión; Escribe. Flujo normal conceptual; excepciones/variantes NV-08. </documentation>
+    </relationship>
+    <relationship identifier="RB-T-13" source="E-T-P3" target="E-T-O3" xsi:type="Access" accessType="Read">
+      <name>Lee</name>
+      <documentation>DE Target propuesto; pendiente de revisión; Lee. Flujo normal conceptual; excepciones/variantes NV-08. </documentation>
+    </relationship>
+    <relationship identifier="RB-T-14" source="E-T-P3" target="E-T-O4" xsi:type="Access" accessType="Write">
+      <name>Escribe</name>
+      <documentation>DE Target propuesto; pendiente de revisión; Escribe. Flujo normal conceptual; excepciones/variantes NV-08. </documentation>
+    </relationship>
+    <relationship identifier="RB-T-15" source="E-T-P2" target="E-T-S1" xsi:type="Realization">
+      <name>Realiza</name>
+      <documentation>DE Target propuesto; pendiente de revisión; Realiza. Flujo normal conceptual; excepciones/variantes NV-08. </documentation>
+    </relationship>
+    <relationship identifier="RB-T-16" source="E-T-P3" target="E-T-S2" xsi:type="Realization">
+      <name>Realiza</name>
+      <documentation>DE Target propuesto; pendiente de revisión; Realiza. Flujo normal conceptual; excepciones/variantes NV-08. </documentation>
+    </relationship>
+    <relationship identifier="RB-T-17" source="E-T-S1" target="E-T-R3" xsi:type="Serving">
+      <name>Sirve</name>
+      <documentation>DE Target propuesto; pendiente de revisión; Sirve. Flujo normal conceptual; excepciones/variantes NV-08. </documentation>
+    </relationship>
+    <relationship identifier="RB-T-18" source="E-T-S2" target="E-T-R4" xsi:type="Serving">
+      <name>Sirve</name>
+      <documentation>DE Target propuesto; pendiente de revisión; Sirve. Flujo normal conceptual; excepciones/variantes NV-08. </documentation>
+    </relationship>
+  </relationships>
+  <views>
+    <viewpoints>
+      <viewpoint identifier="VP-B01">
+        <name>Cooperación de negocio, evidencia y handoffs</name>
+        <documentation>Audiencia: STK-01/02/03/05/06, ROL-EA; owner ROL-EA; versión0.2. Concerns C01/02/03/04/06. Selección propia para comparar roles, procesos, servicios y objetos en VS01. Diagrama ArchiMate tipado; no BPMN ni despliegue.</documentation>
+        <viewpointPurpose>Designing Informing</viewpointPurpose>
+        <viewpointContent>Coherence</viewpointContent>
+      </viewpoint>
+    </viewpoints>
+    <diagrams>
+      <view identifier="B-V01" viewpointRef="VP-B01" xsi:type="Diagram">
+        <name>Baseline — hipótesis IA / NE</name>
+        <documentation>Mismos 14 conceptos y 18 relaciones para comparar; Added/New de gobierno solo en matriz B-04. B-V01 representa hipótesis de estructura, sin afirmar que las relaciones o servicios ya operen. B-V02 expresa responsabilidades y resultados propuestos. Rutas: B-01 §§3–6 y B-09 Vistas. Térmica 65→95% es IA→DE, no medición.</documentation>
+        <node identifier="N-B-ACT" elementRef="E-B-ACT" x="350" y="55" w="300" h="65" xsi:type="Element">
+          <style>
+            <fillColor r="255" g="255" b="181"/>
+            <lineColor r="70" g="70" b="70"/>
+          </style>
+        </node>
+        <node identifier="N-B-R1" elementRef="E-B-R1" x="25" y="195" w="280" h="80" xsi:type="Element">
+          <style>
+            <fillColor r="255" g="255" b="181"/>
+            <lineColor r="70" g="70" b="70"/>
+          </style>
+        </node>
+        <node identifier="N-B-R2" elementRef="E-B-R2" x="360" y="195" w="280" h="80" xsi:type="Element">
+          <style>
+            <fillColor r="255" g="255" b="181"/>
+            <lineColor r="70" g="70" b="70"/>
+          </style>
+        </node>
+        <node identifier="N-B-R3" elementRef="E-B-R3" x="695" y="195" w="280" h="80" xsi:type="Element">
+          <style>
+            <fillColor r="255" g="255" b="181"/>
+            <lineColor r="70" g="70" b="70"/>
+          </style>
+        </node>
+        <node identifier="N-B-P1" elementRef="E-B-P1" x="25" y="365" w="280" h="80" xsi:type="Element">
+          <style>
+            <fillColor r="255" g="255" b="181"/>
+            <lineColor r="70" g="70" b="70"/>
+          </style>
+        </node>
+        <node identifier="N-B-P2" elementRef="E-B-P2" x="360" y="365" w="280" h="80" xsi:type="Element">
+          <label>Revisar historia y liberación · 120 min IA; real NE</label>
+          <style>
+            <fillColor r="255" g="255" b="181"/>
+            <lineColor r="70" g="70" b="70"/>
+          </style>
+        </node>
+        <node identifier="N-B-P3" elementRef="E-B-P3" x="695" y="365" w="280" h="80" xsi:type="Element">
+          <style>
+            <fillColor r="255" g="255" b="181"/>
+            <lineColor r="70" g="70" b="70"/>
+          </style>
+        </node>
+        <node identifier="N-B-O1" elementRef="E-B-O1" x="25" y="555" w="280" h="70" xsi:type="Element">
+          <style>
+            <fillColor r="255" g="255" b="181"/>
+            <lineColor r="70" g="70" b="70"/>
+          </style>
+        </node>
+        <node identifier="N-B-O2" elementRef="E-B-O2" x="25" y="745" w="280" h="70" xsi:type="Element">
+          <label>Serie térmica / custodia · 65% IA; real NE</label>
+          <style>
+            <fillColor r="255" g="255" b="181"/>
+            <lineColor r="70" g="70" b="70"/>
+          </style>
+        </node>
+        <node identifier="N-B-O3" elementRef="E-B-O3" x="360" y="555" w="280" h="70" xsi:type="Element">
+          <style>
+            <fillColor r="255" g="255" b="181"/>
+            <lineColor r="70" g="70" b="70"/>
+          </style>
+        </node>
+        <node identifier="N-B-O4" elementRef="E-B-O4" x="695" y="555" w="280" h="70" xsi:type="Element">
+          <style>
+            <fillColor r="255" g="255" b="181"/>
+            <lineColor r="70" g="70" b="70"/>
+          </style>
+        </node>
+        <node identifier="N-B-S1" elementRef="E-B-S1" x="360" y="745" w="280" h="70" xsi:type="Element">
+          <style>
+            <fillColor r="255" g="255" b="181"/>
+            <lineColor r="70" g="70" b="70"/>
+          </style>
+        </node>
+        <node identifier="N-B-S2" elementRef="E-B-S2" x="695" y="745" w="280" h="70" xsi:type="Element">
+          <style>
+            <fillColor r="255" g="255" b="181"/>
+            <lineColor r="70" g="70" b="70"/>
+          </style>
+        </node>
+        <node identifier="N-B-R4" elementRef="E-B-R4" x="695" y="925" w="280" h="70" xsi:type="Element">
+          <style>
+            <fillColor r="255" g="255" b="181"/>
+            <lineColor r="70" g="70" b="70"/>
+          </style>
+        </node>
+        <connection identifier="C-B-01" relationshipRef="RB-B-01" source="N-B-ACT" target="N-B-R1" xsi:type="Relationship">
+          <bendpoint x="165" y="150"/>
+          <bendpoint x="165" y="195"/>
+        </connection>
+        <connection identifier="C-B-02" relationshipRef="RB-B-02" source="N-B-ACT" target="N-B-R2" xsi:type="Relationship"/>
+        <connection identifier="C-B-03" relationshipRef="RB-B-03" source="N-B-ACT" target="N-B-R3" xsi:type="Relationship">
+          <bendpoint x="835" y="150"/>
+          <bendpoint x="835" y="195"/>
+        </connection>
+        <connection identifier="C-B-04" relationshipRef="RB-B-04" source="N-B-R1" target="N-B-P1" xsi:type="Relationship"/>
+        <connection identifier="C-B-05" relationshipRef="RB-B-05" source="N-B-R2" target="N-B-P2" xsi:type="Relationship"/>
+        <connection identifier="C-B-06" relationshipRef="RB-B-06" source="N-B-R3" target="N-B-P3" xsi:type="Relationship"/>
+        <connection identifier="C-B-07" relationshipRef="RB-B-07" source="N-B-P1" target="N-B-P2" xsi:type="Relationship"/>
+        <connection identifier="C-B-08" relationshipRef="RB-B-08" source="N-B-P2" target="N-B-P3" xsi:type="Relationship"/>
+        <connection identifier="C-B-09" relationshipRef="RB-B-09" source="N-B-P1" target="N-B-O1" xsi:type="Relationship"/>
+        <connection identifier="C-B-10" relationshipRef="RB-B-10" source="N-B-P2" target="N-B-O1" xsi:type="Relationship">
+          <bendpoint x="330" y="475"/>
+          <bendpoint x="330" y="590"/>
+        </connection>
+        <connection identifier="C-B-11" relationshipRef="RB-B-11" source="N-B-P2" target="N-B-O2" xsi:type="Relationship">
+          <bendpoint x="340" y="475"/>
+          <bendpoint x="340" y="780"/>
+        </connection>
+        <connection identifier="C-B-12" relationshipRef="RB-B-12" source="N-B-P2" target="N-B-O3" xsi:type="Relationship"/>
+        <connection identifier="C-B-13" relationshipRef="RB-B-13" source="N-B-P3" target="N-B-O3" xsi:type="Relationship">
+          <bendpoint x="675" y="475"/>
+          <bendpoint x="675" y="590"/>
+        </connection>
+        <connection identifier="C-B-14" relationshipRef="RB-B-14" source="N-B-P3" target="N-B-O4" xsi:type="Relationship"/>
+        <connection identifier="C-B-15" relationshipRef="RB-B-15" source="N-B-P2" target="N-B-S1" xsi:type="Relationship">
+          <bendpoint x="655" y="480"/>
+          <bendpoint x="655" y="710"/>
+          <bendpoint x="500" y="710"/>
+        </connection>
+        <connection identifier="C-B-16" relationshipRef="RB-B-16" source="N-B-P3" target="N-B-S2" xsi:type="Relationship">
+          <bendpoint x="990" y="480"/>
+          <bendpoint x="990" y="710"/>
+          <bendpoint x="835" y="710"/>
+        </connection>
+        <connection identifier="C-B-17" relationshipRef="RB-B-17" source="N-B-S1" target="N-B-R3" xsi:type="Relationship">
+          <bendpoint x="665" y="780"/>
+          <bendpoint x="665" y="170"/>
+          <bendpoint x="835" y="170"/>
+        </connection>
+        <connection identifier="C-B-18" relationshipRef="RB-B-18" source="N-B-S2" target="N-B-R4" xsi:type="Relationship"/>
+      </view>
+      <view identifier="B-V02" viewpointRef="VP-B01" xsi:type="Diagram">
+        <name>Target — propuesta DE</name>
+        <documentation>Mismos 14 conceptos y 18 relaciones para comparar; Added/New de gobierno solo en matriz B-04. B-V01 representa hipótesis de estructura, sin afirmar que las relaciones o servicios ya operen. B-V02 expresa responsabilidades y resultados propuestos. Rutas: B-01 §§3–6 y B-09 Vistas. Térmica 65→95% es IA→DE, no medición.</documentation>
+        <node identifier="N-T-ACT" elementRef="E-T-ACT" x="350" y="55" w="300" h="65" xsi:type="Element">
+          <style>
+            <fillColor r="255" g="255" b="181"/>
+            <lineColor r="70" g="70" b="70"/>
+          </style>
+        </node>
+        <node identifier="N-T-R1" elementRef="E-T-R1" x="25" y="195" w="280" h="80" xsi:type="Element">
+          <style>
+            <fillColor r="255" g="255" b="181"/>
+            <lineColor r="70" g="70" b="70"/>
+          </style>
+        </node>
+        <node identifier="N-T-R2" elementRef="E-T-R2" x="360" y="195" w="280" h="80" xsi:type="Element">
+          <style>
+            <fillColor r="255" g="255" b="181"/>
+            <lineColor r="70" g="70" b="70"/>
+          </style>
+        </node>
+        <node identifier="N-T-R3" elementRef="E-T-R3" x="695" y="195" w="280" h="80" xsi:type="Element">
+          <style>
+            <fillColor r="255" g="255" b="181"/>
+            <lineColor r="70" g="70" b="70"/>
+          </style>
+        </node>
+        <node identifier="N-T-P1" elementRef="E-T-P1" x="25" y="365" w="280" h="80" xsi:type="Element">
+          <style>
+            <fillColor r="255" g="255" b="181"/>
+            <lineColor r="70" g="70" b="70"/>
+          </style>
+        </node>
+        <node identifier="N-T-P2" elementRef="E-T-P2" x="360" y="365" w="280" h="80" xsi:type="Element">
+          <label>Revisar historia y liberación · ≤30 min DE; NV-03/07</label>
+          <style>
+            <fillColor r="255" g="255" b="181"/>
+            <lineColor r="70" g="70" b="70"/>
+          </style>
+        </node>
+        <node identifier="N-T-P3" elementRef="E-T-P3" x="695" y="365" w="280" h="80" xsi:type="Element">
+          <style>
+            <fillColor r="255" g="255" b="181"/>
+            <lineColor r="70" g="70" b="70"/>
+          </style>
+        </node>
+        <node identifier="N-T-O1" elementRef="E-T-O1" x="25" y="555" w="280" h="70" xsi:type="Element">
+          <style>
+            <fillColor r="255" g="255" b="181"/>
+            <lineColor r="70" g="70" b="70"/>
+          </style>
+        </node>
+        <node identifier="N-T-O2" elementRef="E-T-O2" x="25" y="745" w="280" h="70" xsi:type="Element">
+          <label>Serie térmica / custodia · ≥95% DE; NV-05/07</label>
+          <style>
+            <fillColor r="255" g="255" b="181"/>
+            <lineColor r="70" g="70" b="70"/>
+          </style>
+        </node>
+        <node identifier="N-T-O3" elementRef="E-T-O3" x="360" y="555" w="280" h="70" xsi:type="Element">
+          <style>
+            <fillColor r="255" g="255" b="181"/>
+            <lineColor r="70" g="70" b="70"/>
+          </style>
+        </node>
+        <node identifier="N-T-O4" elementRef="E-T-O4" x="695" y="555" w="280" h="70" xsi:type="Element">
+          <style>
+            <fillColor r="255" g="255" b="181"/>
+            <lineColor r="70" g="70" b="70"/>
+          </style>
+        </node>
+        <node identifier="N-T-S1" elementRef="E-T-S1" x="360" y="745" w="280" h="70" xsi:type="Element">
+          <style>
+            <fillColor r="255" g="255" b="181"/>
+            <lineColor r="70" g="70" b="70"/>
+          </style>
+        </node>
+        <node identifier="N-T-S2" elementRef="E-T-S2" x="695" y="745" w="280" h="70" xsi:type="Element">
+          <style>
+            <fillColor r="255" g="255" b="181"/>
+            <lineColor r="70" g="70" b="70"/>
+          </style>
+        </node>
+        <node identifier="N-T-R4" elementRef="E-T-R4" x="695" y="925" w="280" h="70" xsi:type="Element">
+          <style>
+            <fillColor r="255" g="255" b="181"/>
+            <lineColor r="70" g="70" b="70"/>
+          </style>
+        </node>
+        <connection identifier="C-T-01" relationshipRef="RB-T-01" source="N-T-ACT" target="N-T-R1" xsi:type="Relationship">
+          <bendpoint x="165" y="150"/>
+          <bendpoint x="165" y="195"/>
+        </connection>
+        <connection identifier="C-T-02" relationshipRef="RB-T-02" source="N-T-ACT" target="N-T-R2" xsi:type="Relationship"/>
+        <connection identifier="C-T-03" relationshipRef="RB-T-03" source="N-T-ACT" target="N-T-R3" xsi:type="Relationship">
+          <bendpoint x="835" y="150"/>
+          <bendpoint x="835" y="195"/>
+        </connection>
+        <connection identifier="C-T-04" relationshipRef="RB-T-04" source="N-T-R1" target="N-T-P1" xsi:type="Relationship"/>
+        <connection identifier="C-T-05" relationshipRef="RB-T-05" source="N-T-R2" target="N-T-P2" xsi:type="Relationship"/>
+        <connection identifier="C-T-06" relationshipRef="RB-T-06" source="N-T-R3" target="N-T-P3" xsi:type="Relationship"/>
+        <connection identifier="C-T-07" relationshipRef="RB-T-07" source="N-T-P1" target="N-T-P2" xsi:type="Relationship"/>
+        <connection identifier="C-T-08" relationshipRef="RB-T-08" source="N-T-P2" target="N-T-P3" xsi:type="Relationship"/>
+        <connection identifier="C-T-09" relationshipRef="RB-T-09" source="N-T-P1" target="N-T-O1" xsi:type="Relationship"/>
+        <connection identifier="C-T-10" relationshipRef="RB-T-10" source="N-T-P2" target="N-T-O1" xsi:type="Relationship">
+          <bendpoint x="330" y="475"/>
+          <bendpoint x="330" y="590"/>
+        </connection>
+        <connection identifier="C-T-11" relationshipRef="RB-T-11" source="N-T-P2" target="N-T-O2" xsi:type="Relationship">
+          <bendpoint x="340" y="475"/>
+          <bendpoint x="340" y="780"/>
+        </connection>
+        <connection identifier="C-T-12" relationshipRef="RB-T-12" source="N-T-P2" target="N-T-O3" xsi:type="Relationship"/>
+        <connection identifier="C-T-13" relationshipRef="RB-T-13" source="N-T-P3" target="N-T-O3" xsi:type="Relationship">
+          <bendpoint x="675" y="475"/>
+          <bendpoint x="675" y="590"/>
+        </connection>
+        <connection identifier="C-T-14" relationshipRef="RB-T-14" source="N-T-P3" target="N-T-O4" xsi:type="Relationship"/>
+        <connection identifier="C-T-15" relationshipRef="RB-T-15" source="N-T-P2" target="N-T-S1" xsi:type="Relationship">
+          <bendpoint x="655" y="480"/>
+          <bendpoint x="655" y="710"/>
+          <bendpoint x="500" y="710"/>
+        </connection>
+        <connection identifier="C-T-16" relationshipRef="RB-T-16" source="N-T-P3" target="N-T-S2" xsi:type="Relationship">
+          <bendpoint x="990" y="480"/>
+          <bendpoint x="990" y="710"/>
+          <bendpoint x="835" y="710"/>
+        </connection>
+        <connection identifier="C-T-17" relationshipRef="RB-T-17" source="N-T-S1" target="N-T-R3" xsi:type="Relationship">
+          <bendpoint x="665" y="780"/>
+          <bendpoint x="665" y="170"/>
+          <bendpoint x="835" y="170"/>
+        </connection>
+        <connection identifier="C-T-18" relationshipRef="RB-T-18" source="N-T-S2" target="N-T-R4" xsi:type="Relationship"/>
+      </view>
+    </diagrams>
+  </views>
+</model>
