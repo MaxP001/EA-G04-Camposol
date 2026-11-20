@@ -1,0 +1,17 @@
+{
+  "views_total": 27,
+  "views_added": 11,
+  "elements_total": 258,
+  "relationships_total": 482,
+  "phase_d_word_docs": 10,
+  "nfr": 13,
+  "gaps": 9,
+  "roadmap_candidates": 8,
+  "abb": 8,
+  "decisions": 17,
+  "checks_ok": 57,
+  "checks_failed": 0,
+  "xml_references_validated": true,
+  "xsd_validated": false,
+  "archi_import_tested": false
+}
