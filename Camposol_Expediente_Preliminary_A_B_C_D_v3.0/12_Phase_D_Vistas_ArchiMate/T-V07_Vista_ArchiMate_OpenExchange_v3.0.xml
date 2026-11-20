@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model xmlns="http://www.opengroup.org/xsd/archimate/3.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.opengroup.org/xsd/archimate/3.0/ http://www.opengroup.org/xsd/archimate/3.1/archimate3_Diagram.xsd" identifier="M-CAMPOSOL-T-V07-v30">
+  <name xml:lang="es">Camposol Chao · T-V07 · Network &amp; Communications · v3.0</name>
+  <documentation xml:lang="es">Extracto de una vista del modelo consolidado v3.0 (elementos y relaciones de la vista). Modelo académico SI605 Grupo 04; no representa sistemas reales de Camposol.</documentation>
+  <elements>
+    <element identifier="T-TAR09" xsi:type="Node"><name xml:lang="es">T-TAR09 Plataforma central de ejecución</name><documentation xml:lang="es">Zona Z-06 (DC o nube, NV-10). Ejecuta AP-08 central, AP-09, AP-10 y AP-11. · Estado: Target (nuevo) · Clase D</documentation></element>
+    <element identifier="T-BASE07" xsi:type="Node"><name xml:lang="es">T-BASE07 Plataforma SAP corporativa</name><documentation xml:lang="es">Ejecuta AP-06. Se mantiene fuera del alcance de diseño; interfaz local no verificada (NV-01). · Estado: Baseline y Target · Clase P (F01/F02) · NV-01</documentation></element>
+    <element identifier="T-BASE09" xsi:type="CommunicationNetwork"><name xml:lang="es">T-BASE09 Enlace WAN único (50 Mbps)</name><documentation xml:lang="es">Se mantiene; un segundo enlace se evalúa en Phase E como mejora de latencia, no de integridad (DEC-D13). · Estado: Baseline y Target · Clase S (DS-CS-37)</documentation></element>
+    <element identifier="T-TAR18" xsi:type="CommunicationNetwork"><name xml:lang="es">T-TAR18 Red IT de planta</name><documentation xml:lang="es">Zona Z-05. · Estado: Target (nuevo) · Clase D</documentation></element>
+    <element identifier="T-TAR21" xsi:type="SystemSoftware"><name xml:lang="es">T-TAR21 Relay de eventos de salida</name><documentation xml:lang="es">En T-TAR06 (DMZ, T-V03). Recibe del borde y reenvía a la ingesta central; no inicia sesiones hacia Z-03. · Estado: Target (nuevo) · Clase D</documentation></element>
+    <element identifier="T-TAR06" xsi:type="Node"><name xml:lang="es">T-TAR06 Cortafuegos de DMZ industrial</name><documentation xml:lang="es">Zona Z-04. Separa Z-03, Z-05 y WAN; solo conductos registrados. · Estado: Target (nuevo) · Clase D</documentation></element>
+    <element identifier="T-TAR17" xsi:type="CommunicationNetwork"><name xml:lang="es">T-TAR17 Red DMZ industrial</name><documentation xml:lang="es">Zona Z-04. · Estado: Target (nuevo) · Clase D</documentation></element>
+    <element identifier="T-TAR07" xsi:type="Node"><name xml:lang="es">T-TAR07 Bastión de acceso remoto</name><documentation xml:lang="es">Zona Z-04. Sesiones de mantenimiento con MFA, aprobación y grabación (CD-05/06). · Estado: Target (nuevo) · Clase D</documentation></element>
+    <element identifier="T-BASE05" xsi:type="Device"><name xml:lang="es">T-BASE05 PCs de oficina de planta</name><documentation xml:lang="es">Baseline: planillas AP-01/03/04/07. Target: ofimática, cliente SAP y consulta AP-10 desde Z-05. · Estado: Baseline y Target · Clase S (DS-CS-35)</documentation></element>
+    <element identifier="T-TAR16" xsi:type="CommunicationNetwork"><name xml:lang="es">T-TAR16 Red de operaciones de planta</name><documentation xml:lang="es">Zona Z-03 (nivel 3). · Estado: Target (nuevo) · Clase D</documentation></element>
+    <element identifier="T-TAR02" xsi:type="Device"><name xml:lang="es">T-TAR02 Estaciones de captura en punto</name><documentation xml:lang="es">Recepción, packing y laboratorio de Calidad; ejecutan AP-01/03/04 modernizados con cuenta nominal. · Estado: Target (nuevo) · Clase D</documentation></element>
+    <element identifier="T-TAR03" xsi:type="Node"><name xml:lang="es">T-TAR03 Nodo de borde de planta (par redundante)</name><documentation xml:lang="es">Zona Z-03. Cola persistente, ingesta de borde y réplica de lectura; autonomía ≥ 24 h ante corte WAN (PD-01). · Estado: Target (nuevo) · Clase D</documentation></element>
+    <element identifier="T-TAR05" xsi:type="Node"><name xml:lang="es">T-TAR05 Servidor de tiempo de planta</name><documentation xml:lang="es">Zona Z-03. Fuente común de tiempo para nodos que estampan eventos (PD-06). · Estado: Target (nuevo) · Clase D</documentation></element>
+    <element identifier="T-TAR04" xsi:type="Node"><name xml:lang="es">T-TAR04 Gateway OT de solo lectura</name><documentation xml:lang="es">Zona Z-03. Lee eventos de calibradora y lecturas térmicas por CD-01/CD-02; no escribe en PLC ni HMI. · Estado: Target (nuevo) · Clase D</documentation></element>
+    <element identifier="T-TAR14" xsi:type="CommunicationNetwork"><name xml:lang="es">T-TAR14 Red OT de calibrado</name><documentation xml:lang="es">Célula Z-01. · Estado: Target (nuevo) · Clase D</documentation></element>
+    <element identifier="T-TAR15" xsi:type="CommunicationNetwork"><name xml:lang="es">T-TAR15 Red OT de frío</name><documentation xml:lang="es">Célula Z-02. · Estado: Target (nuevo) · Clase D</documentation></element>
+    <element identifier="T-BASE01" xsi:type="Device"><name xml:lang="es">T-BASE01 PLC de calibradora (2 líneas)</name><documentation xml:lang="es">ISA-95 nivel 1–2. Control local de la línea; se mantiene. Ningún mando remoto desde zonas IT o central (PR-09). · Estado: Baseline y Target · Clase S (DS-CS-33)</documentation></element>
+    <element identifier="T-BASE02" xsi:type="Node"><name xml:lang="es">T-BASE02 PC/HMI de calibradora</name><documentation xml:lang="es">Software del fabricante; ejecuta AP-02. Se mantiene; expone eventos solo por CD-01 (lectura). · Estado: Baseline y Target · Clase S (DS-CS-33) · P existencia F04</documentation></element>
+    <element identifier="T-BASE04" xsi:type="Node"><name xml:lang="es">T-BASE04 PC de registro térmico</name><documentation xml:lang="es">Ejecuta AP-05; en Target el CSV nocturno se reemplaza por lectura continua vía gateway (CD-02). · Estado: Baseline y Target · Clase S (DS-CS-34)</documentation></element>
+  </elements>
+  <relationships>
+    <relationship identifier="R274" source="T-TAR06" target="T-TAR21" xsi:type="Composition"></relationship>
+    <relationship identifier="R277" source="T-BASE01" target="T-BASE02" xsi:type="Flow"><name xml:lang="es">estados de línea</name></relationship>
+    <relationship identifier="R349" source="T-BASE09" target="T-BASE07" xsi:type="Association"></relationship>
+    <relationship identifier="R350" source="T-BASE09" target="T-TAR06" xsi:type="Association"></relationship>
+    <relationship identifier="R351" source="T-BASE09" target="T-TAR09" xsi:type="Association"></relationship>
+    <relationship identifier="R352" source="T-TAR14" target="T-BASE01" xsi:type="Association"></relationship>
+    <relationship identifier="R353" source="T-TAR14" target="T-BASE02" xsi:type="Association"></relationship>
+    <relationship identifier="R354" source="T-TAR14" target="T-TAR04" xsi:type="Association"></relationship>
+    <relationship identifier="R355" source="T-TAR15" target="T-BASE04" xsi:type="Association"></relationship>
+    <relationship identifier="R356" source="T-TAR15" target="T-TAR04" xsi:type="Association"></relationship>
+    <relationship identifier="R357" source="T-TAR16" target="T-TAR02" xsi:type="Association"></relationship>
+    <relationship identifier="R358" source="T-TAR16" target="T-TAR03" xsi:type="Association"></relationship>
+    <relationship identifier="R359" source="T-TAR16" target="T-TAR04" xsi:type="Association"></relationship>
+    <relationship identifier="R360" source="T-TAR16" target="T-TAR05" xsi:type="Association"></relationship>
+    <relationship identifier="R361" source="T-TAR16" target="T-TAR06" xsi:type="Association"></relationship>
+    <relationship identifier="R362" source="T-TAR17" target="T-TAR06" xsi:type="Association"></relationship>
+    <relationship identifier="R363" source="T-TAR17" target="T-TAR07" xsi:type="Association"></relationship>
+    <relationship identifier="R364" source="T-TAR18" target="T-BASE05" xsi:type="Association"></relationship>
+    <relationship identifier="R365" source="T-TAR18" target="T-TAR06" xsi:type="Association"></relationship>
+  </relationships>
+  <views>
+    <diagrams>
+      <view identifier="V-T-V07" xsi:type="Diagram"><name xml:lang="es">T-V07 · Network &amp; Communications</name><documentation xml:lang="es">T-V07 · VP-D07 · C06 · Grupo 04 · v3.0 · Target (D) · sin direcciones IP ni cableado. La LAN plana se divide en redes de calibrado, frío, operaciones, DMZ e IT; el cortafuegos T-TAR06 es el único nodo con interfaz en operaciones, DMZ, IT y WAN, y el gateway T-TAR04 el único que lee las redes OT. Sondas y lectores se conectan por bus local (T-V05). Qué flujo pasa por cada frontera y en qué dirección: T-V08. No existe ruta de la WAN o de la plataforma central a PLC (PR-09).</documentation>
+        <node identifier="N-T-V07-01" elementRef="T-TAR09" xsi:type="Element" x="274" y="24" w="186" h="86"/>
+        <node identifier="N-T-V07-02" elementRef="T-BASE07" xsi:type="Element" x="774" y="24" w="186" h="86"/>
+        <node identifier="N-T-V07-03" elementRef="T-BASE09" xsi:type="Element" x="149" y="193" w="936" h="56"/>
+        <node identifier="N-T-V07-04" elementRef="T-TAR18" xsi:type="Element" x="24" y="353" w="186" h="56"/>
+        <node identifier="N-T-V07-05" elementRef="T-TAR06" xsi:type="Element" x="502" y="304" w="230" h="171">
+          <node identifier="N-T-V07-06" elementRef="T-TAR21" xsi:type="Element" x="524" y="367" w="186" h="86"/>
+        </node>
+        <node identifier="N-T-V07-07" elementRef="T-TAR17" xsi:type="Element" x="849" y="353" w="186" h="56"/>
+        <node identifier="N-T-V07-08" elementRef="T-TAR07" xsi:type="Element" x="1149" y="332" w="186" h="86"/>
+        <node identifier="N-T-V07-09" elementRef="T-BASE05" xsi:type="Element" x="24" y="528" w="186" h="86"/>
+        <node identifier="N-T-V07-10" elementRef="T-TAR16" xsi:type="Element" x="274" y="522" w="986" h="56"/>
+        <node identifier="N-T-V07-11" elementRef="T-TAR02" xsi:type="Element" x="274" y="703" w="186" h="86"/>
+        <node identifier="N-T-V07-12" elementRef="T-TAR03" xsi:type="Element" x="524" y="703" w="186" h="86"/>
+        <node identifier="N-T-V07-13" elementRef="T-TAR05" xsi:type="Element" x="774" y="703" w="186" h="86"/>
+        <node identifier="N-T-V07-14" elementRef="T-TAR04" xsi:type="Element" x="1074" y="703" w="186" h="86"/>
+        <node identifier="N-T-V07-15" elementRef="T-TAR14" xsi:type="Element" x="662" y="914" w="436" h="56"/>
+        <node identifier="N-T-V07-16" elementRef="T-TAR15" xsi:type="Element" x="1274" y="914" w="186" h="56"/>
+        <node identifier="N-T-V07-17" elementRef="T-BASE01" xsi:type="Element" x="662" y="1067" w="186" h="86"/>
+        <node identifier="N-T-V07-18" elementRef="T-BASE02" xsi:type="Element" x="912" y="1067" w="186" h="86"/>
+        <node identifier="N-T-V07-19" elementRef="T-BASE04" xsi:type="Element" x="1274" y="1067" w="186" h="86"/>
+        <connection identifier="C-T-V07-R277" relationshipRef="R277" xsi:type="Relationship" source="N-T-V07-17" target="N-T-V07-18"/>
+        <connection identifier="C-T-V07-R349" relationshipRef="R349" xsi:type="Relationship" source="N-T-V07-03" target="N-T-V07-02"/>
+        <connection identifier="C-T-V07-R350" relationshipRef="R350" xsi:type="Relationship" source="N-T-V07-03" target="N-T-V07-05"/>
+        <connection identifier="C-T-V07-R351" relationshipRef="R351" xsi:type="Relationship" source="N-T-V07-03" target="N-T-V07-01"/>
+        <connection identifier="C-T-V07-R352" relationshipRef="R352" xsi:type="Relationship" source="N-T-V07-15" target="N-T-V07-17"/>
+        <connection identifier="C-T-V07-R353" relationshipRef="R353" xsi:type="Relationship" source="N-T-V07-15" target="N-T-V07-18"/>
+        <connection identifier="C-T-V07-R354" relationshipRef="R354" xsi:type="Relationship" source="N-T-V07-15" target="N-T-V07-14"/>
+        <connection identifier="C-T-V07-R355" relationshipRef="R355" xsi:type="Relationship" source="N-T-V07-16" target="N-T-V07-19"/>
+        <connection identifier="C-T-V07-R356" relationshipRef="R356" xsi:type="Relationship" source="N-T-V07-16" target="N-T-V07-14"/>
+        <connection identifier="C-T-V07-R357" relationshipRef="R357" xsi:type="Relationship" source="N-T-V07-10" target="N-T-V07-11"/>
+        <connection identifier="C-T-V07-R358" relationshipRef="R358" xsi:type="Relationship" source="N-T-V07-10" target="N-T-V07-12"/>
+        <connection identifier="C-T-V07-R359" relationshipRef="R359" xsi:type="Relationship" source="N-T-V07-10" target="N-T-V07-14"/>
+        <connection identifier="C-T-V07-R360" relationshipRef="R360" xsi:type="Relationship" source="N-T-V07-10" target="N-T-V07-13"/>
+        <connection identifier="C-T-V07-R361" relationshipRef="R361" xsi:type="Relationship" source="N-T-V07-10" target="N-T-V07-05"/>
+        <connection identifier="C-T-V07-R362" relationshipRef="R362" xsi:type="Relationship" source="N-T-V07-07" target="N-T-V07-05"/>
+        <connection identifier="C-T-V07-R363" relationshipRef="R363" xsi:type="Relationship" source="N-T-V07-07" target="N-T-V07-08"/>
+        <connection identifier="C-T-V07-R364" relationshipRef="R364" xsi:type="Relationship" source="N-T-V07-04" target="N-T-V07-09"/>
+        <connection identifier="C-T-V07-R365" relationshipRef="R365" xsi:type="Relationship" source="N-T-V07-04" target="N-T-V07-05"/>
+      </view>
+    </diagrams>
+  </views>
+</model>
