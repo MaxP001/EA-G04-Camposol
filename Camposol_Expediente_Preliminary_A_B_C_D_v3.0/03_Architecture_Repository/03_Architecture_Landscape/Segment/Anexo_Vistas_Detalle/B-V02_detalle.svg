@@ -1,0 +1,192 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1670" height="1070" viewBox="0 0 1670 1070" font-family="Arial">
+<defs><marker id="tri" markerWidth="10" markerHeight="10" refX="9" refY="4" orient="auto"><path d="M0,0 L9,4 L0,8 z" fill="#333"/></marker><marker id="hol" markerWidth="12" markerHeight="12" refX="11" refY="5" orient="auto"><path d="M0,0 L11,5 L0,10 z" fill="white" stroke="#333"/></marker><marker id="vee" markerWidth="9" markerHeight="9" refX="8" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8" fill="none" stroke="#555"/></marker><marker id="veeb" markerWidth="9" markerHeight="9" refX="1" refY="4" orient="auto"><path d="M8,0 L0,4 L8,8" fill="none" stroke="#555"/></marker></defs>
+<rect width="1670" height="1070" fill="white"/>
+<text x="20" y="34" font-size="20" font-weight="bold" fill="#1f3a4d">B-V02 Cooperación de negocio · Target (D)</text>
+<text x="280.0" y="80" font-size="11" text-anchor="middle" fill="#536571" font-weight="bold">VS-S1 Recepcionar</text>
+<line x1="189" y1="66" x2="189" y2="1000" stroke="#e3e8ec" stroke-dasharray="3,4"/>
+<text x="462.0" y="80" font-size="11" text-anchor="middle" fill="#536571" font-weight="bold">VS-S2 Calibrar y empacar</text>
+<line x1="371" y1="66" x2="371" y2="1000" stroke="#e3e8ec" stroke-dasharray="3,4"/>
+<text x="644.0" y="80" font-size="11" text-anchor="middle" fill="#536571" font-weight="bold">VS-S3 Verificar conformidad</text>
+<line x1="553" y1="66" x2="553" y2="1000" stroke="#e3e8ec" stroke-dasharray="3,4"/>
+<text x="826.0" y="80" font-size="11" text-anchor="middle" fill="#536571" font-weight="bold">VS-S4 Pre-enfriar</text>
+<line x1="735" y1="66" x2="735" y2="1000" stroke="#e3e8ec" stroke-dasharray="3,4"/>
+<text x="1008.0" y="80" font-size="11" text-anchor="middle" fill="#536571" font-weight="bold">VS-S5 Custodiar en cámara</text>
+<line x1="917" y1="66" x2="917" y2="1000" stroke="#e3e8ec" stroke-dasharray="3,4"/>
+<text x="1190.0" y="80" font-size="11" text-anchor="middle" fill="#536571" font-weight="bold">VS-S6 Cargar y entregar</text>
+<line x1="1099" y1="66" x2="1099" y2="1000" stroke="#e3e8ec" stroke-dasharray="3,4"/>
+<text x="1372.0" y="80" font-size="11" text-anchor="middle" fill="#536571" font-weight="bold">Transversal · historia</text>
+<line x1="1281" y1="66" x2="1281" y2="1000" stroke="#e3e8ec" stroke-dasharray="3,4"/>
+<text x="1554.0" y="80" font-size="11" text-anchor="middle" fill="#536571" font-weight="bold">Transversal · excepciones</text>
+<line x1="1463" y1="66" x2="1463" y2="1000" stroke="#e3e8ec" stroke-dasharray="3,4"/>
+<text x="20" y="128" font-size="11" fill="#536571" font-weight="bold">Servicios</text>
+<rect x="20" y="186" width="1644" height="198" fill="#fffbe0" stroke="#8a8a5c" stroke-width="1.4"/>
+<text x="28" y="203" font-size="12" font-weight="bold" fill="#333">«Actor» ACT-01 Operaciones de planta</text>
+<rect x="34" y="212" width="1622" height="76" fill="#ffffb5" stroke="#8a8a5c" stroke-width="1"/>
+<text x="42" y="230" font-size="10" fill="#333" font-weight="normal">«Rol»</text>
+<text x="42" y="244" font-size="11" fill="#333" font-weight="bold">ROL-B03 Operador de</text>
+<text x="42" y="258" font-size="11" fill="#333" font-weight="bold">recepción</text>
+<rect x="34" y="296" width="1622" height="76" fill="#ffffb5" stroke="#8a8a5c" stroke-width="1"/>
+<text x="42" y="314" font-size="10" fill="#333" font-weight="normal">«Rol»</text>
+<text x="42" y="328" font-size="11" fill="#333" font-weight="bold">ROL-B04 Supervisor</text>
+<text x="42" y="342" font-size="11" fill="#333" font-weight="bold">de packing</text>
+<rect x="20" y="398" width="1644" height="198" fill="#fffbe0" stroke="#8a8a5c" stroke-width="1.4"/>
+<text x="28" y="415" font-size="12" font-weight="bold" fill="#333">«Actor» ACT-02 Aseguramiento de Calidad</text>
+<rect x="34" y="424" width="1622" height="76" fill="#ffffb5" stroke="#8a8a5c" stroke-width="1"/>
+<text x="42" y="442" font-size="10" fill="#333" font-weight="normal">«Rol»</text>
+<text x="42" y="456" font-size="11" fill="#333" font-weight="bold">ROL-B05 Aprobador de</text>
+<text x="42" y="470" font-size="11" fill="#333" font-weight="bold">Calidad</text>
+<rect x="34" y="508" width="1622" height="76" fill="#ffffb5" stroke="#c0392b" stroke-width="2.2"/>
+<text x="42" y="526" font-size="10" fill="#c0392b" font-weight="normal">«Rol»  ★ New</text>
+<text x="42" y="540" font-size="11" fill="#333" font-weight="bold">ROL-B01 Gestor de</text>
+<text x="42" y="554" font-size="11" fill="#333" font-weight="bold">evidencia</text>
+<rect x="20" y="610" width="1644" height="114" fill="#fffbe0" stroke="#8a8a5c" stroke-width="1.4"/>
+<text x="28" y="627" font-size="12" font-weight="bold" fill="#333">«Actor» ACT-03 Cadena de Frío</text>
+<rect x="34" y="636" width="1622" height="76" fill="#ffffb5" stroke="#8a8a5c" stroke-width="1"/>
+<text x="42" y="654" font-size="10" fill="#333" font-weight="normal">«Rol»</text>
+<text x="42" y="668" font-size="11" fill="#333" font-weight="bold">ROL-B06 Custodio de</text>
+<text x="42" y="682" font-size="11" fill="#333" font-weight="bold">frío</text>
+<rect x="20" y="738" width="1644" height="114" fill="#fffbe0" stroke="#8a8a5c" stroke-width="1.4"/>
+<text x="28" y="755" font-size="12" font-weight="bold" fill="#333">«Actor» ACT-04 Despacho y Exportación</text>
+<rect x="34" y="764" width="1622" height="76" fill="#ffffb5" stroke="#8a8a5c" stroke-width="1"/>
+<text x="42" y="782" font-size="10" fill="#333" font-weight="normal">«Rol»</text>
+<text x="42" y="796" font-size="11" fill="#333" font-weight="bold">ROL-B07 Responsable</text>
+<text x="42" y="810" font-size="11" fill="#333" font-weight="bold">de despacho</text>
+<text x="20" y="926" font-size="11" fill="#536571" font-weight="bold">Objetos de negocio</text>
+<polyline points="342.8,279.0 399.2,305.0" stroke="#333" stroke-width="1.6" marker-end="url(#tri)" fill="none"/>
+<polyline points="503.2,363.0 602.8,433.0" stroke="#333" stroke-width="1.6" marker-end="url(#tri)" fill="none"/>
+<polyline points="538.0,334.0 826.0,334.0 826.0,645.0" stroke="#333" stroke-width="1.6" marker-end="url(#tri)" fill="none"/>
+<polyline points="902.0,674.0 932.0,674.0" stroke="#333" stroke-width="1.6" marker-end="url(#tri)" fill="none"/>
+<polyline points="1049.2,703.0 1148.8,773.0" stroke="#333" stroke-width="1.6" marker-end="url(#tri)" fill="none"/>
+<polyline points="720.0,462.0 1190.0,462.0 1190.0,773.0" stroke="#333" stroke-width="1.6" marker-end="url(#tri)" fill="none"/>
+<polyline points="280.0,279.0 280.0,892.0" stroke="#777" stroke-dasharray="2,3" marker-end="url(#vee)" fill="none"/>
+<polyline points="327.2,279.0 1324.8,892.0" stroke="#777" stroke-dasharray="2,3" marker-end="url(#vee)" fill="none"/>
+<polyline points="311.5,279.0 976.5,892.0" stroke="#777" stroke-dasharray="2,3" marker-end="url(#vee)" fill="none"/>
+<polyline points="453.0,363.0 289.0,892.0" stroke="#777" stroke-dasharray="2,3" marker-end="url(#vee)" fill="none"/>
+<polyline points="462.0,363.0 462.0,892.0" stroke="#777" stroke-dasharray="2,3" marker-end="url(#vee)" fill="none"/>
+<polyline points="507.0,363.0 1327.0,892.0" stroke="#777" stroke-dasharray="2,3" marker-end="url(#vee)" fill="none"/>
+<polyline points="632.5,491.0 473.5,892.0" stroke="#777" stroke-dasharray="2,3" marker-start="url(#veeb)" fill="none"/>
+<polyline points="644.0,491.0 644.0,892.0" stroke="#777" stroke-dasharray="2,3" marker-end="url(#vee)" fill="none"/>
+<polyline points="826.0,703.0 826.0,892.0" stroke="#777" stroke-dasharray="2,3" marker-end="url(#vee)" fill="none"/>
+<polyline points="986.6,703.0 847.4,892.0" stroke="#777" stroke-dasharray="2,3" marker-end="url(#vee)" fill="none"/>
+<polyline points="1008.0,703.0 1008.0,892.0" stroke="#777" stroke-dasharray="2,3" marker-end="url(#vee)" fill="none"/>
+<polyline points="1372.0,575.0 1372.0,892.0" stroke="#777" stroke-dasharray="2,3" marker-start="url(#veeb)" fill="none"/>
+<polyline points="1301.6,575.0 532.4,892.0" stroke="#777" stroke-dasharray="2,3" marker-start="url(#veeb)" fill="none"/>
+<polyline points="1315.7,575.0 700.3,892.0" stroke="#777" stroke-dasharray="2,3" marker-start="url(#veeb)" fill="none"/>
+<polyline points="1329.8,575.0 868.2,892.0" stroke="#777" stroke-dasharray="2,3" marker-start="url(#veeb)" fill="none"/>
+<polyline points="1114.0,818.6 720.0,904.4" stroke="#777" stroke-dasharray="2,3" marker-start="url(#veeb)" fill="none"/>
+<polyline points="1114.0,826.8 902.0,896.2" stroke="#777" stroke-dasharray="2,3" marker-start="url(#veeb)" fill="none"/>
+<polyline points="1190.0,831.0 1190.0,892.0" stroke="#777" stroke-dasharray="2,3" marker-end="url(#vee)" fill="none"/>
+<polyline points="1145.6,831.0 1052.4,892.0" stroke="#777" stroke-dasharray="2,3" marker-end="url(#vee)" fill="none"/>
+<polyline points="1554.0,363.0 1554.0,892.0" stroke="#777" stroke-dasharray="2,3" marker-end="url(#vee)" fill="none"/>
+<polyline points="1372.0,517.0 1372.0,154.0" stroke="#333" stroke-dasharray="6,4" marker-end="url(#hol)" fill="none"/>
+<polyline points="1190.0,773.0 1190.0,154.0" stroke="#333" stroke-dasharray="6,4" marker-end="url(#hol)" fill="none"/>
+<polyline points="1554.0,305.0 1554.0,154.0" stroke="#333" stroke-dasharray="6,4" marker-end="url(#hol)" fill="none"/>
+<polyline points="1008.0,645.0 1008.0,154.0" stroke="#333" stroke-dasharray="6,4" marker-end="url(#hol)" fill="none"/>
+<polyline points="644.0,433.0 644.0,154.0" stroke="#333" stroke-dasharray="6,4" marker-end="url(#hol)" fill="none"/>
+<rect x="1296" y="96" width="152" height="58" rx="28" fill="#ffffb5" stroke="#c0392b" stroke-width="2.4"/>
+<text x="1372.0" y="108" font-size="8" text-anchor="middle" fill="#c0392b">«Servicio  ★ New»</text>
+<text x="1372.0" y="122" font-size="11" text-anchor="middle" font-weight="bold" fill="#222">BSV-01</text>
+<text x="1372.0" y="135" font-size="10.5" text-anchor="middle" font-weight="normal" fill="#222">Historial auditable del</text>
+<text x="1372.0" y="148" font-size="10.5" text-anchor="middle" font-weight="normal" fill="#222">lote</text>
+<rect x="1114" y="96" width="152" height="58" rx="28" fill="#ffffb5" stroke="#666" stroke-width="1.2"/>
+<text x="1190.0" y="108" font-size="8" text-anchor="middle" fill="#666">«Servicio»</text>
+<text x="1190.0" y="122" font-size="11" text-anchor="middle" font-weight="bold" fill="#222">BSV-02</text>
+<text x="1190.0" y="135" font-size="10.5" text-anchor="middle" font-weight="normal" fill="#222">Coordinación de entrega</text>
+<text x="1190.0" y="148" font-size="10.5" text-anchor="middle" font-weight="normal" fill="#222">al transportista</text>
+<rect x="1478" y="96" width="152" height="58" rx="28" fill="#ffffb5" stroke="#c0392b" stroke-width="2.4"/>
+<text x="1554.0" y="108" font-size="8" text-anchor="middle" fill="#c0392b">«Servicio  ★ New»</text>
+<text x="1554.0" y="122" font-size="11" text-anchor="middle" font-weight="bold" fill="#222">BSV-03</text>
+<text x="1554.0" y="135" font-size="10.5" text-anchor="middle" font-weight="normal" fill="#222">Resolución controlada de</text>
+<text x="1554.0" y="148" font-size="10.5" text-anchor="middle" font-weight="normal" fill="#222">excepciones</text>
+<rect x="932" y="96" width="152" height="58" rx="28" fill="#ffffb5" stroke="#666" stroke-width="1.2"/>
+<text x="1008.0" y="108" font-size="8" text-anchor="middle" fill="#666">«Servicio»</text>
+<text x="1008.0" y="122" font-size="11" text-anchor="middle" font-weight="bold" fill="#222">BSV-04</text>
+<text x="1008.0" y="135" font-size="10.5" text-anchor="middle" font-weight="normal" fill="#222">Evaluación de evidencia</text>
+<text x="1008.0" y="148" font-size="10.5" text-anchor="middle" font-weight="normal" fill="#222">térmica y custodia</text>
+<rect x="568" y="96" width="152" height="58" rx="28" fill="#ffffb5" stroke="#666" stroke-width="1.2"/>
+<text x="644.0" y="108" font-size="8" text-anchor="middle" fill="#666">«Servicio»</text>
+<text x="644.0" y="122" font-size="11" text-anchor="middle" font-weight="bold" fill="#222">BSV-05</text>
+<text x="644.0" y="135" font-size="10.5" text-anchor="middle" font-weight="normal" fill="#222">Decisión de conformidad</text>
+<rect x="204" y="221" width="152" height="58" rx="12" fill="#ffffb5" stroke="#666" stroke-width="1.2"/>
+<text x="280.0" y="233" font-size="8" text-anchor="middle" fill="#666">«Proceso»</text>
+<text x="280.0" y="247" font-size="11" text-anchor="middle" font-weight="bold" fill="#222">BP-01</text>
+<text x="280.0" y="260" font-size="10.5" text-anchor="middle" font-weight="normal" fill="#222">Recepcionar y registrar</text>
+<text x="280.0" y="273" font-size="10.5" text-anchor="middle" font-weight="normal" fill="#222">origen</text>
+<rect x="386" y="305" width="152" height="58" rx="12" fill="#ffffb5" stroke="#666" stroke-width="1.2"/>
+<text x="462.0" y="317" font-size="8" text-anchor="middle" fill="#666">«Proceso»</text>
+<text x="462.0" y="331" font-size="11" text-anchor="middle" font-weight="bold" fill="#222">BP-02</text>
+<text x="462.0" y="344" font-size="10.5" text-anchor="middle" font-weight="normal" fill="#222">Calibrar, empacar y</text>
+<text x="462.0" y="357" font-size="10.5" text-anchor="middle" font-weight="normal" fill="#222">registrar genealogía</text>
+<rect x="1478" y="305" width="152" height="58" rx="12" fill="#ffffb5" stroke="#c0392b" stroke-width="2.4"/>
+<text x="1554.0" y="317" font-size="8" text-anchor="middle" fill="#c0392b">«Proceso  ★ New»</text>
+<text x="1554.0" y="331" font-size="11" text-anchor="middle" font-weight="bold" fill="#222">BP-08</text>
+<text x="1554.0" y="344" font-size="10.5" text-anchor="middle" font-weight="normal" fill="#222">Gestionar excepción de</text>
+<text x="1554.0" y="357" font-size="10.5" text-anchor="middle" font-weight="normal" fill="#222">negocio</text>
+<rect x="568" y="433" width="152" height="58" rx="12" fill="#ffffb5" stroke="#666" stroke-width="1.2"/>
+<text x="644.0" y="445" font-size="8" text-anchor="middle" fill="#666">«Proceso»</text>
+<text x="644.0" y="459" font-size="11" text-anchor="middle" font-weight="bold" fill="#222">BP-03</text>
+<text x="644.0" y="472" font-size="10.5" text-anchor="middle" font-weight="normal" fill="#222">Inspeccionar y decidir</text>
+<text x="644.0" y="485" font-size="10.5" text-anchor="middle" font-weight="normal" fill="#222">conformidad</text>
+<rect x="1296" y="517" width="152" height="58" rx="12" fill="#ffffb5" stroke="#c0392b" stroke-width="2.4"/>
+<text x="1372.0" y="529" font-size="8" text-anchor="middle" fill="#c0392b">«Proceso  ★ New»</text>
+<text x="1372.0" y="543" font-size="11" text-anchor="middle" font-weight="bold" fill="#222">BP-04</text>
+<text x="1372.0" y="556" font-size="10.5" text-anchor="middle" font-weight="normal" fill="#222">Reconstruir historia del</text>
+<text x="1372.0" y="569" font-size="10.5" text-anchor="middle" font-weight="normal" fill="#222">lote</text>
+<rect x="750" y="645" width="152" height="58" rx="12" fill="#ffffb5" stroke="#666" stroke-width="1.2"/>
+<text x="826.0" y="657" font-size="8" text-anchor="middle" fill="#666">«Proceso»</text>
+<text x="826.0" y="671" font-size="11" text-anchor="middle" font-weight="bold" fill="#222">BP-05</text>
+<text x="826.0" y="684" font-size="10.5" text-anchor="middle" font-weight="normal" fill="#222">Pre-enfriar y registrar</text>
+<text x="826.0" y="697" font-size="10.5" text-anchor="middle" font-weight="normal" fill="#222">serie térmica</text>
+<rect x="932" y="645" width="152" height="58" rx="12" fill="#ffffb5" stroke="#666" stroke-width="1.2"/>
+<text x="1008.0" y="657" font-size="8" text-anchor="middle" fill="#666">«Proceso»</text>
+<text x="1008.0" y="671" font-size="11" text-anchor="middle" font-weight="bold" fill="#222">BP-06</text>
+<text x="1008.0" y="684" font-size="10.5" text-anchor="middle" font-weight="normal" fill="#222">Custodiar en cámara</text>
+<rect x="1114" y="773" width="152" height="58" rx="12" fill="#ffffb5" stroke="#666" stroke-width="1.2"/>
+<text x="1190.0" y="785" font-size="8" text-anchor="middle" fill="#666">«Proceso»</text>
+<text x="1190.0" y="799" font-size="11" text-anchor="middle" font-weight="bold" fill="#222">BP-07</text>
+<text x="1190.0" y="812" font-size="10.5" text-anchor="middle" font-weight="normal" fill="#222">Verificar estados y</text>
+<text x="1190.0" y="825" font-size="10.5" text-anchor="middle" font-weight="normal" fill="#222">cargar FCL</text>
+<rect x="204" y="892" width="152" height="58" rx="0" fill="#ffffb5" stroke="#666" stroke-width="1.2"/>
+<line x1="204" y1="904" x2="356" y2="904" stroke="#666"/>
+<text x="280.0" y="902" font-size="8" text-anchor="middle" fill="#666">«Objeto»</text>
+<text x="280.0" y="918" font-size="11" text-anchor="middle" font-weight="bold" fill="#222">BO-01</text>
+<text x="280.0" y="931" font-size="10.5" text-anchor="middle" font-weight="normal" fill="#222">Lote</text>
+<rect x="386" y="892" width="152" height="58" rx="0" fill="#ffffb5" stroke="#c0392b" stroke-width="2.4"/>
+<line x1="386" y1="904" x2="538" y2="904" stroke="#666"/>
+<text x="462.0" y="902" font-size="8" text-anchor="middle" fill="#c0392b">«Objeto  ★ New»</text>
+<text x="462.0" y="918" font-size="11" text-anchor="middle" font-weight="bold" fill="#222">BO-02</text>
+<text x="462.0" y="931" font-size="10.5" text-anchor="middle" font-weight="normal" fill="#222">Genealogía del lote</text>
+<rect x="568" y="892" width="152" height="58" rx="0" fill="#ffffb5" stroke="#666" stroke-width="1.2"/>
+<line x1="568" y1="904" x2="720" y2="904" stroke="#666"/>
+<text x="644.0" y="902" font-size="8" text-anchor="middle" fill="#666">«Objeto»</text>
+<text x="644.0" y="918" font-size="11" text-anchor="middle" font-weight="bold" fill="#222">BO-03</text>
+<text x="644.0" y="931" font-size="10.5" text-anchor="middle" font-weight="normal" fill="#222">Resultado de inspección</text>
+<rect x="1114" y="892" width="152" height="58" rx="0" fill="#ffffb5" stroke="#666" stroke-width="1.2"/>
+<line x1="1114" y1="904" x2="1266" y2="904" stroke="#666"/>
+<text x="1190.0" y="902" font-size="8" text-anchor="middle" fill="#666">«Objeto»</text>
+<text x="1190.0" y="918" font-size="11" text-anchor="middle" font-weight="bold" fill="#222">BO-04</text>
+<text x="1190.0" y="931" font-size="10.5" text-anchor="middle" font-weight="normal" fill="#222">Condición de despacho</text>
+<rect x="750" y="892" width="152" height="58" rx="0" fill="#ffffb5" stroke="#666" stroke-width="1.2"/>
+<line x1="750" y1="904" x2="902" y2="904" stroke="#666"/>
+<text x="826.0" y="902" font-size="8" text-anchor="middle" fill="#666">«Objeto»</text>
+<text x="826.0" y="918" font-size="11" text-anchor="middle" font-weight="bold" fill="#222">BO-05</text>
+<text x="826.0" y="931" font-size="10.5" text-anchor="middle" font-weight="normal" fill="#222">Serie térmica y custodia</text>
+<rect x="932" y="892" width="152" height="58" rx="0" fill="#ffffb5" stroke="#c0392b" stroke-width="2.4"/>
+<line x1="932" y1="904" x2="1084" y2="904" stroke="#666"/>
+<text x="1008.0" y="902" font-size="8" text-anchor="middle" fill="#c0392b">«Objeto  ★ New»</text>
+<text x="1008.0" y="918" font-size="11" text-anchor="middle" font-weight="bold" fill="#222">BO-06</text>
+<text x="1008.0" y="931" font-size="10.5" text-anchor="middle" font-weight="normal" fill="#222">Acta de handoff</text>
+<rect x="1296" y="892" width="152" height="58" rx="0" fill="#ffffb5" stroke="#c0392b" stroke-width="2.4"/>
+<line x1="1296" y1="904" x2="1448" y2="904" stroke="#666"/>
+<text x="1372.0" y="902" font-size="8" text-anchor="middle" fill="#c0392b">«Objeto  ★ New»</text>
+<text x="1372.0" y="918" font-size="11" text-anchor="middle" font-weight="bold" fill="#222">BO-07</text>
+<text x="1372.0" y="931" font-size="10.5" text-anchor="middle" font-weight="normal" fill="#222">Registro de evento de</text>
+<text x="1372.0" y="944" font-size="10.5" text-anchor="middle" font-weight="normal" fill="#222">negocio</text>
+<rect x="1478" y="892" width="152" height="58" rx="0" fill="#ffffb5" stroke="#c0392b" stroke-width="2.4"/>
+<line x1="1478" y1="904" x2="1630" y2="904" stroke="#666"/>
+<text x="1554.0" y="902" font-size="8" text-anchor="middle" fill="#c0392b">«Objeto  ★ New»</text>
+<text x="1554.0" y="918" font-size="11" text-anchor="middle" font-weight="bold" fill="#222">BO-08</text>
+<text x="1554.0" y="931" font-size="10.5" text-anchor="middle" font-weight="normal" fill="#222">Registro de excepción</text>
+<text x="20" y="1020" font-size="12" fill="#333">B-V02 · VP-B01 Target · decisión D · Grupo 04 · v0.3. Mismos tipos de elemento que B-V01. ★ New = building block nuevo (B-04); BP-09, BSV-06 y BO-09 eliminados.</text>
+<text x="20" y="1036" font-size="12" fill="#333">Calidad (ROL-B05) escribe BO-03; Despacho solo lo lee (PR-07). Eventos y consumidores de servicios en B-V04. Relaciones: Triggering (→) · Realization (- -▷) · Access (··› escribe; ‹·· lee).</text>
+</svg>
