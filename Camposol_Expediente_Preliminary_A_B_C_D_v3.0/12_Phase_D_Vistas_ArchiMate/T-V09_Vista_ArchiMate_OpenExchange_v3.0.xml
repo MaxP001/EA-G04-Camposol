@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model xmlns="http://www.opengroup.org/xsd/archimate/3.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.opengroup.org/xsd/archimate/3.0/ http://www.opengroup.org/xsd/archimate/3.1/archimate3_Diagram.xsd" identifier="M-CAMPOSOL-T-V09-v30">
+  <name xml:lang="es">Camposol Chao · T-V09 · Availability &amp; Continuity · v3.0</name>
+  <documentation xml:lang="es">Extracto de una vista del modelo consolidado v3.0 (elementos y relaciones de la vista). Modelo académico SI605 Grupo 04; no representa sistemas reales de Camposol.</documentation>
+  <elements>
+    <element identifier="ART-06" xsi:type="Artifact"><name xml:lang="es">ART-06 Registro de cola local</name><documentation xml:lang="es">Copia local y transitoria de LotEvent (DOBJ-05) hasta el ack central. · Estado: Target (nuevo) · Clase D</documentation></element>
+    <element identifier="ART-08" xsi:type="Artifact"><name xml:lang="es">ART-08 Réplica de lectura de trazabilidad</name><documentation xml:lang="es">Copia de solo lectura de AP-09 en T-TAR03: estado QA (DOBJ-06) e historia reciente. · Estado: Target (nuevo) · Clase D</documentation></element>
+    <element identifier="T-TAR19" xsi:type="SystemSoftware"><name xml:lang="es">T-TAR19 Cola persistente de eventos</name><documentation xml:lang="es">En T-TAR03. Store-and-forward con confirmación por eventId. · Estado: Target (nuevo) · Clase D</documentation></element>
+    <element identifier="T-TAR20" xsi:type="SystemSoftware"><name xml:lang="es">T-TAR20 Réplica de lectura local</name><documentation xml:lang="es">En T-TAR03. Estado QA e historia reciente para consulta en contingencia; solo lectura. · Estado: Target (nuevo) · Clase D</documentation></element>
+    <element identifier="T-TAR03" xsi:type="Node"><name xml:lang="es">T-TAR03 Nodo de borde de planta (par redundante)</name><documentation xml:lang="es">Zona Z-03. Cola persistente, ingesta de borde y réplica de lectura; autonomía ≥ 24 h ante corte WAN (PD-01). · Estado: Target (nuevo) · Clase D</documentation></element>
+    <element identifier="TS-02" xsi:type="TechnologyService"><name xml:lang="es">TS-02 Almacenamiento y reenvío de eventos</name><documentation xml:lang="es">Store-and-forward con eventId estable, orden por lote y reintento idempotente. · Estado: Target (nuevo) · Clase D</documentation></element>
+    <element identifier="TS-14" xsi:type="TechnologyService"><name xml:lang="es">TS-14 Consulta local en contingencia</name><documentation xml:lang="es">Estado QA e historia reciente servidos desde el borde durante corte WAN o falla central. · Estado: Target (nuevo) · Clase D</documentation></element>
+    <element identifier="T-TAR22" xsi:type="SystemSoftware"><name xml:lang="es">T-TAR22 Runtime de aplicaciones y API</name><documentation xml:lang="es">En T-TAR09. Ejecuta los componentes Target y expone IF-05. · Estado: Target (nuevo) · Clase D</documentation></element>
+    <element identifier="T-TAR23" xsi:type="SystemSoftware"><name xml:lang="es">T-TAR23 Adaptador de integración SAP</name><documentation xml:lang="es">En T-TAR09. Mecanismo (API, archivo o mensaje) por validar (NV-01, PD-07). · Estado: Target (nuevo) · Clase D / NV-01</documentation></element>
+    <element identifier="T-TAR09" xsi:type="Node"><name xml:lang="es">T-TAR09 Plataforma central de ejecución</name><documentation xml:lang="es">Zona Z-06 (DC o nube, NV-10). Ejecuta AP-08 central, AP-09, AP-10 y AP-11. · Estado: Target (nuevo) · Clase D</documentation></element>
+    <element identifier="TS-04" xsi:type="TechnologyService"><name xml:lang="es">TS-04 Ejecución de aplicaciones y API</name><documentation xml:lang="es">Runtime de AP-08 central, AP-09, AP-10 y AP-11. · Estado: Target (nuevo) · Clase D</documentation></element>
+    <element identifier="TS-08" xsi:type="TechnologyService"><name xml:lang="es">TS-08 Observabilidad y alertas</name><documentation xml:lang="es">Cola, enlace, errores, accesos denegados y cumplimiento de RTO/RPO. · Estado: Target (nuevo) · Clase D</documentation></element>
+    <element identifier="ART-07" xsi:type="Artifact"><name xml:lang="es">ART-07 Almacén de eventos y evidencias</name><documentation xml:lang="es">Registro central de LotEvent y LotHistory (DOBJ-05, DOBJ-12). · Estado: Target (nuevo) · Clase D</documentation></element>
+    <element identifier="T-TAR10" xsi:type="Node"><name xml:lang="es">T-TAR10 Almacén central de evidencias</name><documentation xml:lang="es">Zona Z-06. Registro append-only de eventos y evidencias con retención configurable (NV-09). · Estado: Target (nuevo) · Clase D</documentation></element>
+    <element identifier="TS-09" xsi:type="TechnologyService"><name xml:lang="es">TS-09 Respaldo y recuperación</name><documentation xml:lang="es">Copias inmutables fuera de sitio y restauración probada. · Estado: Target (nuevo) · Clase D</documentation></element>
+    <element identifier="T-TAR11" xsi:type="Node"><name xml:lang="es">T-TAR11 Respaldo inmutable fuera de sitio</name><documentation xml:lang="es">Zona Z-06, sitio distinto del primario. Restauración probada trimestralmente. · Estado: Target (nuevo) · Clase D</documentation></element>
+    <element identifier="ART-09" xsi:type="Artifact"><name xml:lang="es">ART-09 Copia de respaldo inmutable</name><documentation xml:lang="es">Respaldo de ART-07 fuera de sitio. · Estado: Target (nuevo) · Clase D</documentation></element>
+  </elements>
+  <relationships>
+    <relationship identifier="R272" source="T-TAR03" target="T-TAR19" xsi:type="Composition"></relationship>
+    <relationship identifier="R273" source="T-TAR03" target="T-TAR20" xsi:type="Composition"></relationship>
+    <relationship identifier="R275" source="T-TAR09" target="T-TAR22" xsi:type="Composition"></relationship>
+    <relationship identifier="R276" source="T-TAR09" target="T-TAR23" xsi:type="Composition"></relationship>
+    <relationship identifier="R292" source="T-TAR03" target="ART-06" xsi:type="Assignment"></relationship>
+    <relationship identifier="R293" source="T-TAR03" target="ART-08" xsi:type="Assignment"></relationship>
+    <relationship identifier="R298" source="T-TAR10" target="ART-07" xsi:type="Assignment"></relationship>
+    <relationship identifier="R299" source="T-TAR11" target="ART-09" xsi:type="Assignment"></relationship>
+    <relationship identifier="R313" source="T-TAR19" target="TS-02" xsi:type="Realization"></relationship>
+    <relationship identifier="R314" source="T-TAR20" target="TS-14" xsi:type="Realization"></relationship>
+    <relationship identifier="R316" source="T-TAR22" target="TS-04" xsi:type="Realization"></relationship>
+    <relationship identifier="R320" source="T-TAR09" target="TS-08" xsi:type="Realization"></relationship>
+    <relationship identifier="R321" source="T-TAR11" target="TS-09" xsi:type="Realization"></relationship>
+    <relationship identifier="R339" source="TS-09" target="T-TAR10" xsi:type="Serving"></relationship>
+    <relationship identifier="R433" source="TS-09" target="ART-09" xsi:type="Access" accessType="Write"></relationship>
+  </relationships>
+  <views>
+    <diagrams>
+      <view identifier="V-T-V09" xsi:type="Diagram"><name xml:lang="es">T-V09 · Availability &amp; Continuity</name><documentation xml:lang="es">T-V09 · VP-D09 · C04/C06 · Grupo 04 · v3.0 · Target (D) · RTO/RPO propuestos, ratificación NV-07. Planta: la cola y la réplica local sostienen NFR-T01 (autonomía ≥ 24 h, RPO 0 para eventos confirmados). Central: runtime, observabilidad y respaldo inmutable fuera de sitio sostienen NFR-T04 (≥ 99,5 %, RTO ≤ 4 h, RPO ≤ 15 min). Un RTO central de 4 h es aceptable porque Despacho verifica el estado QA en la réplica local (DEC-D04). Energía de sala técnica: NV-12. Procesamiento del corte: T-V04. Los requisitos NFR-T01/NFR-T04 se verifican con TEST-T01/T04 (T1/04).</documentation>
+        <node identifier="N-T-V09-01" elementRef="T-TAR03" xsi:type="Element" x="24" y="39" w="480" h="338">
+          <node identifier="N-T-V09-02" elementRef="ART-06" xsi:type="Element" x="46" y="87" w="186" h="86"/>
+          <node identifier="N-T-V09-03" elementRef="ART-08" xsi:type="Element" x="296" y="87" w="186" h="86"/>
+          <node identifier="N-T-V09-04" elementRef="T-TAR19" xsi:type="Element" x="46" y="269" w="186" h="86"/>
+          <node identifier="N-T-V09-05" elementRef="T-TAR20" xsi:type="Element" x="296" y="269" w="186" h="86"/>
+        </node>
+        <node identifier="N-T-V09-06" elementRef="TS-02" xsi:type="Element" x="46" y="472" w="186" h="86"/>
+        <node identifier="N-T-V09-07" elementRef="TS-14" xsi:type="Element" x="296" y="472" w="186" h="86"/>
+        <node identifier="N-T-V09-08" elementRef="T-TAR09" xsi:type="Element" x="424" y="39" w="505" h="156">
+          <node identifier="N-T-V09-09" elementRef="T-TAR22" xsi:type="Element" x="721" y="87" w="186" h="86"/>
+          <node identifier="N-T-V09-10" elementRef="T-TAR23" xsi:type="Element" x="446" y="87" w="186" h="86"/>
+        </node>
+        <node identifier="N-T-V09-11" elementRef="TS-04" xsi:type="Element" x="721" y="290" w="186" h="86"/>
+        <node identifier="N-T-V09-12" elementRef="TS-08" xsi:type="Element" x="1008" y="290" w="186" h="86"/>
+        <node identifier="N-T-V09-13" elementRef="T-TAR10" xsi:type="Element" x="1524" y="24" w="230" h="171">
+          <node identifier="N-T-V09-14" elementRef="ART-07" xsi:type="Element" x="1546" y="87" w="186" h="86"/>
+        </node>
+        <node identifier="N-T-V09-15" elementRef="TS-09" xsi:type="Element" x="1246" y="472" w="186" h="86"/>
+        <node identifier="N-T-V09-16" elementRef="T-TAR11" xsi:type="Element" x="1546" y="472" w="186" h="86"/>
+        <node identifier="N-T-V09-17" elementRef="ART-09" xsi:type="Element" x="1546" y="668" w="186" h="86"/>
+        <connection identifier="C-T-V09-R299" relationshipRef="R299" xsi:type="Relationship" source="N-T-V09-16" target="N-T-V09-17"/>
+        <connection identifier="C-T-V09-R313" relationshipRef="R313" xsi:type="Relationship" source="N-T-V09-04" target="N-T-V09-06"/>
+        <connection identifier="C-T-V09-R314" relationshipRef="R314" xsi:type="Relationship" source="N-T-V09-05" target="N-T-V09-07"/>
+        <connection identifier="C-T-V09-R316" relationshipRef="R316" xsi:type="Relationship" source="N-T-V09-09" target="N-T-V09-11"/>
+        <connection identifier="C-T-V09-R320" relationshipRef="R320" xsi:type="Relationship" source="N-T-V09-08" target="N-T-V09-12"/>
+        <connection identifier="C-T-V09-R321" relationshipRef="R321" xsi:type="Relationship" source="N-T-V09-16" target="N-T-V09-15"/>
+        <connection identifier="C-T-V09-R339" relationshipRef="R339" xsi:type="Relationship" source="N-T-V09-15" target="N-T-V09-13"/>
+        <connection identifier="C-T-V09-R433" relationshipRef="R433" xsi:type="Relationship" source="N-T-V09-15" target="N-T-V09-17"/>
+      </view>
+    </diagrams>
+  </views>
+</model>
