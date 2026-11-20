@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model xmlns="http://www.opengroup.org/xsd/archimate/3.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.opengroup.org/xsd/archimate/3.0/ http://www.opengroup.org/xsd/archimate/3.1/archimate3_Diagram.xsd" identifier="M-CAMPOSOL-T-V04-v30">
+  <name xml:lang="es">Camposol Chao · T-V04 · Processing · Evento a historia de lote · v3.0</name>
+  <documentation xml:lang="es">Extracto de una vista del modelo consolidado v3.0 (elementos y relaciones de la vista). Modelo académico SI605 Grupo 04; no representa sistemas reales de Camposol.</documentation>
+  <elements>
+    <element identifier="TEV-02" xsi:type="TechnologyEvent"><name xml:lang="es">TEV-02 Enlace WAN restablecido</name><documentation xml:lang="es">Escenario E2 (DS-CS-48). · Estado: Target (nuevo) · Clase D</documentation></element>
+    <element identifier="TS-02" xsi:type="TechnologyService"><name xml:lang="es">TS-02 Almacenamiento y reenvío de eventos</name><documentation xml:lang="es">Store-and-forward con eventId estable, orden por lote y reintento idempotente. · Estado: Target (nuevo) · Clase D</documentation></element>
+    <element identifier="AP-08" xsi:type="ApplicationComponent"><name xml:lang="es">AP-08 Ingesta y adaptadores de eventos</name><documentation xml:lang="es">Target · Validar contrato, deduplicar y correlacionar eventos · Disposición: Incorporar (ABB lógico, sin producto) · Clase D</documentation></element>
+    <element identifier="TPR-01" xsi:type="TechnologyProcess"><name xml:lang="es">TPR-01 Capturar y sellar evento</name><documentation xml:lang="es">eventId, lotId o código local, occurredAt con zona, fuente y calidad de reloj. · Estado: Target (nuevo) · Clase D</documentation></element>
+    <element identifier="T-TAR04" xsi:type="Node"><name xml:lang="es">T-TAR04 Gateway OT de solo lectura</name><documentation xml:lang="es">Zona Z-03. Lee eventos de calibradora y lecturas térmicas por CD-01/CD-02; no escribe en PLC ni HMI. · Estado: Target (nuevo) · Clase D</documentation></element>
+    <element identifier="TPR-02" xsi:type="TechnologyProcess"><name xml:lang="es">TPR-02 Persistir en cola local</name><documentation xml:lang="es">Escritura durable antes de confirmar al productor. · Estado: Target (nuevo) · Clase D</documentation></element>
+    <element identifier="TPR-03" xsi:type="TechnologyProcess"><name xml:lang="es">TPR-03 Reenviar en orden con reintento</name><documentation xml:lang="es">Por lote y en orden de captura; la ingesta central deduplica por clave de hecho (AF-01). · Estado: Target (nuevo) · Clase D</documentation></element>
+    <element identifier="TPR-04" xsi:type="TechnologyProcess"><name xml:lang="es">TPR-04 Confirmar y depurar cola</name><documentation xml:lang="es">Solo tras ack de la ingesta central; conserva traza del envío. · Estado: Target (nuevo) · Clase D</documentation></element>
+    <element identifier="ART-06" xsi:type="Artifact"><name xml:lang="es">ART-06 Registro de cola local</name><documentation xml:lang="es">Copia local y transitoria de LotEvent (DOBJ-05) hasta el ack central. · Estado: Target (nuevo) · Clase D</documentation></element>
+    <element identifier="TPR-05" xsi:type="TechnologyProcess"><name xml:lang="es">TPR-05 Servir réplica de lectura local</name><documentation xml:lang="es">Estado QA e historia reciente; marca &#x27;pendiente de sincronizar&#x27;. · Estado: Target (nuevo) · Clase D</documentation></element>
+    <element identifier="ART-08" xsi:type="Artifact"><name xml:lang="es">ART-08 Réplica de lectura de trazabilidad</name><documentation xml:lang="es">Copia de solo lectura de AP-09 en T-TAR03: estado QA (DOBJ-06) e historia reciente. · Estado: Target (nuevo) · Clase D</documentation></element>
+    <element identifier="T-TAR03" xsi:type="Node"><name xml:lang="es">T-TAR03 Nodo de borde de planta (par redundante)</name><documentation xml:lang="es">Zona Z-03. Cola persistente, ingesta de borde y réplica de lectura; autonomía ≥ 24 h ante corte WAN (PD-01). · Estado: Target (nuevo) · Clase D</documentation></element>
+    <element identifier="TEV-01" xsi:type="TechnologyEvent"><name xml:lang="es">TEV-01 Corte del enlace WAN</name><documentation xml:lang="es">Escenario E1 (DS-CS-47). · Estado: Target (nuevo) · Clase D</documentation></element>
+    <element identifier="TS-14" xsi:type="TechnologyService"><name xml:lang="es">TS-14 Consulta local en contingencia</name><documentation xml:lang="es">Estado QA e historia reciente servidos desde el borde durante corte WAN o falla central. · Estado: Target (nuevo) · Clase D</documentation></element>
+    <element identifier="AP-09" xsi:type="ApplicationComponent"><name xml:lang="es">AP-09 Componente de trazabilidad</name><documentation xml:lang="es">Target · Componer identidad, genealogía e historia; publicar estado QA · Disposición: Incorporar (ABB lógico) · Clase D</documentation></element>
+  </elements>
+  <relationships>
+    <relationship identifier="R247" source="AP-08" target="AP-09" xsi:type="Flow"><name xml:lang="es">eventos validados</name></relationship>
+    <relationship identifier="R292" source="T-TAR03" target="ART-06" xsi:type="Assignment"></relationship>
+    <relationship identifier="R293" source="T-TAR03" target="ART-08" xsi:type="Assignment"></relationship>
+    <relationship identifier="R303" source="ART-08" target="AP-09" xsi:type="Realization"></relationship>
+    <relationship identifier="R326" source="TS-02" target="AP-08" xsi:type="Serving"></relationship>
+    <relationship identifier="R338" source="TS-14" target="AP-09" xsi:type="Serving"></relationship>
+    <relationship identifier="R417" source="T-TAR04" target="TPR-01" xsi:type="Assignment"></relationship>
+    <relationship identifier="R418" source="T-TAR03" target="TPR-02" xsi:type="Assignment"></relationship>
+    <relationship identifier="R419" source="T-TAR03" target="TPR-03" xsi:type="Assignment"></relationship>
+    <relationship identifier="R420" source="T-TAR03" target="TPR-04" xsi:type="Assignment"></relationship>
+    <relationship identifier="R421" source="T-TAR03" target="TPR-05" xsi:type="Assignment"></relationship>
+    <relationship identifier="R422" source="TPR-01" target="TPR-02" xsi:type="Triggering"></relationship>
+    <relationship identifier="R423" source="TPR-02" target="TPR-03" xsi:type="Triggering"></relationship>
+    <relationship identifier="R424" source="TPR-03" target="TPR-04" xsi:type="Triggering"></relationship>
+    <relationship identifier="R425" source="TEV-02" target="TPR-03" xsi:type="Triggering"></relationship>
+    <relationship identifier="R426" source="TEV-01" target="TPR-05" xsi:type="Triggering"></relationship>
+    <relationship identifier="R427" source="TPR-02" target="ART-06" xsi:type="Access" accessType="Write"></relationship>
+    <relationship identifier="R428" source="TPR-03" target="ART-06" xsi:type="Access" accessType="Read"></relationship>
+    <relationship identifier="R429" source="TPR-04" target="ART-06" xsi:type="Access" accessType="Write"></relationship>
+    <relationship identifier="R430" source="TPR-05" target="ART-08" xsi:type="Access" accessType="Read"></relationship>
+    <relationship identifier="R431" source="TPR-03" target="TS-02" xsi:type="Realization"></relationship>
+    <relationship identifier="R432" source="TPR-05" target="TS-14" xsi:type="Realization"></relationship>
+  </relationships>
+  <views>
+    <diagrams>
+      <view identifier="V-T-V04" xsi:type="Diagram"><name xml:lang="es">T-V04 · Processing · Evento a historia de lote</name><documentation xml:lang="es">T-V04 · VP-D04 · C04/C06 · Grupo 04 · v3.0 · Target (D) · escenarios E1/E2 (DS-CS-47/48). El evento se persiste en la cola local antes de confirmarse; con WAN, se reenvía en orden y se depura solo tras el ack central; al volver el enlace, el backlog se reenvía y la ingesta deduplica por clave de hecho (AF-01). Durante el corte, Despacho consulta el estado QA en la réplica local (TS-14). Anidamiento = Assignment del nodo a su proceso o artefacto. Deduplicación: AP-V03 y C2/Operabilidad.</documentation>
+        <node identifier="N-T-V04-01" elementRef="TEV-02" xsi:type="Element" x="371" y="24" w="186" h="86"/>
+        <node identifier="N-T-V04-02" elementRef="TS-02" xsi:type="Element" x="871" y="24" w="186" h="86"/>
+        <node identifier="N-T-V04-03" elementRef="AP-08" xsi:type="Element" x="1196" y="24" w="186" h="86"/>
+        <node identifier="N-T-V04-04" elementRef="T-TAR04" xsi:type="Element" x="24" y="164" w="230" h="171">
+          <node identifier="N-T-V04-05" elementRef="TPR-01" xsi:type="Element" x="46" y="227" w="186" h="86"/>
+        </node>
+        <node identifier="N-T-V04-06" elementRef="T-TAR03" xsi:type="Element" x="349" y="179" w="730" h="520">
+          <node identifier="N-T-V04-07" elementRef="TPR-02" xsi:type="Element" x="371" y="227" w="186" h="86"/>
+          <node identifier="N-T-V04-08" elementRef="TPR-03" xsi:type="Element" x="621" y="227" w="186" h="86"/>
+          <node identifier="N-T-V04-09" elementRef="TPR-04" xsi:type="Element" x="871" y="227" w="186" h="86"/>
+          <node identifier="N-T-V04-10" elementRef="ART-06" xsi:type="Element" x="621" y="409" w="186" h="86"/>
+          <node identifier="N-T-V04-11" elementRef="TPR-05" xsi:type="Element" x="371" y="591" w="186" h="86"/>
+          <node identifier="N-T-V04-12" elementRef="ART-08" xsi:type="Element" x="621" y="591" w="186" h="86"/>
+        </node>
+        <node identifier="N-T-V04-13" elementRef="TEV-01" xsi:type="Element" x="46" y="591" w="186" h="86"/>
+        <node identifier="N-T-V04-14" elementRef="TS-14" xsi:type="Element" x="371" y="787" w="186" h="86"/>
+        <node identifier="N-T-V04-15" elementRef="AP-09" xsi:type="Element" x="1196" y="787" w="186" h="86"/>
+        <connection identifier="C-T-V04-R247" relationshipRef="R247" xsi:type="Relationship" source="N-T-V04-03" target="N-T-V04-15"/>
+        <connection identifier="C-T-V04-R303" relationshipRef="R303" xsi:type="Relationship" source="N-T-V04-12" target="N-T-V04-15"/>
+        <connection identifier="C-T-V04-R326" relationshipRef="R326" xsi:type="Relationship" source="N-T-V04-02" target="N-T-V04-03"/>
+        <connection identifier="C-T-V04-R338" relationshipRef="R338" xsi:type="Relationship" source="N-T-V04-14" target="N-T-V04-15"/>
+        <connection identifier="C-T-V04-R422" relationshipRef="R422" xsi:type="Relationship" source="N-T-V04-05" target="N-T-V04-07"/>
+        <connection identifier="C-T-V04-R423" relationshipRef="R423" xsi:type="Relationship" source="N-T-V04-07" target="N-T-V04-08"/>
+        <connection identifier="C-T-V04-R424" relationshipRef="R424" xsi:type="Relationship" source="N-T-V04-08" target="N-T-V04-09"/>
+        <connection identifier="C-T-V04-R425" relationshipRef="R425" xsi:type="Relationship" source="N-T-V04-01" target="N-T-V04-08"/>
+        <connection identifier="C-T-V04-R426" relationshipRef="R426" xsi:type="Relationship" source="N-T-V04-13" target="N-T-V04-11"/>
+        <connection identifier="C-T-V04-R427" relationshipRef="R427" xsi:type="Relationship" source="N-T-V04-07" target="N-T-V04-10"/>
+        <connection identifier="C-T-V04-R428" relationshipRef="R428" xsi:type="Relationship" source="N-T-V04-08" target="N-T-V04-10"/>
+        <connection identifier="C-T-V04-R429" relationshipRef="R429" xsi:type="Relationship" source="N-T-V04-09" target="N-T-V04-10"/>
+        <connection identifier="C-T-V04-R430" relationshipRef="R430" xsi:type="Relationship" source="N-T-V04-11" target="N-T-V04-12"/>
+        <connection identifier="C-T-V04-R431" relationshipRef="R431" xsi:type="Relationship" source="N-T-V04-08" target="N-T-V04-02"/>
+        <connection identifier="C-T-V04-R432" relationshipRef="R432" xsi:type="Relationship" source="N-T-V04-11" target="N-T-V04-14"/>
+      </view>
+    </diagrams>
+  </views>
+</model>
