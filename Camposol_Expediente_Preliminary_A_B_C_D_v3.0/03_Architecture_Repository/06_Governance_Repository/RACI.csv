@@ -1,0 +1,12 @@
+﻿Actividad,A_unico,R,C,I,Ruta,Version,Estado,Fecha
+Alcance y recursos del trabajo de arquitectura,STK-01,ROL-EA,ROL-AB;STK-02;STK-04,STK-07,03_Architecture_Repository/06_Governance_Repository/RACI.csv,v0.3,Draft v0.3 · Decisión académica Grupo 04 · sin aprobación corporativa,2026-11-11
+Principios y excepciones de arquitectura,ROL-AB,ROL-EA,STK-01;STK-02;STK-04,Todos,03_Architecture_Repository/06_Governance_Repository/RACI.csv,v0.3,Draft v0.3 · Decisión académica Grupo 04 · sin aprobación corporativa,2026-11-11
+"Vision, alcance y requisitos",ROL-AB,ROL-EA,STK-01;STK-02;STK-03;STK-06,STK-07,03_Architecture_Repository/06_Governance_Repository/RACI.csv,v0.3,Draft v0.3 · Decisión académica Grupo 04 · sin aprobación corporativa,2026-11-11
+Liberación de Calidad (BO-03),STK-02,ROL-B05,STK-03,STK-06,03_Architecture_Repository/06_Governance_Repository/RACI.csv,v0.3,Draft v0.3 · Decisión académica Grupo 04 · sin aprobación corporativa,2026-11-11
+Condición de despacho (BO-04),STK-06,ROL-B07,STK-02;STK-03,STK-01,03_Architecture_Repository/06_Governance_Repository/RACI.csv,v0.3,Draft v0.3 · Decisión académica Grupo 04 · sin aprobación corporativa,2026-11-11
+Historia del lote (BSV-01),STK-02,ROL-B01,STK-03;STK-06,STK-01,03_Architecture_Repository/06_Governance_Repository/RACI.csv,v0.3,Draft v0.3 · Decisión académica Grupo 04 · sin aprobación corporativa,2026-11-11
+Evidencia térmica (BO-05),STK-03,ROL-B06,STK-02,STK-06,03_Architecture_Repository/06_Governance_Repository/RACI.csv,v0.3,Draft v0.3 · Decisión académica Grupo 04 · sin aprobación corporativa,2026-11-11
+Gestión de excepciones (BP-08),STK-01,ROL-B04,STK-02;STK-03;STK-06,ROL-MC,03_Architecture_Repository/06_Governance_Repository/RACI.csv,v0.3,Draft v0.3 · Decisión académica Grupo 04 · sin aprobación corporativa,2026-11-11
+Medición de KPI,STK-01,ROL-B02,STK-02;STK-03,STK-07,03_Architecture_Repository/06_Governance_Repository/RACI.csv,v0.3,Draft v0.3 · Decisión académica Grupo 04 · sin aprobación corporativa,2026-11-11
+Custodia y versiones del repositorio,ROL-EA,ROL-CUST,ROL-AB,Grupo 04,03_Architecture_Repository/06_Governance_Repository/RACI.csv,v0.3,Draft v0.3 · Decisión académica Grupo 04 · sin aprobación corporativa,2026-11-11
+Control de cambios de arquitectura,ROL-AB,ROL-EA,STK-01;ROL-CUST,Todos,03_Architecture_Repository/06_Governance_Repository/RACI.csv,v0.3,Draft v0.3 · Decisión académica Grupo 04 · sin aprobación corporativa,2026-11-11
