@@ -1,0 +1,124 @@
+﻿ID,Cadena,Origen,Destino,Relacion_documental,Ruta,Version,Estado,Fecha
+REL-001,TR-B01,DRV-02,GOAL-01,motiva,03_Architecture_Repository/01_Architecture_Metamodel/Relaciones.csv,v0.3,Draft v0.3 · Decisión académica Grupo 04 · sin aprobación corporativa,2026-11-11
+REL-002,TR-B01,GOAL-01,OUT-01,se mide con / realiza,03_Architecture_Repository/01_Architecture_Metamodel/Relaciones.csv,v0.3,Draft v0.3 · Decisión académica Grupo 04 · sin aprobación corporativa,2026-11-11
+REL-003,TR-B01,OUT-01,KPI-01,se mide con,03_Architecture_Repository/01_Architecture_Metamodel/Relaciones.csv,v0.3,Draft v0.3 · Decisión académica Grupo 04 · sin aprobación corporativa,2026-11-11
+REL-004,TR-B01,KPI-01,CAP-01,es habilitado por,03_Architecture_Repository/01_Architecture_Metamodel/Relaciones.csv,v0.3,Draft v0.3 · Decisión académica Grupo 04 · sin aprobación corporativa,2026-11-11
+REL-005,TR-B01,CAP-01,GAP-B01,presenta brecha,03_Architecture_Repository/01_Architecture_Metamodel/Relaciones.csv,v0.3,Draft v0.3 · Decisión académica Grupo 04 · sin aprobación corporativa,2026-11-11
+REL-006,TR-B01,GAP-B01,REQ-01,deriva,03_Architecture_Repository/01_Architecture_Metamodel/Relaciones.csv,v0.3,Draft v0.3 · Decisión académica Grupo 04 · sin aprobación corporativa,2026-11-11
+REL-007,TR-B01,REQ-01,CRC-B01,se agrupa en,03_Architecture_Repository/01_Architecture_Metamodel/Relaciones.csv,v0.3,Draft v0.3 · Decisión académica Grupo 04 · sin aprobación corporativa,2026-11-11
+REL-008,TR-B01,CRC-B01,DEC-B11,se decide en,03_Architecture_Repository/01_Architecture_Metamodel/Relaciones.csv,v0.3,Draft v0.3 · Decisión académica Grupo 04 · sin aprobación corporativa,2026-11-11
+REL-009,TR-B01,DEC-B11,TEST-B01,se verifica con,03_Architecture_Repository/01_Architecture_Metamodel/Relaciones.csv,v0.3,Draft v0.3 · Decisión académica Grupo 04 · sin aprobación corporativa,2026-11-11
+REL-010,TR-B01,PR-02,REQ-01,orienta,03_Architecture_Repository/01_Architecture_Metamodel/Relaciones.csv,v0.3,Draft v0.3 · Decisión académica Grupo 04 · sin aprobación corporativa,2026-11-11
+REL-011,TR-B02,DRV-03,GOAL-01,motiva,03_Architecture_Repository/01_Architecture_Metamodel/Relaciones.csv,v0.3,Draft v0.3 · Decisión académica Grupo 04 · sin aprobación corporativa,2026-11-11
+REL-012,TR-B02,GOAL-01,OUT-01,se mide con / realiza,03_Architecture_Repository/01_Architecture_Metamodel/Relaciones.csv,v0.3,Draft v0.3 · Decisión académica Grupo 04 · sin aprobación corporativa,2026-11-11
+REL-013,TR-B02,OUT-01,KPI-01,se mide con,03_Architecture_Repository/01_Architecture_Metamodel/Relaciones.csv,v0.3,Draft v0.3 · Decisión académica Grupo 04 · sin aprobación corporativa,2026-11-11
+REL-014,TR-B02,KPI-01,CAP-01,es habilitado por,03_Architecture_Repository/01_Architecture_Metamodel/Relaciones.csv,v0.3,Draft v0.3 · Decisión académica Grupo 04 · sin aprobación corporativa,2026-11-11
+REL-015,TR-B02,CAP-01,GAP-B02,presenta brecha,03_Architecture_Repository/01_Architecture_Metamodel/Relaciones.csv,v0.3,Draft v0.3 · Decisión académica Grupo 04 · sin aprobación corporativa,2026-11-11
+REL-016,TR-B02,GAP-B02,REQ-02,deriva,03_Architecture_Repository/01_Architecture_Metamodel/Relaciones.csv,v0.3,Draft v0.3 · Decisión académica Grupo 04 · sin aprobación corporativa,2026-11-11
+REL-017,TR-B02,REQ-02,CRC-B01,se agrupa en,03_Architecture_Repository/01_Architecture_Metamodel/Relaciones.csv,v0.3,Draft v0.3 · Decisión académica Grupo 04 · sin aprobación corporativa,2026-11-11
+REL-018,TR-B02,CRC-B01,DEC-B12,se decide en,03_Architecture_Repository/01_Architecture_Metamodel/Relaciones.csv,v0.3,Draft v0.3 · Decisión académica Grupo 04 · sin aprobación corporativa,2026-11-11
+REL-019,TR-B02,DEC-B12,TEST-B02,se verifica con,03_Architecture_Repository/01_Architecture_Metamodel/Relaciones.csv,v0.3,Draft v0.3 · Decisión académica Grupo 04 · sin aprobación corporativa,2026-11-11
+REL-020,TR-B02,PR-03,REQ-02,orienta,03_Architecture_Repository/01_Architecture_Metamodel/Relaciones.csv,v0.3,Draft v0.3 · Decisión académica Grupo 04 · sin aprobación corporativa,2026-11-11
+REL-021,TR-B03,DRV-03,GOAL-01,motiva,03_Architecture_Repository/01_Architecture_Metamodel/Relaciones.csv,v0.3,Draft v0.3 · Decisión académica Grupo 04 · sin aprobación corporativa,2026-11-11
+REL-022,TR-B03,GOAL-01,OUT-01,se mide con / realiza,03_Architecture_Repository/01_Architecture_Metamodel/Relaciones.csv,v0.3,Draft v0.3 · Decisión académica Grupo 04 · sin aprobación corporativa,2026-11-11
+REL-023,TR-B03,OUT-01,KPI-03,se mide con,03_Architecture_Repository/01_Architecture_Metamodel/Relaciones.csv,v0.3,Draft v0.3 · Decisión académica Grupo 04 · sin aprobación corporativa,2026-11-11
+REL-024,TR-B03,KPI-03,CAP-02,es habilitado por,03_Architecture_Repository/01_Architecture_Metamodel/Relaciones.csv,v0.3,Draft v0.3 · Decisión académica Grupo 04 · sin aprobación corporativa,2026-11-11
+REL-025,TR-B03,CAP-02,GAP-B04,presenta brecha,03_Architecture_Repository/01_Architecture_Metamodel/Relaciones.csv,v0.3,Draft v0.3 · Decisión académica Grupo 04 · sin aprobación corporativa,2026-11-11
+REL-026,TR-B03,GAP-B04,REQ-03,deriva,03_Architecture_Repository/01_Architecture_Metamodel/Relaciones.csv,v0.3,Draft v0.3 · Decisión académica Grupo 04 · sin aprobación corporativa,2026-11-11
+REL-027,TR-B03,REQ-03,CRC-B03,se agrupa en,03_Architecture_Repository/01_Architecture_Metamodel/Relaciones.csv,v0.3,Draft v0.3 · Decisión académica Grupo 04 · sin aprobación corporativa,2026-11-11
+REL-028,TR-B03,CRC-B03,DEC-B14,se decide en,03_Architecture_Repository/01_Architecture_Metamodel/Relaciones.csv,v0.3,Draft v0.3 · Decisión académica Grupo 04 · sin aprobación corporativa,2026-11-11
+REL-029,TR-B03,DEC-B14,TEST-B03,se verifica con,03_Architecture_Repository/01_Architecture_Metamodel/Relaciones.csv,v0.3,Draft v0.3 · Decisión académica Grupo 04 · sin aprobación corporativa,2026-11-11
+REL-030,TR-B03,PR-06,REQ-03,orienta,03_Architecture_Repository/01_Architecture_Metamodel/Relaciones.csv,v0.3,Draft v0.3 · Decisión académica Grupo 04 · sin aprobación corporativa,2026-11-11
+REL-031,TR-B03,PR-08,REQ-03,orienta,03_Architecture_Repository/01_Architecture_Metamodel/Relaciones.csv,v0.3,Draft v0.3 · Decisión académica Grupo 04 · sin aprobación corporativa,2026-11-11
+REL-032,TR-B04,DRV-01,GOAL-01,motiva,03_Architecture_Repository/01_Architecture_Metamodel/Relaciones.csv,v0.3,Draft v0.3 · Decisión académica Grupo 04 · sin aprobación corporativa,2026-11-11
+REL-033,TR-B04,GOAL-01,OUT-01,se mide con / realiza,03_Architecture_Repository/01_Architecture_Metamodel/Relaciones.csv,v0.3,Draft v0.3 · Decisión académica Grupo 04 · sin aprobación corporativa,2026-11-11
+REL-034,TR-B04,OUT-01,KPI-02,se mide con,03_Architecture_Repository/01_Architecture_Metamodel/Relaciones.csv,v0.3,Draft v0.3 · Decisión académica Grupo 04 · sin aprobación corporativa,2026-11-11
+REL-035,TR-B04,KPI-02,CAP-03,es habilitado por,03_Architecture_Repository/01_Architecture_Metamodel/Relaciones.csv,v0.3,Draft v0.3 · Decisión académica Grupo 04 · sin aprobación corporativa,2026-11-11
+REL-036,TR-B04,CAP-03,GAP-B03,presenta brecha,03_Architecture_Repository/01_Architecture_Metamodel/Relaciones.csv,v0.3,Draft v0.3 · Decisión académica Grupo 04 · sin aprobación corporativa,2026-11-11
+REL-037,TR-B04,GAP-B03,REQ-04,deriva,03_Architecture_Repository/01_Architecture_Metamodel/Relaciones.csv,v0.3,Draft v0.3 · Decisión académica Grupo 04 · sin aprobación corporativa,2026-11-11
+REL-038,TR-B04,REQ-04,CRC-B02,se agrupa en,03_Architecture_Repository/01_Architecture_Metamodel/Relaciones.csv,v0.3,Draft v0.3 · Decisión académica Grupo 04 · sin aprobación corporativa,2026-11-11
+REL-039,TR-B04,CRC-B02,DEC-B13,se decide en,03_Architecture_Repository/01_Architecture_Metamodel/Relaciones.csv,v0.3,Draft v0.3 · Decisión académica Grupo 04 · sin aprobación corporativa,2026-11-11
+REL-040,TR-B04,DEC-B13,TEST-B04,se verifica con,03_Architecture_Repository/01_Architecture_Metamodel/Relaciones.csv,v0.3,Draft v0.3 · Decisión académica Grupo 04 · sin aprobación corporativa,2026-11-11
+REL-041,TR-B04,PR-03,REQ-04,orienta,03_Architecture_Repository/01_Architecture_Metamodel/Relaciones.csv,v0.3,Draft v0.3 · Decisión académica Grupo 04 · sin aprobación corporativa,2026-11-11
+REL-042,TR-B05,DRV-02,GOAL-01,motiva,03_Architecture_Repository/01_Architecture_Metamodel/Relaciones.csv,v0.3,Draft v0.3 · Decisión académica Grupo 04 · sin aprobación corporativa,2026-11-11
+REL-043,TR-B05,GOAL-01,OUT-01,se mide con / realiza,03_Architecture_Repository/01_Architecture_Metamodel/Relaciones.csv,v0.3,Draft v0.3 · Decisión académica Grupo 04 · sin aprobación corporativa,2026-11-11
+REL-044,TR-B05,OUT-01,KPI-06,se mide con,03_Architecture_Repository/01_Architecture_Metamodel/Relaciones.csv,v0.3,Draft v0.3 · Decisión académica Grupo 04 · sin aprobación corporativa,2026-11-11
+REL-045,TR-B05,KPI-06,CAP-02,es habilitado por,03_Architecture_Repository/01_Architecture_Metamodel/Relaciones.csv,v0.3,Draft v0.3 · Decisión académica Grupo 04 · sin aprobación corporativa,2026-11-11
+REL-046,TR-B05,CAP-02,GAP-B07,presenta brecha,03_Architecture_Repository/01_Architecture_Metamodel/Relaciones.csv,v0.3,Draft v0.3 · Decisión académica Grupo 04 · sin aprobación corporativa,2026-11-11
+REL-047,TR-B05,GAP-B07,REQ-05,deriva,03_Architecture_Repository/01_Architecture_Metamodel/Relaciones.csv,v0.3,Draft v0.3 · Decisión académica Grupo 04 · sin aprobación corporativa,2026-11-11
+REL-048,TR-B05,REQ-05,CRC-B03,se agrupa en,03_Architecture_Repository/01_Architecture_Metamodel/Relaciones.csv,v0.3,Draft v0.3 · Decisión académica Grupo 04 · sin aprobación corporativa,2026-11-11
+REL-049,TR-B05,CRC-B03,DEC-B17,se decide en,03_Architecture_Repository/01_Architecture_Metamodel/Relaciones.csv,v0.3,Draft v0.3 · Decisión académica Grupo 04 · sin aprobación corporativa,2026-11-11
+REL-050,TR-B05,DEC-B17,TEST-B05,se verifica con,03_Architecture_Repository/01_Architecture_Metamodel/Relaciones.csv,v0.3,Draft v0.3 · Decisión académica Grupo 04 · sin aprobación corporativa,2026-11-11
+REL-051,TR-B05,PR-06,REQ-05,orienta,03_Architecture_Repository/01_Architecture_Metamodel/Relaciones.csv,v0.3,Draft v0.3 · Decisión académica Grupo 04 · sin aprobación corporativa,2026-11-11
+REL-052,TR-B06,DRV-04,GOAL-02,motiva,03_Architecture_Repository/01_Architecture_Metamodel/Relaciones.csv,v0.3,Draft v0.3 · Decisión académica Grupo 04 · sin aprobación corporativa,2026-11-11
+REL-053,TR-B06,GOAL-02,OUT-02,se mide con / realiza,03_Architecture_Repository/01_Architecture_Metamodel/Relaciones.csv,v0.3,Draft v0.3 · Decisión académica Grupo 04 · sin aprobación corporativa,2026-11-11
+REL-054,TR-B06,OUT-02,KPI-04,se mide con,03_Architecture_Repository/01_Architecture_Metamodel/Relaciones.csv,v0.3,Draft v0.3 · Decisión académica Grupo 04 · sin aprobación corporativa,2026-11-11
+REL-055,TR-B06,KPI-04,CAP-04,es habilitado por,03_Architecture_Repository/01_Architecture_Metamodel/Relaciones.csv,v0.3,Draft v0.3 · Decisión académica Grupo 04 · sin aprobación corporativa,2026-11-11
+REL-056,TR-B06,CAP-04,GAP-B05,presenta brecha,03_Architecture_Repository/01_Architecture_Metamodel/Relaciones.csv,v0.3,Draft v0.3 · Decisión académica Grupo 04 · sin aprobación corporativa,2026-11-11
+REL-057,TR-B06,GAP-B05,REQ-06,deriva,03_Architecture_Repository/01_Architecture_Metamodel/Relaciones.csv,v0.3,Draft v0.3 · Decisión académica Grupo 04 · sin aprobación corporativa,2026-11-11
+REL-058,TR-B06,REQ-06,CRC-B02,se agrupa en,03_Architecture_Repository/01_Architecture_Metamodel/Relaciones.csv,v0.3,Draft v0.3 · Decisión académica Grupo 04 · sin aprobación corporativa,2026-11-11
+REL-059,TR-B06,CRC-B02,DEC-B15,se decide en,03_Architecture_Repository/01_Architecture_Metamodel/Relaciones.csv,v0.3,Draft v0.3 · Decisión académica Grupo 04 · sin aprobación corporativa,2026-11-11
+REL-060,TR-B06,DEC-B15,TEST-B06,se verifica con,03_Architecture_Repository/01_Architecture_Metamodel/Relaciones.csv,v0.3,Draft v0.3 · Decisión académica Grupo 04 · sin aprobación corporativa,2026-11-11
+REL-061,TR-B06,PR-07,REQ-06,orienta,03_Architecture_Repository/01_Architecture_Metamodel/Relaciones.csv,v0.3,Draft v0.3 · Decisión académica Grupo 04 · sin aprobación corporativa,2026-11-11
+REL-062,TR-B06,PR-08,REQ-06,orienta,03_Architecture_Repository/01_Architecture_Metamodel/Relaciones.csv,v0.3,Draft v0.3 · Decisión académica Grupo 04 · sin aprobación corporativa,2026-11-11
+REL-063,TR-B07,DRV-04,GOAL-03,motiva,03_Architecture_Repository/01_Architecture_Metamodel/Relaciones.csv,v0.3,Draft v0.3 · Decisión académica Grupo 04 · sin aprobación corporativa,2026-11-11
+REL-064,TR-B07,GOAL-03,OUT-03,se mide con / realiza,03_Architecture_Repository/01_Architecture_Metamodel/Relaciones.csv,v0.3,Draft v0.3 · Decisión académica Grupo 04 · sin aprobación corporativa,2026-11-11
+REL-065,TR-B07,OUT-03,KPI-07,se mide con,03_Architecture_Repository/01_Architecture_Metamodel/Relaciones.csv,v0.3,Draft v0.3 · Decisión académica Grupo 04 · sin aprobación corporativa,2026-11-11
+REL-066,TR-B07,KPI-07,CAP-05,es habilitado por,03_Architecture_Repository/01_Architecture_Metamodel/Relaciones.csv,v0.3,Draft v0.3 · Decisión académica Grupo 04 · sin aprobación corporativa,2026-11-11
+REL-067,TR-B07,CAP-05,GAP-B06,presenta brecha,03_Architecture_Repository/01_Architecture_Metamodel/Relaciones.csv,v0.3,Draft v0.3 · Decisión académica Grupo 04 · sin aprobación corporativa,2026-11-11
+REL-068,TR-B07,GAP-B06,REQ-07,deriva,03_Architecture_Repository/01_Architecture_Metamodel/Relaciones.csv,v0.3,Draft v0.3 · Decisión académica Grupo 04 · sin aprobación corporativa,2026-11-11
+REL-069,TR-B07,REQ-07,CRC-B04,se agrupa en,03_Architecture_Repository/01_Architecture_Metamodel/Relaciones.csv,v0.3,Draft v0.3 · Decisión académica Grupo 04 · sin aprobación corporativa,2026-11-11
+REL-070,TR-B07,CRC-B04,DEC-B16,se decide en,03_Architecture_Repository/01_Architecture_Metamodel/Relaciones.csv,v0.3,Draft v0.3 · Decisión académica Grupo 04 · sin aprobación corporativa,2026-11-11
+REL-071,TR-B07,DEC-B16,TEST-B07,se verifica con,03_Architecture_Repository/01_Architecture_Metamodel/Relaciones.csv,v0.3,Draft v0.3 · Decisión académica Grupo 04 · sin aprobación corporativa,2026-11-11
+REL-072,TR-B07,PR-05,REQ-07,orienta,03_Architecture_Repository/01_Architecture_Metamodel/Relaciones.csv,v0.3,Draft v0.3 · Decisión académica Grupo 04 · sin aprobación corporativa,2026-11-11
+REL-073,TR-B08,DRV-04,GOAL-03,motiva,03_Architecture_Repository/01_Architecture_Metamodel/Relaciones.csv,v0.3,Draft v0.3 · Decisión académica Grupo 04 · sin aprobación corporativa,2026-11-11
+REL-074,TR-B08,GOAL-03,OUT-03,se mide con / realiza,03_Architecture_Repository/01_Architecture_Metamodel/Relaciones.csv,v0.3,Draft v0.3 · Decisión académica Grupo 04 · sin aprobación corporativa,2026-11-11
+REL-075,TR-B08,OUT-03,KPI-05,se mide con,03_Architecture_Repository/01_Architecture_Metamodel/Relaciones.csv,v0.3,Draft v0.3 · Decisión académica Grupo 04 · sin aprobación corporativa,2026-11-11
+REL-076,TR-B08,KPI-05,CAP-06,es habilitado por,03_Architecture_Repository/01_Architecture_Metamodel/Relaciones.csv,v0.3,Draft v0.3 · Decisión académica Grupo 04 · sin aprobación corporativa,2026-11-11
+REL-077,TR-B08,CAP-06,GAP-B08,presenta brecha,03_Architecture_Repository/01_Architecture_Metamodel/Relaciones.csv,v0.3,Draft v0.3 · Decisión académica Grupo 04 · sin aprobación corporativa,2026-11-11
+REL-078,TR-B08,GAP-B08,REQ-08,deriva,03_Architecture_Repository/01_Architecture_Metamodel/Relaciones.csv,v0.3,Draft v0.3 · Decisión académica Grupo 04 · sin aprobación corporativa,2026-11-11
+REL-079,TR-B08,REQ-08,CRC-B02,se agrupa en,03_Architecture_Repository/01_Architecture_Metamodel/Relaciones.csv,v0.3,Draft v0.3 · Decisión académica Grupo 04 · sin aprobación corporativa,2026-11-11
+REL-080,TR-B08,CRC-B02,DEC-B18,se decide en,03_Architecture_Repository/01_Architecture_Metamodel/Relaciones.csv,v0.3,Draft v0.3 · Decisión académica Grupo 04 · sin aprobación corporativa,2026-11-11
+REL-081,TR-B08,DEC-B18,TEST-B08,se verifica con,03_Architecture_Repository/01_Architecture_Metamodel/Relaciones.csv,v0.3,Draft v0.3 · Decisión académica Grupo 04 · sin aprobación corporativa,2026-11-11
+REL-082,TR-B08,PR-07,REQ-08,orienta,03_Architecture_Repository/01_Architecture_Metamodel/Relaciones.csv,v0.3,Draft v0.3 · Decisión académica Grupo 04 · sin aprobación corporativa,2026-11-11
+REL-083,TR-B08,PR-03,REQ-08,orienta,03_Architecture_Repository/01_Architecture_Metamodel/Relaciones.csv,v0.3,Draft v0.3 · Decisión académica Grupo 04 · sin aprobación corporativa,2026-11-11
+REL-D001,TR-GAP-T01,GAP-T01,NFR-T01; NFR-T02; NFR-T03,se resuelve con,03_Architecture_Repository/01_Architecture_Metamodel/Relaciones.csv,v3.0,Draft v3.0 · Decisión académica Grupo 04 · sin aprobación corporativa,2026-11-11
+REL-D002,TR-GAP-T01,GAP-T01,TD-RC03,se agrupa en,03_Architecture_Repository/01_Architecture_Metamodel/Relaciones.csv,v3.0,Draft v3.0 · Decisión académica Grupo 04 · sin aprobación corporativa,2026-11-11
+REL-D003,TR-GAP-T01,GAP-T01,DEC-D01,se decide en,03_Architecture_Repository/01_Architecture_Metamodel/Relaciones.csv,v3.0,Draft v3.0 · Decisión académica Grupo 04 · sin aprobación corporativa,2026-11-11
+REL-D004,TR-GAP-T02,GAP-T02,NFR-T05; NFR-T06,se resuelve con,03_Architecture_Repository/01_Architecture_Metamodel/Relaciones.csv,v3.0,Draft v3.0 · Decisión académica Grupo 04 · sin aprobación corporativa,2026-11-11
+REL-D005,TR-GAP-T02,GAP-T02,TD-RC01; TD-RC02,se agrupa en,03_Architecture_Repository/01_Architecture_Metamodel/Relaciones.csv,v3.0,Draft v3.0 · Decisión académica Grupo 04 · sin aprobación corporativa,2026-11-11
+REL-D006,TR-GAP-T02,GAP-T02,DEC-D02,se decide en,03_Architecture_Repository/01_Architecture_Metamodel/Relaciones.csv,v3.0,Draft v3.0 · Decisión académica Grupo 04 · sin aprobación corporativa,2026-11-11
+REL-D007,TR-GAP-T03,GAP-T03,NFR-T07; NFR-T09,se resuelve con,03_Architecture_Repository/01_Architecture_Metamodel/Relaciones.csv,v3.0,Draft v3.0 · Decisión académica Grupo 04 · sin aprobación corporativa,2026-11-11
+REL-D008,TR-GAP-T03,GAP-T03,TD-RC04,se agrupa en,03_Architecture_Repository/01_Architecture_Metamodel/Relaciones.csv,v3.0,Draft v3.0 · Decisión académica Grupo 04 · sin aprobación corporativa,2026-11-11
+REL-D009,TR-GAP-T03,GAP-T03,DEC-D03,se decide en,03_Architecture_Repository/01_Architecture_Metamodel/Relaciones.csv,v3.0,Draft v3.0 · Decisión académica Grupo 04 · sin aprobación corporativa,2026-11-11
+REL-D010,TR-GAP-T04,GAP-T04,NFR-T04; NFR-T13,se resuelve con,03_Architecture_Repository/01_Architecture_Metamodel/Relaciones.csv,v3.0,Draft v3.0 · Decisión académica Grupo 04 · sin aprobación corporativa,2026-11-11
+REL-D011,TR-GAP-T04,GAP-T04,TD-RC06,se agrupa en,03_Architecture_Repository/01_Architecture_Metamodel/Relaciones.csv,v3.0,Draft v3.0 · Decisión académica Grupo 04 · sin aprobación corporativa,2026-11-11
+REL-D012,TR-GAP-T04,GAP-T04,DEC-D04,se decide en,03_Architecture_Repository/01_Architecture_Metamodel/Relaciones.csv,v3.0,Draft v3.0 · Decisión académica Grupo 04 · sin aprobación corporativa,2026-11-11
+REL-D013,TR-GAP-T05,GAP-T05,NFR-T08,se resuelve con,03_Architecture_Repository/01_Architecture_Metamodel/Relaciones.csv,v3.0,Draft v3.0 · Decisión académica Grupo 04 · sin aprobación corporativa,2026-11-11
+REL-D014,TR-GAP-T05,GAP-T05,TD-RC03,se agrupa en,03_Architecture_Repository/01_Architecture_Metamodel/Relaciones.csv,v3.0,Draft v3.0 · Decisión académica Grupo 04 · sin aprobación corporativa,2026-11-11
+REL-D015,TR-GAP-T05,GAP-T05,DEC-D05,se decide en,03_Architecture_Repository/01_Architecture_Metamodel/Relaciones.csv,v3.0,Draft v3.0 · Decisión académica Grupo 04 · sin aprobación corporativa,2026-11-11
+REL-D016,TR-GAP-T06,GAP-T06,NFR-T10,se resuelve con,03_Architecture_Repository/01_Architecture_Metamodel/Relaciones.csv,v3.0,Draft v3.0 · Decisión académica Grupo 04 · sin aprobación corporativa,2026-11-11
+REL-D017,TR-GAP-T06,GAP-T06,TD-RC06,se agrupa en,03_Architecture_Repository/01_Architecture_Metamodel/Relaciones.csv,v3.0,Draft v3.0 · Decisión académica Grupo 04 · sin aprobación corporativa,2026-11-11
+REL-D018,TR-GAP-T06,GAP-T06,DEC-D06,se decide en,03_Architecture_Repository/01_Architecture_Metamodel/Relaciones.csv,v3.0,Draft v3.0 · Decisión académica Grupo 04 · sin aprobación corporativa,2026-11-11
+REL-D019,TR-GAP-T07,GAP-T07,NFR-T11,se resuelve con,03_Architecture_Repository/01_Architecture_Metamodel/Relaciones.csv,v3.0,Draft v3.0 · Decisión académica Grupo 04 · sin aprobación corporativa,2026-11-11
+REL-D020,TR-GAP-T07,GAP-T07,TD-RC07,se agrupa en,03_Architecture_Repository/01_Architecture_Metamodel/Relaciones.csv,v3.0,Draft v3.0 · Decisión académica Grupo 04 · sin aprobación corporativa,2026-11-11
+REL-D021,TR-GAP-T07,GAP-T07,DEC-D07,se decide en,03_Architecture_Repository/01_Architecture_Metamodel/Relaciones.csv,v3.0,Draft v3.0 · Decisión académica Grupo 04 · sin aprobación corporativa,2026-11-11
+REL-D022,TR-GAP-T08,GAP-T08,NFR-T12,se resuelve con,03_Architecture_Repository/01_Architecture_Metamodel/Relaciones.csv,v3.0,Draft v3.0 · Decisión académica Grupo 04 · sin aprobación corporativa,2026-11-11
+REL-D023,TR-GAP-T08,GAP-T08,TD-RC05,se agrupa en,03_Architecture_Repository/01_Architecture_Metamodel/Relaciones.csv,v3.0,Draft v3.0 · Decisión académica Grupo 04 · sin aprobación corporativa,2026-11-11
+REL-D024,TR-GAP-T08,GAP-T08,DEC-D08,se decide en,03_Architecture_Repository/01_Architecture_Metamodel/Relaciones.csv,v3.0,Draft v3.0 · Decisión académica Grupo 04 · sin aprobación corporativa,2026-11-11
+REL-D025,TR-GAP-T09,GAP-T09,NFR-T09,se resuelve con,03_Architecture_Repository/01_Architecture_Metamodel/Relaciones.csv,v3.0,Draft v3.0 · Decisión académica Grupo 04 · sin aprobación corporativa,2026-11-11
+REL-D026,TR-GAP-T09,GAP-T09,TD-RC08,se agrupa en,03_Architecture_Repository/01_Architecture_Metamodel/Relaciones.csv,v3.0,Draft v3.0 · Decisión académica Grupo 04 · sin aprobación corporativa,2026-11-11
+REL-D027,TR-GAP-T09,GAP-T09,DEC-D09,se decide en,03_Architecture_Repository/01_Architecture_Metamodel/Relaciones.csv,v3.0,Draft v3.0 · Decisión académica Grupo 04 · sin aprobación corporativa,2026-11-11
+REL-D028,TR-NFR-T01,NFR-T01,TEST-T01,se verifica con,03_Architecture_Repository/01_Architecture_Metamodel/Relaciones.csv,v3.0,Draft v3.0 · Decisión académica Grupo 04 · sin aprobación corporativa,2026-11-11
+REL-D029,TR-NFR-T02,NFR-T02,TEST-T02,se verifica con,03_Architecture_Repository/01_Architecture_Metamodel/Relaciones.csv,v3.0,Draft v3.0 · Decisión académica Grupo 04 · sin aprobación corporativa,2026-11-11
+REL-D030,TR-NFR-T03,NFR-T03,TEST-T03,se verifica con,03_Architecture_Repository/01_Architecture_Metamodel/Relaciones.csv,v3.0,Draft v3.0 · Decisión académica Grupo 04 · sin aprobación corporativa,2026-11-11
+REL-D031,TR-NFR-T04,NFR-T04,TEST-T04,se verifica con,03_Architecture_Repository/01_Architecture_Metamodel/Relaciones.csv,v3.0,Draft v3.0 · Decisión académica Grupo 04 · sin aprobación corporativa,2026-11-11
+REL-D032,TR-NFR-T05,NFR-T05,TEST-T05,se verifica con,03_Architecture_Repository/01_Architecture_Metamodel/Relaciones.csv,v3.0,Draft v3.0 · Decisión académica Grupo 04 · sin aprobación corporativa,2026-11-11
+REL-D033,TR-NFR-T06,NFR-T06,TEST-T06,se verifica con,03_Architecture_Repository/01_Architecture_Metamodel/Relaciones.csv,v3.0,Draft v3.0 · Decisión académica Grupo 04 · sin aprobación corporativa,2026-11-11
+REL-D034,TR-NFR-T07,NFR-T07,TEST-T07,se verifica con,03_Architecture_Repository/01_Architecture_Metamodel/Relaciones.csv,v3.0,Draft v3.0 · Decisión académica Grupo 04 · sin aprobación corporativa,2026-11-11
+REL-D035,TR-NFR-T08,NFR-T08,TEST-T08,se verifica con,03_Architecture_Repository/01_Architecture_Metamodel/Relaciones.csv,v3.0,Draft v3.0 · Decisión académica Grupo 04 · sin aprobación corporativa,2026-11-11
+REL-D036,TR-NFR-T09,NFR-T09,TEST-T09,se verifica con,03_Architecture_Repository/01_Architecture_Metamodel/Relaciones.csv,v3.0,Draft v3.0 · Decisión académica Grupo 04 · sin aprobación corporativa,2026-11-11
+REL-D037,TR-NFR-T10,NFR-T10,TEST-T10,se verifica con,03_Architecture_Repository/01_Architecture_Metamodel/Relaciones.csv,v3.0,Draft v3.0 · Decisión académica Grupo 04 · sin aprobación corporativa,2026-11-11
+REL-D038,TR-NFR-T11,NFR-T11,TEST-T11,se verifica con,03_Architecture_Repository/01_Architecture_Metamodel/Relaciones.csv,v3.0,Draft v3.0 · Decisión académica Grupo 04 · sin aprobación corporativa,2026-11-11
+REL-D039,TR-NFR-T12,NFR-T12,TEST-T12,se verifica con,03_Architecture_Repository/01_Architecture_Metamodel/Relaciones.csv,v3.0,Draft v3.0 · Decisión académica Grupo 04 · sin aprobación corporativa,2026-11-11
+REL-D040,TR-NFR-T13,NFR-T13,TEST-T13,se verifica con,03_Architecture_Repository/01_Architecture_Metamodel/Relaciones.csv,v3.0,Draft v3.0 · Decisión académica Grupo 04 · sin aprobación corporativa,2026-11-11
