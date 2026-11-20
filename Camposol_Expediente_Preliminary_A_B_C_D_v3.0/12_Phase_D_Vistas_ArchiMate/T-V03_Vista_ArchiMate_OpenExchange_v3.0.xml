@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model xmlns="http://www.opengroup.org/xsd/archimate/3.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.opengroup.org/xsd/archimate/3.0/ http://www.opengroup.org/xsd/archimate/3.1/archimate3_Diagram.xsd" identifier="M-CAMPOSOL-T-V03-v30">
+  <name xml:lang="es">Camposol Chao · T-V03 · Platform Decomposition · Borde/Central · v3.0</name>
+  <documentation xml:lang="es">Extracto de una vista del modelo consolidado v3.0 (elementos y relaciones de la vista). Modelo académico SI605 Grupo 04; no representa sistemas reales de Camposol.</documentation>
+  <elements>
+    <element identifier="ART-01" xsi:type="Artifact"><name xml:lang="es">ART-01 Paquete de ingesta de borde</name><documentation xml:lang="es">Despliegue de AP-08 en T-TAR03 (adaptadores y validación de contrato en planta). · Estado: Target (nuevo) · Clase D</documentation></element>
+    <element identifier="ART-08" xsi:type="Artifact"><name xml:lang="es">ART-08 Réplica de lectura de trazabilidad</name><documentation xml:lang="es">Copia de solo lectura de AP-09 en T-TAR03: estado QA (DOBJ-06) e historia reciente. · Estado: Target (nuevo) · Clase D</documentation></element>
+    <element identifier="ART-06" xsi:type="Artifact"><name xml:lang="es">ART-06 Registro de cola local</name><documentation xml:lang="es">Copia local y transitoria de LotEvent (DOBJ-05) hasta el ack central. · Estado: Target (nuevo) · Clase D</documentation></element>
+    <element identifier="T-TAR03" xsi:type="Node"><name xml:lang="es">T-TAR03 Nodo de borde de planta (par redundante)</name><documentation xml:lang="es">Zona Z-03. Cola persistente, ingesta de borde y réplica de lectura; autonomía ≥ 24 h ante corte WAN (PD-01). · Estado: Target (nuevo) · Clase D</documentation></element>
+    <element identifier="AP-10" xsi:type="ApplicationComponent"><name xml:lang="es">AP-10 Portal de consulta de evidencia</name><documentation xml:lang="es">Target · Consulta autorizada de la historia por rol · Disposición: Incorporar (ABB lógico) · Clase D</documentation></element>
+    <element identifier="AP-08" xsi:type="ApplicationComponent"><name xml:lang="es">AP-08 Ingesta y adaptadores de eventos</name><documentation xml:lang="es">Target · Validar contrato, deduplicar y correlacionar eventos · Disposición: Incorporar (ABB lógico, sin producto) · Clase D</documentation></element>
+    <element identifier="AP-09" xsi:type="ApplicationComponent"><name xml:lang="es">AP-09 Componente de trazabilidad</name><documentation xml:lang="es">Target · Componer identidad, genealogía e historia; publicar estado QA · Disposición: Incorporar (ABB lógico) · Clase D</documentation></element>
+    <element identifier="AP-11" xsi:type="ApplicationComponent"><name xml:lang="es">AP-11 Monitor de excepciones y calidad de datos</name><documentation xml:lang="es">Target · Excepciones, reconciliación y reglas DQ · Disposición: Incorporar (ABB lógico) · Clase D</documentation></element>
+    <element identifier="ART-04" xsi:type="Artifact"><name xml:lang="es">ART-04 Paquete del portal de consulta</name><documentation xml:lang="es">Despliegue de AP-10 en T-TAR09. · Estado: Target (nuevo) · Clase D</documentation></element>
+    <element identifier="ART-02" xsi:type="Artifact"><name xml:lang="es">ART-02 Paquete de ingesta central</name><documentation xml:lang="es">Despliegue de AP-08 en T-TAR09 (deduplicación y correlación). · Estado: Target (nuevo) · Clase D</documentation></element>
+    <element identifier="ART-03" xsi:type="Artifact"><name xml:lang="es">ART-03 Paquete de trazabilidad</name><documentation xml:lang="es">Despliegue de AP-09 en T-TAR09. · Estado: Target (nuevo) · Clase D</documentation></element>
+    <element identifier="ART-05" xsi:type="Artifact"><name xml:lang="es">ART-05 Paquete del monitor de excepciones</name><documentation xml:lang="es">Despliegue de AP-11 en T-TAR09. · Estado: Target (nuevo) · Clase D</documentation></element>
+    <element identifier="T-TAR09" xsi:type="Node"><name xml:lang="es">T-TAR09 Plataforma central de ejecución</name><documentation xml:lang="es">Zona Z-06 (DC o nube, NV-10). Ejecuta AP-08 central, AP-09, AP-10 y AP-11. · Estado: Target (nuevo) · Clase D</documentation></element>
+    <element identifier="DOBJ-06" xsi:type="DataObject"><name xml:lang="es">DOBJ-06 QAResult</name><documentation xml:lang="es">Resultado de inspección y decisión de Calidad (liberado, HOLD, rechazado), versionado.</documentation></element>
+    <element identifier="DOBJ-05" xsi:type="DataObject"><name xml:lang="es">DOBJ-05 LotEvent</name><documentation xml:lang="es">Hecho inmutable que registra una transición del lote.</documentation></element>
+    <element identifier="DOBJ-12" xsi:type="DataObject"><name xml:lang="es">DOBJ-12 LotHistory</name><documentation xml:lang="es">Vista consolidada y consultable de identidad, genealogía, eventos, inspección, frío y despacho de un lote, con procedencia.</documentation></element>
+    <element identifier="ART-07" xsi:type="Artifact"><name xml:lang="es">ART-07 Almacén de eventos y evidencias</name><documentation xml:lang="es">Registro central de LotEvent y LotHistory (DOBJ-05, DOBJ-12). · Estado: Target (nuevo) · Clase D</documentation></element>
+    <element identifier="T-TAR10" xsi:type="Node"><name xml:lang="es">T-TAR10 Almacén central de evidencias</name><documentation xml:lang="es">Zona Z-06. Registro append-only de eventos y evidencias con retención configurable (NV-09). · Estado: Target (nuevo) · Clase D</documentation></element>
+  </elements>
+  <relationships>
+    <relationship identifier="R199" source="DOBJ-12" target="DOBJ-05" xsi:type="Aggregation"></relationship>
+    <relationship identifier="R200" source="DOBJ-12" target="DOBJ-06" xsi:type="Aggregation"></relationship>
+    <relationship identifier="R247" source="AP-08" target="AP-09" xsi:type="Flow"><name xml:lang="es">eventos validados</name></relationship>
+    <relationship identifier="R248" source="AP-11" target="AP-09" xsi:type="Flow"><name xml:lang="es">IF-07</name></relationship>
+    <relationship identifier="R291" source="T-TAR03" target="ART-01" xsi:type="Assignment"></relationship>
+    <relationship identifier="R292" source="T-TAR03" target="ART-06" xsi:type="Assignment"></relationship>
+    <relationship identifier="R293" source="T-TAR03" target="ART-08" xsi:type="Assignment"></relationship>
+    <relationship identifier="R294" source="T-TAR09" target="ART-02" xsi:type="Assignment"></relationship>
+    <relationship identifier="R295" source="T-TAR09" target="ART-03" xsi:type="Assignment"></relationship>
+    <relationship identifier="R296" source="T-TAR09" target="ART-04" xsi:type="Assignment"></relationship>
+    <relationship identifier="R297" source="T-TAR09" target="ART-05" xsi:type="Assignment"></relationship>
+    <relationship identifier="R298" source="T-TAR10" target="ART-07" xsi:type="Assignment"></relationship>
+    <relationship identifier="R300" source="ART-01" target="AP-08" xsi:type="Realization"></relationship>
+    <relationship identifier="R301" source="ART-02" target="AP-08" xsi:type="Realization"></relationship>
+    <relationship identifier="R302" source="ART-03" target="AP-09" xsi:type="Realization"></relationship>
+    <relationship identifier="R303" source="ART-08" target="AP-09" xsi:type="Realization"></relationship>
+    <relationship identifier="R304" source="ART-04" target="AP-10" xsi:type="Realization"></relationship>
+    <relationship identifier="R305" source="ART-05" target="AP-11" xsi:type="Realization"></relationship>
+    <relationship identifier="R306" source="ART-06" target="DOBJ-05" xsi:type="Realization"></relationship>
+    <relationship identifier="R307" source="ART-07" target="DOBJ-05" xsi:type="Realization"></relationship>
+    <relationship identifier="R308" source="ART-07" target="DOBJ-12" xsi:type="Realization"></relationship>
+    <relationship identifier="R309" source="ART-08" target="DOBJ-06" xsi:type="Realization"></relationship>
+  </relationships>
+  <views>
+    <diagrams>
+      <view identifier="V-T-V03" xsi:type="Diagram"><name xml:lang="es">T-V03 · Platform Decomposition · Borde/Central</name><documentation xml:lang="es">T-V03 · VP-D03 · C03/C05 · Grupo 04 · v3.0 · Target (D) · nodos lógicos sin producto. Borde (T-TAR03, zona Z-03): ingesta de borde, cola y réplica de lectura de AP-09. Central (T-TAR09/T-TAR10, zona Z-06): ingesta definitiva, trazabilidad, portal, monitor y almacén. AP-08 y AP-09 tienen artefactos en ambos lados sin cambiar su responsabilidad lógica (DEC-D10, CHG-D05). Anidamiento = Composition (software) o Assignment (artefacto). Software de sistema (cola, réplica, runtime, adaptador SAP): T-V09; relay de DMZ: T-V07; servicios: T-V06.</documentation>
+        <node identifier="N-T-V03-01" elementRef="T-TAR03" xsi:type="Element" x="24" y="221" w="480" h="520">
+          <node identifier="N-T-V03-02" elementRef="ART-01" xsi:type="Element" x="296" y="269" w="186" h="86"/>
+          <node identifier="N-T-V03-03" elementRef="ART-08" xsi:type="Element" x="46" y="451" w="186" h="86"/>
+          <node identifier="N-T-V03-04" elementRef="ART-06" xsi:type="Element" x="296" y="633" w="186" h="86"/>
+        </node>
+        <node identifier="N-T-V03-05" elementRef="AP-10" xsi:type="Element" x="646" y="87" w="186" h="86"/>
+        <node identifier="N-T-V03-06" elementRef="AP-08" xsi:type="Element" x="646" y="269" w="186" h="86"/>
+        <node identifier="N-T-V03-07" elementRef="AP-09" xsi:type="Element" x="646" y="451" w="186" h="86"/>
+        <node identifier="N-T-V03-08" elementRef="AP-11" xsi:type="Element" x="646" y="633" w="186" h="86"/>
+        <node identifier="N-T-V03-09" elementRef="T-TAR09" xsi:type="Element" x="974" y="24" w="230" h="717">
+          <node identifier="N-T-V03-10" elementRef="ART-04" xsi:type="Element" x="996" y="87" w="186" h="86"/>
+          <node identifier="N-T-V03-11" elementRef="ART-02" xsi:type="Element" x="996" y="269" w="186" h="86"/>
+          <node identifier="N-T-V03-12" elementRef="ART-03" xsi:type="Element" x="996" y="451" w="186" h="86"/>
+          <node identifier="N-T-V03-13" elementRef="ART-05" xsi:type="Element" x="996" y="633" w="186" h="86"/>
+        </node>
+        <node identifier="N-T-V03-14" elementRef="DOBJ-06" xsi:type="Element" x="46" y="843" w="186" h="86"/>
+        <node identifier="N-T-V03-15" elementRef="DOBJ-05" xsi:type="Element" x="296" y="843" w="186" h="86"/>
+        <node identifier="N-T-V03-16" elementRef="DOBJ-12" xsi:type="Element" x="646" y="843" w="186" h="86"/>
+        <node identifier="N-T-V03-17" elementRef="T-TAR10" xsi:type="Element" x="974" y="780" w="230" h="171">
+          <node identifier="N-T-V03-18" elementRef="ART-07" xsi:type="Element" x="996" y="843" w="186" h="86"/>
+        </node>
+        <connection identifier="C-T-V03-R199" relationshipRef="R199" xsi:type="Relationship" source="N-T-V03-16" target="N-T-V03-15"/>
+        <connection identifier="C-T-V03-R200" relationshipRef="R200" xsi:type="Relationship" source="N-T-V03-16" target="N-T-V03-14"><bendpoint x="706" y="951"/><bendpoint x="139" y="951"/></connection>
+        <connection identifier="C-T-V03-R247" relationshipRef="R247" xsi:type="Relationship" source="N-T-V03-06" target="N-T-V03-07"/>
+        <connection identifier="C-T-V03-R248" relationshipRef="R248" xsi:type="Relationship" source="N-T-V03-08" target="N-T-V03-07"/>
+        <connection identifier="C-T-V03-R300" relationshipRef="R300" xsi:type="Relationship" source="N-T-V03-02" target="N-T-V03-06"/>
+        <connection identifier="C-T-V03-R301" relationshipRef="R301" xsi:type="Relationship" source="N-T-V03-11" target="N-T-V03-06"/>
+        <connection identifier="C-T-V03-R302" relationshipRef="R302" xsi:type="Relationship" source="N-T-V03-12" target="N-T-V03-07"/>
+        <connection identifier="C-T-V03-R303" relationshipRef="R303" xsi:type="Relationship" source="N-T-V03-03" target="N-T-V03-07"/>
+        <connection identifier="C-T-V03-R304" relationshipRef="R304" xsi:type="Relationship" source="N-T-V03-10" target="N-T-V03-05"/>
+        <connection identifier="C-T-V03-R305" relationshipRef="R305" xsi:type="Relationship" source="N-T-V03-13" target="N-T-V03-08"/>
+        <connection identifier="C-T-V03-R306" relationshipRef="R306" xsi:type="Relationship" source="N-T-V03-04" target="N-T-V03-15"/>
+        <connection identifier="C-T-V03-R307" relationshipRef="R307" xsi:type="Relationship" source="N-T-V03-18" target="N-T-V03-15"><bendpoint x="1056" y="974"/><bendpoint x="416" y="974"/></connection>
+        <connection identifier="C-T-V03-R308" relationshipRef="R308" xsi:type="Relationship" source="N-T-V03-18" target="N-T-V03-16"/>
+        <connection identifier="C-T-V03-R309" relationshipRef="R309" xsi:type="Relationship" source="N-T-V03-03" target="N-T-V03-14"/>
+      </view>
+    </diagrams>
+  </views>
+</model>
