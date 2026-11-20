@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model xmlns="http://www.opengroup.org/xsd/archimate/3.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.opengroup.org/xsd/archimate/3.0/ http://www.opengroup.org/xsd/archimate/3.1/archimate3_Diagram.xsd" identifier="M-CAMPOSOL-T-V10-v30">
+  <name xml:lang="es">Camposol Chao · T-V10 · Gaps &amp; Roadmap Candidates · v3.0</name>
+  <documentation xml:lang="es">Extracto de una vista del modelo consolidado v3.0 (elementos y relaciones de la vista). Modelo académico SI605 Grupo 04; no representa sistemas reales de Camposol.</documentation>
+  <elements>
+    <element identifier="GAP-T08" xsi:type="Gap"><name xml:lang="es">GAP-T08 Vínculo lectura térmica–pallet</name><documentation xml:lang="es">Baseline: CSV nocturno en UTC sin vínculo sonda–pallet; vacío de 3 h en P14 (DS-CS-17/22/34). Target: T-TAR04 + TS-01 + DOBJ-08 ColdCustody. Resolución: Lectura continua por gateway con posición, pallet, calibración y gapFlag. · Estado: Target (nuevo) · Clase D</documentation></element>
+    <element identifier="GAP-T09" xsi:type="Gap"><name xml:lang="es">GAP-T09 Evidencia visual asistida</name><documentation xml:lang="es">Baseline: Inspección visual sin registro trazable al lote (supuesto; NV-04). Target: T-TAR13 + TS-16 (opcional). Resolución: Piloto no crítico de inferencia visual como evidencia, sin liberación automática. · Estado: Target (nuevo) · Clase D</documentation></element>
+    <element identifier="GAP-T01" xsi:type="Gap"><name xml:lang="es">GAP-T01 Captura y persistencia ante corte WAN</name><documentation xml:lang="es">Baseline: Papel durante cortes de hasta 3 h; 9/41 eventos con defecto; sin cola local (DS-CS-07/26/37). Target: T-TAR03 + T-TAR19/20 (borde persistente y réplica). Resolución: Borde persistente ≥ 24 h, reenvío idempotente y consulta local de estado QA. · Estado: Target (nuevo) · Clase D</documentation></element>
+    <element identifier="GAP-T05" xsi:type="Gap"><name xml:lang="es">GAP-T05 Tiempo de referencia</name><documentation xml:lang="es">Baseline: Relojes sin fuente común; deriva de hasta 4 min (DS-CS-22/40). Target: T-TAR05 + TS-07 + CD-09. Resolución: Servidor de tiempo de planta; desviación ≤ 1 s; zona explícita. · Estado: Target (nuevo) · Clase D</documentation></element>
+    <element identifier="TD-RC05" xsi:type="WorkPackage"><name xml:lang="es">TD-RC05 Vínculo térmico–pallet y calidad de sonda (candidato)</name><documentation xml:lang="es">Horizonte relativo 2–5 meses, prioridad P1. Criterio de salida: Serie de PAL-55871 sin vacío no marcado (TEST-T12). Depende de: TD-RC01; TD-RC03; D-RC03. Sin presupuesto ni fechas. · Estado: Target (nuevo) · Clase D</documentation></element>
+    <element identifier="TD-RC08" xsi:type="WorkPackage"><name xml:lang="es">TD-RC08 Piloto de inspección visual asistida (opcional) (candidato)</name><documentation xml:lang="es">Horizonte relativo 6–9 meses, prioridad P3. Criterio de salida: Informe de precisión y falsos positivos; 0 liberaciones automáticas. Depende de: TD-RC03; TD-RC04; no comprometer el roadmap base. Sin presupuesto ni fechas. · Estado: Target (nuevo) · Clase D</documentation></element>
+    <element identifier="TD-RC01" xsi:type="WorkPackage"><name xml:lang="es">TD-RC01 Diagnóstico e inventario IT/OT pasivo (candidato)</name><documentation xml:lang="es">Horizonte relativo 0–1 meses, prioridad P0. Criterio de salida: Inventario de activos, flujos y sondas; NV-04/NV-05 respondidas. Depende de: Sin escaneo activo de PLC; acceso a sala técnica. Sin presupuesto ni fechas. · Estado: Target (nuevo) · Clase D</documentation></element>
+    <element identifier="TD-RC02" xsi:type="WorkPackage"><name xml:lang="es">TD-RC02 Segmentación por zonas y conductos (candidato)</name><documentation xml:lang="es">Horizonte relativo 1–3 meses, prioridad P0. Criterio de salida: 9/9 conductos registrados; T-BASE08 dividida; TEST-T05/T06 superados. Depende de: TD-RC01; análisis de riesgo ISA/IEC 62443 (NV-13). Sin presupuesto ni fechas. · Estado: Target (nuevo) · Clase D</documentation></element>
+    <element identifier="TD-RC03" xsi:type="WorkPackage"><name xml:lang="es">TD-RC03 Borde persistente y tiempo común (piloto) (candidato)</name><documentation xml:lang="es">Horizonte relativo 1–4 meses, prioridad P1. Criterio de salida: E1/E2 superados (TEST-T01/T02/T03/T08). Depende de: TD-RC02; D-RC02; A-RC01; energía NV-12. Sin presupuesto ni fechas. · Estado: Target (nuevo) · Clase D</documentation></element>
+    <element identifier="TD-RC06" xsi:type="WorkPackage"><name xml:lang="es">TD-RC06 Plataforma central recuperable y almacén de evidencias (candidato)</name><documentation xml:lang="es">Horizonte relativo 3–6 meses, prioridad P1. Criterio de salida: Simulacro E3; restauración probada (TEST-T04/T10/T13). Depende de: TD-RC03; TD-RC04; A-RC02; NV-09; NV-10. Sin presupuesto ni fechas. · Estado: Target (nuevo) · Clase D</documentation></element>
+    <element identifier="TD-RC07" xsi:type="WorkPackage"><name xml:lang="es">TD-RC07 Integración SAP acotada y retiro de AP-07 (candidato)</name><documentation xml:lang="es">Horizonte relativo 5–8 meses, prioridad P2. Criterio de salida: 0 rutas SAP→OT; HOLD no modificable (TEST-T11); AP-07 retirada. Depende de: TD-RC06; A-RC04; NV-01. Sin presupuesto ni fechas. · Estado: Target (nuevo) · Clase D</documentation></element>
+    <element identifier="GAP-T07" xsi:type="Gap"><name xml:lang="es">GAP-T07 Integración con SAP</name><documentation xml:lang="es">Baseline: Digitación manual desde la planilla puente; mecanismo SAP desconocido (DS-CS-41). Target: T-TAR23 + TS-10 + CD-07. Resolución: Conducto central único con IF-05/IF-06; mecanismo por validar. · Estado: Target (nuevo) · Clase D</documentation></element>
+    <element identifier="GAP-T02" xsi:type="Gap"><name xml:lang="es">GAP-T02 Separación de redes IT/OT</name><documentation xml:lang="es">Baseline: LAN plana con oficina, calibradoras y frío (DS-CS-36). Target: Z-01…Z-07; CD-01…CD-09; T-TAR06/07; T-TAR14…18. Resolución: Zonas y conductos registrados; control OT local sin mando remoto. · Estado: Target (nuevo) · Clase D</documentation></element>
+    <element identifier="GAP-T03" xsi:type="Gap"><name xml:lang="es">GAP-T03 Identidad técnica y acceso</name><documentation xml:lang="es">Baseline: Cuentas compartidas en OT; planilla editable por 14 usuarios (DS-CS-09/39). Target: T-TAR12 + TS-06. Resolución: Cuentas nominales por rol, MFA remoto, identidad de dispositivo y auditoría QA. · Estado: Target (nuevo) · Clase D</documentation></element>
+    <element identifier="TD-RC04" xsi:type="WorkPackage"><name xml:lang="es">TD-RC04 Identidad y acceso por rol (candidato)</name><documentation xml:lang="es">Horizonte relativo 2–4 meses, prioridad P1. Criterio de salida: 0 cuentas compartidas; TEST-T07/T09 superados. Depende de: TD-RC02; A-RC03; directorio NV-11. Sin presupuesto ni fechas. · Estado: Target (nuevo) · Clase D</documentation></element>
+    <element identifier="GAP-T04" xsi:type="Gap"><name xml:lang="es">GAP-T04 Recuperabilidad de la plataforma</name><documentation xml:lang="es">Baseline: Servidor único; respaldo semanal sin prueba de restauración (DS-CS-35/38). Target: T-TAR08…11 + TS-08/09. Resolución: Plataforma central con RTO/RPO, respaldo inmutable, observabilidad y versionado. · Estado: Target (nuevo) · Clase D</documentation></element>
+    <element identifier="GAP-T06" xsi:type="Gap"><name xml:lang="es">GAP-T06 Almacenamiento y retención de evidencias</name><documentation xml:lang="es">Baseline: Carpeta compartida sin política de retención (DS-CS-24). Target: T-TAR10 + TS-05. Resolución: Almacén append-only con integridad y retención configurable (NV-09). · Estado: Target (nuevo) · Clase D</documentation></element>
+  </elements>
+  <relationships>
+    <relationship identifier="R465" source="GAP-T01" target="TD-RC03" xsi:type="Association"></relationship>
+    <relationship identifier="R466" source="GAP-T02" target="TD-RC01" xsi:type="Association"></relationship>
+    <relationship identifier="R467" source="GAP-T02" target="TD-RC02" xsi:type="Association"></relationship>
+    <relationship identifier="R468" source="GAP-T03" target="TD-RC04" xsi:type="Association"></relationship>
+    <relationship identifier="R469" source="GAP-T04" target="TD-RC06" xsi:type="Association"></relationship>
+    <relationship identifier="R470" source="GAP-T05" target="TD-RC03" xsi:type="Association"></relationship>
+    <relationship identifier="R471" source="GAP-T06" target="TD-RC06" xsi:type="Association"></relationship>
+    <relationship identifier="R472" source="GAP-T07" target="TD-RC07" xsi:type="Association"></relationship>
+    <relationship identifier="R473" source="GAP-T08" target="TD-RC05" xsi:type="Association"></relationship>
+    <relationship identifier="R474" source="GAP-T09" target="TD-RC08" xsi:type="Association"></relationship>
+    <relationship identifier="R475" source="TD-RC01" target="TD-RC02" xsi:type="Triggering"></relationship>
+    <relationship identifier="R476" source="TD-RC02" target="TD-RC03" xsi:type="Triggering"></relationship>
+    <relationship identifier="R477" source="TD-RC02" target="TD-RC04" xsi:type="Triggering"></relationship>
+    <relationship identifier="R478" source="TD-RC03" target="TD-RC05" xsi:type="Triggering"></relationship>
+    <relationship identifier="R479" source="TD-RC03" target="TD-RC06" xsi:type="Triggering"></relationship>
+    <relationship identifier="R480" source="TD-RC04" target="TD-RC06" xsi:type="Triggering"></relationship>
+    <relationship identifier="R481" source="TD-RC06" target="TD-RC07" xsi:type="Triggering"></relationship>
+    <relationship identifier="R482" source="TD-RC03" target="TD-RC08" xsi:type="Triggering"></relationship>
+  </relationships>
+  <views>
+    <diagrams>
+      <view identifier="V-T-V10" xsi:type="Diagram"><name xml:lang="es">T-V10 · Gaps &amp; Roadmap Candidates</name><documentation xml:lang="es">T-V10 · VP-D10 · C05 · Grupo 04 · v3.0 · candidatos sin presupuesto ni fechas. Cada Gap compara la misma unidad Baseline/Target (T1/05) y se asocia al candidato que la resuelve; Triggering = dependencia de inicio. La fila central es la secuencia principal: inventario pasivo (TD-RC01, P0) → segmentación (TD-RC02, P0) → luego borde y tiempo (TD-RC03), identidad (TD-RC04) y vínculo térmico (TD-RC05); después plataforma central (TD-RC06), SAP (TD-RC07) y el piloto visual opcional (TD-RC08, P3). Horizontes y dependencias con D-RC/A-RC: T1/06 y T-04.</documentation>
+        <node identifier="N-T-V10-01" elementRef="GAP-T08" xsi:type="Element" x="1149" y="24" w="186" h="86"/>
+        <node identifier="N-T-V10-02" elementRef="GAP-T09" xsi:type="Element" x="1524" y="24" w="186" h="86"/>
+        <node identifier="N-T-V10-03" elementRef="GAP-T01" xsi:type="Element" x="612" y="220" w="186" h="86"/>
+        <node identifier="N-T-V10-04" elementRef="GAP-T05" xsi:type="Element" x="849" y="220" w="186" h="86"/>
+        <node identifier="N-T-V10-05" elementRef="TD-RC05" xsi:type="Element" x="1149" y="220" w="186" h="86"/>
+        <node identifier="N-T-V10-06" elementRef="TD-RC08" xsi:type="Element" x="1524" y="220" w="186" h="86"/>
+        <node identifier="N-T-V10-07" elementRef="TD-RC01" xsi:type="Element" x="24" y="444" w="186" h="86"/>
+        <node identifier="N-T-V10-08" elementRef="TD-RC02" xsi:type="Element" x="399" y="444" w="186" h="86"/>
+        <node identifier="N-T-V10-09" elementRef="TD-RC03" xsi:type="Element" x="774" y="444" w="186" h="86"/>
+        <node identifier="N-T-V10-10" elementRef="TD-RC06" xsi:type="Element" x="1149" y="444" w="186" h="86"/>
+        <node identifier="N-T-V10-11" elementRef="TD-RC07" xsi:type="Element" x="1524" y="444" w="186" h="86"/>
+        <node identifier="N-T-V10-12" elementRef="GAP-T07" xsi:type="Element" x="1849" y="444" w="186" h="86"/>
+        <node identifier="N-T-V10-13" elementRef="GAP-T02" xsi:type="Element" x="212" y="668" w="186" h="86"/>
+        <node identifier="N-T-V10-14" elementRef="GAP-T03" xsi:type="Element" x="612" y="668" w="186" h="86"/>
+        <node identifier="N-T-V10-15" elementRef="TD-RC04" xsi:type="Element" x="924" y="668" w="186" h="86"/>
+        <node identifier="N-T-V10-16" elementRef="GAP-T04" xsi:type="Element" x="1236" y="668" w="186" h="86"/>
+        <node identifier="N-T-V10-17" elementRef="GAP-T06" xsi:type="Element" x="1524" y="668" w="186" h="86"/>
+        <connection identifier="C-T-V10-R465" relationshipRef="R465" xsi:type="Relationship" source="N-T-V10-03" target="N-T-V10-09"/>
+        <connection identifier="C-T-V10-R466" relationshipRef="R466" xsi:type="Relationship" source="N-T-V10-13" target="N-T-V10-07"/>
+        <connection identifier="C-T-V10-R467" relationshipRef="R467" xsi:type="Relationship" source="N-T-V10-13" target="N-T-V10-08"/>
+        <connection identifier="C-T-V10-R468" relationshipRef="R468" xsi:type="Relationship" source="N-T-V10-14" target="N-T-V10-15"/>
+        <connection identifier="C-T-V10-R469" relationshipRef="R469" xsi:type="Relationship" source="N-T-V10-16" target="N-T-V10-10"/>
+        <connection identifier="C-T-V10-R470" relationshipRef="R470" xsi:type="Relationship" source="N-T-V10-04" target="N-T-V10-09"/>
+        <connection identifier="C-T-V10-R471" relationshipRef="R471" xsi:type="Relationship" source="N-T-V10-17" target="N-T-V10-10"/>
+        <connection identifier="C-T-V10-R472" relationshipRef="R472" xsi:type="Relationship" source="N-T-V10-12" target="N-T-V10-11"/>
+        <connection identifier="C-T-V10-R473" relationshipRef="R473" xsi:type="Relationship" source="N-T-V10-01" target="N-T-V10-05"/>
+        <connection identifier="C-T-V10-R474" relationshipRef="R474" xsi:type="Relationship" source="N-T-V10-02" target="N-T-V10-06"/>
+        <connection identifier="C-T-V10-R475" relationshipRef="R475" xsi:type="Relationship" source="N-T-V10-07" target="N-T-V10-08"/>
+        <connection identifier="C-T-V10-R476" relationshipRef="R476" xsi:type="Relationship" source="N-T-V10-08" target="N-T-V10-09"/>
+        <connection identifier="C-T-V10-R477" relationshipRef="R477" xsi:type="Relationship" source="N-T-V10-08" target="N-T-V10-15"/>
+        <connection identifier="C-T-V10-R478" relationshipRef="R478" xsi:type="Relationship" source="N-T-V10-09" target="N-T-V10-05"/>
+        <connection identifier="C-T-V10-R479" relationshipRef="R479" xsi:type="Relationship" source="N-T-V10-09" target="N-T-V10-10"/>
+        <connection identifier="C-T-V10-R480" relationshipRef="R480" xsi:type="Relationship" source="N-T-V10-15" target="N-T-V10-10"/>
+        <connection identifier="C-T-V10-R481" relationshipRef="R481" xsi:type="Relationship" source="N-T-V10-10" target="N-T-V10-11"/>
+        <connection identifier="C-T-V10-R482" relationshipRef="R482" xsi:type="Relationship" source="N-T-V10-09" target="N-T-V10-06"/>
+      </view>
+    </diagrams>
+  </views>
+</model>
