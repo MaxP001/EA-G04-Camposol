@@ -1,0 +1,935 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model xmlns="http://www.opengroup.org/xsd/archimate/3.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.opengroup.org/xsd/archimate/3.0/ http://www.opengroup.org/xsd/archimate/3.1/archimate3_Diagram.xsd" identifier="M-CAMPOSOL-ABC-v04">
+  <name xml:lang="es">Camposol Chao · Anexo de vistas detalladas (v3.0) · mismo modelo A+B+C</name>
+  <documentation xml:lang="es">Modelo académico SI605 del Grupo 04. Baseline con datos simulados DS-CS (S); Target como decisión académica (D). Componentes Target son ABB lógicos sin producto. No representa sistemas ni datos reales de Camposol. 2026-11-11</documentation>
+  <elements>
+    <element identifier="STK-01" xsi:type="Stakeholder"><name xml:lang="es">STK-01 Operaciones de planta</name><documentation xml:lang="es">Jefe/Gerente de Planta Chao (cargo tipo, S)</documentation></element>
+    <element identifier="STK-02" xsi:type="Stakeholder"><name xml:lang="es">STK-02 Calidad e Inocuidad</name><documentation xml:lang="es">Jefe de Aseguramiento de Calidad (cargo tipo, S)</documentation></element>
+    <element identifier="STK-03" xsi:type="Stakeholder"><name xml:lang="es">STK-03 Cadena de Frío</name><documentation xml:lang="es">Supervisor de Frío y Cámaras (cargo tipo, S)</documentation></element>
+    <element identifier="STK-04" xsi:type="Stakeholder"><name xml:lang="es">STK-04 TI/OT de planta</name><documentation xml:lang="es">Jefe de TI/OT de planta (cargo tipo, S)</documentation></element>
+    <element identifier="STK-05" xsi:type="Stakeholder"><name xml:lang="es">STK-05 Operadores de línea y packing</name><documentation xml:lang="es">Supervisores de recepción y packing (cargo tipo, S)</documentation></element>
+    <element identifier="STK-06" xsi:type="Stakeholder"><name xml:lang="es">STK-06 Despacho y Exportación</name><documentation xml:lang="es">Jefe de Despacho/Exportaciones (cargo tipo, S)</documentation></element>
+    <element identifier="STK-07" xsi:type="Stakeholder"><name xml:lang="es">STK-07 Transformación Digital</name><documentation xml:lang="es">Dirección corporativa de Transformación Digital (cargo tipo, S)</documentation></element>
+    <element identifier="DRV-01" xsi:type="Driver"><name xml:lang="es">DRV-01 Riesgo comercial por incidentes de calidad y frío en destino</name><documentation xml:lang="es">Clase S; IA-02; F05 (P, certificaciones)</documentation></element>
+    <element identifier="DRV-02" xsi:type="Driver"><name xml:lang="es">DRV-02 Exigencias de trazabilidad y cumplimiento de mercados y SENASA</name><documentation xml:lang="es">Clase P; F05; F08 (aplicabilidad local NV-08)</documentation></element>
+    <element identifier="DRV-03" xsi:type="Driver"><name xml:lang="es">DRV-03 Fragmentación de la evidencia operativa entre etapas</name><documentation xml:lang="es">Clase S; DS-CS-02; DS-CS-04</documentation></element>
+    <element identifier="DRV-04" xsi:type="Driver"><name xml:lang="es">DRV-04 Presión de coordinación por duplicación de capacidad en Chao</name><documentation xml:lang="es">Clase P; F03</documentation></element>
+    <element identifier="GOAL-01" xsi:type="Goal"><name xml:lang="es">GOAL-01 Asegurar integridad y reconstrucción oportuna de la evidencia del lote</name></element>
+    <element identifier="GOAL-02" xsi:type="Goal"><name xml:lang="es">GOAL-02 Asegurar handoffs y estados consistentes entre áreas</name></element>
+    <element identifier="GOAL-03" xsi:type="Goal"><name xml:lang="es">GOAL-03 Sostener la coordinación interáreas y la gestión de excepciones en picos</name></element>
+    <element identifier="OUT-01" xsi:type="Outcome"><name xml:lang="es">OUT-01 Historia del lote íntegra, segura y recuperable para decisiones</name></element>
+    <element identifier="OUT-02" xsi:type="Outcome"><name xml:lang="es">OUT-02 Handoffs con aceptación y excepción explícitas y estados separados</name></element>
+    <element identifier="OUT-03" xsi:type="Outcome"><name xml:lang="es">OUT-03 Excepciones gestionadas y desempeño medido de forma gobernada</name></element>
+    <element identifier="PR-02" xsi:type="Principle"><name xml:lang="es">PR-02 Identidad canónica y genealogía del lote</name><documentation xml:lang="es">Cada unidad física (lote de recepción, batch, pallet, FCL) tendrá una identidad única y no reutilizable, vinculada a su origen de cosecha y a todas sus unidades padre e hijas.</documentation></element>
+    <element identifier="PR-03" xsi:type="Principle"><name xml:lang="es">PR-03 Evidencia con responsable y procedencia</name><documentation xml:lang="es">Todo registro que sustente una decisión de calidad, frío o despacho tendrá fuente, instante con zona horaria, autor y un owner de negocio identificado.</documentation></element>
+    <element identifier="PR-05" xsi:type="Principle"><name xml:lang="es">PR-05 Valor antes que tecnología</name><documentation xml:lang="es">Ningún componente tecnológico se seleccionará ni presupuestará sin un gap, un requisito y un criterio de aceptación que lo justifiquen.</documentation></element>
+    <element identifier="PR-06" xsi:type="Principle"><name xml:lang="es">PR-06 Continuidad operativa y acceso seguro</name><documentation xml:lang="es">La captura de evidencia en planta no dependerá de la disponibilidad del enlace externo, y todo acceso a la evidencia será autorizado y auditado.</documentation></element>
+    <element identifier="PR-07" xsi:type="Principle"><name xml:lang="es">PR-07 Autoridad humana exclusiva de liberación</name><documentation xml:lang="es">Solo el rol Aprobador de Calidad puede liberar, retener o rechazar un lote; ningún sistema, algoritmo ni otra área adquiere esa autoridad.</documentation></element>
+    <element identifier="PR-08" xsi:type="Principle"><name xml:lang="es">PR-08 Interoperabilidad por contrato</name><documentation xml:lang="es">Los intercambios de información entre áreas y sistemas se regirán por contratos con significado, versión, emisor, receptor y tratamiento de errores definidos.</documentation></element>
+    <element identifier="REQ-01" xsi:type="Requirement"><name xml:lang="es">REQ-01 Identidad y genealogía</name><documentation xml:lang="es">Todo pallet despachado deberá vincularse a todos sus lotes de recepción y a su origen de cosecha, incluidas divisiones y mezclas, sin unidades huérfanas.</documentation></element>
+    <element identifier="REQ-02" xsi:type="Requirement"><name xml:lang="es">REQ-02 Historia recuperable</name><documentation xml:lang="es">La historia completa de un pallet deberá entregarse revisada por Calidad en ≤ 30 min desde la solicitud completa.</documentation></element>
+    <element identifier="REQ-03" xsi:type="Requirement"><name xml:lang="es">REQ-03 Continuidad y reconciliación</name><documentation xml:lang="es">Ante un corte del enlace externo, los eventos de planta deberán conservarse y reconciliarse sin pérdida, duplicado efectivo ni huérfanos.</documentation></element>
+    <element identifier="REQ-04" xsi:type="Requirement"><name xml:lang="es">REQ-04 Evidencia térmica y custodia</name><documentation xml:lang="es">Cada pallet despachado deberá contar con serie térmica válida e identidad y custodia trazables desde el pre-frío hasta el handoff.</documentation></element>
+    <element identifier="REQ-05" xsi:type="Requirement"><name xml:lang="es">REQ-05 Acceso autorizado y auditoría</name><documentation xml:lang="es">Solo los roles autorizados deberán acceder o modificar la evidencia, y cada acceso deberá quedar trazado con actor, instante y acción.</documentation></element>
+    <element identifier="REQ-06" xsi:type="Requirement"><name xml:lang="es">REQ-06 Handoff y estados diferenciados</name><documentation xml:lang="es">Cada transferencia deberá registrar emisor, receptor, unidad, información, aceptación u observación; la liberación de Calidad y la condición de Despacho deberán ser estados distintos.</documentation></element>
+    <element identifier="REQ-07" xsi:type="Requirement"><name xml:lang="es">REQ-07 Medición gobernada</name><documentation xml:lang="es">Cada indicador del alcance deberá tener ficha con fórmula, población, fuente, owner y frecuencia, y medición periódica vigente.</documentation></element>
+    <element identifier="REQ-08" xsi:type="Requirement"><name xml:lang="es">REQ-08 Excepciones con autoridad y cierre</name><documentation xml:lang="es">Toda excepción (HOLD, desviación térmica, faltante de origen, discrepancia de handoff) deberá registrarse con autoridad, causa, acción y cierre con evidencia.</documentation></element>
+    <element identifier="VS-01" xsi:type="ValueStream"><name xml:lang="es">VS-01 Entregar arándanos exportables con identidad, conformidad y frío demostrables</name><documentation xml:lang="es">FCL refrigerado entregado al transportista con fruta conforme y evidencia de origen, liberación y frío.</documentation></element>
+    <element identifier="VS-S1" xsi:type="ValueStream"><name xml:lang="es">VS-S1 Recepcionar bins</name><documentation xml:lang="es">Entra: Bins con guía de remisión e identidad de origen (fundo, sector, fecha y lote de cosecha). Criterio de frontera del handoff Cosecha → Packing. | Acción: Pesar, verificar documentos y asignar identidad de lote de planta vinculada al origen. | Salida: Lote de recepción aceptado, o excepción registrada si falta el origen. | Valor: El origen queda demostrable desde el ingreso. | Actor: Recepción (ROL-B03)</documentation></element>
+    <element identifier="VS-S2" xsi:type="ValueStream"><name xml:lang="es">VS-S2 Calibrar y empacar</name><documentation xml:lang="es">Entra: Lote de recepción aceptado. | Acción: Seleccionar y calibrar, registrar divisiones y mezclas de lotes en batches, empacar y paletizar. | Salida: Pallets cerrados ligados a todos sus lotes de origen (genealogía N:M). | Valor: Cada caja conserva su composición y origen. | Actor: Packing (ROL-B04)</documentation></element>
+    <element identifier="VS-S3" xsi:type="ValueStream"><name xml:lang="es">VS-S3 Verificar conformidad</name><documentation xml:lang="es">Entra: Pallet cerrado con genealogía y muestra según plan de muestreo. | Acción: Inspeccionar y decidir: liberar, retener (HOLD) o rechazar. | Salida: Decisión de Calidad registrada con aprobador, fecha y motivo. | Valor: Despacho trabaja con evidencia confiable y autorizada. | Actor: Aseguramiento de Calidad (ROL-B05, autoridad exclusiva)</documentation></element>
+    <element identifier="VS-S4" xsi:type="ValueStream"><name xml:lang="es">VS-S4 Pre-enfriar según ruta</name><documentation xml:lang="es">Entra: Pallet identificado con ruta térmica asignada. | Acción: Aplicar pre-frío y abrir la serie térmica del pallet. | Salida: Pallet a temperatura objetivo con serie iniciada. | Valor: Inicia la cadena de frío demostrable. | Actor: Frío (ROL-B06)</documentation></element>
+    <element identifier="VS-S5" xsi:type="ValueStream"><name xml:lang="es">VS-S5 Custodiar en cámara</name><documentation xml:lang="es">Entra: Pallet pre-enfriado. | Acción: Ubicar, registrar posición y serie térmica continua, y transferir custodia. | Salida: Pallet con custodia y serie válidas hasta la carga. | Valor: Integridad térmica verificable por pallet. | Actor: Frío (ROL-B06)</documentation></element>
+    <element identifier="VS-S6" xsi:type="ValueStream"><name xml:lang="es">VS-S6 Cargar y entregar FCL</name><documentation xml:lang="es">Entra: Pallets liberados por Calidad y con condición térmica válida. | Acción: Verificar por separado ambos estados, cargar, precintar y entregar. | Salida: FCL entregado con acta de handoff aceptada por el transportista. | Valor: El comprador recibe fruta conforme con evidencia. | Actor: Despacho (ROL-B07)</documentation></element>
+    <element identifier="CAP-01" xsi:type="Capability"><name xml:lang="es">CAP-01 Trazabilidad del lote</name><documentation xml:lang="es">Habilidad de identificar cada unidad física y reconstruir su historia y genealogía desde la recepción hasta el FCL.</documentation></element>
+    <element identifier="CAP-02" xsi:type="Capability"><name xml:lang="es">CAP-02 Gestión de evidencia operativa</name><documentation xml:lang="es">Habilidad de capturar, conservar y reconciliar los eventos de negocio con fuente, instante y responsable, incluso ante cortes.</documentation></element>
+    <element identifier="CAP-03" xsi:type="Capability"><name xml:lang="es">CAP-03 Gestión de la cadena de frío</name><documentation xml:lang="es">Habilidad de mantener y demostrar la condición térmica y la custodia de cada pallet.</documentation></element>
+    <element identifier="CAP-04" xsi:type="Capability"><name xml:lang="es">CAP-04 Coordinación de transferencias</name><documentation xml:lang="es">Habilidad de transferir unidades e información entre áreas con emisor, receptor, aceptación y excepción explícitos.</documentation></element>
+    <element identifier="CAP-05" xsi:type="Capability"><name xml:lang="es">CAP-05 Medición del desempeño y mejora</name><documentation xml:lang="es">Habilidad de medir indicadores con ficha, owner, fuente y frecuencia, y actuar sobre desviaciones.</documentation></element>
+    <element identifier="CAP-06" xsi:type="Capability"><name xml:lang="es">CAP-06 Gestión de excepciones de negocio</name><documentation xml:lang="es">Habilidad de registrar, escalar y cerrar discrepancias con autoridad, causa y evidencia.</documentation></element>
+    <element identifier="CAP-07" xsi:type="Capability"><name xml:lang="es">CAP-07 Control de conformidad y liberación</name><documentation xml:lang="es">Habilidad de inspeccionar el producto y decidir liberar, retener o rechazar con autoridad exclusiva y evidencia.</documentation></element>
+    <element identifier="ACT-01" xsi:type="BusinessActor"><name xml:lang="es">ACT-01 Operaciones de planta</name><documentation xml:lang="es">Recepción y packing; owner de handoffs y excepciones</documentation></element>
+    <element identifier="ACT-02" xsi:type="BusinessActor"><name xml:lang="es">ACT-02 Aseguramiento de Calidad</name><documentation xml:lang="es">Inspección y liberación</documentation></element>
+    <element identifier="ACT-03" xsi:type="BusinessActor"><name xml:lang="es">ACT-03 Cadena de Frío</name><documentation xml:lang="es">Pre-frío y cámaras</documentation></element>
+    <element identifier="ACT-04" xsi:type="BusinessActor"><name xml:lang="es">ACT-04 Despacho y Exportación</name><documentation xml:lang="es">Carga y entrega del FCL</documentation></element>
+    <element identifier="ACT-05" xsi:type="BusinessActor"><name xml:lang="es">ACT-05 Mejora Continua</name><documentation xml:lang="es">Medición e indicadores</documentation></element>
+    <element identifier="ACT-06" xsi:type="BusinessActor"><name xml:lang="es">ACT-06 Fundo proveedor</name><documentation xml:lang="es">Externo: origen de bins (frontera)</documentation></element>
+    <element identifier="ACT-07" xsi:type="BusinessActor"><name xml:lang="es">ACT-07 Transportista</name><documentation xml:lang="es">Externo: receptor inmediato del FCL</documentation></element>
+    <element identifier="LOC-01" xsi:type="Location"><name xml:lang="es">LOC-01 Planta Packing Chao</name></element>
+    <element identifier="ROL-B01" xsi:type="BusinessRole"><name xml:lang="es">ROL-B01 Gestor de evidencia</name><documentation xml:lang="es">Prepara y entrega la historia del lote; steward propuesto de la evidencia (Target, nuevo)</documentation></element>
+    <element identifier="ROL-B02" xsi:type="BusinessRole"><name xml:lang="es">ROL-B02 Responsable de medición</name><documentation xml:lang="es">Mantiene fichas y medición de KPI (Target, nuevo)</documentation></element>
+    <element identifier="ROL-B03" xsi:type="BusinessRole"><name xml:lang="es">ROL-B03 Operador de recepción</name><documentation xml:lang="es">Registra origen y crea el lote de recepción</documentation></element>
+    <element identifier="ROL-B04" xsi:type="BusinessRole"><name xml:lang="es">ROL-B04 Supervisor de packing</name><documentation xml:lang="es">Registra calibrado, divisiones, mezclas y paletizado</documentation></element>
+    <element identifier="ROL-B05" xsi:type="BusinessRole"><name xml:lang="es">ROL-B05 Aprobador de Calidad</name><documentation xml:lang="es">Decide liberar, retener o rechazar (autoridad exclusiva)</documentation></element>
+    <element identifier="ROL-B06" xsi:type="BusinessRole"><name xml:lang="es">ROL-B06 Custodio de frío</name><documentation xml:lang="es">Registra pre-frío, serie térmica y custodia</documentation></element>
+    <element identifier="ROL-B07" xsi:type="BusinessRole"><name xml:lang="es">ROL-B07 Responsable de despacho</name><documentation xml:lang="es">Verifica estados por separado, carga y entrega</documentation></element>
+    <element identifier="ROL-B08" xsi:type="BusinessRole"><name xml:lang="es">ROL-B08 Transportista receptor</name><documentation xml:lang="es">Acepta u observa la entrega del FCL</documentation></element>
+    <element identifier="BF-01" xsi:type="BusinessFunction"><name xml:lang="es">BF-01 Recepción de materia prima</name></element>
+    <element identifier="BF-02" xsi:type="BusinessFunction"><name xml:lang="es">BF-02 Producción de packing</name></element>
+    <element identifier="BF-03" xsi:type="BusinessFunction"><name xml:lang="es">BF-03 Aseguramiento de calidad</name></element>
+    <element identifier="BF-04" xsi:type="BusinessFunction"><name xml:lang="es">BF-04 Gestión de frío</name></element>
+    <element identifier="BF-05" xsi:type="BusinessFunction"><name xml:lang="es">BF-05 Despacho y exportación</name></element>
+    <element identifier="BF-06" xsi:type="BusinessFunction"><name xml:lang="es">BF-06 Mejora continua</name></element>
+    <element identifier="BP-01" xsi:type="BusinessProcess"><name xml:lang="es">BP-01 Recepcionar y registrar origen</name><documentation xml:lang="es">Estado: Ambos; Gap: Included (modificado)</documentation></element>
+    <element identifier="BP-02" xsi:type="BusinessProcess"><name xml:lang="es">BP-02 Calibrar, empacar y registrar genealogía</name><documentation xml:lang="es">Estado: Ambos; Gap: Included (modificado)</documentation></element>
+    <element identifier="BP-03" xsi:type="BusinessProcess"><name xml:lang="es">BP-03 Inspeccionar y decidir conformidad</name><documentation xml:lang="es">Estado: Ambos; Gap: Included (modificado)</documentation></element>
+    <element identifier="BP-04" xsi:type="BusinessProcess"><name xml:lang="es">BP-04 Reconstruir historia del lote</name><documentation xml:lang="es">Estado: Target; Gap: New</documentation></element>
+    <element identifier="BP-05" xsi:type="BusinessProcess"><name xml:lang="es">BP-05 Pre-enfriar y registrar serie térmica</name><documentation xml:lang="es">Estado: Ambos; Gap: Included (modificado)</documentation></element>
+    <element identifier="BP-06" xsi:type="BusinessProcess"><name xml:lang="es">BP-06 Custodiar en cámara</name><documentation xml:lang="es">Estado: Ambos; Gap: Included (modificado)</documentation></element>
+    <element identifier="BP-07" xsi:type="BusinessProcess"><name xml:lang="es">BP-07 Verificar estados y cargar FCL</name><documentation xml:lang="es">Estado: Ambos; Gap: Included (modificado)</documentation></element>
+    <element identifier="BP-08" xsi:type="BusinessProcess"><name xml:lang="es">BP-08 Gestionar excepción de negocio</name><documentation xml:lang="es">Estado: Target; Gap: New</documentation></element>
+    <element identifier="BP-09" xsi:type="BusinessProcess"><name xml:lang="es">BP-09 Conciliar registros en planilla puente</name><documentation xml:lang="es">Estado: Baseline; Gap: Eliminated</documentation></element>
+    <element identifier="EV-01" xsi:type="BusinessEvent"><name xml:lang="es">EV-01 Bins arribados a planta</name><documentation xml:lang="es">Dispara BP-01</documentation></element>
+    <element identifier="EV-02" xsi:type="BusinessEvent"><name xml:lang="es">EV-02 Pallet cerrado</name><documentation xml:lang="es">Dispara BP-03 y BP-05</documentation></element>
+    <element identifier="EV-03" xsi:type="BusinessEvent"><name xml:lang="es">EV-03 Lote retenido (HOLD)</name><documentation xml:lang="es">Dispara BP-08; bloquea BP-07</documentation></element>
+    <element identifier="EV-04" xsi:type="BusinessEvent"><name xml:lang="es">EV-04 Lote liberado</name><documentation xml:lang="es">Habilita BP-07</documentation></element>
+    <element identifier="EV-05" xsi:type="BusinessEvent"><name xml:lang="es">EV-05 Desviación térmica detectada</name><documentation xml:lang="es">Dispara BP-08</documentation></element>
+    <element identifier="EV-06" xsi:type="BusinessEvent"><name xml:lang="es">EV-06 Corte de enlace externo</name><documentation xml:lang="es">Activa registro en contingencia y reconciliación (REQ-03)</documentation></element>
+    <element identifier="EV-07" xsi:type="BusinessEvent"><name xml:lang="es">EV-07 FCL precintado</name><documentation xml:lang="es">Cierra BP-07 y el handoff HO-06</documentation></element>
+    <element identifier="EV-08" xsi:type="BusinessEvent"><name xml:lang="es">EV-08 Solicitud de historia</name><documentation xml:lang="es">Dispara BP-04</documentation></element>
+    <element identifier="BSV-01" xsi:type="BusinessService"><name xml:lang="es">BSV-01 Historial auditable del lote</name><documentation xml:lang="es">Estado: Target; Gap: New</documentation></element>
+    <element identifier="BSV-02" xsi:type="BusinessService"><name xml:lang="es">BSV-02 Coordinación de entrega al transportista</name><documentation xml:lang="es">Estado: Ambos; Gap: Included (modificado)</documentation></element>
+    <element identifier="BSV-03" xsi:type="BusinessService"><name xml:lang="es">BSV-03 Resolución controlada de excepciones</name><documentation xml:lang="es">Estado: Target; Gap: New</documentation></element>
+    <element identifier="BSV-04" xsi:type="BusinessService"><name xml:lang="es">BSV-04 Evaluación de evidencia térmica y custodia</name><documentation xml:lang="es">Estado: Ambos; Gap: Included (modificado)</documentation></element>
+    <element identifier="BSV-05" xsi:type="BusinessService"><name xml:lang="es">BSV-05 Decisión de conformidad</name><documentation xml:lang="es">Estado: Ambos; Gap: Included (modificado)</documentation></element>
+    <element identifier="BSV-06" xsi:type="BusinessService"><name xml:lang="es">BSV-06 Consulta ad hoc de registros</name><documentation xml:lang="es">Estado: Baseline; Gap: Eliminated</documentation></element>
+    <element identifier="BO-01" xsi:type="BusinessObject"><name xml:lang="es">BO-01 Lote</name><documentation xml:lang="es">Identidad de planta del lote de recepción, batch y pallet, con referencia de origen (fundo, sector, fecha y lote de cosecha) y códigos locales.</documentation></element>
+    <element identifier="BO-02" xsi:type="BusinessObject"><name xml:lang="es">BO-02 Genealogía del lote</name><documentation xml:lang="es">Relaciones padre/hijo N:M fechadas por división o mezcla entre lote de recepción, batch, pallet y FCL.</documentation></element>
+    <element identifier="BO-03" xsi:type="BusinessObject"><name xml:lang="es">BO-03 Resultado de inspección</name><documentation xml:lang="es">Estado (liberado, retenido HOLD, rechazado), aprobador, fecha, motivo y muestra; decisión exclusiva de Calidad.</documentation></element>
+    <element identifier="BO-04" xsi:type="BusinessObject"><name xml:lang="es">BO-04 Condición de despacho</name><documentation xml:lang="es">Decisión de carga/precinto de Despacho; no deriva automáticamente de BO-03.</documentation></element>
+    <element identifier="BO-05" xsi:type="BusinessObject"><name xml:lang="es">BO-05 Serie térmica y custodia</name><documentation xml:lang="es">Lecturas con fuente, reloj, intervalo y unidad; posición en cámara y transferencias de custodia.</documentation></element>
+    <element identifier="BO-06" xsi:type="BusinessObject"><name xml:lang="es">BO-06 Acta de handoff</name><documentation xml:lang="es">Emisor, receptor, unidad, información, instante, aceptación u observación.</documentation></element>
+    <element identifier="BO-07" xsi:type="BusinessObject"><name xml:lang="es">BO-07 Registro de evento de negocio</name><documentation xml:lang="es">Evento con lote, tipo, instante con zona, fuente y actor; base de la historia.</documentation></element>
+    <element identifier="BO-08" xsi:type="BusinessObject"><name xml:lang="es">BO-08 Registro de excepción</name><documentation xml:lang="es">Discrepancia, impacto, autoridad, tratamiento, cierre y evidencia.</documentation></element>
+    <element identifier="BO-09" xsi:type="BusinessObject"><name xml:lang="es">BO-09 Planilla puente de conciliación</name><documentation xml:lang="es">Planilla compartida que concilia códigos de recepción, packing y cámara a mano.</documentation></element>
+    <element identifier="CoA-01" xsi:type="CourseOfAction"><name xml:lang="es">CoA-01 Gobernar identidad y evidencia por pallet en cada transferencia</name><documentation xml:lang="es">Realiza OUT-01 y OUT-02; lo habilitan CAP-01, CAP-04 y CAP-07</documentation></element>
+    <element identifier="GRP-01" xsi:type="Grouping"><name xml:lang="es">GRP-01 Alcance Planta Chao (VS-01)</name><documentation xml:lang="es">Frontera del alcance: de la recepción con origen a la entrega del FCL</documentation></element>
+    <element identifier="ASV-C01" xsi:type="ApplicationService"><name xml:lang="es">ASV-C01 Registro de eventos de negocio (candidato)</name><documentation xml:lang="es">Servicio lógico candidato; Phase C define componentes. Sin producto.</documentation></element>
+    <element identifier="ASV-C02" xsi:type="ApplicationService"><name xml:lang="es">ASV-C02 Consulta de historia del lote (candidato)</name><documentation xml:lang="es">Servicio lógico candidato para BSV-01. Sin producto.</documentation></element>
+    <element identifier="DO-C01" xsi:type="DataObject"><name xml:lang="es">DO-C01 Historia del lote (conceptual)</name><documentation xml:lang="es">Objeto de datos conceptual; Phase C lo detalla (Lot, LotEvent, LotGenealogy).</documentation></element>
+    <element identifier="TSV-C01" xsi:type="TechnologyService"><name xml:lang="es">TSV-C01 Continuidad de captura en planta (candidato)</name><documentation xml:lang="es">Servicio tecnológico candidato; Phase D define RTO/RPO y despliegue.</documentation></element>
+    <element identifier="AP-01" xsi:type="ApplicationComponent"><name xml:lang="es">AP-01 Registro de recepción (planilla)</name><documentation xml:lang="es">Baseline · Registrar bins y origen · Disposición: Modernizar captura (candidato; decisión en Phase E) · Clase S</documentation></element>
+    <element identifier="AP-02" xsi:type="ApplicationComponent"><name xml:lang="es">AP-02 Sistema de la calibradora</name><documentation xml:lang="es">Baseline · Calibrar y registrar batches, división y mezcla · Disposición: Mantener + adaptador de eventos · Clase P existencia (F04)</documentation></element>
+    <element identifier="AP-03" xsi:type="ApplicationComponent"><name xml:lang="es">AP-03 Planilla de packing</name><documentation xml:lang="es">Baseline · Registrar pallets y composición · Disposición: Modernizar captura (candidato) · Clase S</documentation></element>
+    <element identifier="AP-04" xsi:type="ApplicationComponent"><name xml:lang="es">AP-04 Registro de Calidad (planilla)</name><documentation xml:lang="es">Baseline · Registrar inspección y decisión · Disposición: Modernizar captura (candidato) conservando autoridad · Clase S</documentation></element>
+    <element identifier="AP-05" xsi:type="ApplicationComponent"><name xml:lang="es">AP-05 Registro térmico de cámaras</name><documentation xml:lang="es">Baseline · Registrar temperatura por posición · Disposición: Integrar por contrato si NV-05 confirma la fuente · Clase S / NV-05</documentation></element>
+    <element identifier="AP-06" xsi:type="ApplicationComponent"><name xml:lang="es">AP-06 SAP corporativo</name><documentation xml:lang="es">Baseline · Embarque y documentación de exportación · Disposición: Mantener; consumir historia y estado QA sin liberar · Clase P (F01/F02)</documentation></element>
+    <element identifier="AP-07" xsi:type="ApplicationComponent"><name xml:lang="es">AP-07 Planilla puente</name><documentation xml:lang="es">Baseline · Conciliar códigos a mano · Disposición: Eliminar tras gate (M-04) · Clase S</documentation></element>
+    <element identifier="AP-08" xsi:type="ApplicationComponent"><name xml:lang="es">AP-08 Ingesta y adaptadores de eventos</name><documentation xml:lang="es">Target · Validar contrato, deduplicar y correlacionar eventos · Disposición: Incorporar (ABB lógico, sin producto) · Clase D</documentation></element>
+    <element identifier="AP-09" xsi:type="ApplicationComponent"><name xml:lang="es">AP-09 Componente de trazabilidad</name><documentation xml:lang="es">Target · Componer identidad, genealogía e historia; publicar estado QA · Disposición: Incorporar (ABB lógico) · Clase D</documentation></element>
+    <element identifier="AP-10" xsi:type="ApplicationComponent"><name xml:lang="es">AP-10 Portal de consulta de evidencia</name><documentation xml:lang="es">Target · Consulta autorizada de la historia por rol · Disposición: Incorporar (ABB lógico) · Clase D</documentation></element>
+    <element identifier="AP-11" xsi:type="ApplicationComponent"><name xml:lang="es">AP-11 Monitor de excepciones y calidad de datos</name><documentation xml:lang="es">Target · Excepciones, reconciliación y reglas DQ · Disposición: Incorporar (ABB lógico) · Clase D</documentation></element>
+    <element identifier="AF-01" xsi:type="ApplicationFunction"><name xml:lang="es">AF-01 Validar y reconciliar eventos</name></element>
+    <element identifier="AF-02" xsi:type="ApplicationFunction"><name xml:lang="es">AF-02 Componer historia del lote</name></element>
+    <element identifier="AF-03" xsi:type="ApplicationFunction"><name xml:lang="es">AF-03 Publicar estado de inspección</name></element>
+    <element identifier="AF-04" xsi:type="ApplicationFunction"><name xml:lang="es">AF-04 Gestionar excepciones y calidad de datos</name></element>
+    <element identifier="ASV-01" xsi:type="ApplicationService"><name xml:lang="es">ASV-01 Registro de eventos de lote</name></element>
+    <element identifier="ASV-02" xsi:type="ApplicationService"><name xml:lang="es">ASV-02 Consulta autorizada de historia</name></element>
+    <element identifier="ASV-03" xsi:type="ApplicationService"><name xml:lang="es">ASV-03 Consulta de estado de inspección</name></element>
+    <element identifier="ASV-04" xsi:type="ApplicationService"><name xml:lang="es">ASV-04 Gestión de excepciones y reconciliación</name></element>
+    <element identifier="AI-01" xsi:type="ApplicationInterface"><name xml:lang="es">AI-01 Interfaz de eventos de lote</name></element>
+    <element identifier="AI-02" xsi:type="ApplicationInterface"><name xml:lang="es">AI-02 Interfaz de consulta de historia</name></element>
+    <element identifier="DOBJ-01" xsi:type="DataObject"><name xml:lang="es">DOBJ-01 Lot</name><documentation xml:lang="es">Unidad física con identidad de planta única y no reutilizable (lote de recepción, batch o pallet).</documentation></element>
+    <element identifier="DOBJ-02" xsi:type="DataObject"><name xml:lang="es">DOBJ-02 SourceMapping</name><documentation xml:lang="es">Correspondencia gobernada entre un código local (R-, B-, PAL-, QA-, CAM-, EMB-) y el lotId.</documentation></element>
+    <element identifier="DOBJ-03" xsi:type="DataObject"><name xml:lang="es">DOBJ-03 HarvestOrigin</name><documentation xml:lang="es">Origen de cosecha declarado por el fundo (frontera HO-01).</documentation></element>
+    <element identifier="DOBJ-04" xsi:type="DataObject"><name xml:lang="es">DOBJ-04 LotGenealogy</name><documentation xml:lang="es">Relación padre/hijo N:M fechada entre lotes por división o mezcla.</documentation></element>
+    <element identifier="DOBJ-05" xsi:type="DataObject"><name xml:lang="es">DOBJ-05 LotEvent</name><documentation xml:lang="es">Hecho inmutable que registra una transición del lote.</documentation></element>
+    <element identifier="DOBJ-06" xsi:type="DataObject"><name xml:lang="es">DOBJ-06 QAResult</name><documentation xml:lang="es">Resultado de inspección y decisión de Calidad (liberado, HOLD, rechazado), versionado.</documentation></element>
+    <element identifier="DOBJ-07" xsi:type="DataObject"><name xml:lang="es">DOBJ-07 TempReading</name><documentation xml:lang="es">Lectura térmica con unidad, reloj y zona; los vacíos se registran como ausencia, no como dato válido.</documentation></element>
+    <element identifier="DOBJ-08" xsi:type="DataObject"><name xml:lang="es">DOBJ-08 ColdCustody</name><documentation xml:lang="es">Periodo de un pallet en una posición de cámara y su custodio; vincula lecturas por posición con el pallet.</documentation></element>
+    <element identifier="DOBJ-09" xsi:type="DataObject"><name xml:lang="es">DOBJ-09 HandoffRecord</name><documentation xml:lang="es">Acta de transferencia: emisor, receptor, unidad, aceptación u observación.</documentation></element>
+    <element identifier="DOBJ-10" xsi:type="DataObject"><name xml:lang="es">DOBJ-10 ExceptionCase</name><documentation xml:lang="es">Discrepancia con autoridad, causa, acción y cierre con evidencia.</documentation></element>
+    <element identifier="DOBJ-11" xsi:type="DataObject"><name xml:lang="es">DOBJ-11 Shipment</name><documentation xml:lang="es">Embarque y FCL que agrupa pallets; referencia de exportación ≠ identidad de lote.</documentation></element>
+    <element identifier="DOBJ-12" xsi:type="DataObject"><name xml:lang="es">DOBJ-12 LotHistory</name><documentation xml:lang="es">Vista consolidada y consultable de identidad, genealogía, eventos, inspección, frío y despacho de un lote, con procedencia.</documentation></element>
+    <element identifier="DOB-B01" xsi:type="DataObject"><name xml:lang="es">DOB-B01 Registro de recepción (R-)</name><documentation xml:lang="es">Registro local Baseline (S)</documentation></element>
+    <element identifier="DOB-B02" xsi:type="DataObject"><name xml:lang="es">DOB-B02 Batch de calibradora (B-)</name><documentation xml:lang="es">Registro local Baseline (S)</documentation></element>
+    <element identifier="DOB-B03" xsi:type="DataObject"><name xml:lang="es">DOB-B03 Pallet de packing (PAL-)</name><documentation xml:lang="es">Registro local Baseline (S)</documentation></element>
+    <element identifier="DOB-B04" xsi:type="DataObject"><name xml:lang="es">DOB-B04 Inspección de Calidad (QA-)</name><documentation xml:lang="es">Registro local Baseline (S)</documentation></element>
+    <element identifier="DOB-B05" xsi:type="DataObject"><name xml:lang="es">DOB-B05 Lectura por posición (CAM-)</name><documentation xml:lang="es">Registro local Baseline (S)</documentation></element>
+    <element identifier="DOB-B06" xsi:type="DataObject"><name xml:lang="es">DOB-B06 Embarque SAP (EMB-/FCL)</name><documentation xml:lang="es">Registro local Baseline (S)</documentation></element>
+    <element identifier="DOB-B07" xsi:type="DataObject"><name xml:lang="es">DOB-B07 Correspondencias manuales</name><documentation xml:lang="es">Registro local Baseline (S)</documentation></element>
+  </elements>
+  <relationships>
+    <relationship identifier="R001" source="STK-01" target="DRV-04" xsi:type="Association"></relationship>
+    <relationship identifier="R002" source="STK-02" target="DRV-02" xsi:type="Association"></relationship>
+    <relationship identifier="R003" source="STK-02" target="DRV-03" xsi:type="Association"></relationship>
+    <relationship identifier="R004" source="STK-03" target="DRV-01" xsi:type="Association"></relationship>
+    <relationship identifier="R005" source="STK-07" target="DRV-01" xsi:type="Association"></relationship>
+    <relationship identifier="R006" source="DRV-01" target="GOAL-01" xsi:type="Influence" modifier="+"><name xml:lang="es">+</name></relationship>
+    <relationship identifier="R007" source="DRV-02" target="GOAL-01" xsi:type="Influence" modifier="+"><name xml:lang="es">+</name></relationship>
+    <relationship identifier="R008" source="DRV-03" target="GOAL-01" xsi:type="Influence" modifier="+"><name xml:lang="es">+</name></relationship>
+    <relationship identifier="R009" source="DRV-02" target="GOAL-02" xsi:type="Influence" modifier="+"><name xml:lang="es">+</name></relationship>
+    <relationship identifier="R010" source="DRV-04" target="GOAL-02" xsi:type="Influence" modifier="+"><name xml:lang="es">+</name></relationship>
+    <relationship identifier="R011" source="DRV-04" target="GOAL-03" xsi:type="Influence" modifier="+"><name xml:lang="es">+</name></relationship>
+    <relationship identifier="R012" source="OUT-01" target="GOAL-01" xsi:type="Realization"></relationship>
+    <relationship identifier="R013" source="OUT-02" target="GOAL-02" xsi:type="Realization"></relationship>
+    <relationship identifier="R014" source="OUT-03" target="GOAL-03" xsi:type="Realization"></relationship>
+    <relationship identifier="R015" source="REQ-01" target="OUT-01" xsi:type="Realization"></relationship>
+    <relationship identifier="R016" source="REQ-01" target="PR-02" xsi:type="Realization"></relationship>
+    <relationship identifier="R017" source="REQ-02" target="OUT-01" xsi:type="Realization"></relationship>
+    <relationship identifier="R018" source="REQ-02" target="PR-03" xsi:type="Realization"></relationship>
+    <relationship identifier="R019" source="REQ-03" target="OUT-01" xsi:type="Realization"></relationship>
+    <relationship identifier="R020" source="REQ-03" target="PR-06" xsi:type="Realization"></relationship>
+    <relationship identifier="R021" source="REQ-03" target="PR-08" xsi:type="Realization"></relationship>
+    <relationship identifier="R022" source="REQ-04" target="OUT-01" xsi:type="Realization"></relationship>
+    <relationship identifier="R023" source="REQ-04" target="PR-03" xsi:type="Realization"></relationship>
+    <relationship identifier="R024" source="REQ-05" target="OUT-01" xsi:type="Realization"></relationship>
+    <relationship identifier="R025" source="REQ-05" target="PR-06" xsi:type="Realization"></relationship>
+    <relationship identifier="R026" source="REQ-06" target="OUT-02" xsi:type="Realization"></relationship>
+    <relationship identifier="R027" source="REQ-06" target="PR-07" xsi:type="Realization"></relationship>
+    <relationship identifier="R028" source="REQ-06" target="PR-08" xsi:type="Realization"></relationship>
+    <relationship identifier="R029" source="REQ-07" target="OUT-03" xsi:type="Realization"></relationship>
+    <relationship identifier="R030" source="REQ-07" target="PR-05" xsi:type="Realization"></relationship>
+    <relationship identifier="R031" source="REQ-08" target="OUT-03" xsi:type="Realization"></relationship>
+    <relationship identifier="R032" source="REQ-08" target="PR-07" xsi:type="Realization"></relationship>
+    <relationship identifier="R033" source="REQ-08" target="PR-03" xsi:type="Realization"></relationship>
+    <relationship identifier="R034" source="VS-01" target="VS-S1" xsi:type="Composition"></relationship>
+    <relationship identifier="R035" source="VS-01" target="VS-S2" xsi:type="Composition"></relationship>
+    <relationship identifier="R036" source="VS-S1" target="VS-S2" xsi:type="Flow"></relationship>
+    <relationship identifier="R037" source="VS-01" target="VS-S3" xsi:type="Composition"></relationship>
+    <relationship identifier="R038" source="VS-S2" target="VS-S3" xsi:type="Flow"></relationship>
+    <relationship identifier="R039" source="VS-01" target="VS-S4" xsi:type="Composition"></relationship>
+    <relationship identifier="R040" source="VS-S3" target="VS-S4" xsi:type="Flow"></relationship>
+    <relationship identifier="R041" source="VS-01" target="VS-S5" xsi:type="Composition"></relationship>
+    <relationship identifier="R042" source="VS-S4" target="VS-S5" xsi:type="Flow"></relationship>
+    <relationship identifier="R043" source="VS-01" target="VS-S6" xsi:type="Composition"></relationship>
+    <relationship identifier="R044" source="VS-S5" target="VS-S6" xsi:type="Flow"></relationship>
+    <relationship identifier="R045" source="CAP-01" target="VS-S1" xsi:type="Serving"></relationship>
+    <relationship identifier="R046" source="CAP-04" target="VS-S1" xsi:type="Serving"></relationship>
+    <relationship identifier="R047" source="CAP-01" target="VS-S2" xsi:type="Serving"></relationship>
+    <relationship identifier="R048" source="CAP-02" target="VS-S2" xsi:type="Serving"></relationship>
+    <relationship identifier="R049" source="CAP-07" target="VS-S3" xsi:type="Serving"></relationship>
+    <relationship identifier="R050" source="CAP-03" target="VS-S4" xsi:type="Serving"></relationship>
+    <relationship identifier="R051" source="CAP-03" target="VS-S5" xsi:type="Serving"></relationship>
+    <relationship identifier="R052" source="CAP-04" target="VS-S6" xsi:type="Serving"></relationship>
+    <relationship identifier="R053" source="CAP-01" target="VS-S6" xsi:type="Serving"></relationship>
+    <relationship identifier="R054" source="VS-01" target="OUT-01" xsi:type="Realization"></relationship>
+    <relationship identifier="R055" source="VS-01" target="OUT-02" xsi:type="Realization"></relationship>
+    <relationship identifier="R056" source="VS-01" target="OUT-03" xsi:type="Realization"></relationship>
+    <relationship identifier="R057" source="CoA-01" target="OUT-01" xsi:type="Realization"></relationship>
+    <relationship identifier="R058" source="CoA-01" target="OUT-02" xsi:type="Realization"></relationship>
+    <relationship identifier="R059" source="CAP-01" target="CoA-01" xsi:type="Association"></relationship>
+    <relationship identifier="R060" source="CAP-04" target="CoA-01" xsi:type="Association"></relationship>
+    <relationship identifier="R061" source="CAP-07" target="CoA-01" xsi:type="Association"></relationship>
+    <relationship identifier="R062" source="CAP-01" target="VS-01" xsi:type="Serving"></relationship>
+    <relationship identifier="R063" source="CAP-02" target="VS-01" xsi:type="Serving"></relationship>
+    <relationship identifier="R064" source="CAP-03" target="VS-01" xsi:type="Serving"></relationship>
+    <relationship identifier="R065" source="CAP-04" target="VS-01" xsi:type="Serving"></relationship>
+    <relationship identifier="R066" source="CAP-05" target="VS-01" xsi:type="Serving"></relationship>
+    <relationship identifier="R067" source="CAP-06" target="VS-01" xsi:type="Serving"></relationship>
+    <relationship identifier="R068" source="CAP-07" target="VS-01" xsi:type="Serving"></relationship>
+    <relationship identifier="R069" source="GRP-01" target="VS-S1" xsi:type="Aggregation"></relationship>
+    <relationship identifier="R070" source="GRP-01" target="VS-S2" xsi:type="Aggregation"></relationship>
+    <relationship identifier="R071" source="GRP-01" target="VS-S3" xsi:type="Aggregation"></relationship>
+    <relationship identifier="R072" source="GRP-01" target="VS-S4" xsi:type="Aggregation"></relationship>
+    <relationship identifier="R073" source="GRP-01" target="VS-S5" xsi:type="Aggregation"></relationship>
+    <relationship identifier="R074" source="GRP-01" target="VS-S6" xsi:type="Aggregation"></relationship>
+    <relationship identifier="R075" source="ACT-06" target="VS-S1" xsi:type="Association"><name xml:lang="es">entrega bins con origen (HO-01)</name></relationship>
+    <relationship identifier="R076" source="VS-S6" target="ACT-07" xsi:type="Association"><name xml:lang="es">recibe FCL (HO-06)</name></relationship>
+    <relationship identifier="R077" source="TSV-C01" target="ASV-C01" xsi:type="Serving"></relationship>
+    <relationship identifier="R078" source="ASV-C01" target="DO-C01" xsi:type="Access" accessType="Write"></relationship>
+    <relationship identifier="R079" source="ASV-C02" target="DO-C01" xsi:type="Access" accessType="Read"></relationship>
+    <relationship identifier="R080" source="ASV-C01" target="BP-02" xsi:type="Serving"></relationship>
+    <relationship identifier="R081" source="ASV-C02" target="BP-04" xsi:type="Serving"></relationship>
+    <relationship identifier="R082" source="ASV-C01" target="REQ-01" xsi:type="Realization"></relationship>
+    <relationship identifier="R083" source="ASV-C02" target="REQ-02" xsi:type="Realization"></relationship>
+    <relationship identifier="R084" source="TSV-C01" target="REQ-03" xsi:type="Realization"></relationship>
+    <relationship identifier="R085" source="ACT-02" target="ROL-B01" xsi:type="Assignment"></relationship>
+    <relationship identifier="R086" source="ACT-05" target="ROL-B02" xsi:type="Assignment"></relationship>
+    <relationship identifier="R087" source="ACT-01" target="ROL-B03" xsi:type="Assignment"></relationship>
+    <relationship identifier="R088" source="ACT-01" target="ROL-B04" xsi:type="Assignment"></relationship>
+    <relationship identifier="R089" source="ACT-02" target="ROL-B05" xsi:type="Assignment"></relationship>
+    <relationship identifier="R090" source="ACT-03" target="ROL-B06" xsi:type="Assignment"></relationship>
+    <relationship identifier="R091" source="ACT-04" target="ROL-B07" xsi:type="Assignment"></relationship>
+    <relationship identifier="R092" source="ACT-07" target="ROL-B08" xsi:type="Assignment"></relationship>
+    <relationship identifier="R093" source="LOC-01" target="ACT-01" xsi:type="Aggregation"></relationship>
+    <relationship identifier="R094" source="LOC-01" target="ACT-02" xsi:type="Aggregation"></relationship>
+    <relationship identifier="R095" source="LOC-01" target="ACT-03" xsi:type="Aggregation"></relationship>
+    <relationship identifier="R096" source="LOC-01" target="ACT-04" xsi:type="Aggregation"></relationship>
+    <relationship identifier="R097" source="LOC-01" target="ACT-05" xsi:type="Aggregation"></relationship>
+    <relationship identifier="R098" source="ROL-B03" target="BP-01" xsi:type="Assignment"></relationship>
+    <relationship identifier="R099" source="ROL-B04" target="BP-02" xsi:type="Assignment"></relationship>
+    <relationship identifier="R100" source="ROL-B05" target="BP-03" xsi:type="Assignment"></relationship>
+    <relationship identifier="R101" source="ROL-B01" target="BP-04" xsi:type="Assignment"></relationship>
+    <relationship identifier="R102" source="ROL-B06" target="BP-05" xsi:type="Assignment"></relationship>
+    <relationship identifier="R103" source="ROL-B06" target="BP-06" xsi:type="Assignment"></relationship>
+    <relationship identifier="R104" source="ROL-B07" target="BP-07" xsi:type="Assignment"></relationship>
+    <relationship identifier="R105" source="ROL-B04" target="BP-08" xsi:type="Assignment"></relationship>
+    <relationship identifier="R106" source="ROL-B04" target="BP-09" xsi:type="Assignment"></relationship>
+    <relationship identifier="R107" source="BF-01" target="BP-01" xsi:type="Aggregation"></relationship>
+    <relationship identifier="R108" source="BF-02" target="BP-02" xsi:type="Aggregation"></relationship>
+    <relationship identifier="R109" source="BF-02" target="BP-08" xsi:type="Aggregation"></relationship>
+    <relationship identifier="R110" source="BF-02" target="BP-09" xsi:type="Aggregation"></relationship>
+    <relationship identifier="R111" source="BF-03" target="BP-03" xsi:type="Aggregation"></relationship>
+    <relationship identifier="R112" source="BF-03" target="BP-04" xsi:type="Aggregation"></relationship>
+    <relationship identifier="R113" source="BF-04" target="BP-05" xsi:type="Aggregation"></relationship>
+    <relationship identifier="R114" source="BF-04" target="BP-06" xsi:type="Aggregation"></relationship>
+    <relationship identifier="R115" source="BF-05" target="BP-07" xsi:type="Aggregation"></relationship>
+    <relationship identifier="R116" source="BP-01" target="BP-02" xsi:type="Triggering"></relationship>
+    <relationship identifier="R117" source="BP-02" target="BP-03" xsi:type="Triggering"></relationship>
+    <relationship identifier="R118" source="BP-02" target="BP-05" xsi:type="Triggering"></relationship>
+    <relationship identifier="R119" source="BP-05" target="BP-06" xsi:type="Triggering"></relationship>
+    <relationship identifier="R120" source="BP-06" target="BP-07" xsi:type="Triggering"></relationship>
+    <relationship identifier="R121" source="BP-03" target="BP-07" xsi:type="Triggering"></relationship>
+    <relationship identifier="R122" source="BP-03" target="BP-09" xsi:type="Triggering"></relationship>
+    <relationship identifier="R123" source="BP-09" target="BP-07" xsi:type="Triggering"></relationship>
+    <relationship identifier="R124" source="EV-01" target="BP-01" xsi:type="Triggering"></relationship>
+    <relationship identifier="R125" source="EV-02" target="BP-03" xsi:type="Triggering"></relationship>
+    <relationship identifier="R126" source="EV-03" target="BP-08" xsi:type="Triggering"></relationship>
+    <relationship identifier="R127" source="EV-04" target="BP-07" xsi:type="Triggering"></relationship>
+    <relationship identifier="R128" source="EV-05" target="BP-08" xsi:type="Triggering"></relationship>
+    <relationship identifier="R129" source="EV-08" target="BP-04" xsi:type="Triggering"></relationship>
+    <relationship identifier="R130" source="BP-01" target="BO-01" xsi:type="Access" accessType="Write"></relationship>
+    <relationship identifier="R131" source="BP-01" target="BO-07" xsi:type="Access" accessType="Write"></relationship>
+    <relationship identifier="R132" source="BP-01" target="BO-06" xsi:type="Access" accessType="Write"></relationship>
+    <relationship identifier="R133" source="BP-02" target="BO-01" xsi:type="Access" accessType="Write"></relationship>
+    <relationship identifier="R134" source="BP-02" target="BO-02" xsi:type="Access" accessType="Write"></relationship>
+    <relationship identifier="R135" source="BP-02" target="BO-07" xsi:type="Access" accessType="Write"></relationship>
+    <relationship identifier="R136" source="BP-03" target="BO-02" xsi:type="Access" accessType="Read"></relationship>
+    <relationship identifier="R137" source="BP-03" target="BO-03" xsi:type="Access" accessType="Write"></relationship>
+    <relationship identifier="R138" source="BP-05" target="BO-05" xsi:type="Access" accessType="Write"></relationship>
+    <relationship identifier="R139" source="BP-06" target="BO-05" xsi:type="Access" accessType="Write"></relationship>
+    <relationship identifier="R140" source="BP-06" target="BO-06" xsi:type="Access" accessType="Write"></relationship>
+    <relationship identifier="R141" source="BP-04" target="BO-07" xsi:type="Access" accessType="Read"></relationship>
+    <relationship identifier="R142" source="BP-04" target="BO-02" xsi:type="Access" accessType="Read"></relationship>
+    <relationship identifier="R143" source="BP-04" target="BO-03" xsi:type="Access" accessType="Read"></relationship>
+    <relationship identifier="R144" source="BP-04" target="BO-05" xsi:type="Access" accessType="Read"></relationship>
+    <relationship identifier="R145" source="BP-07" target="BO-03" xsi:type="Access" accessType="Read"></relationship>
+    <relationship identifier="R146" source="BP-07" target="BO-05" xsi:type="Access" accessType="Read"></relationship>
+    <relationship identifier="R147" source="BP-07" target="BO-04" xsi:type="Access" accessType="Write"></relationship>
+    <relationship identifier="R148" source="BP-07" target="BO-06" xsi:type="Access" accessType="Write"></relationship>
+    <relationship identifier="R149" source="BP-08" target="BO-08" xsi:type="Access" accessType="Write"></relationship>
+    <relationship identifier="R150" source="BP-09" target="BO-09" xsi:type="Access" accessType="ReadWrite"></relationship>
+    <relationship identifier="R151" source="BP-07" target="BO-09" xsi:type="Access" accessType="Read"></relationship>
+    <relationship identifier="R152" source="BP-04" target="BSV-01" xsi:type="Realization"></relationship>
+    <relationship identifier="R153" source="BP-07" target="BSV-02" xsi:type="Realization"></relationship>
+    <relationship identifier="R154" source="BP-08" target="BSV-03" xsi:type="Realization"></relationship>
+    <relationship identifier="R155" source="BP-06" target="BSV-04" xsi:type="Realization"></relationship>
+    <relationship identifier="R156" source="BP-03" target="BSV-05" xsi:type="Realization"></relationship>
+    <relationship identifier="R157" source="BP-09" target="BSV-06" xsi:type="Realization"></relationship>
+    <relationship identifier="R158" source="BSV-01" target="ROL-B05" xsi:type="Serving"></relationship>
+    <relationship identifier="R159" source="BSV-01" target="ROL-B07" xsi:type="Serving"></relationship>
+    <relationship identifier="R160" source="BSV-02" target="ROL-B08" xsi:type="Serving"></relationship>
+    <relationship identifier="R161" source="BSV-03" target="ROL-B04" xsi:type="Serving"></relationship>
+    <relationship identifier="R162" source="BSV-03" target="ROL-B05" xsi:type="Serving"></relationship>
+    <relationship identifier="R163" source="BSV-03" target="ROL-B06" xsi:type="Serving"></relationship>
+    <relationship identifier="R164" source="BSV-03" target="ROL-B07" xsi:type="Serving"></relationship>
+    <relationship identifier="R165" source="BSV-04" target="ROL-B05" xsi:type="Serving"></relationship>
+    <relationship identifier="R166" source="BSV-04" target="ROL-B07" xsi:type="Serving"></relationship>
+    <relationship identifier="R167" source="BSV-05" target="ROL-B07" xsi:type="Serving"></relationship>
+    <relationship identifier="R168" source="BSV-06" target="ROL-B05" xsi:type="Serving"></relationship>
+    <relationship identifier="R169" source="BSV-06" target="ROL-B07" xsi:type="Serving"></relationship>
+    <relationship identifier="R170" source="BP-01" target="CAP-01" xsi:type="Realization"></relationship>
+    <relationship identifier="R171" source="BP-02" target="CAP-01" xsi:type="Realization"></relationship>
+    <relationship identifier="R172" source="BP-03" target="CAP-07" xsi:type="Realization"></relationship>
+    <relationship identifier="R173" source="BP-05" target="CAP-03" xsi:type="Realization"></relationship>
+    <relationship identifier="R174" source="BP-06" target="CAP-03" xsi:type="Realization"></relationship>
+    <relationship identifier="R175" source="BP-07" target="CAP-04" xsi:type="Realization"></relationship>
+    <relationship identifier="R176" source="AP-01" target="DOB-B01" xsi:type="Access" accessType="Write"></relationship>
+    <relationship identifier="R177" source="AP-02" target="DOB-B02" xsi:type="Access" accessType="Write"></relationship>
+    <relationship identifier="R178" source="AP-03" target="DOB-B03" xsi:type="Access" accessType="Write"></relationship>
+    <relationship identifier="R179" source="AP-04" target="DOB-B04" xsi:type="Access" accessType="Write"></relationship>
+    <relationship identifier="R180" source="AP-05" target="DOB-B05" xsi:type="Access" accessType="Write"></relationship>
+    <relationship identifier="R181" source="AP-06" target="DOB-B06" xsi:type="Access" accessType="Write"></relationship>
+    <relationship identifier="R182" source="AP-07" target="DOB-B07" xsi:type="Access" accessType="Write"></relationship>
+    <relationship identifier="R183" source="AP-07" target="DOB-B01" xsi:type="Access" accessType="Read"></relationship>
+    <relationship identifier="R184" source="AP-07" target="DOB-B03" xsi:type="Access" accessType="Read"></relationship>
+    <relationship identifier="R185" source="AP-07" target="DOB-B04" xsi:type="Access" accessType="Read"></relationship>
+    <relationship identifier="R186" source="DOBJ-03" target="DOBJ-01" xsi:type="Association"><name xml:lang="es">origina (1:N)</name></relationship>
+    <relationship identifier="R187" source="DOBJ-02" target="DOBJ-01" xsi:type="Association"><name xml:lang="es">corresponde (N:1)</name></relationship>
+    <relationship identifier="R188" source="DOBJ-01" target="DOBJ-04" xsi:type="Association"><name xml:lang="es">padre (1:N)</name></relationship>
+    <relationship identifier="R189" source="DOBJ-04" target="DOBJ-01" xsi:type="Association"><name xml:lang="es">hijo (N:1)</name></relationship>
+    <relationship identifier="R190" source="DOBJ-01" target="DOBJ-05" xsi:type="Association"><name xml:lang="es">1:N</name></relationship>
+    <relationship identifier="R191" source="DOBJ-01" target="DOBJ-06" xsi:type="Association"><name xml:lang="es">1:N versiones</name></relationship>
+    <relationship identifier="R192" source="DOBJ-01" target="DOBJ-08" xsi:type="Association"><name xml:lang="es">1:N</name></relationship>
+    <relationship identifier="R193" source="DOBJ-08" target="DOBJ-07" xsi:type="Association"><name xml:lang="es">1:N</name></relationship>
+    <relationship identifier="R194" source="DOBJ-11" target="DOBJ-01" xsi:type="Association"><name xml:lang="es">agrupa (N:M)</name></relationship>
+    <relationship identifier="R195" source="DOBJ-01" target="DOBJ-09" xsi:type="Association"><name xml:lang="es">1:N</name></relationship>
+    <relationship identifier="R196" source="DOBJ-01" target="DOBJ-10" xsi:type="Association"><name xml:lang="es">1:N</name></relationship>
+    <relationship identifier="R197" source="DOBJ-12" target="DOBJ-01" xsi:type="Aggregation"></relationship>
+    <relationship identifier="R198" source="DOBJ-12" target="DOBJ-04" xsi:type="Aggregation"></relationship>
+    <relationship identifier="R199" source="DOBJ-12" target="DOBJ-05" xsi:type="Aggregation"></relationship>
+    <relationship identifier="R200" source="DOBJ-12" target="DOBJ-06" xsi:type="Aggregation"></relationship>
+    <relationship identifier="R201" source="DOBJ-12" target="DOBJ-07" xsi:type="Aggregation"></relationship>
+    <relationship identifier="R202" source="DOBJ-12" target="DOBJ-11" xsi:type="Aggregation"></relationship>
+    <relationship identifier="R203" source="DOBJ-01" target="BO-01" xsi:type="Realization"></relationship>
+    <relationship identifier="R204" source="DOBJ-04" target="BO-02" xsi:type="Realization"></relationship>
+    <relationship identifier="R205" source="DOBJ-06" target="BO-03" xsi:type="Realization"></relationship>
+    <relationship identifier="R206" source="DOBJ-07" target="BO-05" xsi:type="Realization"></relationship>
+    <relationship identifier="R207" source="DOBJ-11" target="BO-04" xsi:type="Realization"></relationship>
+    <relationship identifier="R208" source="DOBJ-05" target="BO-07" xsi:type="Realization"></relationship>
+    <relationship identifier="R209" source="DOBJ-09" target="BO-06" xsi:type="Realization"></relationship>
+    <relationship identifier="R210" source="DOBJ-10" target="BO-08" xsi:type="Realization"></relationship>
+    <relationship identifier="R211" source="AP-01" target="AP-08" xsi:type="Flow"><name xml:lang="es">IF-01</name></relationship>
+    <relationship identifier="R212" source="AP-02" target="AP-08" xsi:type="Flow"><name xml:lang="es">IF-02</name></relationship>
+    <relationship identifier="R213" source="AP-03" target="AP-08" xsi:type="Flow"><name xml:lang="es">IF-02</name></relationship>
+    <relationship identifier="R214" source="AP-04" target="AP-08" xsi:type="Flow"><name xml:lang="es">IF-03</name></relationship>
+    <relationship identifier="R215" source="AP-05" target="AP-08" xsi:type="Flow"><name xml:lang="es">IF-04</name></relationship>
+    <relationship identifier="R216" source="AP-06" target="AP-08" xsi:type="Flow"><name xml:lang="es">IF-06</name></relationship>
+    <relationship identifier="R217" source="AP-08" target="AF-01" xsi:type="Assignment"></relationship>
+    <relationship identifier="R218" source="AP-09" target="AF-02" xsi:type="Assignment"></relationship>
+    <relationship identifier="R219" source="AP-09" target="AF-03" xsi:type="Assignment"></relationship>
+    <relationship identifier="R220" source="AP-11" target="AF-04" xsi:type="Assignment"></relationship>
+    <relationship identifier="R221" source="AF-01" target="AF-02" xsi:type="Flow"><name xml:lang="es">eventos validados</name></relationship>
+    <relationship identifier="R222" source="AF-01" target="DOBJ-05" xsi:type="Access" accessType="Write"></relationship>
+    <relationship identifier="R223" source="AF-02" target="DOBJ-12" xsi:type="Access" accessType="Write"></relationship>
+    <relationship identifier="R224" source="AF-03" target="DOBJ-06" xsi:type="Access" accessType="Read"></relationship>
+    <relationship identifier="R225" source="ASV-02" target="DOBJ-12" xsi:type="Access" accessType="Read"></relationship>
+    <relationship identifier="R226" source="ASV-03" target="DOBJ-06" xsi:type="Access" accessType="Read"></relationship>
+    <relationship identifier="R227" source="AF-01" target="ASV-01" xsi:type="Realization"></relationship>
+    <relationship identifier="R228" source="ASV-01" target="BP-01" xsi:type="Serving"></relationship>
+    <relationship identifier="R229" source="ASV-01" target="BP-02" xsi:type="Serving"></relationship>
+    <relationship identifier="R230" source="ASV-01" target="BP-05" xsi:type="Serving"></relationship>
+    <relationship identifier="R231" source="ASV-01" target="BP-06" xsi:type="Serving"></relationship>
+    <relationship identifier="R232" source="AF-02" target="ASV-02" xsi:type="Realization"></relationship>
+    <relationship identifier="R233" source="ASV-02" target="BP-04" xsi:type="Serving"></relationship>
+    <relationship identifier="R234" source="AF-03" target="ASV-03" xsi:type="Realization"></relationship>
+    <relationship identifier="R235" source="ASV-03" target="BP-07" xsi:type="Serving"></relationship>
+    <relationship identifier="R236" source="AF-04" target="ASV-04" xsi:type="Realization"></relationship>
+    <relationship identifier="R237" source="ASV-04" target="BP-08" xsi:type="Serving"></relationship>
+    <relationship identifier="R238" source="AP-08" target="AI-01" xsi:type="Assignment"></relationship>
+    <relationship identifier="R239" source="AI-01" target="ASV-01" xsi:type="Assignment"></relationship>
+    <relationship identifier="R240" source="AP-09" target="AI-02" xsi:type="Assignment"></relationship>
+    <relationship identifier="R241" source="AI-02" target="ASV-02" xsi:type="Assignment"></relationship>
+    <relationship identifier="R242" source="AI-02" target="ASV-03" xsi:type="Assignment"></relationship>
+    <relationship identifier="R243" source="ASV-02" target="ROL-B05" xsi:type="Serving"></relationship>
+    <relationship identifier="R244" source="ASV-02" target="ROL-B07" xsi:type="Serving"></relationship>
+    <relationship identifier="R245" source="ASV-02" target="AP-10" xsi:type="Serving"><name xml:lang="es">IF-05</name></relationship>
+    <relationship identifier="R246" source="ASV-03" target="AP-06" xsi:type="Serving"><name xml:lang="es">IF-05 estado QA (solo lectura)</name></relationship>
+    <relationship identifier="R247" source="AP-08" target="AP-09" xsi:type="Flow"><name xml:lang="es">eventos validados</name></relationship>
+    <relationship identifier="R248" source="AP-11" target="AP-09" xsi:type="Flow"><name xml:lang="es">IF-07</name></relationship>
+    <relationship identifier="R249" source="AP-01" target="AP-07" xsi:type="Flow"><name xml:lang="es">planilla por turno</name></relationship>
+    <relationship identifier="R250" source="AP-03" target="AP-07" xsi:type="Flow"><name xml:lang="es">planilla por turno</name></relationship>
+    <relationship identifier="R251" source="AP-04" target="AP-07" xsi:type="Flow"><name xml:lang="es">correo</name></relationship>
+    <relationship identifier="R252" source="AP-05" target="AP-07" xsi:type="Flow"><name xml:lang="es">CSV nocturno</name></relationship>
+    <relationship identifier="R253" source="AP-02" target="AP-03" xsi:type="Flow"><name xml:lang="es">exportación manual</name></relationship>
+    <relationship identifier="R254" source="AP-07" target="AP-06" xsi:type="Flow"><name xml:lang="es">digitación manual</name></relationship>
+    <relationship identifier="R255" source="BSV-01" target="CAP-01" xsi:type="Realization"></relationship>
+    <relationship identifier="R256" source="BSV-05" target="CAP-07" xsi:type="Realization"></relationship>
+  </relationships>
+  <views>
+    <diagrams>
+      <view identifier="V-VIEW-A01" xsi:type="Diagram"><name xml:lang="es">VIEW-A01 Motivación</name><documentation xml:lang="es">VIEW-A01 · VP-A01 Motivación · Concerns C01/C05/C06/C07 · Grupo 04 · v0.3 Cadena del por qué: stakeholders → drivers (clase P/S) → goals → outcomes, y los dos principios críticos (PR-02, PR-07) con los requisitos que los realizan. Los 8 requisitos y 6 principios completos: Matriz_Trazabilidad.csv y PRE-04.</documentation>
+        <node identifier="N-VIEW-A01-01" elementRef="STK-01" xsi:type="Element" x="584" y="0" w="144" h="58"/>
+        <node identifier="N-VIEW-A01-02" elementRef="STK-02" xsi:type="Element" x="422" y="0" w="144" h="58"/>
+        <node identifier="N-VIEW-A01-03" elementRef="STK-03" xsi:type="Element" x="260" y="0" w="144" h="58"/>
+        <node identifier="N-VIEW-A01-04" elementRef="STK-07" xsi:type="Element" x="98" y="0" w="144" h="58"/>
+        <node identifier="N-VIEW-A01-05" elementRef="DRV-01" xsi:type="Element" x="98" y="97" w="144" h="58"/>
+        <node identifier="N-VIEW-A01-06" elementRef="DRV-02" xsi:type="Element" x="422" y="97" w="144" h="58"/>
+        <node identifier="N-VIEW-A01-07" elementRef="DRV-03" xsi:type="Element" x="260" y="97" w="144" h="58"/>
+        <node identifier="N-VIEW-A01-08" elementRef="DRV-04" xsi:type="Element" x="584" y="97" w="144" h="58"/>
+        <node identifier="N-VIEW-A01-09" elementRef="GOAL-01" xsi:type="Element" x="98" y="195" w="144" h="58"/>
+        <node identifier="N-VIEW-A01-10" elementRef="GOAL-02" xsi:type="Element" x="260" y="195" w="144" h="58"/>
+        <node identifier="N-VIEW-A01-11" elementRef="GOAL-03" xsi:type="Element" x="584" y="195" w="144" h="58"/>
+        <node identifier="N-VIEW-A01-12" elementRef="OUT-01" xsi:type="Element" x="665" y="293" w="144" h="58"/>
+        <node identifier="N-VIEW-A01-13" elementRef="OUT-02" xsi:type="Element" x="260" y="293" w="144" h="58"/>
+        <node identifier="N-VIEW-A01-14" elementRef="OUT-03" xsi:type="Element" x="503" y="293" w="144" h="58"/>
+        <node identifier="N-VIEW-A01-15" elementRef="REQ-01" xsi:type="Element" x="503" y="391" w="144" h="58"/>
+        <node identifier="N-VIEW-A01-16" elementRef="REQ-06" xsi:type="Element" x="260" y="391" w="144" h="58"/>
+        <node identifier="N-VIEW-A01-17" elementRef="REQ-08" xsi:type="Element" x="98" y="391" w="144" h="58"/>
+        <node identifier="N-VIEW-A01-18" elementRef="PR-02" xsi:type="Element" x="503" y="489" w="144" h="58"/>
+        <node identifier="N-VIEW-A01-19" elementRef="PR-07" xsi:type="Element" x="260" y="489" w="144" h="58"/>
+        <connection identifier="C-VIEW-A01-R001" relationshipRef="R001" xsi:type="Relationship" source="N-VIEW-A01-01" target="N-VIEW-A01-08"/>
+        <connection identifier="C-VIEW-A01-R002" relationshipRef="R002" xsi:type="Relationship" source="N-VIEW-A01-02" target="N-VIEW-A01-06"/>
+        <connection identifier="C-VIEW-A01-R003" relationshipRef="R003" xsi:type="Relationship" source="N-VIEW-A01-02" target="N-VIEW-A01-07"/>
+        <connection identifier="C-VIEW-A01-R004" relationshipRef="R004" xsi:type="Relationship" source="N-VIEW-A01-03" target="N-VIEW-A01-05"/>
+        <connection identifier="C-VIEW-A01-R005" relationshipRef="R005" xsi:type="Relationship" source="N-VIEW-A01-04" target="N-VIEW-A01-05"/>
+        <connection identifier="C-VIEW-A01-R006" relationshipRef="R006" xsi:type="Relationship" source="N-VIEW-A01-05" target="N-VIEW-A01-09"/>
+        <connection identifier="C-VIEW-A01-R007" relationshipRef="R007" xsi:type="Relationship" source="N-VIEW-A01-06" target="N-VIEW-A01-09"/>
+        <connection identifier="C-VIEW-A01-R008" relationshipRef="R008" xsi:type="Relationship" source="N-VIEW-A01-07" target="N-VIEW-A01-09"/>
+        <connection identifier="C-VIEW-A01-R009" relationshipRef="R009" xsi:type="Relationship" source="N-VIEW-A01-06" target="N-VIEW-A01-10"/>
+        <connection identifier="C-VIEW-A01-R010" relationshipRef="R010" xsi:type="Relationship" source="N-VIEW-A01-08" target="N-VIEW-A01-10"/>
+        <connection identifier="C-VIEW-A01-R011" relationshipRef="R011" xsi:type="Relationship" source="N-VIEW-A01-08" target="N-VIEW-A01-11"/>
+        <connection identifier="C-VIEW-A01-R012" relationshipRef="R012" xsi:type="Relationship" source="N-VIEW-A01-12" target="N-VIEW-A01-09"/>
+        <connection identifier="C-VIEW-A01-R013" relationshipRef="R013" xsi:type="Relationship" source="N-VIEW-A01-13" target="N-VIEW-A01-10"/>
+        <connection identifier="C-VIEW-A01-R014" relationshipRef="R014" xsi:type="Relationship" source="N-VIEW-A01-14" target="N-VIEW-A01-11"/>
+        <connection identifier="C-VIEW-A01-R015" relationshipRef="R015" xsi:type="Relationship" source="N-VIEW-A01-15" target="N-VIEW-A01-12"/>
+        <connection identifier="C-VIEW-A01-R016" relationshipRef="R016" xsi:type="Relationship" source="N-VIEW-A01-15" target="N-VIEW-A01-18"/>
+        <connection identifier="C-VIEW-A01-R026" relationshipRef="R026" xsi:type="Relationship" source="N-VIEW-A01-16" target="N-VIEW-A01-13"/>
+        <connection identifier="C-VIEW-A01-R027" relationshipRef="R027" xsi:type="Relationship" source="N-VIEW-A01-16" target="N-VIEW-A01-19"/>
+        <connection identifier="C-VIEW-A01-R031" relationshipRef="R031" xsi:type="Relationship" source="N-VIEW-A01-17" target="N-VIEW-A01-14"/>
+        <connection identifier="C-VIEW-A01-R032" relationshipRef="R032" xsi:type="Relationship" source="N-VIEW-A01-17" target="N-VIEW-A01-19"/>
+      </view>
+      <view identifier="V-VIEW-A02" xsi:type="Diagram"><name xml:lang="es">VIEW-A02 Estrategia: curso de acción, value stream y capacidades</name><documentation xml:lang="es">VIEW-A02 · VP-A02 Estrategia · Concerns C01/C05/C06 · Grupo 04 · v0.3 CoA-01 y el VS-01 realizan los outcomes; las capacidades sirven al VS-01 y habilitan el curso de acción. Detalle por etapa en B-V03.</documentation>
+        <node identifier="N-VIEW-A02-01" elementRef="OUT-01" xsi:type="Element" x="0" y="0" w="144" h="58"/>
+        <node identifier="N-VIEW-A02-02" elementRef="OUT-02" xsi:type="Element" x="162" y="0" w="144" h="58"/>
+        <node identifier="N-VIEW-A02-03" elementRef="OUT-03" xsi:type="Element" x="324" y="0" w="144" h="58"/>
+        <node identifier="N-VIEW-A02-04" elementRef="CoA-01" xsi:type="Element" x="0" y="97" w="144" h="58"/>
+        <node identifier="N-VIEW-A02-05" elementRef="VS-01" xsi:type="Element" x="162" y="97" w="144" h="58"/>
+        <node identifier="N-VIEW-A02-06" elementRef="CAP-01" xsi:type="Element" x="0" y="195" w="144" h="58"/>
+        <node identifier="N-VIEW-A02-07" elementRef="CAP-02" xsi:type="Element" x="486" y="195" w="144" h="58"/>
+        <node identifier="N-VIEW-A02-08" elementRef="CAP-03" xsi:type="Element" x="648" y="195" w="144" h="58"/>
+        <node identifier="N-VIEW-A02-09" elementRef="CAP-04" xsi:type="Element" x="162" y="195" w="144" h="58"/>
+        <node identifier="N-VIEW-A02-10" elementRef="CAP-05" xsi:type="Element" x="810" y="195" w="144" h="58"/>
+        <node identifier="N-VIEW-A02-11" elementRef="CAP-06" xsi:type="Element" x="972" y="195" w="144" h="58"/>
+        <node identifier="N-VIEW-A02-12" elementRef="CAP-07" xsi:type="Element" x="324" y="195" w="144" h="58"/>
+        <connection identifier="C-VIEW-A02-R054" relationshipRef="R054" xsi:type="Relationship" source="N-VIEW-A02-05" target="N-VIEW-A02-01"/>
+        <connection identifier="C-VIEW-A02-R055" relationshipRef="R055" xsi:type="Relationship" source="N-VIEW-A02-05" target="N-VIEW-A02-02"/>
+        <connection identifier="C-VIEW-A02-R056" relationshipRef="R056" xsi:type="Relationship" source="N-VIEW-A02-05" target="N-VIEW-A02-03"/>
+        <connection identifier="C-VIEW-A02-R057" relationshipRef="R057" xsi:type="Relationship" source="N-VIEW-A02-04" target="N-VIEW-A02-01"/>
+        <connection identifier="C-VIEW-A02-R058" relationshipRef="R058" xsi:type="Relationship" source="N-VIEW-A02-04" target="N-VIEW-A02-02"/>
+        <connection identifier="C-VIEW-A02-R059" relationshipRef="R059" xsi:type="Relationship" source="N-VIEW-A02-06" target="N-VIEW-A02-04"/>
+        <connection identifier="C-VIEW-A02-R060" relationshipRef="R060" xsi:type="Relationship" source="N-VIEW-A02-09" target="N-VIEW-A02-04"/>
+        <connection identifier="C-VIEW-A02-R061" relationshipRef="R061" xsi:type="Relationship" source="N-VIEW-A02-12" target="N-VIEW-A02-04"/>
+        <connection identifier="C-VIEW-A02-R062" relationshipRef="R062" xsi:type="Relationship" source="N-VIEW-A02-06" target="N-VIEW-A02-05"/>
+        <connection identifier="C-VIEW-A02-R063" relationshipRef="R063" xsi:type="Relationship" source="N-VIEW-A02-07" target="N-VIEW-A02-05"/>
+        <connection identifier="C-VIEW-A02-R064" relationshipRef="R064" xsi:type="Relationship" source="N-VIEW-A02-08" target="N-VIEW-A02-05"/>
+        <connection identifier="C-VIEW-A02-R065" relationshipRef="R065" xsi:type="Relationship" source="N-VIEW-A02-09" target="N-VIEW-A02-05"/>
+        <connection identifier="C-VIEW-A02-R066" relationshipRef="R066" xsi:type="Relationship" source="N-VIEW-A02-10" target="N-VIEW-A02-05"/>
+        <connection identifier="C-VIEW-A02-R067" relationshipRef="R067" xsi:type="Relationship" source="N-VIEW-A02-11" target="N-VIEW-A02-05"/>
+        <connection identifier="C-VIEW-A02-R068" relationshipRef="R068" xsi:type="Relationship" source="N-VIEW-A02-12" target="N-VIEW-A02-05"/>
+      </view>
+      <view identifier="V-VIEW-A04" xsi:type="Diagram"><name xml:lang="es">VIEW-A04 Concepto de solución (candidatos)</name><documentation xml:lang="es">VIEW-A04 · VP-A04 Concepto de solución · Concerns C03/C04/C05 · Grupo 04 · v0.3 Servicios candidatos, sin producto ni topología (PR-05): cada uno realiza un requisito. Alternativas SC-01…03 = hipótesis de Phase E.</documentation>
+        <node identifier="N-VIEW-A04-01" elementRef="REQ-01" xsi:type="Element" x="139" y="0" w="144" h="58"/>
+        <node identifier="N-VIEW-A04-02" elementRef="REQ-02" xsi:type="Element" x="301" y="0" w="144" h="58"/>
+        <node identifier="N-VIEW-A04-03" elementRef="REQ-03" xsi:type="Element" x="463" y="0" w="144" h="58"/>
+        <node identifier="N-VIEW-A04-04" elementRef="ASV-C01" xsi:type="Element" x="625" y="97" w="144" h="58"/>
+        <node identifier="N-VIEW-A04-05" elementRef="ASV-C02" xsi:type="Element" x="301" y="97" w="144" h="58"/>
+        <node identifier="N-VIEW-A04-06" elementRef="TSV-C01" xsi:type="Element" x="463" y="97" w="144" h="58"/>
+        <node identifier="N-VIEW-A04-07" elementRef="BP-02" xsi:type="Element" x="625" y="195" w="144" h="58"/>
+        <node identifier="N-VIEW-A04-08" elementRef="DO-C01" xsi:type="Element" x="301" y="195" w="144" h="58"/>
+        <node identifier="N-VIEW-A04-09" elementRef="BP-04" xsi:type="Element" x="139" y="195" w="144" h="58"/>
+        <connection identifier="C-VIEW-A04-R077" relationshipRef="R077" xsi:type="Relationship" source="N-VIEW-A04-06" target="N-VIEW-A04-04"/>
+        <connection identifier="C-VIEW-A04-R078" relationshipRef="R078" xsi:type="Relationship" source="N-VIEW-A04-04" target="N-VIEW-A04-08"/>
+        <connection identifier="C-VIEW-A04-R079" relationshipRef="R079" xsi:type="Relationship" source="N-VIEW-A04-05" target="N-VIEW-A04-08"/>
+        <connection identifier="C-VIEW-A04-R080" relationshipRef="R080" xsi:type="Relationship" source="N-VIEW-A04-04" target="N-VIEW-A04-07"/>
+        <connection identifier="C-VIEW-A04-R081" relationshipRef="R081" xsi:type="Relationship" source="N-VIEW-A04-05" target="N-VIEW-A04-09"/>
+        <connection identifier="C-VIEW-A04-R082" relationshipRef="R082" xsi:type="Relationship" source="N-VIEW-A04-04" target="N-VIEW-A04-01"/>
+        <connection identifier="C-VIEW-A04-R083" relationshipRef="R083" xsi:type="Relationship" source="N-VIEW-A04-05" target="N-VIEW-A04-02"/>
+        <connection identifier="C-VIEW-A04-R084" relationshipRef="R084" xsi:type="Relationship" source="N-VIEW-A04-06" target="N-VIEW-A04-03"/>
+      </view>
+      <view identifier="V-B-V03" xsi:type="Diagram"><name xml:lang="es">B-V03 Value stream × capacidades</name><documentation xml:lang="es">B-V03 · VP-B02 Value stream × capacidades · Grupo 04 · v0.3 Solo capacidades primarias (P) de B-03; CAP-05 y CAP-06 son transversales (S en todas las etapas). HO-01, HO-03 y HO-05 son los handoffs críticos.</documentation>
+        <node identifier="N-B-V03-01" elementRef="VS-01" xsi:type="Element" x="486" y="0" w="144" h="58"/>
+        <node identifier="N-B-V03-02" elementRef="VS-S1" xsi:type="Element" x="0" y="97" w="144" h="58"/>
+        <node identifier="N-B-V03-03" elementRef="VS-S2" xsi:type="Element" x="162" y="97" w="144" h="58"/>
+        <node identifier="N-B-V03-04" elementRef="VS-S3" xsi:type="Element" x="324" y="97" w="144" h="58"/>
+        <node identifier="N-B-V03-05" elementRef="VS-S4" xsi:type="Element" x="486" y="97" w="144" h="58"/>
+        <node identifier="N-B-V03-06" elementRef="VS-S5" xsi:type="Element" x="648" y="97" w="144" h="58"/>
+        <node identifier="N-B-V03-07" elementRef="VS-S6" xsi:type="Element" x="810" y="97" w="144" h="58"/>
+        <node identifier="N-B-V03-08" elementRef="CAP-01" xsi:type="Element" x="243" y="195" w="144" h="58"/>
+        <node identifier="N-B-V03-09" elementRef="CAP-02" xsi:type="Element" x="648" y="195" w="144" h="58"/>
+        <node identifier="N-B-V03-10" elementRef="CAP-03" xsi:type="Element" x="972" y="195" w="144" h="58"/>
+        <node identifier="N-B-V03-11" elementRef="CAP-04" xsi:type="Element" x="486" y="195" w="144" h="58"/>
+        <node identifier="N-B-V03-12" elementRef="CAP-05" xsi:type="Element" x="1134" y="195" w="144" h="58"/>
+        <node identifier="N-B-V03-13" elementRef="CAP-06" xsi:type="Element" x="1296" y="195" w="144" h="58"/>
+        <node identifier="N-B-V03-14" elementRef="CAP-07" xsi:type="Element" x="810" y="195" w="144" h="58"/>
+        <connection identifier="C-B-V03-R034" relationshipRef="R034" xsi:type="Relationship" source="N-B-V03-01" target="N-B-V03-02"/>
+        <connection identifier="C-B-V03-R035" relationshipRef="R035" xsi:type="Relationship" source="N-B-V03-01" target="N-B-V03-03"/>
+        <connection identifier="C-B-V03-R036" relationshipRef="R036" xsi:type="Relationship" source="N-B-V03-02" target="N-B-V03-03"/>
+        <connection identifier="C-B-V03-R037" relationshipRef="R037" xsi:type="Relationship" source="N-B-V03-01" target="N-B-V03-04"/>
+        <connection identifier="C-B-V03-R038" relationshipRef="R038" xsi:type="Relationship" source="N-B-V03-03" target="N-B-V03-04"/>
+        <connection identifier="C-B-V03-R039" relationshipRef="R039" xsi:type="Relationship" source="N-B-V03-01" target="N-B-V03-05"/>
+        <connection identifier="C-B-V03-R040" relationshipRef="R040" xsi:type="Relationship" source="N-B-V03-04" target="N-B-V03-05"/>
+        <connection identifier="C-B-V03-R041" relationshipRef="R041" xsi:type="Relationship" source="N-B-V03-01" target="N-B-V03-06"/>
+        <connection identifier="C-B-V03-R042" relationshipRef="R042" xsi:type="Relationship" source="N-B-V03-05" target="N-B-V03-06"/>
+        <connection identifier="C-B-V03-R043" relationshipRef="R043" xsi:type="Relationship" source="N-B-V03-01" target="N-B-V03-07"/>
+        <connection identifier="C-B-V03-R044" relationshipRef="R044" xsi:type="Relationship" source="N-B-V03-06" target="N-B-V03-07"/>
+        <connection identifier="C-B-V03-R045" relationshipRef="R045" xsi:type="Relationship" source="N-B-V03-08" target="N-B-V03-02"/>
+        <connection identifier="C-B-V03-R046" relationshipRef="R046" xsi:type="Relationship" source="N-B-V03-11" target="N-B-V03-02"/>
+        <connection identifier="C-B-V03-R047" relationshipRef="R047" xsi:type="Relationship" source="N-B-V03-08" target="N-B-V03-03"/>
+        <connection identifier="C-B-V03-R048" relationshipRef="R048" xsi:type="Relationship" source="N-B-V03-09" target="N-B-V03-03"/>
+        <connection identifier="C-B-V03-R049" relationshipRef="R049" xsi:type="Relationship" source="N-B-V03-14" target="N-B-V03-04"/>
+        <connection identifier="C-B-V03-R050" relationshipRef="R050" xsi:type="Relationship" source="N-B-V03-10" target="N-B-V03-05"/>
+        <connection identifier="C-B-V03-R051" relationshipRef="R051" xsi:type="Relationship" source="N-B-V03-10" target="N-B-V03-06"/>
+        <connection identifier="C-B-V03-R052" relationshipRef="R052" xsi:type="Relationship" source="N-B-V03-11" target="N-B-V03-07"/>
+        <connection identifier="C-B-V03-R053" relationshipRef="R053" xsi:type="Relationship" source="N-B-V03-08" target="N-B-V03-07"/>
+      </view>
+      <view identifier="V-VIEW-A03" xsi:type="Diagram"><name xml:lang="es">VIEW-A03 Contexto y alcance de Planta Chao</name><documentation xml:lang="es">VIEW-A03 · VP-A03 · Concerns C02/C06 · Grupo 04 · v0.3. Grouping = alcance; fundo y transportista quedan fuera (DEC-B06). Handoffs críticos: HO-01, HO-03 y HO-05. Fuera de alcance: cosecha en fundo, transporte marítimo, puertos, ERP corporativo (solo interfaz). Relaciones: Flow (- -→) · Association (—) · Aggregation por anidamiento.</documentation>
+        <node identifier="N-VIEW-A03-01" elementRef="GRP-01" xsi:type="Element" x="250" y="150" w="1232" h="190">
+          <node identifier="N-VIEW-A03-02" elementRef="VS-S1" xsi:type="Element" x="276" y="210" w="175" h="70"/>
+          <node identifier="N-VIEW-A03-03" elementRef="VS-S2" xsi:type="Element" x="477" y="210" w="175" h="70"/>
+          <node identifier="N-VIEW-A03-04" elementRef="VS-S3" xsi:type="Element" x="678" y="210" w="175" h="70"/>
+          <node identifier="N-VIEW-A03-05" elementRef="VS-S4" xsi:type="Element" x="879" y="210" w="175" h="70"/>
+          <node identifier="N-VIEW-A03-06" elementRef="VS-S5" xsi:type="Element" x="1080" y="210" w="175" h="70"/>
+          <node identifier="N-VIEW-A03-07" elementRef="VS-S6" xsi:type="Element" x="1281" y="210" w="175" h="70"/>
+        </node>
+        <node identifier="N-VIEW-A03-08" elementRef="ACT-06" xsi:type="Element" x="40" y="210" w="170" h="70"/>
+        <node identifier="N-VIEW-A03-09" elementRef="ACT-07" xsi:type="Element" x="1522" y="210" w="170" h="70"/>
+        <connection identifier="C-VIEW-A03-R036" relationshipRef="R036" xsi:type="Relationship" source="N-VIEW-A03-02" target="N-VIEW-A03-03"/>
+        <connection identifier="C-VIEW-A03-R038" relationshipRef="R038" xsi:type="Relationship" source="N-VIEW-A03-03" target="N-VIEW-A03-04"/>
+        <connection identifier="C-VIEW-A03-R040" relationshipRef="R040" xsi:type="Relationship" source="N-VIEW-A03-04" target="N-VIEW-A03-05"/>
+        <connection identifier="C-VIEW-A03-R042" relationshipRef="R042" xsi:type="Relationship" source="N-VIEW-A03-05" target="N-VIEW-A03-06"/>
+        <connection identifier="C-VIEW-A03-R044" relationshipRef="R044" xsi:type="Relationship" source="N-VIEW-A03-06" target="N-VIEW-A03-07"/>
+        <connection identifier="C-VIEW-A03-R075" relationshipRef="R075" xsi:type="Relationship" source="N-VIEW-A03-08" target="N-VIEW-A03-02"/>
+        <connection identifier="C-VIEW-A03-R076" relationshipRef="R076" xsi:type="Relationship" source="N-VIEW-A03-07" target="N-VIEW-A03-09"/>
+      </view>
+      <view identifier="V-B-V04" xsi:type="Diagram"><name xml:lang="es">B-V04 Servicios y eventos de negocio · Target (D)</name><documentation xml:lang="es">B-V04 · VP-B03 · Grupo 04 · v0.3. Complementa B-V02: qué evento dispara cada proceso y qué rol consume cada servicio. ★ New = building block nuevo (B-04). B-V02 ∪ B-V04 = Target completo (CP-06). Relaciones: Triggering (→ llena) · Realization (- -▷) · Serving (→ abierta).</documentation>
+        <node identifier="N-B-V04-01" elementRef="EV-01" xsi:type="Element" x="40" y="110" w="182" h="58"/>
+        <node identifier="N-B-V04-02" elementRef="BP-01" xsi:type="Element" x="300" y="110" w="182" h="58"/>
+        <node identifier="N-B-V04-03" elementRef="EV-02" xsi:type="Element" x="40" y="202" w="182" h="58"/>
+        <node identifier="N-B-V04-04" elementRef="BP-03" xsi:type="Element" x="300" y="202" w="182" h="58"/>
+        <node identifier="N-B-V04-05" elementRef="BSV-05" xsi:type="Element" x="560" y="202" w="182" h="58"/>
+        <node identifier="N-B-V04-06" elementRef="EV-08" xsi:type="Element" x="40" y="294" w="182" h="58"/>
+        <node identifier="N-B-V04-07" elementRef="BP-04" xsi:type="Element" x="300" y="294" w="182" h="58"/>
+        <node identifier="N-B-V04-08" elementRef="BSV-01" xsi:type="Element" x="560" y="294" w="182" h="58"/>
+        <node identifier="N-B-V04-09" elementRef="BP-06" xsi:type="Element" x="300" y="386" w="182" h="58"/>
+        <node identifier="N-B-V04-10" elementRef="BSV-04" xsi:type="Element" x="560" y="386" w="182" h="58"/>
+        <node identifier="N-B-V04-11" elementRef="EV-04" xsi:type="Element" x="40" y="478" w="182" h="58"/>
+        <node identifier="N-B-V04-12" elementRef="BP-07" xsi:type="Element" x="300" y="478" w="182" h="58"/>
+        <node identifier="N-B-V04-13" elementRef="BSV-02" xsi:type="Element" x="560" y="478" w="182" h="58"/>
+        <node identifier="N-B-V04-14" elementRef="EV-03" xsi:type="Element" x="40" y="570" w="182" h="58"/>
+        <node identifier="N-B-V04-15" elementRef="BP-08" xsi:type="Element" x="300" y="570" w="182" h="58"/>
+        <node identifier="N-B-V04-16" elementRef="BSV-03" xsi:type="Element" x="560" y="570" w="182" h="58"/>
+        <node identifier="N-B-V04-17" elementRef="EV-05" xsi:type="Element" x="40" y="662" w="182" h="58"/>
+        <node identifier="N-B-V04-18" elementRef="ROL-B07" xsi:type="Element" x="860" y="150" w="182" h="58"/>
+        <node identifier="N-B-V04-19" elementRef="ROL-B05" xsi:type="Element" x="860" y="268" w="182" h="58"/>
+        <node identifier="N-B-V04-20" elementRef="ROL-B04" xsi:type="Element" x="860" y="386" w="182" h="58"/>
+        <node identifier="N-B-V04-21" elementRef="ROL-B06" xsi:type="Element" x="860" y="504" w="182" h="58"/>
+        <node identifier="N-B-V04-22" elementRef="ROL-B08" xsi:type="Element" x="860" y="622" w="182" h="58"/>
+        <connection identifier="C-B-V04-R124" relationshipRef="R124" xsi:type="Relationship" source="N-B-V04-01" target="N-B-V04-02"/>
+        <connection identifier="C-B-V04-R125" relationshipRef="R125" xsi:type="Relationship" source="N-B-V04-03" target="N-B-V04-04"/>
+        <connection identifier="C-B-V04-R126" relationshipRef="R126" xsi:type="Relationship" source="N-B-V04-14" target="N-B-V04-15"/>
+        <connection identifier="C-B-V04-R127" relationshipRef="R127" xsi:type="Relationship" source="N-B-V04-11" target="N-B-V04-12"/>
+        <connection identifier="C-B-V04-R128" relationshipRef="R128" xsi:type="Relationship" source="N-B-V04-17" target="N-B-V04-15"/>
+        <connection identifier="C-B-V04-R129" relationshipRef="R129" xsi:type="Relationship" source="N-B-V04-06" target="N-B-V04-07"/>
+        <connection identifier="C-B-V04-R152" relationshipRef="R152" xsi:type="Relationship" source="N-B-V04-07" target="N-B-V04-08"/>
+        <connection identifier="C-B-V04-R153" relationshipRef="R153" xsi:type="Relationship" source="N-B-V04-12" target="N-B-V04-13"/>
+        <connection identifier="C-B-V04-R154" relationshipRef="R154" xsi:type="Relationship" source="N-B-V04-15" target="N-B-V04-16"/>
+        <connection identifier="C-B-V04-R155" relationshipRef="R155" xsi:type="Relationship" source="N-B-V04-09" target="N-B-V04-10"/>
+        <connection identifier="C-B-V04-R156" relationshipRef="R156" xsi:type="Relationship" source="N-B-V04-04" target="N-B-V04-05"/>
+        <connection identifier="C-B-V04-R158" relationshipRef="R158" xsi:type="Relationship" source="N-B-V04-08" target="N-B-V04-19"/>
+        <connection identifier="C-B-V04-R159" relationshipRef="R159" xsi:type="Relationship" source="N-B-V04-08" target="N-B-V04-18"/>
+        <connection identifier="C-B-V04-R160" relationshipRef="R160" xsi:type="Relationship" source="N-B-V04-13" target="N-B-V04-22"/>
+        <connection identifier="C-B-V04-R161" relationshipRef="R161" xsi:type="Relationship" source="N-B-V04-16" target="N-B-V04-20"/>
+        <connection identifier="C-B-V04-R162" relationshipRef="R162" xsi:type="Relationship" source="N-B-V04-16" target="N-B-V04-19"/>
+        <connection identifier="C-B-V04-R163" relationshipRef="R163" xsi:type="Relationship" source="N-B-V04-16" target="N-B-V04-21"/>
+        <connection identifier="C-B-V04-R164" relationshipRef="R164" xsi:type="Relationship" source="N-B-V04-16" target="N-B-V04-18"/>
+        <connection identifier="C-B-V04-R165" relationshipRef="R165" xsi:type="Relationship" source="N-B-V04-10" target="N-B-V04-19"/>
+        <connection identifier="C-B-V04-R166" relationshipRef="R166" xsi:type="Relationship" source="N-B-V04-10" target="N-B-V04-18"/>
+        <connection identifier="C-B-V04-R167" relationshipRef="R167" xsi:type="Relationship" source="N-B-V04-05" target="N-B-V04-18"/>
+      </view>
+      <view identifier="V-B-V01" xsi:type="Diagram"><name xml:lang="es">B-V01 Cooperación de negocio · Baseline (S)</name><documentation xml:lang="es">B-V01 · VP-B01 Baseline · escenario simulado S (DS-CS-02…10) · Grupo 04 · v0.3. Rol dentro de actor y proceso dentro de rol = Assignment (anidamiento). La historia se arma con BP-09 sobre la planilla BO-09; Despacho no lee el resultado de inspección (DS-CS-06). Relaciones: Triggering (→) · Realization (- -▷) · Access (··› escribe; ‹·· lee).</documentation>
+        <node identifier="N-B-V01-01" elementRef="ACT-01" xsi:type="Element" x="20" y="186" w="1644" h="198">
+          <node identifier="N-B-V01-05" elementRef="ROL-B03" xsi:type="Element" x="34" y="212" w="1622" h="76">
+            <node identifier="N-B-V01-10" elementRef="BP-01" xsi:type="Element" x="204" y="221" w="152" h="58"/>
+          </node>
+          <node identifier="N-B-V01-06" elementRef="ROL-B04" xsi:type="Element" x="34" y="296" w="1622" h="76">
+            <node identifier="N-B-V01-11" elementRef="BP-02" xsi:type="Element" x="386" y="305" w="152" h="58"/>
+            <node identifier="N-B-V01-16" elementRef="BP-09" xsi:type="Element" x="1296" y="305" w="152" h="58"/>
+          </node>
+        </node>
+        <node identifier="N-B-V01-02" elementRef="ACT-02" xsi:type="Element" x="20" y="398" w="1644" h="114">
+          <node identifier="N-B-V01-07" elementRef="ROL-B05" xsi:type="Element" x="34" y="424" w="1622" h="76">
+            <node identifier="N-B-V01-12" elementRef="BP-03" xsi:type="Element" x="568" y="433" w="152" h="58"/>
+          </node>
+        </node>
+        <node identifier="N-B-V01-03" elementRef="ACT-03" xsi:type="Element" x="20" y="526" w="1644" h="114">
+          <node identifier="N-B-V01-08" elementRef="ROL-B06" xsi:type="Element" x="34" y="552" w="1622" h="76">
+            <node identifier="N-B-V01-13" elementRef="BP-05" xsi:type="Element" x="750" y="561" w="152" h="58"/>
+            <node identifier="N-B-V01-14" elementRef="BP-06" xsi:type="Element" x="932" y="561" w="152" h="58"/>
+          </node>
+        </node>
+        <node identifier="N-B-V01-04" elementRef="ACT-04" xsi:type="Element" x="20" y="654" w="1644" h="114">
+          <node identifier="N-B-V01-09" elementRef="ROL-B07" xsi:type="Element" x="34" y="680" w="1622" h="76">
+            <node identifier="N-B-V01-15" elementRef="BP-07" xsi:type="Element" x="1114" y="689" w="152" h="58"/>
+          </node>
+        </node>
+        <node identifier="N-B-V01-17" elementRef="BSV-02" xsi:type="Element" x="1114" y="96" w="152" h="58"/>
+        <node identifier="N-B-V01-18" elementRef="BSV-04" xsi:type="Element" x="932" y="96" w="152" h="58"/>
+        <node identifier="N-B-V01-19" elementRef="BSV-05" xsi:type="Element" x="568" y="96" w="152" h="58"/>
+        <node identifier="N-B-V01-20" elementRef="BSV-06" xsi:type="Element" x="1296" y="96" w="152" h="58"/>
+        <node identifier="N-B-V01-21" elementRef="BO-01" xsi:type="Element" x="204" y="808" w="152" h="58"/>
+        <node identifier="N-B-V01-22" elementRef="BO-03" xsi:type="Element" x="568" y="808" w="152" h="58"/>
+        <node identifier="N-B-V01-23" elementRef="BO-04" xsi:type="Element" x="1114" y="808" w="152" h="58"/>
+        <node identifier="N-B-V01-24" elementRef="BO-05" xsi:type="Element" x="750" y="808" w="152" h="58"/>
+        <node identifier="N-B-V01-25" elementRef="BO-09" xsi:type="Element" x="1296" y="808" w="152" h="58"/>
+        <connection identifier="C-B-V01-R116" relationshipRef="R116" xsi:type="Relationship" source="N-B-V01-10" target="N-B-V01-11"/>
+        <connection identifier="C-B-V01-R117" relationshipRef="R117" xsi:type="Relationship" source="N-B-V01-11" target="N-B-V01-12"/>
+        <connection identifier="C-B-V01-R118" relationshipRef="R118" xsi:type="Relationship" source="N-B-V01-11" target="N-B-V01-13"><bendpoint x="826" y="334"/></connection>
+        <connection identifier="C-B-V01-R119" relationshipRef="R119" xsi:type="Relationship" source="N-B-V01-13" target="N-B-V01-14"/>
+        <connection identifier="C-B-V01-R120" relationshipRef="R120" xsi:type="Relationship" source="N-B-V01-14" target="N-B-V01-15"/>
+        <connection identifier="C-B-V01-R122" relationshipRef="R122" xsi:type="Relationship" source="N-B-V01-12" target="N-B-V01-16"/>
+        <connection identifier="C-B-V01-R123" relationshipRef="R123" xsi:type="Relationship" source="N-B-V01-16" target="N-B-V01-15"/>
+        <connection identifier="C-B-V01-R130" relationshipRef="R130" xsi:type="Relationship" source="N-B-V01-10" target="N-B-V01-21"/>
+        <connection identifier="C-B-V01-R133" relationshipRef="R133" xsi:type="Relationship" source="N-B-V01-11" target="N-B-V01-21"/>
+        <connection identifier="C-B-V01-R137" relationshipRef="R137" xsi:type="Relationship" source="N-B-V01-12" target="N-B-V01-22"/>
+        <connection identifier="C-B-V01-R138" relationshipRef="R138" xsi:type="Relationship" source="N-B-V01-13" target="N-B-V01-24"/>
+        <connection identifier="C-B-V01-R139" relationshipRef="R139" xsi:type="Relationship" source="N-B-V01-14" target="N-B-V01-24"/>
+        <connection identifier="C-B-V01-R150" relationshipRef="R150" xsi:type="Relationship" source="N-B-V01-16" target="N-B-V01-25"/>
+        <connection identifier="C-B-V01-R151" relationshipRef="R151" xsi:type="Relationship" source="N-B-V01-15" target="N-B-V01-25"/>
+        <connection identifier="C-B-V01-R147" relationshipRef="R147" xsi:type="Relationship" source="N-B-V01-15" target="N-B-V01-23"/>
+        <connection identifier="C-B-V01-R153" relationshipRef="R153" xsi:type="Relationship" source="N-B-V01-15" target="N-B-V01-17"/>
+        <connection identifier="C-B-V01-R155" relationshipRef="R155" xsi:type="Relationship" source="N-B-V01-14" target="N-B-V01-18"/>
+        <connection identifier="C-B-V01-R156" relationshipRef="R156" xsi:type="Relationship" source="N-B-V01-12" target="N-B-V01-19"/>
+        <connection identifier="C-B-V01-R157" relationshipRef="R157" xsi:type="Relationship" source="N-B-V01-16" target="N-B-V01-20"/>
+      </view>
+      <view identifier="V-B-V02" xsi:type="Diagram"><name xml:lang="es">B-V02 Cooperación de negocio · Target (D)</name><documentation xml:lang="es">B-V02 · VP-B01 Target · decisión D · Grupo 04 · v0.3. Mismos tipos de elemento que B-V01. ★ New = building block nuevo (B-04); BP-09, BSV-06 y BO-09 eliminados. Calidad (ROL-B05) escribe BO-03; Despacho solo lo lee (PR-07). Eventos y consumidores de servicios en B-V04. Relaciones: Triggering (→) · Realization (- -▷) · Access (··› escribe; ‹·· lee).</documentation>
+        <node identifier="N-B-V02-01" elementRef="ACT-01" xsi:type="Element" x="20" y="186" w="1644" h="198">
+          <node identifier="N-B-V02-05" elementRef="ROL-B03" xsi:type="Element" x="34" y="212" w="1622" h="76">
+            <node identifier="N-B-V02-11" elementRef="BP-01" xsi:type="Element" x="204" y="221" w="152" h="58"/>
+          </node>
+          <node identifier="N-B-V02-06" elementRef="ROL-B04" xsi:type="Element" x="34" y="296" w="1622" h="76">
+            <node identifier="N-B-V02-12" elementRef="BP-02" xsi:type="Element" x="386" y="305" w="152" h="58"/>
+            <node identifier="N-B-V02-18" elementRef="BP-08" xsi:type="Element" x="1478" y="305" w="152" h="58"/>
+          </node>
+        </node>
+        <node identifier="N-B-V02-02" elementRef="ACT-02" xsi:type="Element" x="20" y="398" w="1644" h="198">
+          <node identifier="N-B-V02-07" elementRef="ROL-B05" xsi:type="Element" x="34" y="424" w="1622" h="76">
+            <node identifier="N-B-V02-13" elementRef="BP-03" xsi:type="Element" x="568" y="433" w="152" h="58"/>
+          </node>
+          <node identifier="N-B-V02-08" elementRef="ROL-B01" xsi:type="Element" x="34" y="508" w="1622" h="76">
+            <node identifier="N-B-V02-14" elementRef="BP-04" xsi:type="Element" x="1296" y="517" w="152" h="58"/>
+          </node>
+        </node>
+        <node identifier="N-B-V02-03" elementRef="ACT-03" xsi:type="Element" x="20" y="610" w="1644" h="114">
+          <node identifier="N-B-V02-09" elementRef="ROL-B06" xsi:type="Element" x="34" y="636" w="1622" h="76">
+            <node identifier="N-B-V02-15" elementRef="BP-05" xsi:type="Element" x="750" y="645" w="152" h="58"/>
+            <node identifier="N-B-V02-16" elementRef="BP-06" xsi:type="Element" x="932" y="645" w="152" h="58"/>
+          </node>
+        </node>
+        <node identifier="N-B-V02-04" elementRef="ACT-04" xsi:type="Element" x="20" y="738" w="1644" h="114">
+          <node identifier="N-B-V02-10" elementRef="ROL-B07" xsi:type="Element" x="34" y="764" w="1622" h="76">
+            <node identifier="N-B-V02-17" elementRef="BP-07" xsi:type="Element" x="1114" y="773" w="152" h="58"/>
+          </node>
+        </node>
+        <node identifier="N-B-V02-19" elementRef="BSV-01" xsi:type="Element" x="1296" y="96" w="152" h="58"/>
+        <node identifier="N-B-V02-20" elementRef="BSV-02" xsi:type="Element" x="1114" y="96" w="152" h="58"/>
+        <node identifier="N-B-V02-21" elementRef="BSV-03" xsi:type="Element" x="1478" y="96" w="152" h="58"/>
+        <node identifier="N-B-V02-22" elementRef="BSV-04" xsi:type="Element" x="932" y="96" w="152" h="58"/>
+        <node identifier="N-B-V02-23" elementRef="BSV-05" xsi:type="Element" x="568" y="96" w="152" h="58"/>
+        <node identifier="N-B-V02-24" elementRef="BO-01" xsi:type="Element" x="204" y="892" w="152" h="58"/>
+        <node identifier="N-B-V02-25" elementRef="BO-02" xsi:type="Element" x="386" y="892" w="152" h="58"/>
+        <node identifier="N-B-V02-26" elementRef="BO-03" xsi:type="Element" x="568" y="892" w="152" h="58"/>
+        <node identifier="N-B-V02-27" elementRef="BO-04" xsi:type="Element" x="1114" y="892" w="152" h="58"/>
+        <node identifier="N-B-V02-28" elementRef="BO-05" xsi:type="Element" x="750" y="892" w="152" h="58"/>
+        <node identifier="N-B-V02-29" elementRef="BO-06" xsi:type="Element" x="932" y="892" w="152" h="58"/>
+        <node identifier="N-B-V02-30" elementRef="BO-07" xsi:type="Element" x="1296" y="892" w="152" h="58"/>
+        <node identifier="N-B-V02-31" elementRef="BO-08" xsi:type="Element" x="1478" y="892" w="152" h="58"/>
+        <connection identifier="C-B-V02-R116" relationshipRef="R116" xsi:type="Relationship" source="N-B-V02-11" target="N-B-V02-12"/>
+        <connection identifier="C-B-V02-R117" relationshipRef="R117" xsi:type="Relationship" source="N-B-V02-12" target="N-B-V02-13"/>
+        <connection identifier="C-B-V02-R118" relationshipRef="R118" xsi:type="Relationship" source="N-B-V02-12" target="N-B-V02-15"><bendpoint x="826" y="334"/></connection>
+        <connection identifier="C-B-V02-R119" relationshipRef="R119" xsi:type="Relationship" source="N-B-V02-15" target="N-B-V02-16"/>
+        <connection identifier="C-B-V02-R120" relationshipRef="R120" xsi:type="Relationship" source="N-B-V02-16" target="N-B-V02-17"/>
+        <connection identifier="C-B-V02-R121" relationshipRef="R121" xsi:type="Relationship" source="N-B-V02-13" target="N-B-V02-17"><bendpoint x="1190" y="462"/></connection>
+        <connection identifier="C-B-V02-R130" relationshipRef="R130" xsi:type="Relationship" source="N-B-V02-11" target="N-B-V02-24"/>
+        <connection identifier="C-B-V02-R131" relationshipRef="R131" xsi:type="Relationship" source="N-B-V02-11" target="N-B-V02-30"/>
+        <connection identifier="C-B-V02-R132" relationshipRef="R132" xsi:type="Relationship" source="N-B-V02-11" target="N-B-V02-29"/>
+        <connection identifier="C-B-V02-R133" relationshipRef="R133" xsi:type="Relationship" source="N-B-V02-12" target="N-B-V02-24"/>
+        <connection identifier="C-B-V02-R134" relationshipRef="R134" xsi:type="Relationship" source="N-B-V02-12" target="N-B-V02-25"/>
+        <connection identifier="C-B-V02-R135" relationshipRef="R135" xsi:type="Relationship" source="N-B-V02-12" target="N-B-V02-30"/>
+        <connection identifier="C-B-V02-R136" relationshipRef="R136" xsi:type="Relationship" source="N-B-V02-13" target="N-B-V02-25"/>
+        <connection identifier="C-B-V02-R137" relationshipRef="R137" xsi:type="Relationship" source="N-B-V02-13" target="N-B-V02-26"/>
+        <connection identifier="C-B-V02-R138" relationshipRef="R138" xsi:type="Relationship" source="N-B-V02-15" target="N-B-V02-28"/>
+        <connection identifier="C-B-V02-R139" relationshipRef="R139" xsi:type="Relationship" source="N-B-V02-16" target="N-B-V02-28"/>
+        <connection identifier="C-B-V02-R140" relationshipRef="R140" xsi:type="Relationship" source="N-B-V02-16" target="N-B-V02-29"/>
+        <connection identifier="C-B-V02-R141" relationshipRef="R141" xsi:type="Relationship" source="N-B-V02-14" target="N-B-V02-30"/>
+        <connection identifier="C-B-V02-R142" relationshipRef="R142" xsi:type="Relationship" source="N-B-V02-14" target="N-B-V02-25"/>
+        <connection identifier="C-B-V02-R143" relationshipRef="R143" xsi:type="Relationship" source="N-B-V02-14" target="N-B-V02-26"/>
+        <connection identifier="C-B-V02-R144" relationshipRef="R144" xsi:type="Relationship" source="N-B-V02-14" target="N-B-V02-28"/>
+        <connection identifier="C-B-V02-R145" relationshipRef="R145" xsi:type="Relationship" source="N-B-V02-17" target="N-B-V02-26"/>
+        <connection identifier="C-B-V02-R146" relationshipRef="R146" xsi:type="Relationship" source="N-B-V02-17" target="N-B-V02-28"/>
+        <connection identifier="C-B-V02-R147" relationshipRef="R147" xsi:type="Relationship" source="N-B-V02-17" target="N-B-V02-27"/>
+        <connection identifier="C-B-V02-R148" relationshipRef="R148" xsi:type="Relationship" source="N-B-V02-17" target="N-B-V02-29"/>
+        <connection identifier="C-B-V02-R149" relationshipRef="R149" xsi:type="Relationship" source="N-B-V02-18" target="N-B-V02-31"/>
+        <connection identifier="C-B-V02-R152" relationshipRef="R152" xsi:type="Relationship" source="N-B-V02-14" target="N-B-V02-19"/>
+        <connection identifier="C-B-V02-R153" relationshipRef="R153" xsi:type="Relationship" source="N-B-V02-17" target="N-B-V02-20"/>
+        <connection identifier="C-B-V02-R154" relationshipRef="R154" xsi:type="Relationship" source="N-B-V02-18" target="N-B-V02-21"/>
+        <connection identifier="C-B-V02-R155" relationshipRef="R155" xsi:type="Relationship" source="N-B-V02-16" target="N-B-V02-22"/>
+        <connection identifier="C-B-V02-R156" relationshipRef="R156" xsi:type="Relationship" source="N-B-V02-13" target="N-B-V02-23"/>
+      </view>
+      <view identifier="V-D-V01" xsi:type="Diagram"><name xml:lang="es">D-V01 Estructura de datos Baseline (S)</name><documentation xml:lang="es">D-V01 · VP-C01 · C01 · Grupo 04 · v3.0 · Baseline simulado (DS-CS-13/19) Cada fuente guarda su propio código (R-, B-, PAL-, QA-, CAM-, EMB-); solo la planilla puente AP-07 los relaciona, a mano y sin steward.</documentation>
+        <node identifier="N-D-V01-01" elementRef="AP-01" xsi:type="Element" x="0" y="0" w="144" h="58"/>
+        <node identifier="N-D-V01-02" elementRef="AP-02" xsi:type="Element" x="648" y="0" w="144" h="58"/>
+        <node identifier="N-D-V01-03" elementRef="AP-03" xsi:type="Element" x="162" y="0" w="144" h="58"/>
+        <node identifier="N-D-V01-04" elementRef="AP-04" xsi:type="Element" x="486" y="0" w="144" h="58"/>
+        <node identifier="N-D-V01-05" elementRef="AP-05" xsi:type="Element" x="810" y="0" w="144" h="58"/>
+        <node identifier="N-D-V01-06" elementRef="AP-06" xsi:type="Element" x="972" y="0" w="144" h="58"/>
+        <node identifier="N-D-V01-07" elementRef="AP-07" xsi:type="Element" x="324" y="0" w="144" h="58"/>
+        <node identifier="N-D-V01-08" elementRef="DOB-B01" xsi:type="Element" x="0" y="97" w="144" h="58"/>
+        <node identifier="N-D-V01-09" elementRef="DOB-B02" xsi:type="Element" x="648" y="97" w="144" h="58"/>
+        <node identifier="N-D-V01-10" elementRef="DOB-B03" xsi:type="Element" x="162" y="97" w="144" h="58"/>
+        <node identifier="N-D-V01-11" elementRef="DOB-B04" xsi:type="Element" x="486" y="97" w="144" h="58"/>
+        <node identifier="N-D-V01-12" elementRef="DOB-B05" xsi:type="Element" x="810" y="97" w="144" h="58"/>
+        <node identifier="N-D-V01-13" elementRef="DOB-B06" xsi:type="Element" x="972" y="97" w="144" h="58"/>
+        <node identifier="N-D-V01-14" elementRef="DOB-B07" xsi:type="Element" x="324" y="97" w="144" h="58"/>
+        <connection identifier="C-D-V01-R176" relationshipRef="R176" xsi:type="Relationship" source="N-D-V01-01" target="N-D-V01-08"/>
+        <connection identifier="C-D-V01-R177" relationshipRef="R177" xsi:type="Relationship" source="N-D-V01-02" target="N-D-V01-09"/>
+        <connection identifier="C-D-V01-R178" relationshipRef="R178" xsi:type="Relationship" source="N-D-V01-03" target="N-D-V01-10"/>
+        <connection identifier="C-D-V01-R179" relationshipRef="R179" xsi:type="Relationship" source="N-D-V01-04" target="N-D-V01-11"/>
+        <connection identifier="C-D-V01-R180" relationshipRef="R180" xsi:type="Relationship" source="N-D-V01-05" target="N-D-V01-12"/>
+        <connection identifier="C-D-V01-R181" relationshipRef="R181" xsi:type="Relationship" source="N-D-V01-06" target="N-D-V01-13"/>
+        <connection identifier="C-D-V01-R182" relationshipRef="R182" xsi:type="Relationship" source="N-D-V01-07" target="N-D-V01-14"/>
+        <connection identifier="C-D-V01-R183" relationshipRef="R183" xsi:type="Relationship" source="N-D-V01-07" target="N-D-V01-08"/>
+        <connection identifier="C-D-V01-R184" relationshipRef="R184" xsi:type="Relationship" source="N-D-V01-07" target="N-D-V01-10"/>
+        <connection identifier="C-D-V01-R185" relationshipRef="R185" xsi:type="Relationship" source="N-D-V01-07" target="N-D-V01-11"/>
+      </view>
+      <view identifier="V-D-V02" xsi:type="Diagram"><name xml:lang="es">D-V02 Modelo conceptual de datos Target (D)</name><documentation xml:lang="es">D-V02 · VP-C02 · C01/C06/C07 · Grupo 04 · v3.0 · Target (D) Genealogía N:M: LotGenealogy une padre e hijo (división y mezcla, DS-CS-15). QAResult versionado solo lo escribe ROL-B05. Modelo conceptual, no esquema físico.</documentation>
+        <node identifier="N-D-V02-01" elementRef="DOBJ-01" xsi:type="Element" x="486" y="97" w="144" h="58"/>
+        <node identifier="N-D-V02-02" elementRef="DOBJ-02" xsi:type="Element" x="486" y="0" w="144" h="58"/>
+        <node identifier="N-D-V02-03" elementRef="DOBJ-03" xsi:type="Element" x="648" y="0" w="144" h="58"/>
+        <node identifier="N-D-V02-04" elementRef="DOBJ-04" xsi:type="Element" x="0" y="195" w="144" h="58"/>
+        <node identifier="N-D-V02-05" elementRef="DOBJ-05" xsi:type="Element" x="162" y="195" w="144" h="58"/>
+        <node identifier="N-D-V02-06" elementRef="DOBJ-06" xsi:type="Element" x="324" y="195" w="144" h="58"/>
+        <node identifier="N-D-V02-07" elementRef="DOBJ-07" xsi:type="Element" x="486" y="293" w="144" h="58"/>
+        <node identifier="N-D-V02-08" elementRef="DOBJ-08" xsi:type="Element" x="486" y="195" w="144" h="58"/>
+        <node identifier="N-D-V02-09" elementRef="DOBJ-09" xsi:type="Element" x="648" y="195" w="144" h="58"/>
+        <node identifier="N-D-V02-10" elementRef="DOBJ-10" xsi:type="Element" x="810" y="195" w="144" h="58"/>
+        <node identifier="N-D-V02-11" elementRef="DOBJ-11" xsi:type="Element" x="810" y="0" w="144" h="58"/>
+        <connection identifier="C-D-V02-R186" relationshipRef="R186" xsi:type="Relationship" source="N-D-V02-03" target="N-D-V02-01"/>
+        <connection identifier="C-D-V02-R187" relationshipRef="R187" xsi:type="Relationship" source="N-D-V02-02" target="N-D-V02-01"/>
+        <connection identifier="C-D-V02-R188" relationshipRef="R188" xsi:type="Relationship" source="N-D-V02-01" target="N-D-V02-04"/>
+        <connection identifier="C-D-V02-R189" relationshipRef="R189" xsi:type="Relationship" source="N-D-V02-04" target="N-D-V02-01"/>
+        <connection identifier="C-D-V02-R190" relationshipRef="R190" xsi:type="Relationship" source="N-D-V02-01" target="N-D-V02-05"/>
+        <connection identifier="C-D-V02-R191" relationshipRef="R191" xsi:type="Relationship" source="N-D-V02-01" target="N-D-V02-06"/>
+        <connection identifier="C-D-V02-R192" relationshipRef="R192" xsi:type="Relationship" source="N-D-V02-01" target="N-D-V02-08"/>
+        <connection identifier="C-D-V02-R193" relationshipRef="R193" xsi:type="Relationship" source="N-D-V02-08" target="N-D-V02-07"/>
+        <connection identifier="C-D-V02-R194" relationshipRef="R194" xsi:type="Relationship" source="N-D-V02-11" target="N-D-V02-01"/>
+        <connection identifier="C-D-V02-R195" relationshipRef="R195" xsi:type="Relationship" source="N-D-V02-01" target="N-D-V02-09"/>
+        <connection identifier="C-D-V02-R196" relationshipRef="R196" xsi:type="Relationship" source="N-D-V02-01" target="N-D-V02-10"/>
+      </view>
+      <view identifier="V-D-V03" xsi:type="Diagram"><name xml:lang="es">D-V03 Diseminación y linaje (D)</name><documentation xml:lang="es">D-V03 · VP-C03 · C01/C04 · Grupo 04 · v3.0 · Target (D) Linaje: fuentes → contratos IF → validación y reconciliación (AF-01) → composición (AF-02) → producto de datos LotHistory → consulta autorizada. Genealogía ≠ linaje.</documentation>
+        <node identifier="N-D-V03-01" elementRef="AP-01" xsi:type="Element" x="0" y="0" w="144" h="58"/>
+        <node identifier="N-D-V03-02" elementRef="AP-02" xsi:type="Element" x="162" y="0" w="144" h="58"/>
+        <node identifier="N-D-V03-03" elementRef="AP-03" xsi:type="Element" x="324" y="0" w="144" h="58"/>
+        <node identifier="N-D-V03-04" elementRef="AP-04" xsi:type="Element" x="810" y="0" w="144" h="58"/>
+        <node identifier="N-D-V03-05" elementRef="AP-05" xsi:type="Element" x="486" y="0" w="144" h="58"/>
+        <node identifier="N-D-V03-06" elementRef="AP-06" xsi:type="Element" x="648" y="0" w="144" h="58"/>
+        <node identifier="N-D-V03-07" elementRef="AP-08" xsi:type="Element" x="486" y="97" w="144" h="58"/>
+        <node identifier="N-D-V03-08" elementRef="AF-01" xsi:type="Element" x="567" y="195" w="144" h="58"/>
+        <node identifier="N-D-V03-09" elementRef="DOBJ-05" xsi:type="Element" x="567" y="293" w="144" h="58"/>
+        <node identifier="N-D-V03-10" elementRef="AP-09" xsi:type="Element" x="810" y="97" w="144" h="58"/>
+        <node identifier="N-D-V03-11" elementRef="AF-02" xsi:type="Element" x="810" y="195" w="144" h="58"/>
+        <node identifier="N-D-V03-12" elementRef="DOBJ-12" xsi:type="Element" x="810" y="293" w="144" h="58"/>
+        <node identifier="N-D-V03-13" elementRef="ASV-02" xsi:type="Element" x="810" y="391" w="144" h="58"/>
+        <node identifier="N-D-V03-14" elementRef="ROL-B05" xsi:type="Element" x="648" y="489" w="144" h="58"/>
+        <node identifier="N-D-V03-15" elementRef="ROL-B07" xsi:type="Element" x="810" y="489" w="144" h="58"/>
+        <connection identifier="C-D-V03-R211" relationshipRef="R211" xsi:type="Relationship" source="N-D-V03-01" target="N-D-V03-07"/>
+        <connection identifier="C-D-V03-R212" relationshipRef="R212" xsi:type="Relationship" source="N-D-V03-02" target="N-D-V03-07"/>
+        <connection identifier="C-D-V03-R213" relationshipRef="R213" xsi:type="Relationship" source="N-D-V03-03" target="N-D-V03-07"/>
+        <connection identifier="C-D-V03-R214" relationshipRef="R214" xsi:type="Relationship" source="N-D-V03-04" target="N-D-V03-07"/>
+        <connection identifier="C-D-V03-R215" relationshipRef="R215" xsi:type="Relationship" source="N-D-V03-05" target="N-D-V03-07"/>
+        <connection identifier="C-D-V03-R216" relationshipRef="R216" xsi:type="Relationship" source="N-D-V03-06" target="N-D-V03-07"/>
+        <connection identifier="C-D-V03-R217" relationshipRef="R217" xsi:type="Relationship" source="N-D-V03-07" target="N-D-V03-08"/>
+        <connection identifier="C-D-V03-R218" relationshipRef="R218" xsi:type="Relationship" source="N-D-V03-10" target="N-D-V03-11"/>
+        <connection identifier="C-D-V03-R221" relationshipRef="R221" xsi:type="Relationship" source="N-D-V03-08" target="N-D-V03-11"/>
+        <connection identifier="C-D-V03-R222" relationshipRef="R222" xsi:type="Relationship" source="N-D-V03-08" target="N-D-V03-09"/>
+        <connection identifier="C-D-V03-R223" relationshipRef="R223" xsi:type="Relationship" source="N-D-V03-11" target="N-D-V03-12"/>
+        <connection identifier="C-D-V03-R225" relationshipRef="R225" xsi:type="Relationship" source="N-D-V03-13" target="N-D-V03-12"/>
+        <connection identifier="C-D-V03-R232" relationshipRef="R232" xsi:type="Relationship" source="N-D-V03-11" target="N-D-V03-13"/>
+        <connection identifier="C-D-V03-R243" relationshipRef="R243" xsi:type="Relationship" source="N-D-V03-13" target="N-D-V03-14"/>
+        <connection identifier="C-D-V03-R244" relationshipRef="R244" xsi:type="Relationship" source="N-D-V03-13" target="N-D-V03-15"/>
+      </view>
+      <view identifier="V-AP-V01" xsi:type="Diagram"><name xml:lang="es">AP-V01 Portafolio de aplicaciones Baseline (S)</name><documentation xml:lang="es">AP-V01 · VP-C04 · C02/C03 · Grupo 04 · v3.0 · Baseline simulado (DS-CS-25) La planilla puente concentra todos los traspasos (planilla, correo, CSV) y alimenta SAP por digitación manual.</documentation>
+        <node identifier="N-AP-V01-01" elementRef="AP-01" xsi:type="Element" x="139" y="0" w="144" h="58"/>
+        <node identifier="N-AP-V01-02" elementRef="AP-02" xsi:type="Element" x="301" y="0" w="144" h="58"/>
+        <node identifier="N-AP-V01-03" elementRef="AP-03" xsi:type="Element" x="463" y="97" w="144" h="58"/>
+        <node identifier="N-AP-V01-04" elementRef="AP-04" xsi:type="Element" x="463" y="0" w="144" h="58"/>
+        <node identifier="N-AP-V01-05" elementRef="AP-05" xsi:type="Element" x="625" y="0" w="144" h="58"/>
+        <node identifier="N-AP-V01-06" elementRef="AP-06" xsi:type="Element" x="463" y="293" w="144" h="58"/>
+        <node identifier="N-AP-V01-07" elementRef="AP-07" xsi:type="Element" x="463" y="195" w="144" h="58"/>
+        <connection identifier="C-AP-V01-R249" relationshipRef="R249" xsi:type="Relationship" source="N-AP-V01-01" target="N-AP-V01-07"/>
+        <connection identifier="C-AP-V01-R250" relationshipRef="R250" xsi:type="Relationship" source="N-AP-V01-03" target="N-AP-V01-07"/>
+        <connection identifier="C-AP-V01-R251" relationshipRef="R251" xsi:type="Relationship" source="N-AP-V01-04" target="N-AP-V01-07"/>
+        <connection identifier="C-AP-V01-R252" relationshipRef="R252" xsi:type="Relationship" source="N-AP-V01-05" target="N-AP-V01-07"/>
+        <connection identifier="C-AP-V01-R253" relationshipRef="R253" xsi:type="Relationship" source="N-AP-V01-02" target="N-AP-V01-03"/>
+        <connection identifier="C-AP-V01-R254" relationshipRef="R254" xsi:type="Relationship" source="N-AP-V01-07" target="N-AP-V01-06"/>
+      </view>
+      <view identifier="V-AP-V02" xsi:type="Diagram"><name xml:lang="es">AP-V02 Componentes y servicios de aplicación Target (D)</name><documentation xml:lang="es">AP-V02 · VP-C05 · C01/C05 · Grupo 04 · v3.0 · Target (D) · ★ New = componente nuevo (ABB lógico, sin producto) Componente → función (Assignment) → servicio (Realization) → proceso de negocio (Serving). Interfaces asignadas a servicios.</documentation>
+        <node identifier="N-AP-V02-01" elementRef="AP-08" xsi:type="Element" x="106" y="388" w="144" h="58"/>
+        <node identifier="N-AP-V02-02" elementRef="AP-09" xsi:type="Element" x="106" y="151" w="144" h="58"/>
+        <node identifier="N-AP-V02-03" elementRef="AP-10" xsi:type="Element" x="106" y="284" w="144" h="58"/>
+        <node identifier="N-AP-V02-04" elementRef="AP-11" xsi:type="Element" x="106" y="0" w="144" h="58"/>
+        <node identifier="N-AP-V02-05" elementRef="AI-01" xsi:type="Element" x="290" y="364" w="144" h="58"/>
+        <node identifier="N-AP-V02-06" elementRef="AI-02" xsi:type="Element" x="290" y="151" w="144" h="58"/>
+        <node identifier="N-AP-V02-07" elementRef="AF-01" xsi:type="Element" x="290" y="440" w="144" h="58"/>
+        <node identifier="N-AP-V02-08" elementRef="AF-02" xsi:type="Element" x="290" y="227" w="144" h="58"/>
+        <node identifier="N-AP-V02-09" elementRef="AF-03" xsi:type="Element" x="290" y="75" w="144" h="58"/>
+        <node identifier="N-AP-V02-10" elementRef="AF-04" xsi:type="Element" x="290" y="0" w="144" h="58"/>
+        <node identifier="N-AP-V02-11" elementRef="ASV-01" xsi:type="Element" x="474" y="402" w="144" h="58"/>
+        <node identifier="N-AP-V02-12" elementRef="ASV-02" xsi:type="Element" x="474" y="227" w="144" h="58"/>
+        <node identifier="N-AP-V02-13" elementRef="ASV-03" xsi:type="Element" x="474" y="113" w="144" h="58"/>
+        <node identifier="N-AP-V02-14" elementRef="ASV-04" xsi:type="Element" x="474" y="0" w="144" h="58"/>
+        <node identifier="N-AP-V02-15" elementRef="BP-01" xsi:type="Element" x="658" y="402" w="144" h="58"/>
+        <node identifier="N-AP-V02-16" elementRef="BP-04" xsi:type="Element" x="658" y="227" w="144" h="58"/>
+        <node identifier="N-AP-V02-17" elementRef="BP-07" xsi:type="Element" x="658" y="113" w="144" h="58"/>
+        <node identifier="N-AP-V02-18" elementRef="BP-08" xsi:type="Element" x="658" y="0" w="144" h="58"/>
+        <connection identifier="C-AP-V02-R217" relationshipRef="R217" xsi:type="Relationship" source="N-AP-V02-01" target="N-AP-V02-07"/>
+        <connection identifier="C-AP-V02-R218" relationshipRef="R218" xsi:type="Relationship" source="N-AP-V02-02" target="N-AP-V02-08"/>
+        <connection identifier="C-AP-V02-R219" relationshipRef="R219" xsi:type="Relationship" source="N-AP-V02-02" target="N-AP-V02-09"/>
+        <connection identifier="C-AP-V02-R220" relationshipRef="R220" xsi:type="Relationship" source="N-AP-V02-04" target="N-AP-V02-10"/>
+        <connection identifier="C-AP-V02-R227" relationshipRef="R227" xsi:type="Relationship" source="N-AP-V02-07" target="N-AP-V02-11"/>
+        <connection identifier="C-AP-V02-R228" relationshipRef="R228" xsi:type="Relationship" source="N-AP-V02-11" target="N-AP-V02-15"/>
+        <connection identifier="C-AP-V02-R232" relationshipRef="R232" xsi:type="Relationship" source="N-AP-V02-08" target="N-AP-V02-12"/>
+        <connection identifier="C-AP-V02-R233" relationshipRef="R233" xsi:type="Relationship" source="N-AP-V02-12" target="N-AP-V02-16"/>
+        <connection identifier="C-AP-V02-R234" relationshipRef="R234" xsi:type="Relationship" source="N-AP-V02-09" target="N-AP-V02-13"/>
+        <connection identifier="C-AP-V02-R235" relationshipRef="R235" xsi:type="Relationship" source="N-AP-V02-13" target="N-AP-V02-17"/>
+        <connection identifier="C-AP-V02-R236" relationshipRef="R236" xsi:type="Relationship" source="N-AP-V02-10" target="N-AP-V02-14"/>
+        <connection identifier="C-AP-V02-R237" relationshipRef="R237" xsi:type="Relationship" source="N-AP-V02-14" target="N-AP-V02-18"/>
+        <connection identifier="C-AP-V02-R238" relationshipRef="R238" xsi:type="Relationship" source="N-AP-V02-01" target="N-AP-V02-05"/>
+        <connection identifier="C-AP-V02-R239" relationshipRef="R239" xsi:type="Relationship" source="N-AP-V02-05" target="N-AP-V02-11"/>
+        <connection identifier="C-AP-V02-R240" relationshipRef="R240" xsi:type="Relationship" source="N-AP-V02-02" target="N-AP-V02-06"/>
+        <connection identifier="C-AP-V02-R241" relationshipRef="R241" xsi:type="Relationship" source="N-AP-V02-06" target="N-AP-V02-12"/>
+        <connection identifier="C-AP-V02-R242" relationshipRef="R242" xsi:type="Relationship" source="N-AP-V02-06" target="N-AP-V02-13"/>
+        <connection identifier="C-AP-V02-R245" relationshipRef="R245" xsi:type="Relationship" source="N-AP-V02-12" target="N-AP-V02-03"/>
+      </view>
+      <view identifier="V-AP-V03" xsi:type="Diagram"><name xml:lang="es">AP-V03 Cooperación de aplicaciones Target (D)</name><documentation xml:lang="es">AP-V03 · VP-C06 · C03/C07 · Grupo 04 · v3.0 · Target (D) Productores publican por contrato IF-01…04/06 hacia la ingesta; SAP y el portal consumen por IF-05 en solo lectura: ninguna aplicación libera lotes (PR-07).</documentation>
+        <node identifier="N-AP-V03-01" elementRef="AP-01" xsi:type="Element" x="58" y="0" w="144" h="58"/>
+        <node identifier="N-AP-V03-02" elementRef="AP-02" xsi:type="Element" x="220" y="0" w="144" h="58"/>
+        <node identifier="N-AP-V03-03" elementRef="AP-03" xsi:type="Element" x="382" y="0" w="144" h="58"/>
+        <node identifier="N-AP-V03-04" elementRef="AP-04" xsi:type="Element" x="544" y="0" w="144" h="58"/>
+        <node identifier="N-AP-V03-05" elementRef="AP-05" xsi:type="Element" x="706" y="0" w="144" h="58"/>
+        <node identifier="N-AP-V03-06" elementRef="AP-06" xsi:type="Element" x="382" y="489" w="144" h="58"/>
+        <node identifier="N-AP-V03-07" elementRef="AP-08" xsi:type="Element" x="382" y="97" w="144" h="58"/>
+        <node identifier="N-AP-V03-08" elementRef="AI-01" xsi:type="Element" x="544" y="97" w="144" h="58"/>
+        <node identifier="N-AP-V03-09" elementRef="AP-09" xsi:type="Element" x="382" y="195" w="144" h="58"/>
+        <node identifier="N-AP-V03-10" elementRef="AP-11" xsi:type="Element" x="706" y="97" w="144" h="58"/>
+        <node identifier="N-AP-V03-11" elementRef="AI-02" xsi:type="Element" x="382" y="293" w="144" h="58"/>
+        <node identifier="N-AP-V03-12" elementRef="ASV-02" xsi:type="Element" x="544" y="391" w="144" h="58"/>
+        <node identifier="N-AP-V03-13" elementRef="ASV-03" xsi:type="Element" x="382" y="391" w="144" h="58"/>
+        <node identifier="N-AP-V03-14" elementRef="AP-10" xsi:type="Element" x="544" y="489" w="144" h="58"/>
+        <connection identifier="C-AP-V03-R211" relationshipRef="R211" xsi:type="Relationship" source="N-AP-V03-01" target="N-AP-V03-07"/>
+        <connection identifier="C-AP-V03-R212" relationshipRef="R212" xsi:type="Relationship" source="N-AP-V03-02" target="N-AP-V03-07"/>
+        <connection identifier="C-AP-V03-R213" relationshipRef="R213" xsi:type="Relationship" source="N-AP-V03-03" target="N-AP-V03-07"/>
+        <connection identifier="C-AP-V03-R214" relationshipRef="R214" xsi:type="Relationship" source="N-AP-V03-04" target="N-AP-V03-07"/>
+        <connection identifier="C-AP-V03-R215" relationshipRef="R215" xsi:type="Relationship" source="N-AP-V03-05" target="N-AP-V03-07"/>
+        <connection identifier="C-AP-V03-R216" relationshipRef="R216" xsi:type="Relationship" source="N-AP-V03-06" target="N-AP-V03-07"/>
+        <connection identifier="C-AP-V03-R238" relationshipRef="R238" xsi:type="Relationship" source="N-AP-V03-07" target="N-AP-V03-08"/>
+        <connection identifier="C-AP-V03-R240" relationshipRef="R240" xsi:type="Relationship" source="N-AP-V03-09" target="N-AP-V03-11"/>
+        <connection identifier="C-AP-V03-R241" relationshipRef="R241" xsi:type="Relationship" source="N-AP-V03-11" target="N-AP-V03-12"/>
+        <connection identifier="C-AP-V03-R242" relationshipRef="R242" xsi:type="Relationship" source="N-AP-V03-11" target="N-AP-V03-13"/>
+        <connection identifier="C-AP-V03-R245" relationshipRef="R245" xsi:type="Relationship" source="N-AP-V03-12" target="N-AP-V03-14"/>
+        <connection identifier="C-AP-V03-R246" relationshipRef="R246" xsi:type="Relationship" source="N-AP-V03-13" target="N-AP-V03-06"/>
+        <connection identifier="C-AP-V03-R247" relationshipRef="R247" xsi:type="Relationship" source="N-AP-V03-07" target="N-AP-V03-09"/>
+        <connection identifier="C-AP-V03-R248" relationshipRef="R248" xsi:type="Relationship" source="N-AP-V03-10" target="N-AP-V03-09"/>
+      </view>
+      <view identifier="V-X-V01" xsi:type="Diagram"><name xml:lang="es">X-V01 Alineación negocio – datos – aplicaciones</name><documentation xml:lang="es">X-V01 · VP-C07 · C01/C07 · Grupo 04 · v3.0 Dos cadenas: CAP-01 → BSV-01 → BP-04 ← ASV-02 ← AF-02 (AP-09) → LotHistory, y CAP-07 → BSV-05 → BP-03 → BO-03 ← QAResult ← ASV-03 → BP-07 (Despacho solo lee).</documentation>
+        <node identifier="N-X-V01-01" elementRef="CAP-01" xsi:type="Element" x="58" y="0" w="144" h="58"/>
+        <node identifier="N-X-V01-02" elementRef="CAP-07" xsi:type="Element" x="220" y="0" w="144" h="58"/>
+        <node identifier="N-X-V01-03" elementRef="BSV-01" xsi:type="Element" x="58" y="97" w="144" h="58"/>
+        <node identifier="N-X-V01-04" elementRef="BSV-05" xsi:type="Element" x="220" y="97" w="144" h="58"/>
+        <node identifier="N-X-V01-05" elementRef="BP-04" xsi:type="Element" x="382" y="293" w="144" h="58"/>
+        <node identifier="N-X-V01-06" elementRef="BP-03" xsi:type="Element" x="544" y="293" w="144" h="58"/>
+        <node identifier="N-X-V01-07" elementRef="BP-07" xsi:type="Element" x="220" y="293" w="144" h="58"/>
+        <node identifier="N-X-V01-08" elementRef="BO-03" xsi:type="Element" x="706" y="293" w="144" h="58"/>
+        <node identifier="N-X-V01-09" elementRef="ASV-02" xsi:type="Element" x="58" y="391" w="144" h="58"/>
+        <node identifier="N-X-V01-10" elementRef="ASV-03" xsi:type="Element" x="220" y="391" w="144" h="58"/>
+        <node identifier="N-X-V01-11" elementRef="AF-02" xsi:type="Element" x="706" y="489" w="144" h="58"/>
+        <node identifier="N-X-V01-12" elementRef="AF-03" xsi:type="Element" x="544" y="489" w="144" h="58"/>
+        <node identifier="N-X-V01-13" elementRef="AP-09" xsi:type="Element" x="220" y="587" w="144" h="58"/>
+        <node identifier="N-X-V01-14" elementRef="DOBJ-12" xsi:type="Element" x="220" y="489" w="144" h="58"/>
+        <node identifier="N-X-V01-15" elementRef="DOBJ-06" xsi:type="Element" x="382" y="489" w="144" h="58"/>
+        <node identifier="N-X-V01-16" elementRef="ROL-B05" xsi:type="Element" x="58" y="195" w="144" h="58"/>
+        <node identifier="N-X-V01-17" elementRef="ROL-B07" xsi:type="Element" x="220" y="195" w="144" h="58"/>
+        <connection identifier="C-X-V01-R137" relationshipRef="R137" xsi:type="Relationship" source="N-X-V01-06" target="N-X-V01-08"/>
+        <connection identifier="C-X-V01-R145" relationshipRef="R145" xsi:type="Relationship" source="N-X-V01-07" target="N-X-V01-08"/>
+        <connection identifier="C-X-V01-R152" relationshipRef="R152" xsi:type="Relationship" source="N-X-V01-05" target="N-X-V01-03"/>
+        <connection identifier="C-X-V01-R156" relationshipRef="R156" xsi:type="Relationship" source="N-X-V01-06" target="N-X-V01-04"/>
+        <connection identifier="C-X-V01-R158" relationshipRef="R158" xsi:type="Relationship" source="N-X-V01-03" target="N-X-V01-16"/>
+        <connection identifier="C-X-V01-R159" relationshipRef="R159" xsi:type="Relationship" source="N-X-V01-03" target="N-X-V01-17"/>
+        <connection identifier="C-X-V01-R167" relationshipRef="R167" xsi:type="Relationship" source="N-X-V01-04" target="N-X-V01-17"/>
+        <connection identifier="C-X-V01-R200" relationshipRef="R200" xsi:type="Relationship" source="N-X-V01-14" target="N-X-V01-15"/>
+        <connection identifier="C-X-V01-R205" relationshipRef="R205" xsi:type="Relationship" source="N-X-V01-15" target="N-X-V01-08"/>
+        <connection identifier="C-X-V01-R218" relationshipRef="R218" xsi:type="Relationship" source="N-X-V01-13" target="N-X-V01-11"/>
+        <connection identifier="C-X-V01-R219" relationshipRef="R219" xsi:type="Relationship" source="N-X-V01-13" target="N-X-V01-12"/>
+        <connection identifier="C-X-V01-R225" relationshipRef="R225" xsi:type="Relationship" source="N-X-V01-09" target="N-X-V01-14"/>
+        <connection identifier="C-X-V01-R226" relationshipRef="R226" xsi:type="Relationship" source="N-X-V01-10" target="N-X-V01-15"/>
+        <connection identifier="C-X-V01-R232" relationshipRef="R232" xsi:type="Relationship" source="N-X-V01-11" target="N-X-V01-09"/>
+        <connection identifier="C-X-V01-R233" relationshipRef="R233" xsi:type="Relationship" source="N-X-V01-09" target="N-X-V01-05"/>
+        <connection identifier="C-X-V01-R234" relationshipRef="R234" xsi:type="Relationship" source="N-X-V01-12" target="N-X-V01-10"/>
+        <connection identifier="C-X-V01-R235" relationshipRef="R235" xsi:type="Relationship" source="N-X-V01-10" target="N-X-V01-07"/>
+        <connection identifier="C-X-V01-R255" relationshipRef="R255" xsi:type="Relationship" source="N-X-V01-03" target="N-X-V01-01"/>
+        <connection identifier="C-X-V01-R256" relationshipRef="R256" xsi:type="Relationship" source="N-X-V01-04" target="N-X-V01-02"/>
+      </view>
+    </diagrams>
+  </views>
+</model>
