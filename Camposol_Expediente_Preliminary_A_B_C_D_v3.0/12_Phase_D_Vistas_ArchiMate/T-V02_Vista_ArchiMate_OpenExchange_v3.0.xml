@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model xmlns="http://www.opengroup.org/xsd/archimate/3.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.opengroup.org/xsd/archimate/3.0/ http://www.opengroup.org/xsd/archimate/3.1/archimate3_Diagram.xsd" identifier="M-CAMPOSOL-T-V02-v30">
+  <name xml:lang="es">Camposol Chao · T-V02 · Environments &amp; Locations · Target ISA-95 · v3.0</name>
+  <documentation xml:lang="es">Extracto de una vista del modelo consolidado v3.0 (elementos y relaciones de la vista). Modelo académico SI605 Grupo 04; no representa sistemas reales de Camposol.</documentation>
+  <elements>
+    <element identifier="AP-06" xsi:type="ApplicationComponent"><name xml:lang="es">AP-06 SAP corporativo</name><documentation xml:lang="es">Baseline · Embarque y documentación de exportación · Disposición: Mantener; consumir historia y estado QA sin liberar · Clase P (F01/F02)</documentation></element>
+    <element identifier="ISA-L04" xsi:type="Grouping"><name xml:lang="es">ISA-L04 ISA-95 nivel 4 · empresa</name><documentation xml:lang="es">ERP corporativo y documentación de exportación. · Estado: Target (nuevo) · Clase D</documentation></element>
+    <element identifier="AP-08" xsi:type="ApplicationComponent"><name xml:lang="es">AP-08 Ingesta y adaptadores de eventos</name><documentation xml:lang="es">Target · Validar contrato, deduplicar y correlacionar eventos · Disposición: Incorporar (ABB lógico, sin producto) · Clase D</documentation></element>
+    <element identifier="AP-09" xsi:type="ApplicationComponent"><name xml:lang="es">AP-09 Componente de trazabilidad</name><documentation xml:lang="es">Target · Componer identidad, genealogía e historia; publicar estado QA · Disposición: Incorporar (ABB lógico) · Clase D</documentation></element>
+    <element identifier="AP-01" xsi:type="ApplicationComponent"><name xml:lang="es">AP-01 Registro de recepción (planilla)</name><documentation xml:lang="es">Baseline · Registrar bins y origen · Disposición: Modernizar captura (candidato; decisión en Phase E) · Clase S</documentation></element>
+    <element identifier="AP-03" xsi:type="ApplicationComponent"><name xml:lang="es">AP-03 Planilla de packing</name><documentation xml:lang="es">Baseline · Registrar pallets y composición · Disposición: Modernizar captura (candidato) · Clase S</documentation></element>
+    <element identifier="AP-04" xsi:type="ApplicationComponent"><name xml:lang="es">AP-04 Registro de Calidad (planilla)</name><documentation xml:lang="es">Baseline · Registrar inspección y decisión · Disposición: Modernizar captura (candidato) conservando autoridad · Clase S</documentation></element>
+    <element identifier="AP-02" xsi:type="ApplicationComponent"><name xml:lang="es">AP-02 Sistema de la calibradora</name><documentation xml:lang="es">Baseline · Calibrar y registrar batches, división y mezcla · Disposición: Mantener + adaptador de eventos · Clase P existencia (F04)</documentation></element>
+    <element identifier="AP-05" xsi:type="ApplicationComponent"><name xml:lang="es">AP-05 Registro térmico de cámaras</name><documentation xml:lang="es">Baseline · Registrar temperatura por posición · Disposición: Integrar por contrato si NV-05 confirma la fuente · Clase S / NV-05</documentation></element>
+    <element identifier="T-TAR02" xsi:type="Device"><name xml:lang="es">T-TAR02 Estaciones de captura en punto</name><documentation xml:lang="es">Recepción, packing y laboratorio de Calidad; ejecutan AP-01/03/04 modernizados con cuenta nominal. · Estado: Target (nuevo) · Clase D</documentation></element>
+    <element identifier="ISA-L03" xsi:type="Grouping"><name xml:lang="es">ISA-L03 ISA-95 nivel 3 · operaciones de planta</name><documentation xml:lang="es">Registro de producción, calidad y trazabilidad (MOM). Borde y plataforma central son despliegues de estas funciones, no niveles nuevos. · Estado: Target (nuevo) · Clase D</documentation></element>
+    <element identifier="T-BASE01" xsi:type="Device"><name xml:lang="es">T-BASE01 PLC de calibradora (2 líneas)</name><documentation xml:lang="es">ISA-95 nivel 1–2. Control local de la línea; se mantiene. Ningún mando remoto desde zonas IT o central (PR-09). · Estado: Baseline y Target · Clase S (DS-CS-33)</documentation></element>
+    <element identifier="T-BASE02" xsi:type="Node"><name xml:lang="es">T-BASE02 PC/HMI de calibradora</name><documentation xml:lang="es">Software del fabricante; ejecuta AP-02. Se mantiene; expone eventos solo por CD-01 (lectura). · Estado: Baseline y Target · Clase S (DS-CS-33) · P existencia F04</documentation></element>
+    <element identifier="T-BASE04" xsi:type="Node"><name xml:lang="es">T-BASE04 PC de registro térmico</name><documentation xml:lang="es">Ejecuta AP-05; en Target el CSV nocturno se reemplaza por lectura continua vía gateway (CD-02). · Estado: Baseline y Target · Clase S (DS-CS-34)</documentation></element>
+    <element identifier="ISA-L02" xsi:type="Grouping"><name xml:lang="es">ISA-L02 ISA-95 nivel 2 · control y supervisión</name><documentation xml:lang="es">PLC, HMI y supervisión de frío; operan sin enlace externo. · Estado: Target (nuevo) · Clase D</documentation></element>
+    <element identifier="T-TAR01" xsi:type="Device"><name xml:lang="es">T-TAR01 Lectores de código en puntos de captura</name><documentation xml:lang="es">Recepción, packing y despacho; leen lotId y códigos locales para registrar en el punto. · Estado: Target (nuevo) · Clase D</documentation></element>
+    <element identifier="T-BASE03" xsi:type="Device"><name xml:lang="es">T-BASE03 Sondas térmicas por posición (60)</name><documentation xml:lang="es">Lecturas cada 5 min; Target exige identificador de posición y reloj sincronizado (NV-05). · Estado: Baseline y Target · Clase S (DS-CS-34)</documentation></element>
+    <element identifier="T-TAR13" xsi:type="Device"><name xml:lang="es">T-TAR13 Cámara de inspección visual (opcional)</name><documentation xml:lang="es">Piloto no crítico en calibradora (TD-RC08); su inferencia es evidencia, nunca liberación (PR-07, DEC-D12). · Estado: Target (nuevo) · Clase D (opcional)</documentation></element>
+    <element identifier="ISA-L01" xsi:type="Grouping"><name xml:lang="es">ISA-L01 ISA-95 nivel 0–1 · sensado y lectura</name><documentation xml:lang="es">Proceso físico, sensores y lectores. · Estado: Target (nuevo) · Clase D</documentation></element>
+  </elements>
+  <relationships>
+    <relationship identifier="R211" source="AP-01" target="AP-08" xsi:type="Flow"><name xml:lang="es">IF-01</name></relationship>
+    <relationship identifier="R212" source="AP-02" target="AP-08" xsi:type="Flow"><name xml:lang="es">IF-02</name></relationship>
+    <relationship identifier="R213" source="AP-03" target="AP-08" xsi:type="Flow"><name xml:lang="es">IF-02</name></relationship>
+    <relationship identifier="R214" source="AP-04" target="AP-08" xsi:type="Flow"><name xml:lang="es">IF-03</name></relationship>
+    <relationship identifier="R215" source="AP-05" target="AP-08" xsi:type="Flow"><name xml:lang="es">IF-04</name></relationship>
+    <relationship identifier="R216" source="AP-06" target="AP-08" xsi:type="Flow"><name xml:lang="es">IF-06</name></relationship>
+    <relationship identifier="R247" source="AP-08" target="AP-09" xsi:type="Flow"><name xml:lang="es">eventos validados</name></relationship>
+    <relationship identifier="R253" source="AP-02" target="AP-03" xsi:type="Flow"><name xml:lang="es">exportación manual</name></relationship>
+    <relationship identifier="R277" source="T-BASE01" target="T-BASE02" xsi:type="Flow"><name xml:lang="es">estados de línea</name></relationship>
+    <relationship identifier="R278" source="T-BASE03" target="T-BASE04" xsi:type="Flow"><name xml:lang="es">lecturas</name></relationship>
+    <relationship identifier="R279" source="T-TAR01" target="T-TAR02" xsi:type="Flow"><name xml:lang="es">códigos leídos</name></relationship>
+    <relationship identifier="R280" source="T-BASE02" target="AP-02" xsi:type="Serving"></relationship>
+    <relationship identifier="R281" source="T-BASE04" target="AP-05" xsi:type="Serving"></relationship>
+    <relationship identifier="R288" source="T-TAR02" target="AP-01" xsi:type="Serving"></relationship>
+    <relationship identifier="R289" source="T-TAR02" target="AP-03" xsi:type="Serving"></relationship>
+    <relationship identifier="R290" source="T-TAR02" target="AP-04" xsi:type="Serving"></relationship>
+    <relationship identifier="R403" source="ISA-L01" target="T-BASE03" xsi:type="Aggregation"></relationship>
+    <relationship identifier="R404" source="ISA-L01" target="T-TAR01" xsi:type="Aggregation"></relationship>
+    <relationship identifier="R405" source="ISA-L02" target="T-BASE01" xsi:type="Aggregation"></relationship>
+    <relationship identifier="R406" source="ISA-L02" target="T-BASE02" xsi:type="Aggregation"></relationship>
+    <relationship identifier="R407" source="ISA-L02" target="T-BASE04" xsi:type="Aggregation"></relationship>
+    <relationship identifier="R408" source="ISA-L03" target="T-TAR02" xsi:type="Aggregation"></relationship>
+    <relationship identifier="R409" source="ISA-L03" target="AP-01" xsi:type="Aggregation"></relationship>
+    <relationship identifier="R410" source="ISA-L03" target="AP-02" xsi:type="Aggregation"></relationship>
+    <relationship identifier="R411" source="ISA-L03" target="AP-03" xsi:type="Aggregation"></relationship>
+    <relationship identifier="R412" source="ISA-L03" target="AP-04" xsi:type="Aggregation"></relationship>
+    <relationship identifier="R413" source="ISA-L03" target="AP-05" xsi:type="Aggregation"></relationship>
+    <relationship identifier="R414" source="ISA-L03" target="AP-08" xsi:type="Aggregation"></relationship>
+    <relationship identifier="R415" source="ISA-L03" target="AP-09" xsi:type="Aggregation"></relationship>
+    <relationship identifier="R416" source="ISA-L04" target="AP-06" xsi:type="Aggregation"></relationship>
+    <relationship identifier="R449" source="ISA-L01" target="T-TAR13" xsi:type="Aggregation"></relationship>
+  </relationships>
+  <views>
+    <diagrams>
+      <view identifier="V-T-V02" xsi:type="Diagram"><name xml:lang="es">T-V02 · Environments &amp; Locations · Target ISA-95</name><documentation xml:lang="es">T-V02 · VP-D02 · C02/C06 · Grupo 04 · v3.0 · Target (D). Cada Grouping es un nivel funcional ISA-95: sensado (0–1), control y supervisión (2), operaciones de planta (3) y empresa (4). Las aplicaciones de nivel 3 publican hacia AP-08 por contrato. Borde, DMZ y plataforma central son despliegues, no niveles (DEC-D14): ver T-V03, T-V05 y T-V08. AP-10/AP-11 en T-V03. T-TAR13 (cámara visual) es opcional (TD-RC08).</documentation>
+        <node identifier="N-T-V02-01" elementRef="ISA-L04" xsi:type="Element" x="24" y="24" w="1230" h="156">
+          <node identifier="N-T-V02-02" elementRef="AP-06" xsi:type="Element" x="1046" y="72" w="186" h="86"/>
+        </node>
+        <node identifier="N-T-V02-03" elementRef="ISA-L03" xsi:type="Element" x="24" y="220" w="1230" h="506">
+          <node identifier="N-T-V02-04" elementRef="AP-08" xsi:type="Element" x="671" y="268" w="186" h="86"/>
+          <node identifier="N-T-V02-05" elementRef="AP-09" xsi:type="Element" x="1046" y="268" w="186" h="86"/>
+          <node identifier="N-T-V02-06" elementRef="AP-01" xsi:type="Element" x="46" y="443" w="186" h="86"/>
+          <node identifier="N-T-V02-07" elementRef="AP-03" xsi:type="Element" x="296" y="443" w="186" h="86"/>
+          <node identifier="N-T-V02-08" elementRef="AP-04" xsi:type="Element" x="546" y="443" w="186" h="86"/>
+          <node identifier="N-T-V02-09" elementRef="AP-02" xsi:type="Element" x="796" y="443" w="186" h="86"/>
+          <node identifier="N-T-V02-10" elementRef="AP-05" xsi:type="Element" x="1046" y="443" w="186" h="86"/>
+          <node identifier="N-T-V02-11" elementRef="T-TAR02" xsi:type="Element" x="296" y="618" w="186" h="86"/>
+        </node>
+        <node identifier="N-T-V02-12" elementRef="ISA-L02" xsi:type="Element" x="24" y="766" w="1230" h="156">
+          <node identifier="N-T-V02-13" elementRef="T-BASE01" xsi:type="Element" x="546" y="814" w="186" h="86"/>
+          <node identifier="N-T-V02-14" elementRef="T-BASE02" xsi:type="Element" x="796" y="814" w="186" h="86"/>
+          <node identifier="N-T-V02-15" elementRef="T-BASE04" xsi:type="Element" x="1046" y="814" w="186" h="86"/>
+        </node>
+        <node identifier="N-T-V02-16" elementRef="ISA-L01" xsi:type="Element" x="24" y="962" w="1230" h="156">
+          <node identifier="N-T-V02-17" elementRef="T-TAR01" xsi:type="Element" x="296" y="1010" w="186" h="86"/>
+          <node identifier="N-T-V02-18" elementRef="T-BASE03" xsi:type="Element" x="1046" y="1010" w="186" h="86"/>
+          <node identifier="N-T-V02-19" elementRef="T-TAR13" xsi:type="Element" x="671" y="1010" w="186" h="86"/>
+        </node>
+        <connection identifier="C-T-V02-R211" relationshipRef="R211" xsi:type="Relationship" source="N-T-V02-06" target="N-T-V02-04"/>
+        <connection identifier="C-T-V02-R212" relationshipRef="R212" xsi:type="Relationship" source="N-T-V02-09" target="N-T-V02-04"/>
+        <connection identifier="C-T-V02-R213" relationshipRef="R213" xsi:type="Relationship" source="N-T-V02-07" target="N-T-V02-04"/>
+        <connection identifier="C-T-V02-R214" relationshipRef="R214" xsi:type="Relationship" source="N-T-V02-08" target="N-T-V02-04"/>
+        <connection identifier="C-T-V02-R215" relationshipRef="R215" xsi:type="Relationship" source="N-T-V02-10" target="N-T-V02-04"/>
+        <connection identifier="C-T-V02-R216" relationshipRef="R216" xsi:type="Relationship" source="N-T-V02-02" target="N-T-V02-04"/>
+        <connection identifier="C-T-V02-R247" relationshipRef="R247" xsi:type="Relationship" source="N-T-V02-04" target="N-T-V02-05"/>
+        <connection identifier="C-T-V02-R253" relationshipRef="R253" xsi:type="Relationship" source="N-T-V02-09" target="N-T-V02-07"><bendpoint x="856" y="557"/><bendpoint x="446" y="557"/></connection>
+        <connection identifier="C-T-V02-R277" relationshipRef="R277" xsi:type="Relationship" source="N-T-V02-13" target="N-T-V02-14"/>
+        <connection identifier="C-T-V02-R278" relationshipRef="R278" xsi:type="Relationship" source="N-T-V02-18" target="N-T-V02-15"/>
+        <connection identifier="C-T-V02-R279" relationshipRef="R279" xsi:type="Relationship" source="N-T-V02-17" target="N-T-V02-11"/>
+        <connection identifier="C-T-V02-R280" relationshipRef="R280" xsi:type="Relationship" source="N-T-V02-14" target="N-T-V02-09"/>
+        <connection identifier="C-T-V02-R281" relationshipRef="R281" xsi:type="Relationship" source="N-T-V02-15" target="N-T-V02-10"/>
+        <connection identifier="C-T-V02-R288" relationshipRef="R288" xsi:type="Relationship" source="N-T-V02-11" target="N-T-V02-06"/>
+        <connection identifier="C-T-V02-R289" relationshipRef="R289" xsi:type="Relationship" source="N-T-V02-11" target="N-T-V02-07"/>
+        <connection identifier="C-T-V02-R290" relationshipRef="R290" xsi:type="Relationship" source="N-T-V02-11" target="N-T-V02-08"/>
+      </view>
+    </diagrams>
+  </views>
+</model>
