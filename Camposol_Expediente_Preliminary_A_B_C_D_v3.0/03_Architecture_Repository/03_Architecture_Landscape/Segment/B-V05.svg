@@ -1,0 +1,168 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="980" height="1534" viewBox="0 0 980 1534" font-family="Helvetica, Arial, sans-serif">
+<defs>
+<marker id="afill" viewBox="0 0 12 10" refX="11" refY="5" markerWidth="11" markerHeight="9" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L12,5 L0,10 z" fill="#46525a"/></marker>
+<marker id="thol" viewBox="0 0 14 12" refX="13" refY="6" markerWidth="14" markerHeight="12" orient="auto" markerUnits="userSpaceOnUse"><path d="M1,1 L13,6 L1,11 z" fill="#ffffff" stroke="#46525a" stroke-width="1.3"/></marker>
+<marker id="open" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="12" markerHeight="12" orient="auto" markerUnits="userSpaceOnUse"><path d="M1,1 L11,6 L1,11" fill="none" stroke="#46525a" stroke-width="1.5"/></marker>
+<marker id="acc" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto" markerUnits="userSpaceOnUse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#46525a" stroke-width="1.3"/></marker>
+<marker id="accs" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="9" markerHeight="9" orient="auto" markerUnits="userSpaceOnUse"><path d="M9,1 L1,5 L9,9" fill="none" stroke="#46525a" stroke-width="1.3"/></marker>
+<marker id="dot" viewBox="0 0 10 10" refX="4" refY="5" markerWidth="9" markerHeight="9" orient="auto" markerUnits="userSpaceOnUse"><circle cx="5" cy="5" r="3.6" fill="#46525a"/></marker>
+<marker id="dfill" viewBox="0 0 18 10" refX="1" refY="5" markerWidth="18" markerHeight="10" orient="auto" markerUnits="userSpaceOnUse"><path d="M1,5 L9,1 L17,5 L9,9 z" fill="#46525a"/></marker>
+<marker id="dhol" viewBox="0 0 18 10" refX="1" refY="5" markerWidth="18" markerHeight="10" orient="auto" markerUnits="userSpaceOnUse"><path d="M1,5 L9,1 L17,5 L9,9 z" fill="#ffffff" stroke="#46525a" stroke-width="1.2"/></marker>
+</defs>
+<rect x="1" y="1" width="978" height="1532" rx="14" fill="#ffffff" stroke="#dde3e6" stroke-width="2"/>
+<path d="M220.0,593.0 L284.0,611.0" fill="none" stroke="#46525a" stroke-width="1.5" marker-start="url(#dot)" marker-end="url(#afill)"/>
+<path d="M220.0,1197.0 L284.0,1197.0" fill="none" stroke="#46525a" stroke-width="1.5" marker-start="url(#dot)" marker-end="url(#afill)"/>
+<path d="M220.0,142.9 L284.0,116.1" fill="none" stroke="#46525a" stroke-width="1.5" marker-start="url(#dot)" marker-end="url(#afill)"/>
+<path d="M220.0,221.1 L284.0,247.9" fill="none" stroke="#46525a" stroke-width="1.5" marker-start="url(#dot)" marker-end="url(#afill)"/>
+<path d="M220.0,541.0 L284.0,523.0" fill="none" stroke="#46525a" stroke-width="1.5" marker-start="url(#dot)" marker-end="url(#afill)"/>
+<path d="M220.0,847.0 L284.0,847.0" fill="none" stroke="#46525a" stroke-width="1.5" marker-start="url(#dot)" marker-end="url(#afill)"/>
+<path d="M220.0,1057.0 L284.0,1057.0" fill="none" stroke="#46525a" stroke-width="1.5" marker-start="url(#dot)" marker-end="url(#afill)"/>
+<path d="M220.0,1337.0 L284.0,1337.0" fill="none" stroke="#46525a" stroke-width="1.5" marker-start="url(#dot)" marker-end="url(#afill)"/>
+<path d="M470.0,77.0 L534.0,77.0" fill="none" stroke="#46525a" stroke-width="1.5" marker-start="url(#dot)" marker-end="url(#afill)"/>
+<path d="M470.0,261.0 L534.0,243.0" fill="none" stroke="#46525a" stroke-width="1.5" marker-start="url(#dot)" marker-end="url(#afill)"/>
+<path d="M470.0,497.0 L534.0,497.0" fill="none" stroke="#46525a" stroke-width="1.5" marker-start="url(#dot)" marker-end="url(#afill)"/>
+<path d="M470.0,637.0 L534.0,637.0" fill="none" stroke="#46525a" stroke-width="1.5" marker-start="url(#dot)" marker-end="url(#afill)"/>
+<path d="M470.0,821.0 L534.0,803.0" fill="none" stroke="#46525a" stroke-width="1.5" marker-start="url(#dot)" marker-end="url(#afill)"/>
+<path d="M470.0,873.0 L534.0,891.0" fill="none" stroke="#46525a" stroke-width="1.5" marker-start="url(#dot)" marker-end="url(#afill)"/>
+<path d="M470.0,1057.0 L534.0,1057.0" fill="none" stroke="#46525a" stroke-width="1.5" marker-start="url(#dot)" marker-end="url(#afill)"/>
+<path d="M470.0,313.0 L534.0,331.0" fill="none" stroke="#46525a" stroke-width="1.5" marker-start="url(#dot)" marker-end="url(#afill)"/>
+<rect x="534" y="34" width="186" height="86" rx="7" fill="#fff3b8" stroke="#b5951e" stroke-width="1.8"/>
+<path d="M696,45 L705,45 L705,42 L712,48 L705,54 L705,51 L696,51 Z" fill="none" stroke="#b5951e" stroke-width="1.3"/>
+<text x="544" y="50" font-size="10.5" font-weight="bold" fill="#937a0c">Business Process</text>
+<text x="627.0" y="70" font-size="11" font-weight="bold" fill="#3c4850" text-anchor="middle">BP-01</text>
+<text x="627.0" y="84.0" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">Recepcionar y registrar</text>
+<text x="627.0" y="97.5" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">origen</text>
+<rect x="534" y="174" width="186" height="86" rx="7" fill="#fff3b8" stroke="#b5951e" stroke-width="1.8"/>
+<path d="M696,185 L705,185 L705,182 L712,188 L705,194 L705,191 L696,191 Z" fill="none" stroke="#b5951e" stroke-width="1.3"/>
+<text x="544" y="190" font-size="10.5" font-weight="bold" fill="#937a0c">Business Process</text>
+<text x="627.0" y="210" font-size="11" font-weight="bold" fill="#3c4850" text-anchor="middle">BP-02</text>
+<text x="627.0" y="224.0" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">Calibrar, empacar y</text>
+<text x="627.0" y="237.5" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">registrar genealogía</text>
+<rect x="534" y="314" width="186" height="86" rx="7" fill="#fff3b8" stroke="#b5951e" stroke-width="1.8"/>
+<path d="M696,325 L705,325 L705,322 L712,328 L705,334 L705,331 L696,331 Z" fill="none" stroke="#b5951e" stroke-width="1.3"/>
+<text x="544" y="330" font-size="10.5" font-weight="bold" fill="#937a0c">Business Process</text>
+<text x="627.0" y="350" font-size="11" font-weight="bold" fill="#3c4850" text-anchor="middle">BP-08</text>
+<text x="627.0" y="364.0" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">Gestionar excepción de</text>
+<text x="627.0" y="377.5" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">negocio</text>
+<rect x="534" y="454" width="186" height="86" rx="7" fill="#fff3b8" stroke="#b5951e" stroke-width="1.8"/>
+<path d="M696,465 L705,465 L705,462 L712,468 L705,474 L705,471 L696,471 Z" fill="none" stroke="#b5951e" stroke-width="1.3"/>
+<text x="544" y="470" font-size="10.5" font-weight="bold" fill="#937a0c">Business Process</text>
+<text x="627.0" y="490" font-size="11" font-weight="bold" fill="#3c4850" text-anchor="middle">BP-03</text>
+<text x="627.0" y="504.0" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">Inspeccionar y decidir</text>
+<text x="627.0" y="517.5" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">conformidad</text>
+<rect x="534" y="594" width="186" height="86" rx="7" fill="#fff3b8" stroke="#b5951e" stroke-width="1.8"/>
+<path d="M696,605 L705,605 L705,602 L712,608 L705,614 L705,611 L696,611 Z" fill="none" stroke="#b5951e" stroke-width="1.3"/>
+<text x="544" y="610" font-size="10.5" font-weight="bold" fill="#937a0c">Business Process</text>
+<text x="627.0" y="630" font-size="11" font-weight="bold" fill="#3c4850" text-anchor="middle">BP-04</text>
+<text x="627.0" y="644.0" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">Reconstruir historia del</text>
+<text x="627.0" y="657.5" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">lote</text>
+<rect x="534" y="734" width="186" height="86" rx="7" fill="#fff3b8" stroke="#b5951e" stroke-width="1.8"/>
+<path d="M696,745 L705,745 L705,742 L712,748 L705,754 L705,751 L696,751 Z" fill="none" stroke="#b5951e" stroke-width="1.3"/>
+<text x="544" y="750" font-size="10.5" font-weight="bold" fill="#937a0c">Business Process</text>
+<text x="627.0" y="770" font-size="11" font-weight="bold" fill="#3c4850" text-anchor="middle">BP-05</text>
+<text x="627.0" y="784.0" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">Pre-enfriar y registrar</text>
+<text x="627.0" y="797.5" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">serie térmica</text>
+<rect x="534" y="874" width="186" height="86" rx="7" fill="#fff3b8" stroke="#b5951e" stroke-width="1.8"/>
+<path d="M696,885 L705,885 L705,882 L712,888 L705,894 L705,891 L696,891 Z" fill="none" stroke="#b5951e" stroke-width="1.3"/>
+<text x="544" y="890" font-size="10.5" font-weight="bold" fill="#937a0c">Business Process</text>
+<text x="627.0" y="910" font-size="11" font-weight="bold" fill="#3c4850" text-anchor="middle">BP-06</text>
+<text x="627.0" y="924.0" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">Custodiar en cámara</text>
+<rect x="534" y="1014" width="186" height="86" rx="7" fill="#fff3b8" stroke="#b5951e" stroke-width="1.8"/>
+<path d="M696,1025 L705,1025 L705,1022 L712,1028 L705,1034 L705,1031 L696,1031 Z" fill="none" stroke="#b5951e" stroke-width="1.3"/>
+<text x="544" y="1030" font-size="10.5" font-weight="bold" fill="#937a0c">Business Process</text>
+<text x="627.0" y="1050" font-size="11" font-weight="bold" fill="#3c4850" text-anchor="middle">BP-07</text>
+<text x="627.0" y="1064.0" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">Verificar estados y cargar</text>
+<text x="627.0" y="1077.5" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">FCL</text>
+<rect x="284" y="34" width="186" height="86" rx="2" fill="#fff3b8" stroke="#b5951e" stroke-width="1.8"/>
+<path d="M450,43 L460,43 M450,53 L460,53" fill="none" stroke="#b5951e" stroke-width="1.3"/><ellipse cx="450" cy="48" rx="3" ry="5" fill="none" stroke="#b5951e" stroke-width="1.3"/><ellipse cx="460" cy="48" rx="3" ry="5" fill="none" stroke="#b5951e" stroke-width="1.3"/>
+<text x="294" y="50" font-size="10.5" font-weight="bold" fill="#937a0c">Business Role</text>
+<text x="377.0" y="70" font-size="11" font-weight="bold" fill="#3c4850" text-anchor="middle">ROL-B03</text>
+<text x="377.0" y="84.0" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">Operador de recepción</text>
+<rect x="284" y="244.0" width="186" height="86" rx="2" fill="#fff3b8" stroke="#b5951e" stroke-width="1.8"/>
+<path d="M450,253.0 L460,253.0 M450,263.0 L460,263.0" fill="none" stroke="#b5951e" stroke-width="1.3"/><ellipse cx="450" cy="258.0" rx="3" ry="5" fill="none" stroke="#b5951e" stroke-width="1.3"/><ellipse cx="460" cy="258.0" rx="3" ry="5" fill="none" stroke="#b5951e" stroke-width="1.3"/>
+<text x="294" y="260.0" font-size="10.5" font-weight="bold" fill="#937a0c">Business Role</text>
+<text x="377.0" y="280.0" font-size="11" font-weight="bold" fill="#3c4850" text-anchor="middle">ROL-B04</text>
+<text x="377.0" y="294.0" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">Supervisor de packing</text>
+<rect x="284" y="454" width="186" height="86" rx="2" fill="#fff3b8" stroke="#b5951e" stroke-width="1.8"/>
+<path d="M450,463 L460,463 M450,473 L460,473" fill="none" stroke="#b5951e" stroke-width="1.3"/><ellipse cx="450" cy="468" rx="3" ry="5" fill="none" stroke="#b5951e" stroke-width="1.3"/><ellipse cx="460" cy="468" rx="3" ry="5" fill="none" stroke="#b5951e" stroke-width="1.3"/>
+<text x="294" y="470" font-size="10.5" font-weight="bold" fill="#937a0c">Business Role</text>
+<text x="377.0" y="490" font-size="11" font-weight="bold" fill="#3c4850" text-anchor="middle">ROL-B05</text>
+<text x="377.0" y="504.0" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">Aprobador de Calidad</text>
+<rect x="284" y="594" width="186" height="86" rx="2" fill="#fff3b8" stroke="#b5951e" stroke-width="1.8"/>
+<path d="M450,603 L460,603 M450,613 L460,613" fill="none" stroke="#b5951e" stroke-width="1.3"/><ellipse cx="450" cy="608" rx="3" ry="5" fill="none" stroke="#b5951e" stroke-width="1.3"/><ellipse cx="460" cy="608" rx="3" ry="5" fill="none" stroke="#b5951e" stroke-width="1.3"/>
+<text x="294" y="610" font-size="10.5" font-weight="bold" fill="#937a0c">Business Role</text>
+<text x="377.0" y="630" font-size="11" font-weight="bold" fill="#3c4850" text-anchor="middle">ROL-B01</text>
+<text x="377.0" y="644.0" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">Gestor de evidencia</text>
+<rect x="284" y="804.0" width="186" height="86" rx="2" fill="#fff3b8" stroke="#b5951e" stroke-width="1.8"/>
+<path d="M450,813.0 L460,813.0 M450,823.0 L460,823.0" fill="none" stroke="#b5951e" stroke-width="1.3"/><ellipse cx="450" cy="818.0" rx="3" ry="5" fill="none" stroke="#b5951e" stroke-width="1.3"/><ellipse cx="460" cy="818.0" rx="3" ry="5" fill="none" stroke="#b5951e" stroke-width="1.3"/>
+<text x="294" y="820.0" font-size="10.5" font-weight="bold" fill="#937a0c">Business Role</text>
+<text x="377.0" y="840.0" font-size="11" font-weight="bold" fill="#3c4850" text-anchor="middle">ROL-B06</text>
+<text x="377.0" y="854.0" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">Custodio de frío</text>
+<rect x="284" y="1014" width="186" height="86" rx="2" fill="#fff3b8" stroke="#b5951e" stroke-width="1.8"/>
+<path d="M450,1023 L460,1023 M450,1033 L460,1033" fill="none" stroke="#b5951e" stroke-width="1.3"/><ellipse cx="450" cy="1028" rx="3" ry="5" fill="none" stroke="#b5951e" stroke-width="1.3"/><ellipse cx="460" cy="1028" rx="3" ry="5" fill="none" stroke="#b5951e" stroke-width="1.3"/>
+<text x="294" y="1030" font-size="10.5" font-weight="bold" fill="#937a0c">Business Role</text>
+<text x="377.0" y="1050" font-size="11" font-weight="bold" fill="#3c4850" text-anchor="middle">ROL-B07</text>
+<text x="377.0" y="1064.0" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">Responsable de despacho</text>
+<rect x="284" y="1154" width="186" height="86" rx="2" fill="#fff3b8" stroke="#b5951e" stroke-width="1.8"/>
+<path d="M450,1163 L460,1163 M450,1173 L460,1173" fill="none" stroke="#b5951e" stroke-width="1.3"/><ellipse cx="450" cy="1168" rx="3" ry="5" fill="none" stroke="#b5951e" stroke-width="1.3"/><ellipse cx="460" cy="1168" rx="3" ry="5" fill="none" stroke="#b5951e" stroke-width="1.3"/>
+<text x="294" y="1170" font-size="10.5" font-weight="bold" fill="#937a0c">Business Role</text>
+<text x="377.0" y="1190" font-size="11" font-weight="bold" fill="#3c4850" text-anchor="middle">ROL-B02</text>
+<text x="377.0" y="1204.0" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">Responsable de medición</text>
+<rect x="284" y="1294" width="186" height="86" rx="2" fill="#fff3b8" stroke="#b5951e" stroke-width="1.8"/>
+<path d="M450,1303 L460,1303 M450,1313 L460,1313" fill="none" stroke="#b5951e" stroke-width="1.3"/><ellipse cx="450" cy="1308" rx="3" ry="5" fill="none" stroke="#b5951e" stroke-width="1.3"/><ellipse cx="460" cy="1308" rx="3" ry="5" fill="none" stroke="#b5951e" stroke-width="1.3"/>
+<text x="294" y="1310" font-size="10.5" font-weight="bold" fill="#937a0c">Business Role</text>
+<text x="377.0" y="1330" font-size="11" font-weight="bold" fill="#3c4850" text-anchor="middle">ROL-B08</text>
+<text x="377.0" y="1344.0" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">Transportista receptor</text>
+<rect x="34" y="139.0" width="186" height="86" rx="2" fill="#fff3b8" stroke="#b5951e" stroke-width="1.8"/>
+<circle cx="204" cy="149.0" r="3" fill="none" stroke="#b5951e" stroke-width="1.3"/><path d="M204,152.0 L204,157.0 M199,154.0 L209,154.0 M204,157.0 L200,162.0 M204,157.0 L208,162.0" fill="none" stroke="#b5951e" stroke-width="1.3"/>
+<text x="44" y="155.0" font-size="10.5" font-weight="bold" fill="#937a0c">Business Actor</text>
+<text x="127.0" y="175.0" font-size="11" font-weight="bold" fill="#3c4850" text-anchor="middle">ACT-01</text>
+<text x="127.0" y="189.0" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">Operaciones de planta</text>
+<rect x="34" y="524.0" width="186" height="86" rx="2" fill="#fff3b8" stroke="#b5951e" stroke-width="1.8"/>
+<circle cx="204" cy="534.0" r="3" fill="none" stroke="#b5951e" stroke-width="1.3"/><path d="M204,537.0 L204,542.0 M199,539.0 L209,539.0 M204,542.0 L200,547.0 M204,542.0 L208,547.0" fill="none" stroke="#b5951e" stroke-width="1.3"/>
+<text x="44" y="540.0" font-size="10.5" font-weight="bold" fill="#937a0c">Business Actor</text>
+<text x="127.0" y="560.0" font-size="11" font-weight="bold" fill="#3c4850" text-anchor="middle">ACT-02</text>
+<text x="127.0" y="574.0" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">Aseguramiento de Calidad</text>
+<rect x="34" y="804.0" width="186" height="86" rx="2" fill="#fff3b8" stroke="#b5951e" stroke-width="1.8"/>
+<circle cx="204" cy="814.0" r="3" fill="none" stroke="#b5951e" stroke-width="1.3"/><path d="M204,817.0 L204,822.0 M199,819.0 L209,819.0 M204,822.0 L200,827.0 M204,822.0 L208,827.0" fill="none" stroke="#b5951e" stroke-width="1.3"/>
+<text x="44" y="820.0" font-size="10.5" font-weight="bold" fill="#937a0c">Business Actor</text>
+<text x="127.0" y="840.0" font-size="11" font-weight="bold" fill="#3c4850" text-anchor="middle">ACT-03</text>
+<text x="127.0" y="854.0" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">Cadena de Frío</text>
+<rect x="34" y="1014" width="186" height="86" rx="2" fill="#fff3b8" stroke="#b5951e" stroke-width="1.8"/>
+<circle cx="204" cy="1024" r="3" fill="none" stroke="#b5951e" stroke-width="1.3"/><path d="M204,1027 L204,1032 M199,1029 L209,1029 M204,1032 L200,1037 M204,1032 L208,1037" fill="none" stroke="#b5951e" stroke-width="1.3"/>
+<text x="44" y="1030" font-size="10.5" font-weight="bold" fill="#937a0c">Business Actor</text>
+<text x="127.0" y="1050" font-size="11" font-weight="bold" fill="#3c4850" text-anchor="middle">ACT-04</text>
+<text x="127.0" y="1064.0" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">Despacho y Exportación</text>
+<rect x="34" y="1154" width="186" height="86" rx="2" fill="#fff3b8" stroke="#b5951e" stroke-width="1.8"/>
+<circle cx="204" cy="1164" r="3" fill="none" stroke="#b5951e" stroke-width="1.3"/><path d="M204,1167 L204,1172 M199,1169 L209,1169 M204,1172 L200,1177 M204,1172 L208,1177" fill="none" stroke="#b5951e" stroke-width="1.3"/>
+<text x="44" y="1170" font-size="10.5" font-weight="bold" fill="#937a0c">Business Actor</text>
+<text x="127.0" y="1190" font-size="11" font-weight="bold" fill="#3c4850" text-anchor="middle">ACT-05</text>
+<text x="127.0" y="1204.0" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">Mejora Continua</text>
+<rect x="34" y="1294" width="186" height="86" rx="2" fill="#fff3b8" stroke="#b5951e" stroke-width="1.8"/>
+<circle cx="204" cy="1304" r="3" fill="none" stroke="#b5951e" stroke-width="1.3"/><path d="M204,1307 L204,1312 M199,1309 L209,1309 M204,1312 L200,1317 M204,1312 L208,1317" fill="none" stroke="#b5951e" stroke-width="1.3"/>
+<text x="44" y="1310" font-size="10.5" font-weight="bold" fill="#937a0c">Business Actor</text>
+<text x="127.0" y="1330" font-size="11" font-weight="bold" fill="#3c4850" text-anchor="middle">ACT-07</text>
+<text x="127.0" y="1344.0" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">Transportista</text>
+<rect x="220.0" y="582.0" width="64.0" height="14" rx="3" fill="#ffffff" fill-opacity="0.92"/><text x="252.0" y="593.0" font-size="9.5" fill="#4a565e" text-anchor="middle">Assignment</text>
+<rect x="220.0" y="1177.0" width="64.0" height="14" rx="3" fill="#ffffff" fill-opacity="0.92"/><text x="252.0" y="1188.0" font-size="9.5" fill="#4a565e" text-anchor="middle">Assignment</text>
+<rect x="220.0" y="109.5" width="64.0" height="14" rx="3" fill="#ffffff" fill-opacity="0.92"/><text x="252.0" y="120.5" font-size="9.5" fill="#4a565e" text-anchor="middle">Assignment</text>
+<rect x="220.0" y="214.5" width="64.0" height="14" rx="3" fill="#ffffff" fill-opacity="0.92"/><text x="252.0" y="225.5" font-size="9.5" fill="#4a565e" text-anchor="middle">Assignment</text>
+<rect x="220.0" y="512.0" width="64.0" height="14" rx="3" fill="#ffffff" fill-opacity="0.92"/><text x="252.0" y="523.0" font-size="9.5" fill="#4a565e" text-anchor="middle">Assignment</text>
+<rect x="220.0" y="827.0" width="64.0" height="14" rx="3" fill="#ffffff" fill-opacity="0.92"/><text x="252.0" y="838.0" font-size="9.5" fill="#4a565e" text-anchor="middle">Assignment</text>
+<rect x="220.0" y="1037.0" width="64.0" height="14" rx="3" fill="#ffffff" fill-opacity="0.92"/><text x="252.0" y="1048.0" font-size="9.5" fill="#4a565e" text-anchor="middle">Assignment</text>
+<rect x="220.0" y="1317.0" width="64.0" height="14" rx="3" fill="#ffffff" fill-opacity="0.92"/><text x="252.0" y="1328.0" font-size="9.5" fill="#4a565e" text-anchor="middle">Assignment</text>
+<rect x="470.0" y="57.0" width="64.0" height="14" rx="3" fill="#ffffff" fill-opacity="0.92"/><text x="502.0" y="68.0" font-size="9.5" fill="#4a565e" text-anchor="middle">Assignment</text>
+<rect x="470.0" y="232.0" width="64.0" height="14" rx="3" fill="#ffffff" fill-opacity="0.92"/><text x="502.0" y="243.0" font-size="9.5" fill="#4a565e" text-anchor="middle">Assignment</text>
+<rect x="470.0" y="477.0" width="64.0" height="14" rx="3" fill="#ffffff" fill-opacity="0.92"/><text x="502.0" y="488.0" font-size="9.5" fill="#4a565e" text-anchor="middle">Assignment</text>
+<rect x="470.0" y="617.0" width="64.0" height="14" rx="3" fill="#ffffff" fill-opacity="0.92"/><text x="502.0" y="628.0" font-size="9.5" fill="#4a565e" text-anchor="middle">Assignment</text>
+<rect x="470.0" y="792.0" width="64.0" height="14" rx="3" fill="#ffffff" fill-opacity="0.92"/><text x="502.0" y="803.0" font-size="9.5" fill="#4a565e" text-anchor="middle">Assignment</text>
+<rect x="470.0" y="862.0" width="64.0" height="14" rx="3" fill="#ffffff" fill-opacity="0.92"/><text x="502.0" y="873.0" font-size="9.5" fill="#4a565e" text-anchor="middle">Assignment</text>
+<rect x="470.0" y="1037.0" width="64.0" height="14" rx="3" fill="#ffffff" fill-opacity="0.92"/><text x="502.0" y="1048.0" font-size="9.5" fill="#4a565e" text-anchor="middle">Assignment</text>
+<rect x="470.0" y="302.0" width="64.0" height="14" rx="3" fill="#ffffff" fill-opacity="0.92"/><text x="502.0" y="313.0" font-size="9.5" fill="#4a565e" text-anchor="middle">Assignment</text>
+<text x="26" y="1436" font-size="12" fill="#5f6b73">B-V05 · VP-B04 Organización y responsabilidades · Grupo 04 · v0.4</text>
+<text x="26" y="1453" font-size="12" fill="#5f6b73">Quién ejecuta cada proceso: actor → rol → proceso (Assignment). Baseline igual salvo BP-09 (ROL-B04) y sin ROL-B01/ROL-B02.</text>
+<text x="26" y="1470" font-size="12" fill="#5f6b73">ROL-B02 mide KPI (sin proceso del VS); ROL-B08 es externo (consume BSV-02, ver B-V04).</text>
+<text x="26" y="1487" font-size="11" fill="#7c868d">Notación ArchiMate 3.2: Assignment (●→) · Realization (- - ▷) · Serving (→ abierta) · Access (··· ; flecha = dirección del dato: escribe →objeto, lee</text>
+<text x="26" y="1504" font-size="11" fill="#7c868d">→proceso) · Triggering (→ llena) · Flow (- - → llena) · Composition (◆) · Aggregation (◇) · Influence (- - →, +) · Association (—). Anidamiento =</text>
+<text x="26" y="1521" font-size="11" fill="#7c868d">relación estructural del modelo.</text>
+</svg>
