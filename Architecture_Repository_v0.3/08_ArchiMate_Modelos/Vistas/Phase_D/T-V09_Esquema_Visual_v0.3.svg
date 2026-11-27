@@ -1,0 +1,121 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1788.0" height="871.0" viewBox="0 0 1788.0 871.0" font-family="Helvetica, Arial, sans-serif">
+<defs>
+<marker id="afill" viewBox="0 0 12 10" refX="11" refY="5" markerWidth="11" markerHeight="9" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L12,5 L0,10 z" fill="#46525a"/></marker>
+<marker id="thol" viewBox="0 0 14 12" refX="13" refY="6" markerWidth="14" markerHeight="12" orient="auto" markerUnits="userSpaceOnUse"><path d="M1,1 L13,6 L1,11 z" fill="#ffffff" stroke="#46525a" stroke-width="1.3"/></marker>
+<marker id="open" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="12" markerHeight="12" orient="auto" markerUnits="userSpaceOnUse"><path d="M1,1 L11,6 L1,11" fill="none" stroke="#46525a" stroke-width="1.5"/></marker>
+<marker id="acc" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto" markerUnits="userSpaceOnUse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#46525a" stroke-width="1.3"/></marker>
+<marker id="accs" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="9" markerHeight="9" orient="auto" markerUnits="userSpaceOnUse"><path d="M9,1 L1,5 L9,9" fill="none" stroke="#46525a" stroke-width="1.3"/></marker>
+<marker id="dot" viewBox="0 0 10 10" refX="4" refY="5" markerWidth="9" markerHeight="9" orient="auto" markerUnits="userSpaceOnUse"><circle cx="5" cy="5" r="3.6" fill="#46525a"/></marker>
+<marker id="dfill" viewBox="0 0 18 10" refX="1" refY="5" markerWidth="18" markerHeight="10" orient="auto" markerUnits="userSpaceOnUse"><path d="M1,5 L9,1 L17,5 L9,9 z" fill="#46525a"/></marker>
+<marker id="dhol" viewBox="0 0 18 10" refX="1" refY="5" markerWidth="18" markerHeight="10" orient="auto" markerUnits="userSpaceOnUse"><path d="M1,5 L9,1 L17,5 L9,9 z" fill="#ffffff" stroke="#46525a" stroke-width="1.2"/></marker>
+</defs>
+<rect x="1" y="1" width="1786.0" height="870.0" rx="14" fill="#ffffff" stroke="#dde3e6" stroke-width="2"/>
+<rect x="24" y="39" width="480" height="338" rx="3" fill="#eef7e8" stroke="#5b9a3c" stroke-width="1.8"/>
+<path d="M476,57 L481,52 L492,52 L492,63 L487,68 L476,68 Z M476,57 L487,57 L492,52 M487,57 L487,68" fill="none" stroke="#5b9a3c" stroke-width="1.3"/>
+<text x="36" y="57" font-size="11.5" fill="#3f7a26" font-weight="bold">Node</text>
+<text x="36" y="74" font-size="13" fill="#1d252b" font-weight="bold">T-TAR03 Nodo de borde de planta (par redundante)</text>
+<rect x="46" y="87" width="186" height="86" rx="2" fill="#dcefd2" stroke="#5b9a3c" stroke-width="1.8"/>
+<path d="M203,95 L212,95 L216,99 L216,111 L203,111 Z M212,95 L212,99 L216,99" fill="none" stroke="#5b9a3c" stroke-width="1.3"/>
+<text x="56" y="103" font-size="10.5" font-weight="bold" fill="#3f7a26">Artifact</text>
+<text x="139.0" y="123" font-size="11" font-weight="bold" fill="#3c4850" text-anchor="middle">ART-06</text>
+<text x="139.0" y="137.0" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">Registro de cola local</text>
+<rect x="296" y="87" width="186" height="86" rx="2" fill="#dcefd2" stroke="#5b9a3c" stroke-width="1.8"/>
+<path d="M453,95 L462,95 L466,99 L466,111 L453,111 Z M462,95 L462,99 L466,99" fill="none" stroke="#5b9a3c" stroke-width="1.3"/>
+<text x="306" y="103" font-size="10.5" font-weight="bold" fill="#3f7a26">Artifact</text>
+<text x="389.0" y="123" font-size="11" font-weight="bold" fill="#3c4850" text-anchor="middle">ART-08</text>
+<text x="389.0" y="137.0" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">Réplica de lectura de</text>
+<text x="389.0" y="150.5" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">trazabilidad</text>
+<rect x="46" y="269" width="186" height="86" rx="2" fill="#dcefd2" stroke="#5b9a3c" stroke-width="1.8"/>
+<circle cx="214" cy="285" r="7" fill="none" stroke="#5b9a3c" stroke-width="1.3"/><circle cx="211" cy="287" r="5" fill="#ffffff" stroke="#5b9a3c" stroke-width="1.1"/>
+<text x="56" y="285" font-size="10.5" font-weight="bold" fill="#3f7a26">System Software</text>
+<text x="139.0" y="305" font-size="11" font-weight="bold" fill="#3c4850" text-anchor="middle">T-TAR19</text>
+<text x="139.0" y="319.0" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">Cola persistente de</text>
+<text x="139.0" y="332.5" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">eventos</text>
+<rect x="296" y="269" width="186" height="86" rx="2" fill="#dcefd2" stroke="#5b9a3c" stroke-width="1.8"/>
+<circle cx="464" cy="285" r="7" fill="none" stroke="#5b9a3c" stroke-width="1.3"/><circle cx="461" cy="287" r="5" fill="#ffffff" stroke="#5b9a3c" stroke-width="1.1"/>
+<text x="306" y="285" font-size="10.5" font-weight="bold" fill="#3f7a26">System Software</text>
+<text x="389.0" y="305" font-size="11" font-weight="bold" fill="#3c4850" text-anchor="middle">T-TAR20</text>
+<text x="389.0" y="319.0" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">Réplica de lectura local</text>
+<rect x="46" y="472" width="186" height="86" rx="18" fill="#e1f0cd" stroke="#6c9a49" stroke-width="1.8"/>
+<text x="56" y="488" font-size="10.5" font-weight="bold" fill="#557f34">Technology Service</text>
+<text x="139.0" y="508" font-size="11" font-weight="bold" fill="#3c4850" text-anchor="middle">TS-02</text>
+<text x="139.0" y="522.0" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">Almacenamiento y reenvío</text>
+<text x="139.0" y="535.5" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">de eventos</text>
+<rect x="296" y="472" width="186" height="86" rx="18" fill="#e1f0cd" stroke="#6c9a49" stroke-width="1.8"/>
+<text x="306" y="488" font-size="10.5" font-weight="bold" fill="#557f34">Technology Service</text>
+<text x="389.0" y="508" font-size="11" font-weight="bold" fill="#3c4850" text-anchor="middle">TS-14</text>
+<text x="389.0" y="522.0" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">Consulta local en</text>
+<text x="389.0" y="535.5" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">contingencia</text>
+<rect x="584" y="39" width="505" height="156" rx="3" fill="#eef7e8" stroke="#5b9a3c" stroke-width="1.8"/>
+<path d="M1061,57 L1066,52 L1077,52 L1077,63 L1072,68 L1061,68 Z M1061,57 L1072,57 L1077,52 M1072,57 L1072,68" fill="none" stroke="#5b9a3c" stroke-width="1.3"/>
+<text x="596" y="57" font-size="11.5" fill="#3f7a26" font-weight="bold">Node</text>
+<text x="596" y="74" font-size="13" fill="#1d252b" font-weight="bold">T-TAR09 Plataforma central de ejecución</text>
+<rect x="881" y="87" width="186" height="86" rx="2" fill="#dcefd2" stroke="#5b9a3c" stroke-width="1.8"/>
+<circle cx="1049" cy="103" r="7" fill="none" stroke="#5b9a3c" stroke-width="1.3"/><circle cx="1046" cy="105" r="5" fill="#ffffff" stroke="#5b9a3c" stroke-width="1.1"/>
+<text x="891" y="103" font-size="10.5" font-weight="bold" fill="#3f7a26">System Software</text>
+<text x="974.0" y="123" font-size="11" font-weight="bold" fill="#3c4850" text-anchor="middle">T-TAR22</text>
+<text x="974.0" y="137.0" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">Runtime de aplicaciones y</text>
+<text x="974.0" y="150.5" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">API</text>
+<rect x="606" y="87" width="186" height="86" rx="2" fill="#dcefd2" stroke="#5b9a3c" stroke-width="1.8"/>
+<circle cx="774" cy="103" r="7" fill="none" stroke="#5b9a3c" stroke-width="1.3"/><circle cx="771" cy="105" r="5" fill="#ffffff" stroke="#5b9a3c" stroke-width="1.1"/>
+<text x="616" y="103" font-size="10.5" font-weight="bold" fill="#3f7a26">System Software</text>
+<text x="699.0" y="123" font-size="11" font-weight="bold" fill="#3c4850" text-anchor="middle">T-TAR23</text>
+<text x="699.0" y="137.0" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">Adaptador de integración</text>
+<text x="699.0" y="150.5" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">SAP</text>
+<rect x="881" y="290" width="186" height="86" rx="18" fill="#e1f0cd" stroke="#6c9a49" stroke-width="1.8"/>
+<text x="891" y="306" font-size="10.5" font-weight="bold" fill="#557f34">Technology Service</text>
+<text x="974.0" y="326" font-size="11" font-weight="bold" fill="#3c4850" text-anchor="middle">TS-04</text>
+<text x="974.0" y="340.0" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">Ejecución de aplicaciones</text>
+<text x="974.0" y="353.5" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">y API</text>
+<rect x="1190" y="290" width="186" height="86" rx="18" fill="#e1f0cd" stroke="#6c9a49" stroke-width="1.8"/>
+<text x="1200" y="306" font-size="10.5" font-weight="bold" fill="#557f34">Technology Service</text>
+<text x="1283.0" y="326" font-size="11" font-weight="bold" fill="#3c4850" text-anchor="middle">TS-08</text>
+<text x="1283.0" y="340.0" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">Observabilidad y alertas</text>
+<rect x="1524" y="24" width="230" height="171" rx="3" fill="#eef7e8" stroke="#5b9a3c" stroke-width="1.8"/>
+<path d="M1726,42 L1731,37 L1742,37 L1742,48 L1737,53 L1726,53 Z M1726,42 L1737,42 L1742,37 M1737,42 L1737,53" fill="none" stroke="#5b9a3c" stroke-width="1.3"/>
+<text x="1536" y="42" font-size="11.5" fill="#3f7a26" font-weight="bold">Node</text>
+<text x="1536" y="59" font-size="13" fill="#1d252b" font-weight="bold">T-TAR10 Almacén central de</text>
+<text x="1536" y="74" font-size="13" fill="#1d252b" font-weight="bold">evidencias</text>
+<rect x="1546" y="87" width="186" height="86" rx="2" fill="#dcefd2" stroke="#5b9a3c" stroke-width="1.8"/>
+<path d="M1703,95 L1712,95 L1716,99 L1716,111 L1703,111 Z M1712,95 L1712,99 L1716,99" fill="none" stroke="#5b9a3c" stroke-width="1.3"/>
+<text x="1556" y="103" font-size="10.5" font-weight="bold" fill="#3f7a26">Artifact</text>
+<text x="1639.0" y="123" font-size="11" font-weight="bold" fill="#3c4850" text-anchor="middle">ART-07</text>
+<text x="1639.0" y="137.0" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">Almacén de eventos y</text>
+<text x="1639.0" y="150.5" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">evidencias</text>
+<rect x="1246" y="472" width="186" height="86" rx="18" fill="#e1f0cd" stroke="#6c9a49" stroke-width="1.8"/>
+<text x="1256" y="488" font-size="10.5" font-weight="bold" fill="#557f34">Technology Service</text>
+<text x="1339.0" y="508" font-size="11" font-weight="bold" fill="#3c4850" text-anchor="middle">TS-09</text>
+<text x="1339.0" y="522.0" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">Respaldo y recuperación</text>
+<rect x="1546" y="472" width="186" height="86" rx="2" fill="#dcefd2" stroke="#5b9a3c" stroke-width="1.8"/>
+<path d="M1704,490 L1709,485 L1720,485 L1720,496 L1715,501 L1704,501 Z M1704,490 L1715,490 L1720,485 M1715,490 L1715,501" fill="none" stroke="#5b9a3c" stroke-width="1.3"/>
+<text x="1556" y="488" font-size="10.5" font-weight="bold" fill="#3f7a26">Node</text>
+<text x="1639.0" y="508" font-size="11" font-weight="bold" fill="#3c4850" text-anchor="middle">T-TAR11</text>
+<text x="1639.0" y="522.0" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">Respaldo inmutable fuera</text>
+<text x="1639.0" y="535.5" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">de sitio</text>
+<rect x="1546" y="668" width="186" height="86" rx="2" fill="#dcefd2" stroke="#5b9a3c" stroke-width="1.8"/>
+<path d="M1703,676 L1712,676 L1716,680 L1716,692 L1703,692 Z M1712,676 L1712,680 L1716,680" fill="none" stroke="#5b9a3c" stroke-width="1.3"/>
+<text x="1556" y="684" font-size="10.5" font-weight="bold" fill="#3f7a26">Artifact</text>
+<text x="1639.0" y="704" font-size="11" font-weight="bold" fill="#3c4850" text-anchor="middle">ART-09</text>
+<text x="1639.0" y="718.0" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">Copia de respaldo</text>
+<text x="1639.0" y="731.5" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">inmutable</text>
+<path d="M1639.0,558.0 L1639.0,668.0" fill="none" stroke="#46525a" stroke-width="1.5" marker-start="url(#dot)" marker-end="url(#afill)"/>
+<path d="M139.0,355.0 L139.0,472.0" fill="none" stroke="#46525a" stroke-width="1.4" stroke-dasharray="6,4" marker-end="url(#thol)"/>
+<path d="M389.0,355.0 L389.0,472.0" fill="none" stroke="#46525a" stroke-width="1.4" stroke-dasharray="6,4" marker-end="url(#thol)"/>
+<path d="M974.0,173.0 L974.0,290.0" fill="none" stroke="#46525a" stroke-width="1.4" stroke-dasharray="6,4" marker-end="url(#thol)"/>
+<path d="M997.7,195.0 L1194.1,290.0" fill="none" stroke="#46525a" stroke-width="1.4" stroke-dasharray="6,4" marker-end="url(#thol)"/>
+<path d="M1546.0,515.0 L1432.0,515.0" fill="none" stroke="#46525a" stroke-width="1.4" stroke-dasharray="6,4" marker-end="url(#thol)"/>
+<path d="M1370.8,472.0 L1575.7,195.0" fill="none" stroke="#46525a" stroke-width="1.5" marker-end="url(#open)"/>
+<path d="M1404.8,558.0 L1573.2,668.0" fill="none" stroke="#46525a" stroke-width="1.3" stroke-dasharray="2,3" marker-end="url(#acc)"/>
+<rect x="1609.2" y="605.0" width="59.6" height="14" rx="3" fill="#ffffff" fill-opacity="0.92"/><text x="1639.0" y="616.0" font-size="9.5" fill="#4a565e" text-anchor="middle">Assignment</text>
+<rect x="110.5" y="405.5" width="57.0" height="14" rx="3" fill="#ffffff" fill-opacity="0.92"/><text x="139.0" y="416.5" font-size="9.5" fill="#4a565e" text-anchor="middle">Realization</text>
+<rect x="360.5" y="405.5" width="57.0" height="14" rx="3" fill="#ffffff" fill-opacity="0.92"/><text x="389.0" y="416.5" font-size="9.5" fill="#4a565e" text-anchor="middle">Realization</text>
+<rect x="945.5" y="223.5" width="57.0" height="14" rx="3" fill="#ffffff" fill-opacity="0.92"/><text x="974.0" y="234.5" font-size="9.5" fill="#4a565e" text-anchor="middle">Realization</text>
+<rect x="1067.4" y="234.5" width="57.0" height="14" rx="3" fill="#ffffff" fill-opacity="0.92"/><text x="1095.9" y="245.5" font-size="9.5" fill="#4a565e" text-anchor="middle">Realization</text>
+<rect x="1460.5" y="507.0" width="57.0" height="14" rx="3" fill="#ffffff" fill-opacity="0.92"/><text x="1489.0" y="518.0" font-size="9.5" fill="#4a565e" text-anchor="middle">Realization</text>
+<rect x="1452.1" y="325.5" width="42.2" height="14" rx="3" fill="#ffffff" fill-opacity="0.92"/><text x="1473.2" y="336.5" font-size="9.5" fill="#4a565e" text-anchor="middle">Serving</text>
+<rect x="1468.7" y="605.0" width="40.6" height="14" rx="3" fill="#ffffff" fill-opacity="0.92"/><text x="1489.0" y="616.0" font-size="9.5" fill="#4a565e" text-anchor="middle">Access</text>
+<text x="26" y="811.0" font-size="12" fill="#5f6b73">T-V09 · VP-D09 · C04/C06 · Grupo 04 · v0.3 (PC3)</text>
+<text x="26" y="828.0" font-size="12" fill="#5f6b73">Target (DE) · RTO/RPO propuestos, ratificación NV-07. Planta: la cola y la réplica local sostienen NFR-T01 (autonomía ≥ 24 h, RPO 0 para eventos confirmados). Central: runtime, observabilidad y respaldo inmutable fuera de sitio sostienen NFR-T04 (≥ 99,5 %, RTO ≤ 4 h, RPO ≤ 15 min). Un RTO central de 4 h es aceptable</text>
+<text x="26" y="845.0" font-size="12" fill="#5f6b73">porque Despacho verifica el estado QA en la réplica local (DEC-D04). Energía de sala técnica: NV-12. Procesamiento del corte: T-V04. Los requisitos NFR-T01/NFR-T04 se verifican con TEST-T01/T04 (T1/04).</text>
+<text x="26" y="862.0" font-size="11" fill="#7c868d">Notación ArchiMate 3.2: Assignment (●→) · Realization (- - ▷) · Serving (→ abierta) · Access (··· ; flecha = dirección del dato) · Triggering (→ llena) · Flow (- - → llena) · Composition (◆) · Aggregation (◇) · Association (—). Anidamiento = relación estructural del modelo (Aggregation, Composition o Assignment).</text>
+</svg>

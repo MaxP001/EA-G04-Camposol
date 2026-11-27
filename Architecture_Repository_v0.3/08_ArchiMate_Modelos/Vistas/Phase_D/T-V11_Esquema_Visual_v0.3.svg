@@ -1,0 +1,106 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1076.0" height="1044.0" viewBox="0 0 1076.0 1044.0" font-family="Helvetica, Arial, sans-serif">
+<defs>
+<marker id="afill" viewBox="0 0 12 10" refX="11" refY="5" markerWidth="11" markerHeight="9" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L12,5 L0,10 z" fill="#46525a"/></marker>
+<marker id="thol" viewBox="0 0 14 12" refX="13" refY="6" markerWidth="14" markerHeight="12" orient="auto" markerUnits="userSpaceOnUse"><path d="M1,1 L13,6 L1,11 z" fill="#ffffff" stroke="#46525a" stroke-width="1.3"/></marker>
+<marker id="open" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="12" markerHeight="12" orient="auto" markerUnits="userSpaceOnUse"><path d="M1,1 L11,6 L1,11" fill="none" stroke="#46525a" stroke-width="1.5"/></marker>
+<marker id="acc" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto" markerUnits="userSpaceOnUse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#46525a" stroke-width="1.3"/></marker>
+<marker id="accs" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="9" markerHeight="9" orient="auto" markerUnits="userSpaceOnUse"><path d="M9,1 L1,5 L9,9" fill="none" stroke="#46525a" stroke-width="1.3"/></marker>
+<marker id="dot" viewBox="0 0 10 10" refX="4" refY="5" markerWidth="9" markerHeight="9" orient="auto" markerUnits="userSpaceOnUse"><circle cx="5" cy="5" r="3.6" fill="#46525a"/></marker>
+<marker id="dfill" viewBox="0 0 18 10" refX="1" refY="5" markerWidth="18" markerHeight="10" orient="auto" markerUnits="userSpaceOnUse"><path d="M1,5 L9,1 L17,5 L9,9 z" fill="#46525a"/></marker>
+<marker id="dhol" viewBox="0 0 18 10" refX="1" refY="5" markerWidth="18" markerHeight="10" orient="auto" markerUnits="userSpaceOnUse"><path d="M1,5 L9,1 L17,5 L9,9 z" fill="#ffffff" stroke="#46525a" stroke-width="1.2"/></marker>
+</defs>
+<rect x="1" y="1" width="1074.0" height="1043.0" rx="14" fill="#ffffff" stroke="#dde3e6" stroke-width="2"/>
+<rect x="24" y="384" width="186" height="86" rx="2" fill="#fde2e4" stroke="#c0566a" stroke-width="1.8"/>
+<path d="M186,393 L200,393 M183,398 L197,398 M180,403 L194,403" fill="none" stroke="#c0566a" stroke-width="1.8"/>
+<text x="34" y="400" font-size="10.5" font-weight="bold" fill="#a3374d">Plateau</text>
+<text x="117.0" y="420" font-size="11" font-weight="bold" fill="#3c4850" text-anchor="middle">PLT-01</text>
+<text x="117.0" y="434.0" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">Arquitectura Baseline (IA)</text>
+<rect x="440" y="24" width="186" height="86" rx="2" fill="#fde2e4" stroke="#c0566a" stroke-width="1.8"/>
+<circle cx="607" cy="39" r="6" fill="none" stroke="#c0566a" stroke-width="1.3"/><path d="M597,37 L617,37 M597,41 L617,41" fill="none" stroke="#c0566a" stroke-width="1.3"/>
+<text x="450" y="40" font-size="10.5" font-weight="bold" fill="#a3374d">Gap</text>
+<text x="533.0" y="60" font-size="11" font-weight="bold" fill="#3c4850" text-anchor="middle">GAP-T01</text>
+<text x="533.0" y="74.0" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">Captura y persistencia</text>
+<text x="533.0" y="87.5" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">ante corte WAN</text>
+<rect x="440" y="130" width="186" height="86" rx="2" fill="#fde2e4" stroke="#c0566a" stroke-width="1.8"/>
+<circle cx="607" cy="145" r="6" fill="none" stroke="#c0566a" stroke-width="1.3"/><path d="M597,143 L617,143 M597,147 L617,147" fill="none" stroke="#c0566a" stroke-width="1.3"/>
+<text x="450" y="146" font-size="10.5" font-weight="bold" fill="#a3374d">Gap</text>
+<text x="533.0" y="166" font-size="11" font-weight="bold" fill="#3c4850" text-anchor="middle">GAP-T02</text>
+<text x="533.0" y="180.0" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">Separación de redes IT/OT</text>
+<rect x="440" y="236" width="186" height="86" rx="2" fill="#fde2e4" stroke="#c0566a" stroke-width="1.8"/>
+<circle cx="607" cy="251" r="6" fill="none" stroke="#c0566a" stroke-width="1.3"/><path d="M597,249 L617,249 M597,253 L617,253" fill="none" stroke="#c0566a" stroke-width="1.3"/>
+<text x="450" y="252" font-size="10.5" font-weight="bold" fill="#a3374d">Gap</text>
+<text x="533.0" y="272" font-size="11" font-weight="bold" fill="#3c4850" text-anchor="middle">GAP-T03</text>
+<text x="533.0" y="286.0" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">Identidad técnica y acceso</text>
+<rect x="440" y="342" width="186" height="86" rx="2" fill="#fde2e4" stroke="#c0566a" stroke-width="1.8"/>
+<circle cx="607" cy="357" r="6" fill="none" stroke="#c0566a" stroke-width="1.3"/><path d="M597,355 L617,355 M597,359 L617,359" fill="none" stroke="#c0566a" stroke-width="1.3"/>
+<text x="450" y="358" font-size="10.5" font-weight="bold" fill="#a3374d">Gap</text>
+<text x="533.0" y="378" font-size="11" font-weight="bold" fill="#3c4850" text-anchor="middle">GAP-T04</text>
+<text x="533.0" y="392.0" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">Recuperabilidad de la</text>
+<text x="533.0" y="405.5" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">plataforma</text>
+<rect x="440" y="448" width="186" height="86" rx="2" fill="#fde2e4" stroke="#c0566a" stroke-width="1.8"/>
+<circle cx="607" cy="463" r="6" fill="none" stroke="#c0566a" stroke-width="1.3"/><path d="M597,461 L617,461 M597,465 L617,465" fill="none" stroke="#c0566a" stroke-width="1.3"/>
+<text x="450" y="464" font-size="10.5" font-weight="bold" fill="#a3374d">Gap</text>
+<text x="533.0" y="484" font-size="11" font-weight="bold" fill="#3c4850" text-anchor="middle">GAP-T05</text>
+<text x="533.0" y="498.0" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">Tiempo de referencia</text>
+<rect x="440" y="554" width="186" height="86" rx="2" fill="#fde2e4" stroke="#c0566a" stroke-width="1.8"/>
+<circle cx="607" cy="569" r="6" fill="none" stroke="#c0566a" stroke-width="1.3"/><path d="M597,567 L617,567 M597,571 L617,571" fill="none" stroke="#c0566a" stroke-width="1.3"/>
+<text x="450" y="570" font-size="10.5" font-weight="bold" fill="#a3374d">Gap</text>
+<text x="533.0" y="590" font-size="11" font-weight="bold" fill="#3c4850" text-anchor="middle">GAP-T06</text>
+<text x="533.0" y="604.0" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">Almacenamiento y</text>
+<text x="533.0" y="617.5" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">retención de evidencias</text>
+<rect x="440" y="660" width="186" height="86" rx="2" fill="#fde2e4" stroke="#c0566a" stroke-width="1.8"/>
+<circle cx="607" cy="675" r="6" fill="none" stroke="#c0566a" stroke-width="1.3"/><path d="M597,673 L617,673 M597,677 L617,677" fill="none" stroke="#c0566a" stroke-width="1.3"/>
+<text x="450" y="676" font-size="10.5" font-weight="bold" fill="#a3374d">Gap</text>
+<text x="533.0" y="696" font-size="11" font-weight="bold" fill="#3c4850" text-anchor="middle">GAP-T07</text>
+<text x="533.0" y="710.0" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">Integración con SAP</text>
+<rect x="440" y="766" width="186" height="86" rx="2" fill="#fde2e4" stroke="#c0566a" stroke-width="1.8"/>
+<circle cx="607" cy="781" r="6" fill="none" stroke="#c0566a" stroke-width="1.3"/><path d="M597,779 L617,779 M597,783 L617,783" fill="none" stroke="#c0566a" stroke-width="1.3"/>
+<text x="450" y="782" font-size="10.5" font-weight="bold" fill="#a3374d">Gap</text>
+<text x="533.0" y="802" font-size="11" font-weight="bold" fill="#3c4850" text-anchor="middle">GAP-T08</text>
+<text x="533.0" y="816.0" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">Vínculo lectura</text>
+<text x="533.0" y="829.5" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">térmica–pallet</text>
+<rect x="856" y="384" width="186" height="86" rx="2" fill="#fde2e4" stroke="#c0566a" stroke-width="1.8"/>
+<path d="M1018,393 L1032,393 M1015,398 L1029,398 M1012,403 L1026,403" fill="none" stroke="#c0566a" stroke-width="1.8"/>
+<text x="866" y="400" font-size="10.5" font-weight="bold" fill="#a3374d">Plateau</text>
+<text x="949.0" y="420" font-size="11" font-weight="bold" fill="#3c4850" text-anchor="middle">PLT-02</text>
+<text x="949.0" y="434.0" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">Arquitectura Target (DE)</text>
+<path d="M483.3,110.0 L166.7,384.0" fill="none" stroke="#6d777e" stroke-width="1.3"/>
+<path d="M582.7,110.0 L899.3,384.0" fill="none" stroke="#6d777e" stroke-width="1.3"/>
+<path d="M462.6,216.0 L187.4,384.0" fill="none" stroke="#6d777e" stroke-width="1.3"/>
+<path d="M603.4,216.0 L878.6,384.0" fill="none" stroke="#6d777e" stroke-width="1.3"/>
+<path d="M440.0,312.1 L210.0,393.9" fill="none" stroke="#6d777e" stroke-width="1.3"/>
+<path d="M626.0,312.1 L856.0,393.9" fill="none" stroke="#6d777e" stroke-width="1.3"/>
+<path d="M440.0,406.0 L210.0,406.0" fill="none" stroke="#6d777e" stroke-width="1.3"/>
+<path d="M626.0,406.0 L856.0,406.0" fill="none" stroke="#6d777e" stroke-width="1.3"/>
+<path d="M440.0,476.7 L210.0,441.3" fill="none" stroke="#6d777e" stroke-width="1.3"/>
+<path d="M626.0,476.7 L856.0,441.3" fill="none" stroke="#6d777e" stroke-width="1.3"/>
+<path d="M440.0,559.0 L210.0,465.0" fill="none" stroke="#6d777e" stroke-width="1.3"/>
+<path d="M626.0,559.0 L856.0,465.0" fill="none" stroke="#6d777e" stroke-width="1.3"/>
+<path d="M468.2,660.0 L181.8,470.0" fill="none" stroke="#6d777e" stroke-width="1.3"/>
+<path d="M597.8,660.0 L884.2,470.0" fill="none" stroke="#6d777e" stroke-width="1.3"/>
+<path d="M486.2,766.0 L163.8,470.0" fill="none" stroke="#6d777e" stroke-width="1.3"/>
+<path d="M579.8,766.0 L902.2,470.0" fill="none" stroke="#6d777e" stroke-width="1.3"/>
+<path d="M117.0,470.0 L117.0,900.0 L949.0,900.0 L949.0,470.0" fill="none" stroke="#46525a" stroke-width="1.5" marker-end="url(#afill)"/>
+<rect x="295.7" y="239.0" width="58.6" height="14" rx="3" fill="#ffffff" fill-opacity="0.92"/><text x="325.0" y="250.0" font-size="9.5" fill="#4a565e" text-anchor="middle">Association</text>
+<rect x="711.7" y="239.0" width="58.6" height="14" rx="3" fill="#ffffff" fill-opacity="0.92"/><text x="741.0" y="250.0" font-size="9.5" fill="#4a565e" text-anchor="middle">Association</text>
+<rect x="295.7" y="292.0" width="58.6" height="14" rx="3" fill="#ffffff" fill-opacity="0.92"/><text x="325.0" y="303.0" font-size="9.5" fill="#4a565e" text-anchor="middle">Association</text>
+<rect x="711.7" y="292.0" width="58.6" height="14" rx="3" fill="#ffffff" fill-opacity="0.92"/><text x="741.0" y="303.0" font-size="9.5" fill="#4a565e" text-anchor="middle">Association</text>
+<rect x="295.7" y="345.0" width="58.6" height="14" rx="3" fill="#ffffff" fill-opacity="0.92"/><text x="325.0" y="356.0" font-size="9.5" fill="#4a565e" text-anchor="middle">Association</text>
+<rect x="711.7" y="345.0" width="58.6" height="14" rx="3" fill="#ffffff" fill-opacity="0.92"/><text x="741.0" y="356.0" font-size="9.5" fill="#4a565e" text-anchor="middle">Association</text>
+<rect x="295.7" y="398.0" width="58.6" height="14" rx="3" fill="#ffffff" fill-opacity="0.92"/><text x="325.0" y="409.0" font-size="9.5" fill="#4a565e" text-anchor="middle">Association</text>
+<rect x="711.7" y="398.0" width="58.6" height="14" rx="3" fill="#ffffff" fill-opacity="0.92"/><text x="741.0" y="409.0" font-size="9.5" fill="#4a565e" text-anchor="middle">Association</text>
+<rect x="295.7" y="451.0" width="58.6" height="14" rx="3" fill="#ffffff" fill-opacity="0.92"/><text x="325.0" y="462.0" font-size="9.5" fill="#4a565e" text-anchor="middle">Association</text>
+<rect x="711.7" y="451.0" width="58.6" height="14" rx="3" fill="#ffffff" fill-opacity="0.92"/><text x="741.0" y="462.0" font-size="9.5" fill="#4a565e" text-anchor="middle">Association</text>
+<rect x="295.7" y="504.0" width="58.6" height="14" rx="3" fill="#ffffff" fill-opacity="0.92"/><text x="325.0" y="515.0" font-size="9.5" fill="#4a565e" text-anchor="middle">Association</text>
+<rect x="711.7" y="504.0" width="58.6" height="14" rx="3" fill="#ffffff" fill-opacity="0.92"/><text x="741.0" y="515.0" font-size="9.5" fill="#4a565e" text-anchor="middle">Association</text>
+<rect x="295.7" y="557.0" width="58.6" height="14" rx="3" fill="#ffffff" fill-opacity="0.92"/><text x="325.0" y="568.0" font-size="9.5" fill="#4a565e" text-anchor="middle">Association</text>
+<rect x="711.7" y="557.0" width="58.6" height="14" rx="3" fill="#ffffff" fill-opacity="0.92"/><text x="741.0" y="568.0" font-size="9.5" fill="#4a565e" text-anchor="middle">Association</text>
+<rect x="295.7" y="610.0" width="58.6" height="14" rx="3" fill="#ffffff" fill-opacity="0.92"/><text x="325.0" y="621.0" font-size="9.5" fill="#4a565e" text-anchor="middle">Association</text>
+<rect x="711.7" y="610.0" width="58.6" height="14" rx="3" fill="#ffffff" fill-opacity="0.92"/><text x="741.0" y="621.0" font-size="9.5" fill="#4a565e" text-anchor="middle">Association</text>
+<rect x="485.2" y="892.0" width="95.5" height="14" rx="3" fill="#ffffff" fill-opacity="0.92"/><text x="533.0" y="903.0" font-size="9.5" fill="#4a565e" text-anchor="middle">transición (Phase E)</text>
+<text x="26" y="967.0" font-size="12" fill="#5f6b73">T-V11 · VP-D10 · C05 · Grupo 04 · v0.3 (PC3)</text>
+<text x="26" y="984.0" font-size="12" fill="#5f6b73">Baseline IA y Target DE. Cada Gap se asocia a las dos plateaus que compara (ArchiMate 3.2); el candidato que lo resuelve está en T-V10. La transición PLT-01 → PLT-02 no tiene fechas:</text>
+<text x="26" y="1001.0" font-size="12" fill="#5f6b73">Phase E define las Transition Architectures intermedias (DEC-PC3-06).</text>
+<text x="26" y="1018.0" font-size="11" fill="#7c868d">Notación ArchiMate 3.2: Assignment (●→) · Realization (- - ▷) · Serving (→ abierta) · Access (··· ; flecha = dirección del dato) · Triggering (→ llena) · Flow (- - → llena) · Composition (◆) · Aggregation (◇) ·</text>
+<text x="26" y="1035.0" font-size="11" fill="#7c868d">Association (—). Anidamiento = relación estructural del modelo (Aggregation, Composition o Assignment).</text>
+</svg>

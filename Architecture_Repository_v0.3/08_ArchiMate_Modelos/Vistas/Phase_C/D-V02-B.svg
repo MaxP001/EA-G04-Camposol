@@ -1,0 +1,120 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1544.0" height="650.0" viewBox="0 0 1544.0 650.0" font-family="Helvetica, Arial, sans-serif">
+<defs>
+<marker id="afill" viewBox="0 0 12 10" refX="11" refY="5" markerWidth="11" markerHeight="9" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L12,5 L0,10 z" fill="#46525a"/></marker>
+<marker id="thol" viewBox="0 0 14 12" refX="13" refY="6" markerWidth="14" markerHeight="12" orient="auto" markerUnits="userSpaceOnUse"><path d="M1,1 L13,6 L1,11 z" fill="#ffffff" stroke="#46525a" stroke-width="1.3"/></marker>
+<marker id="open" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="12" markerHeight="12" orient="auto" markerUnits="userSpaceOnUse"><path d="M1,1 L11,6 L1,11" fill="none" stroke="#46525a" stroke-width="1.5"/></marker>
+<marker id="acc" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto" markerUnits="userSpaceOnUse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#46525a" stroke-width="1.3"/></marker>
+<marker id="accs" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="9" markerHeight="9" orient="auto" markerUnits="userSpaceOnUse"><path d="M9,1 L1,5 L9,9" fill="none" stroke="#46525a" stroke-width="1.3"/></marker>
+<marker id="dot" viewBox="0 0 10 10" refX="4" refY="5" markerWidth="9" markerHeight="9" orient="auto" markerUnits="userSpaceOnUse"><circle cx="5" cy="5" r="3.6" fill="#46525a"/></marker>
+<marker id="dfill" viewBox="0 0 18 10" refX="1" refY="5" markerWidth="18" markerHeight="10" orient="auto" markerUnits="userSpaceOnUse"><path d="M1,5 L9,1 L17,5 L9,9 z" fill="#46525a"/></marker>
+<marker id="dhol" viewBox="0 0 18 10" refX="1" refY="5" markerWidth="18" markerHeight="10" orient="auto" markerUnits="userSpaceOnUse"><path d="M1,5 L9,1 L17,5 L9,9 z" fill="#ffffff" stroke="#46525a" stroke-width="1.2"/></marker>
+</defs>
+<rect x="1" y="1" width="1542.0" height="649.0" rx="14" fill="#ffffff" stroke="#dde3e6" stroke-width="2"/>
+<rect x="34" y="34" width="186" height="86" rx="2" fill="#d3f3f4" stroke="#2f8e95" stroke-width="1.8"/>
+<rect x="194" y="42" width="16" height="13" fill="none" stroke="#2f8e95" stroke-width="1.3"/><rect x="190" y="45" width="8" height="3" fill="#fff" stroke="#2f8e95" stroke-width="1.2"/><rect x="190" y="50" width="8" height="3" fill="#fff" stroke="#2f8e95" stroke-width="1.2"/>
+<text x="44" y="50" font-size="10.5" font-weight="bold" fill="#1f7d84">Application Component</text>
+<text x="127.0" y="70" font-size="11" font-weight="bold" fill="#3c4850" text-anchor="middle">AP-01</text>
+<text x="127.0" y="84.0" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">Registro de recepción</text>
+<text x="127.0" y="97.5" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">(planilla)</text>
+<rect x="284" y="34" width="186" height="86" rx="2" fill="#d3f3f4" stroke="#2f8e95" stroke-width="1.8"/>
+<rect x="444" y="42" width="16" height="13" fill="none" stroke="#2f8e95" stroke-width="1.3"/><rect x="440" y="45" width="8" height="3" fill="#fff" stroke="#2f8e95" stroke-width="1.2"/><rect x="440" y="50" width="8" height="3" fill="#fff" stroke="#2f8e95" stroke-width="1.2"/>
+<text x="294" y="50" font-size="10.5" font-weight="bold" fill="#1f7d84">Application Component</text>
+<text x="377.0" y="70" font-size="11" font-weight="bold" fill="#3c4850" text-anchor="middle">AP-02</text>
+<text x="377.0" y="84.0" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">Sistema de la calibradora</text>
+<rect x="534" y="34" width="186" height="86" rx="2" fill="#d3f3f4" stroke="#2f8e95" stroke-width="1.8"/>
+<rect x="694" y="42" width="16" height="13" fill="none" stroke="#2f8e95" stroke-width="1.3"/><rect x="690" y="45" width="8" height="3" fill="#fff" stroke="#2f8e95" stroke-width="1.2"/><rect x="690" y="50" width="8" height="3" fill="#fff" stroke="#2f8e95" stroke-width="1.2"/>
+<text x="544" y="50" font-size="10.5" font-weight="bold" fill="#1f7d84">Application Component</text>
+<text x="627.0" y="70" font-size="11" font-weight="bold" fill="#3c4850" text-anchor="middle">AP-03</text>
+<text x="627.0" y="84.0" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">Planilla de packing</text>
+<rect x="784" y="34" width="186" height="86" rx="2" fill="#d3f3f4" stroke="#2f8e95" stroke-width="1.8"/>
+<rect x="944" y="42" width="16" height="13" fill="none" stroke="#2f8e95" stroke-width="1.3"/><rect x="940" y="45" width="8" height="3" fill="#fff" stroke="#2f8e95" stroke-width="1.2"/><rect x="940" y="50" width="8" height="3" fill="#fff" stroke="#2f8e95" stroke-width="1.2"/>
+<text x="794" y="50" font-size="10.5" font-weight="bold" fill="#1f7d84">Application Component</text>
+<text x="877.0" y="70" font-size="11" font-weight="bold" fill="#3c4850" text-anchor="middle">AP-04</text>
+<text x="877.0" y="84.0" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">Registro de Calidad</text>
+<text x="877.0" y="97.5" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">(planilla)</text>
+<rect x="1034" y="34" width="186" height="86" rx="2" fill="#d3f3f4" stroke="#2f8e95" stroke-width="1.8"/>
+<rect x="1194" y="42" width="16" height="13" fill="none" stroke="#2f8e95" stroke-width="1.3"/><rect x="1190" y="45" width="8" height="3" fill="#fff" stroke="#2f8e95" stroke-width="1.2"/><rect x="1190" y="50" width="8" height="3" fill="#fff" stroke="#2f8e95" stroke-width="1.2"/>
+<text x="1044" y="50" font-size="10.5" font-weight="bold" fill="#1f7d84">Application Component</text>
+<text x="1127.0" y="70" font-size="11" font-weight="bold" fill="#3c4850" text-anchor="middle">AP-05</text>
+<text x="1127.0" y="84.0" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">Registro térmico de</text>
+<text x="1127.0" y="97.5" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">cámaras</text>
+<rect x="1284" y="34" width="186" height="86" rx="2" fill="#d3f3f4" stroke="#2f8e95" stroke-width="1.8"/>
+<rect x="1444" y="42" width="16" height="13" fill="none" stroke="#2f8e95" stroke-width="1.3"/><rect x="1440" y="45" width="8" height="3" fill="#fff" stroke="#2f8e95" stroke-width="1.2"/><rect x="1440" y="50" width="8" height="3" fill="#fff" stroke="#2f8e95" stroke-width="1.2"/>
+<text x="1294" y="50" font-size="10.5" font-weight="bold" fill="#1f7d84">Application Component</text>
+<text x="1377.0" y="70" font-size="11" font-weight="bold" fill="#3c4850" text-anchor="middle">AP-06</text>
+<text x="1377.0" y="84.0" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">SAP corporativo</text>
+<rect x="34" y="214" width="186" height="86" rx="2" fill="#d3f3f4" stroke="#2f8e95" stroke-width="1.8"/>
+<rect x="196" y="221" width="16" height="12" fill="none" stroke="#2f8e95" stroke-width="1.3"/><line x1="196" y1="225" x2="212" y2="225" stroke="#2f8e95" stroke-width="1.3"/>
+<text x="44" y="230" font-size="10.5" font-weight="bold" fill="#1f7d84">Data Object</text>
+<text x="127.0" y="250" font-size="11" font-weight="bold" fill="#3c4850" text-anchor="middle">DOB-B01</text>
+<text x="127.0" y="264.0" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">Registro de recepción (R-)</text>
+<rect x="284" y="214" width="186" height="86" rx="2" fill="#d3f3f4" stroke="#2f8e95" stroke-width="1.8"/>
+<rect x="446" y="221" width="16" height="12" fill="none" stroke="#2f8e95" stroke-width="1.3"/><line x1="446" y1="225" x2="462" y2="225" stroke="#2f8e95" stroke-width="1.3"/>
+<text x="294" y="230" font-size="10.5" font-weight="bold" fill="#1f7d84">Data Object</text>
+<text x="377.0" y="250" font-size="11" font-weight="bold" fill="#3c4850" text-anchor="middle">DOB-B02</text>
+<text x="377.0" y="264.0" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">Batch de calibradora (B-)</text>
+<rect x="534" y="214" width="186" height="86" rx="2" fill="#d3f3f4" stroke="#2f8e95" stroke-width="1.8"/>
+<rect x="696" y="221" width="16" height="12" fill="none" stroke="#2f8e95" stroke-width="1.3"/><line x1="696" y1="225" x2="712" y2="225" stroke="#2f8e95" stroke-width="1.3"/>
+<text x="544" y="230" font-size="10.5" font-weight="bold" fill="#1f7d84">Data Object</text>
+<text x="627.0" y="250" font-size="11" font-weight="bold" fill="#3c4850" text-anchor="middle">DOB-B03</text>
+<text x="627.0" y="264.0" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">Pallet de packing (PAL-)</text>
+<rect x="784" y="214" width="186" height="86" rx="2" fill="#d3f3f4" stroke="#2f8e95" stroke-width="1.8"/>
+<rect x="946" y="221" width="16" height="12" fill="none" stroke="#2f8e95" stroke-width="1.3"/><line x1="946" y1="225" x2="962" y2="225" stroke="#2f8e95" stroke-width="1.3"/>
+<text x="794" y="230" font-size="10.5" font-weight="bold" fill="#1f7d84">Data Object</text>
+<text x="877.0" y="250" font-size="11" font-weight="bold" fill="#3c4850" text-anchor="middle">DOB-B04</text>
+<text x="877.0" y="264.0" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">Inspección de Calidad</text>
+<text x="877.0" y="277.5" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">(QA-)</text>
+<rect x="1034" y="214" width="186" height="86" rx="2" fill="#d3f3f4" stroke="#2f8e95" stroke-width="1.8"/>
+<rect x="1196" y="221" width="16" height="12" fill="none" stroke="#2f8e95" stroke-width="1.3"/><line x1="1196" y1="225" x2="1212" y2="225" stroke="#2f8e95" stroke-width="1.3"/>
+<text x="1044" y="230" font-size="10.5" font-weight="bold" fill="#1f7d84">Data Object</text>
+<text x="1127.0" y="250" font-size="11" font-weight="bold" fill="#3c4850" text-anchor="middle">DOB-B05</text>
+<text x="1127.0" y="264.0" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">Lectura por posición</text>
+<text x="1127.0" y="277.5" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">(CAM-)</text>
+<rect x="1284" y="214" width="186" height="86" rx="2" fill="#d3f3f4" stroke="#2f8e95" stroke-width="1.8"/>
+<rect x="1446" y="221" width="16" height="12" fill="none" stroke="#2f8e95" stroke-width="1.3"/><line x1="1446" y1="225" x2="1462" y2="225" stroke="#2f8e95" stroke-width="1.3"/>
+<text x="1294" y="230" font-size="10.5" font-weight="bold" fill="#1f7d84">Data Object</text>
+<text x="1377.0" y="250" font-size="11" font-weight="bold" fill="#3c4850" text-anchor="middle">DOB-B06</text>
+<text x="1377.0" y="264.0" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">Embarque SAP (EMB-/FCL)</text>
+<rect x="659" y="430" width="186" height="86" rx="2" fill="#d3f3f4" stroke="#2f8e95" stroke-width="1.8"/>
+<rect x="819" y="438" width="16" height="13" fill="none" stroke="#2f8e95" stroke-width="1.3"/><rect x="815" y="441" width="8" height="3" fill="#fff" stroke="#2f8e95" stroke-width="1.2"/><rect x="815" y="446" width="8" height="3" fill="#fff" stroke="#2f8e95" stroke-width="1.2"/>
+<text x="669" y="446" font-size="10.5" font-weight="bold" fill="#1f7d84">Application Component</text>
+<text x="752.0" y="466" font-size="11" font-weight="bold" fill="#3c4850" text-anchor="middle">AP-07</text>
+<text x="752.0" y="480.0" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">Planilla puente</text>
+<rect x="409" y="430" width="186" height="86" rx="2" fill="#d3f3f4" stroke="#2f8e95" stroke-width="1.8"/>
+<rect x="571" y="437" width="16" height="12" fill="none" stroke="#2f8e95" stroke-width="1.3"/><line x1="571" y1="441" x2="587" y2="441" stroke="#2f8e95" stroke-width="1.3"/>
+<text x="419" y="446" font-size="10.5" font-weight="bold" fill="#1f7d84">Data Object</text>
+<text x="502.0" y="466" font-size="11" font-weight="bold" fill="#3c4850" text-anchor="middle">DOB-B07</text>
+<text x="502.0" y="480.0" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">Correspondencias</text>
+<text x="502.0" y="493.5" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">manuales</text>
+<path d="M127.0,120.0 L127.0,214.0" fill="none" stroke="#46525a" stroke-width="1.3" stroke-dasharray="2,3" marker-end="url(#acc)"/>
+<path d="M377.0,120.0 L377.0,214.0" fill="none" stroke="#46525a" stroke-width="1.3" stroke-dasharray="2,3" marker-end="url(#acc)"/>
+<path d="M627.0,120.0 L627.0,214.0" fill="none" stroke="#46525a" stroke-width="1.3" stroke-dasharray="2,3" marker-end="url(#acc)"/>
+<path d="M877.0,120.0 L877.0,214.0" fill="none" stroke="#46525a" stroke-width="1.3" stroke-dasharray="2,3" marker-end="url(#acc)"/>
+<path d="M1127.0,120.0 L1127.0,214.0" fill="none" stroke="#46525a" stroke-width="1.3" stroke-dasharray="2,3" marker-end="url(#acc)"/>
+<path d="M1377.0,120.0 L1377.0,214.0" fill="none" stroke="#46525a" stroke-width="1.3" stroke-dasharray="2,3" marker-end="url(#acc)"/>
+<path d="M659.0,440.9 L220.0,289.1" fill="none" stroke="#46525a" stroke-width="1.3" stroke-dasharray="2,3" marker-start="url(#accs)"/>
+<path d="M727.1,430.0 L651.9,300.0" fill="none" stroke="#46525a" stroke-width="1.3" stroke-dasharray="2,3" marker-start="url(#accs)"/>
+<path d="M776.9,430.0 L852.1,300.0" fill="none" stroke="#46525a" stroke-width="1.3" stroke-dasharray="2,3" marker-start="url(#accs)"/>
+<path d="M826.7,430.0 L1052.3,300.0" fill="none" stroke="#46525a" stroke-width="1.3" stroke-dasharray="2,3" marker-start="url(#accs)"/>
+<path d="M659.0,473.0 L595.0,473.0" fill="none" stroke="#46525a" stroke-width="1.3" stroke-dasharray="2,3" marker-end="url(#acc)"/>
+<path d="M845.0,473.0 L1500.0,473.0 L1500.0,77.0 L1470.0,77.0" fill="none" stroke="#46525a" stroke-width="1.6" stroke-dasharray="7,4" marker-end="url(#afill)"/>
+<path d="M470.0,77.0 L534.0,77.0" fill="none" stroke="#46525a" stroke-width="1.6" stroke-dasharray="7,4" marker-end="url(#afill)"/>
+<rect x="106.7" y="159.0" width="40.6" height="14" rx="3" fill="#ffffff" fill-opacity="0.92"/><text x="127.0" y="170.0" font-size="9.5" fill="#4a565e" text-anchor="middle">Access</text>
+<rect x="356.7" y="159.0" width="40.6" height="14" rx="3" fill="#ffffff" fill-opacity="0.92"/><text x="377.0" y="170.0" font-size="9.5" fill="#4a565e" text-anchor="middle">Access</text>
+<rect x="606.7" y="159.0" width="40.6" height="14" rx="3" fill="#ffffff" fill-opacity="0.92"/><text x="627.0" y="170.0" font-size="9.5" fill="#4a565e" text-anchor="middle">Access</text>
+<rect x="856.7" y="159.0" width="40.6" height="14" rx="3" fill="#ffffff" fill-opacity="0.92"/><text x="877.0" y="170.0" font-size="9.5" fill="#4a565e" text-anchor="middle">Access</text>
+<rect x="1106.7" y="159.0" width="40.6" height="14" rx="3" fill="#ffffff" fill-opacity="0.92"/><text x="1127.0" y="170.0" font-size="9.5" fill="#4a565e" text-anchor="middle">Access</text>
+<rect x="1356.7" y="159.0" width="40.6" height="14" rx="3" fill="#ffffff" fill-opacity="0.92"/><text x="1377.0" y="170.0" font-size="9.5" fill="#4a565e" text-anchor="middle">Access</text>
+<rect x="419.2" y="357.0" width="40.6" height="14" rx="3" fill="#ffffff" fill-opacity="0.92"/><text x="439.5" y="368.0" font-size="9.5" fill="#4a565e" text-anchor="middle">Access</text>
+<rect x="669.2" y="357.0" width="40.6" height="14" rx="3" fill="#ffffff" fill-opacity="0.92"/><text x="689.5" y="368.0" font-size="9.5" fill="#4a565e" text-anchor="middle">Access</text>
+<rect x="794.2" y="357.0" width="40.6" height="14" rx="3" fill="#ffffff" fill-opacity="0.92"/><text x="814.5" y="368.0" font-size="9.5" fill="#4a565e" text-anchor="middle">Access</text>
+<rect x="919.2" y="357.0" width="40.6" height="14" rx="3" fill="#ffffff" fill-opacity="0.92"/><text x="939.5" y="368.0" font-size="9.5" fill="#4a565e" text-anchor="middle">Access</text>
+<rect x="606.7" y="465.0" width="40.6" height="14" rx="3" fill="#ffffff" fill-opacity="0.92"/><text x="627.0" y="476.0" font-size="9.5" fill="#4a565e" text-anchor="middle">Access</text>
+<rect x="1458.0" y="305.0" width="83.9" height="14" rx="3" fill="#ffffff" fill-opacity="0.92"/><text x="1500.0" y="316.0" font-size="9.5" fill="#4a565e" text-anchor="middle">digitación manual</text>
+<rect x="455.5" y="12.0" width="92.9" height="14" rx="3" fill="#ffffff" fill-opacity="0.92"/><text x="502.0" y="23.0" font-size="9.5" fill="#4a565e" text-anchor="middle">exportación manual</text>
+<text x="26" y="573.0" font-size="12" fill="#5f6b73">D-V02-B · VP-C03 · C01/C04 · Grupo 04 · v0.3 (PC3)</text>
+<text x="26" y="590.0" font-size="12" fill="#5f6b73">Baseline IA (DS-CS-13/19/25), misma fila de fuentes que D-V02-T. Linaje Baseline: cada fuente escribe su propio código; la planilla puente AP-07 lee recepción, packing, Calidad y lecturas térmicas, escribe las correspondencias manuales DOB-B07 y alimenta SAP por digitación.</text>
+<text x="26" y="607.0" font-size="12" fill="#5f6b73">No hay producto de datos ni consulta por rol: la historia se reconstruye a mano (KPI-01, 120 min, IA).</text>
+<text x="26" y="624.0" font-size="11" fill="#7c868d">Notación ArchiMate 3.2: Assignment (●→) · Realization (- - ▷) · Serving (→ abierta) · Access (··· ; flecha = dirección del dato: escribe →objeto, lee →proceso) · Triggering (→ llena) · Flow (- - → llena) · Composition (◆) · Aggregation (◇) · Influence (- - →, +) · Association (—). Anidamiento = relación</text>
+<text x="26" y="641.0" font-size="11" fill="#7c868d">estructural del modelo.</text>
+</svg>

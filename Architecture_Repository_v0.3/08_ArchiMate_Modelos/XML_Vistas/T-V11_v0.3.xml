@@ -1,0 +1,227 @@
+<?xml version='1.0' encoding='utf-8'?>
+<model xmlns="http://www.opengroup.org/xsd/archimate/3.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" identifier="M-CAMPOSOL-T-V11-v03" xsi:schemaLocation="http://www.opengroup.org/xsd/archimate/3.0/ http://www.opengroup.org/xsd/archimate/3.1/archimate3_Diagram.xsd">
+  <name xml:lang="es">Camposol Chao · T-V11 · Plateaus Baseline/Target y gaps tecnológicos · v0.3 (PC3)</name>
+  <documentation xml:lang="es">Extracto de una vista del modelo consolidado v0.3 (PC3): elementos de la vista y todas las relaciones entre ellos. Modelo académico SI605 Grupo 04; no representa sistemas reales de Camposol.</documentation>
+  <elements>
+    <element identifier="GAP-T01" xsi:type="Gap">
+      <name xml:lang="es">GAP-T01 Captura y persistencia ante corte WAN</name>
+      <documentation xml:lang="es">Baseline: Papel durante cortes de hasta 3 h; 9/41 eventos con defecto; sin cola local (DS-CS-07/26/37). Target: T-TAR03 + T-TAR19/20 (borde persistente y réplica). Resolución: Borde persistente ≥ 24 h, reenvío idempotente y consulta local de estado QA. · Estado: Target (nuevo) · Clase DE</documentation>
+      <properties>
+        <property propertyDefinitionRef="PD-01">
+          <value xml:lang="es">DE</value>
+        </property>
+        <property propertyDefinitionRef="PD-02">
+          <value xml:lang="es">B–D (insumo E)</value>
+        </property>
+        <property propertyDefinitionRef="PD-03">
+          <value xml:lang="es">Target (nuevo)</value>
+        </property>
+      </properties>
+    </element>
+    <element identifier="GAP-T02" xsi:type="Gap">
+      <name xml:lang="es">GAP-T02 Separación de redes IT/OT</name>
+      <documentation xml:lang="es">Baseline: LAN plana con oficina, calibradoras y frío (DS-CS-36). Target: Z-01…Z-07; CD-01…CD-09; T-TAR06/07; T-TAR14…18. Resolución: Zonas y conductos registrados; control OT local sin mando remoto. · Estado: Target (nuevo) · Clase DE</documentation>
+      <properties>
+        <property propertyDefinitionRef="PD-01">
+          <value xml:lang="es">DE</value>
+        </property>
+        <property propertyDefinitionRef="PD-02">
+          <value xml:lang="es">B–D (insumo E)</value>
+        </property>
+        <property propertyDefinitionRef="PD-03">
+          <value xml:lang="es">Target (nuevo)</value>
+        </property>
+      </properties>
+    </element>
+    <element identifier="GAP-T03" xsi:type="Gap">
+      <name xml:lang="es">GAP-T03 Identidad técnica y acceso</name>
+      <documentation xml:lang="es">Baseline: Cuentas compartidas en OT; planilla editable por 14 usuarios (DS-CS-09/39). Target: T-TAR12 + TS-06. Resolución: Cuentas nominales por rol, MFA remoto, identidad de dispositivo y auditoría QA. · Estado: Target (nuevo) · Clase DE</documentation>
+      <properties>
+        <property propertyDefinitionRef="PD-01">
+          <value xml:lang="es">DE</value>
+        </property>
+        <property propertyDefinitionRef="PD-02">
+          <value xml:lang="es">B–D (insumo E)</value>
+        </property>
+        <property propertyDefinitionRef="PD-03">
+          <value xml:lang="es">Target (nuevo)</value>
+        </property>
+      </properties>
+    </element>
+    <element identifier="GAP-T04" xsi:type="Gap">
+      <name xml:lang="es">GAP-T04 Recuperabilidad de la plataforma</name>
+      <documentation xml:lang="es">Baseline: Servidor único; respaldo semanal sin prueba de restauración (DS-CS-35/38). Target: T-TAR08…11 + TS-08/09. Resolución: Plataforma central con RTO/RPO, respaldo inmutable, observabilidad y versionado. · Estado: Target (nuevo) · Clase DE</documentation>
+      <properties>
+        <property propertyDefinitionRef="PD-01">
+          <value xml:lang="es">DE</value>
+        </property>
+        <property propertyDefinitionRef="PD-02">
+          <value xml:lang="es">B–D (insumo E)</value>
+        </property>
+        <property propertyDefinitionRef="PD-03">
+          <value xml:lang="es">Target (nuevo)</value>
+        </property>
+      </properties>
+    </element>
+    <element identifier="GAP-T05" xsi:type="Gap">
+      <name xml:lang="es">GAP-T05 Tiempo de referencia</name>
+      <documentation xml:lang="es">Baseline: Relojes sin fuente común; deriva de hasta 4 min (DS-CS-22/40). Target: T-TAR05 + TS-07 + CD-09. Resolución: Servidor de tiempo de planta; desviación ≤ 1 s; zona explícita. · Estado: Target (nuevo) · Clase DE</documentation>
+      <properties>
+        <property propertyDefinitionRef="PD-01">
+          <value xml:lang="es">DE</value>
+        </property>
+        <property propertyDefinitionRef="PD-02">
+          <value xml:lang="es">B–D (insumo E)</value>
+        </property>
+        <property propertyDefinitionRef="PD-03">
+          <value xml:lang="es">Target (nuevo)</value>
+        </property>
+      </properties>
+    </element>
+    <element identifier="GAP-T06" xsi:type="Gap">
+      <name xml:lang="es">GAP-T06 Almacenamiento y retención de evidencias</name>
+      <documentation xml:lang="es">Baseline: Carpeta compartida sin política de retención (DS-CS-24). Target: T-TAR10 + TS-05. Resolución: Almacén append-only con integridad y retención configurable (NV-09). · Estado: Target (nuevo) · Clase DE</documentation>
+      <properties>
+        <property propertyDefinitionRef="PD-01">
+          <value xml:lang="es">DE</value>
+        </property>
+        <property propertyDefinitionRef="PD-02">
+          <value xml:lang="es">B–D (insumo E)</value>
+        </property>
+        <property propertyDefinitionRef="PD-03">
+          <value xml:lang="es">Target (nuevo)</value>
+        </property>
+      </properties>
+    </element>
+    <element identifier="GAP-T07" xsi:type="Gap">
+      <name xml:lang="es">GAP-T07 Integración con SAP</name>
+      <documentation xml:lang="es">Baseline: Digitación manual desde la planilla puente; mecanismo SAP desconocido (DS-CS-41). Target: T-TAR23 + TS-10 + CD-07. Resolución: Conducto central único con IF-05/IF-06; mecanismo por validar. · Estado: Target (nuevo) · Clase DE</documentation>
+      <properties>
+        <property propertyDefinitionRef="PD-01">
+          <value xml:lang="es">DE</value>
+        </property>
+        <property propertyDefinitionRef="PD-02">
+          <value xml:lang="es">B–D (insumo E)</value>
+        </property>
+        <property propertyDefinitionRef="PD-03">
+          <value xml:lang="es">Target (nuevo)</value>
+        </property>
+      </properties>
+    </element>
+    <element identifier="GAP-T08" xsi:type="Gap">
+      <name xml:lang="es">GAP-T08 Vínculo lectura térmica–pallet</name>
+      <documentation xml:lang="es">Baseline: CSV nocturno en UTC sin vínculo sonda–pallet; vacío de 3 h en P14 (DS-CS-17/22/34). Target: T-TAR04 + TS-01 + DOBJ-08 ColdCustody. Resolución: Lectura continua por gateway con posición, pallet, calibración y gapFlag. · Estado: Target (nuevo) · Clase DE</documentation>
+      <properties>
+        <property propertyDefinitionRef="PD-01">
+          <value xml:lang="es">DE</value>
+        </property>
+        <property propertyDefinitionRef="PD-02">
+          <value xml:lang="es">B–D (insumo E)</value>
+        </property>
+        <property propertyDefinitionRef="PD-03">
+          <value xml:lang="es">Target (nuevo)</value>
+        </property>
+      </properties>
+    </element>
+    <element identifier="PLT-01" xsi:type="Plateau">
+      <name xml:lang="es">PLT-01 Arquitectura Baseline (IA)</name>
+      <documentation xml:lang="es">Estado actual del VS-01 en Planta Chao tal como lo describe el dataset generado por IA (DS-CS-01…51); valor real NE. Cada gap compara esta plateau con PLT-02.</documentation>
+      <properties>
+        <property propertyDefinitionRef="PD-01">
+          <value xml:lang="es">DE</value>
+        </property>
+        <property propertyDefinitionRef="PD-02">
+          <value xml:lang="es">B–D (insumo E)</value>
+        </property>
+        <property propertyDefinitionRef="PD-03">
+          <value xml:lang="es">N/A (motivación, estrategia o migración)</value>
+        </property>
+      </properties>
+    </element>
+    <element identifier="PLT-02" xsi:type="Plateau">
+      <name xml:lang="es">PLT-02 Arquitectura Target (DE)</name>
+      <documentation xml:lang="es">Estado objetivo propuesto por el Grupo 04 para B, C y D (decisión DE). Las Transition Architectures intermedias se definen en Phase E (DEC-PC3-06).</documentation>
+      <properties>
+        <property propertyDefinitionRef="PD-01">
+          <value xml:lang="es">DE</value>
+        </property>
+        <property propertyDefinitionRef="PD-02">
+          <value xml:lang="es">B–D (insumo E)</value>
+        </property>
+        <property propertyDefinitionRef="PD-03">
+          <value xml:lang="es">N/A (motivación, estrategia o migración)</value>
+        </property>
+      </properties>
+    </element>
+  </elements>
+  <relationships>
+    <relationship identifier="R502" source="GAP-T01" target="PLT-01" xsi:type="Association" />
+    <relationship identifier="R503" source="GAP-T01" target="PLT-02" xsi:type="Association" />
+    <relationship identifier="R504" source="GAP-T02" target="PLT-01" xsi:type="Association" />
+    <relationship identifier="R505" source="GAP-T02" target="PLT-02" xsi:type="Association" />
+    <relationship identifier="R506" source="GAP-T03" target="PLT-01" xsi:type="Association" />
+    <relationship identifier="R507" source="GAP-T03" target="PLT-02" xsi:type="Association" />
+    <relationship identifier="R508" source="GAP-T04" target="PLT-01" xsi:type="Association" />
+    <relationship identifier="R509" source="GAP-T04" target="PLT-02" xsi:type="Association" />
+    <relationship identifier="R510" source="GAP-T05" target="PLT-01" xsi:type="Association" />
+    <relationship identifier="R511" source="GAP-T05" target="PLT-02" xsi:type="Association" />
+    <relationship identifier="R512" source="GAP-T06" target="PLT-01" xsi:type="Association" />
+    <relationship identifier="R513" source="GAP-T06" target="PLT-02" xsi:type="Association" />
+    <relationship identifier="R514" source="GAP-T07" target="PLT-01" xsi:type="Association" />
+    <relationship identifier="R515" source="GAP-T07" target="PLT-02" xsi:type="Association" />
+    <relationship identifier="R516" source="GAP-T08" target="PLT-01" xsi:type="Association" />
+    <relationship identifier="R517" source="GAP-T08" target="PLT-02" xsi:type="Association" />
+    <relationship identifier="R518" source="PLT-01" target="PLT-02" xsi:type="Triggering">
+      <name xml:lang="es">transición (Phase E)</name>
+    </relationship>
+  </relationships>
+  <propertyDefinitions>
+    <propertyDefinition identifier="PD-01" type="string">
+      <name xml:lang="es">Evidencia</name>
+    </propertyDefinition>
+    <propertyDefinition identifier="PD-02" type="string">
+      <name xml:lang="es">Fase_ADM</name>
+    </propertyDefinition>
+    <propertyDefinition identifier="PD-03" type="string">
+      <name xml:lang="es">Estado</name>
+    </propertyDefinition>
+  </propertyDefinitions>
+  <views>
+    <diagrams>
+      <view identifier="V-T-V11" xsi:type="Diagram">
+        <name xml:lang="es">T-V11 · Plateaus Baseline/Target y gaps tecnológicos</name>
+        <documentation xml:lang="es">T-V11 · VP-D10 · C05 · Grupo 04 · v0.3 (PC3) · Baseline IA y Target DE. Cada Gap se asocia a las dos plateaus que compara (ArchiMate 3.2); el candidato que lo resuelve está en T-V10. La transición PLT-01 → PLT-02 no tiene fechas: Phase E define las Transition Architectures intermedias (DEC-PC3-06).</documentation>
+        <node identifier="N-T-V11-01" elementRef="PLT-01" xsi:type="Element" x="24" y="384" w="186" h="86" />
+        <node identifier="N-T-V11-02" elementRef="GAP-T01" xsi:type="Element" x="440" y="24" w="186" h="86" />
+        <node identifier="N-T-V11-03" elementRef="GAP-T02" xsi:type="Element" x="440" y="130" w="186" h="86" />
+        <node identifier="N-T-V11-04" elementRef="GAP-T03" xsi:type="Element" x="440" y="236" w="186" h="86" />
+        <node identifier="N-T-V11-05" elementRef="GAP-T04" xsi:type="Element" x="440" y="342" w="186" h="86" />
+        <node identifier="N-T-V11-06" elementRef="GAP-T05" xsi:type="Element" x="440" y="448" w="186" h="86" />
+        <node identifier="N-T-V11-07" elementRef="GAP-T06" xsi:type="Element" x="440" y="554" w="186" h="86" />
+        <node identifier="N-T-V11-08" elementRef="GAP-T07" xsi:type="Element" x="440" y="660" w="186" h="86" />
+        <node identifier="N-T-V11-09" elementRef="GAP-T08" xsi:type="Element" x="440" y="766" w="186" h="86" />
+        <node identifier="N-T-V11-10" elementRef="PLT-02" xsi:type="Element" x="856" y="384" w="186" h="86" />
+        <connection identifier="C-T-V11-01" relationshipRef="R502" xsi:type="Relationship" source="N-T-V11-02" target="N-T-V11-01" />
+        <connection identifier="C-T-V11-02" relationshipRef="R503" xsi:type="Relationship" source="N-T-V11-02" target="N-T-V11-10" />
+        <connection identifier="C-T-V11-03" relationshipRef="R504" xsi:type="Relationship" source="N-T-V11-03" target="N-T-V11-01" />
+        <connection identifier="C-T-V11-04" relationshipRef="R505" xsi:type="Relationship" source="N-T-V11-03" target="N-T-V11-10" />
+        <connection identifier="C-T-V11-05" relationshipRef="R506" xsi:type="Relationship" source="N-T-V11-04" target="N-T-V11-01" />
+        <connection identifier="C-T-V11-06" relationshipRef="R507" xsi:type="Relationship" source="N-T-V11-04" target="N-T-V11-10" />
+        <connection identifier="C-T-V11-07" relationshipRef="R508" xsi:type="Relationship" source="N-T-V11-05" target="N-T-V11-01" />
+        <connection identifier="C-T-V11-08" relationshipRef="R509" xsi:type="Relationship" source="N-T-V11-05" target="N-T-V11-10" />
+        <connection identifier="C-T-V11-09" relationshipRef="R510" xsi:type="Relationship" source="N-T-V11-06" target="N-T-V11-01" />
+        <connection identifier="C-T-V11-10" relationshipRef="R511" xsi:type="Relationship" source="N-T-V11-06" target="N-T-V11-10" />
+        <connection identifier="C-T-V11-11" relationshipRef="R512" xsi:type="Relationship" source="N-T-V11-07" target="N-T-V11-01" />
+        <connection identifier="C-T-V11-12" relationshipRef="R513" xsi:type="Relationship" source="N-T-V11-07" target="N-T-V11-10" />
+        <connection identifier="C-T-V11-13" relationshipRef="R514" xsi:type="Relationship" source="N-T-V11-08" target="N-T-V11-01" />
+        <connection identifier="C-T-V11-14" relationshipRef="R515" xsi:type="Relationship" source="N-T-V11-08" target="N-T-V11-10" />
+        <connection identifier="C-T-V11-15" relationshipRef="R516" xsi:type="Relationship" source="N-T-V11-09" target="N-T-V11-01" />
+        <connection identifier="C-T-V11-16" relationshipRef="R517" xsi:type="Relationship" source="N-T-V11-09" target="N-T-V11-10" />
+        <connection identifier="C-T-V11-17" relationshipRef="R518" xsi:type="Relationship" source="N-T-V11-01" target="N-T-V11-10">
+          <bendpoint x="117" y="900" />
+          <bendpoint x="949" y="900" />
+        </connection>
+      </view>
+    </diagrams>
+  </views>
+</model>

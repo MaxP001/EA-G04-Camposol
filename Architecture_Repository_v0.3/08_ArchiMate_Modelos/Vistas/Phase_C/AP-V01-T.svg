@@ -1,0 +1,124 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1254.0" height="1122.0" viewBox="0 0 1254.0 1122.0" font-family="Helvetica, Arial, sans-serif">
+<defs>
+<marker id="afill" viewBox="0 0 12 10" refX="11" refY="5" markerWidth="11" markerHeight="9" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L12,5 L0,10 z" fill="#46525a"/></marker>
+<marker id="thol" viewBox="0 0 14 12" refX="13" refY="6" markerWidth="14" markerHeight="12" orient="auto" markerUnits="userSpaceOnUse"><path d="M1,1 L13,6 L1,11 z" fill="#ffffff" stroke="#46525a" stroke-width="1.3"/></marker>
+<marker id="open" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="12" markerHeight="12" orient="auto" markerUnits="userSpaceOnUse"><path d="M1,1 L11,6 L1,11" fill="none" stroke="#46525a" stroke-width="1.5"/></marker>
+<marker id="acc" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto" markerUnits="userSpaceOnUse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#46525a" stroke-width="1.3"/></marker>
+<marker id="accs" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="9" markerHeight="9" orient="auto" markerUnits="userSpaceOnUse"><path d="M9,1 L1,5 L9,9" fill="none" stroke="#46525a" stroke-width="1.3"/></marker>
+<marker id="dot" viewBox="0 0 10 10" refX="4" refY="5" markerWidth="9" markerHeight="9" orient="auto" markerUnits="userSpaceOnUse"><circle cx="5" cy="5" r="3.6" fill="#46525a"/></marker>
+<marker id="dfill" viewBox="0 0 18 10" refX="1" refY="5" markerWidth="18" markerHeight="10" orient="auto" markerUnits="userSpaceOnUse"><path d="M1,5 L9,1 L17,5 L9,9 z" fill="#46525a"/></marker>
+<marker id="dhol" viewBox="0 0 18 10" refX="1" refY="5" markerWidth="18" markerHeight="10" orient="auto" markerUnits="userSpaceOnUse"><path d="M1,5 L9,1 L17,5 L9,9 z" fill="#ffffff" stroke="#46525a" stroke-width="1.2"/></marker>
+</defs>
+<rect x="1" y="1" width="1252.0" height="1121.0" rx="14" fill="#ffffff" stroke="#dde3e6" stroke-width="2"/>
+<rect x="34" y="34" width="186" height="86" rx="2" fill="#d3f3f4" stroke="#2f8e95" stroke-width="1.8"/>
+<rect x="194" y="42" width="16" height="13" fill="none" stroke="#2f8e95" stroke-width="1.3"/><rect x="190" y="45" width="8" height="3" fill="#fff" stroke="#2f8e95" stroke-width="1.2"/><rect x="190" y="50" width="8" height="3" fill="#fff" stroke="#2f8e95" stroke-width="1.2"/>
+<text x="44" y="50" font-size="10.5" font-weight="bold" fill="#1f7d84">Application Component</text>
+<text x="127.0" y="70" font-size="11" font-weight="bold" fill="#3c4850" text-anchor="middle">AP-01</text>
+<text x="127.0" y="84.0" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">Registro de recepción</text>
+<text x="127.0" y="97.5" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">(planilla)</text>
+<rect x="284" y="34" width="186" height="86" rx="2" fill="#d3f3f4" stroke="#2f8e95" stroke-width="1.8"/>
+<rect x="444" y="42" width="16" height="13" fill="none" stroke="#2f8e95" stroke-width="1.3"/><rect x="440" y="45" width="8" height="3" fill="#fff" stroke="#2f8e95" stroke-width="1.2"/><rect x="440" y="50" width="8" height="3" fill="#fff" stroke="#2f8e95" stroke-width="1.2"/>
+<text x="294" y="50" font-size="10.5" font-weight="bold" fill="#1f7d84">Application Component</text>
+<text x="377.0" y="70" font-size="11" font-weight="bold" fill="#3c4850" text-anchor="middle">AP-02</text>
+<text x="377.0" y="84.0" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">Sistema de la calibradora</text>
+<rect x="534" y="34" width="186" height="86" rx="2" fill="#d3f3f4" stroke="#2f8e95" stroke-width="1.8"/>
+<rect x="694" y="42" width="16" height="13" fill="none" stroke="#2f8e95" stroke-width="1.3"/><rect x="690" y="45" width="8" height="3" fill="#fff" stroke="#2f8e95" stroke-width="1.2"/><rect x="690" y="50" width="8" height="3" fill="#fff" stroke="#2f8e95" stroke-width="1.2"/>
+<text x="544" y="50" font-size="10.5" font-weight="bold" fill="#1f7d84">Application Component</text>
+<text x="627.0" y="70" font-size="11" font-weight="bold" fill="#3c4850" text-anchor="middle">AP-03</text>
+<text x="627.0" y="84.0" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">Planilla de packing</text>
+<rect x="784" y="34" width="186" height="86" rx="2" fill="#d3f3f4" stroke="#2f8e95" stroke-width="1.8"/>
+<rect x="944" y="42" width="16" height="13" fill="none" stroke="#2f8e95" stroke-width="1.3"/><rect x="940" y="45" width="8" height="3" fill="#fff" stroke="#2f8e95" stroke-width="1.2"/><rect x="940" y="50" width="8" height="3" fill="#fff" stroke="#2f8e95" stroke-width="1.2"/>
+<text x="794" y="50" font-size="10.5" font-weight="bold" fill="#1f7d84">Application Component</text>
+<text x="877.0" y="70" font-size="11" font-weight="bold" fill="#3c4850" text-anchor="middle">AP-04</text>
+<text x="877.0" y="84.0" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">Registro de Calidad</text>
+<text x="877.0" y="97.5" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">(planilla)</text>
+<rect x="1034" y="34" width="186" height="86" rx="2" fill="#d3f3f4" stroke="#2f8e95" stroke-width="1.8"/>
+<rect x="1194" y="42" width="16" height="13" fill="none" stroke="#2f8e95" stroke-width="1.3"/><rect x="1190" y="45" width="8" height="3" fill="#fff" stroke="#2f8e95" stroke-width="1.2"/><rect x="1190" y="50" width="8" height="3" fill="#fff" stroke="#2f8e95" stroke-width="1.2"/>
+<text x="1044" y="50" font-size="10.5" font-weight="bold" fill="#1f7d84">Application Component</text>
+<text x="1127.0" y="70" font-size="11" font-weight="bold" fill="#3c4850" text-anchor="middle">AP-05</text>
+<text x="1127.0" y="84.0" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">Registro térmico de</text>
+<text x="1127.0" y="97.5" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">cámaras</text>
+<rect x="284" y="230" width="186" height="86" rx="2" fill="#d3f3f4" stroke="#2f8e95" stroke-width="1.8"/>
+<circle cx="458" cy="244" r="4.5" fill="none" stroke="#2f8e95" stroke-width="1.3"/><line x1="447" y1="244" x2="453.5" y2="244" stroke="#2f8e95" stroke-width="1.3"/>
+<text x="294" y="246" font-size="10.5" font-weight="bold" fill="#1f7d84">Application Interface</text>
+<text x="377.0" y="266" font-size="11" font-weight="bold" fill="#3c4850" text-anchor="middle">AIF-01</text>
+<text x="377.0" y="280.0" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">Interfaz de eventos de lote</text>
+<rect x="534" y="230" width="186" height="86" rx="2" fill="#d3f3f4" stroke="#2f8e95" stroke-width="1.8"/>
+<rect x="694" y="238" width="16" height="13" fill="none" stroke="#2f8e95" stroke-width="1.3"/><rect x="690" y="241" width="8" height="3" fill="#fff" stroke="#2f8e95" stroke-width="1.2"/><rect x="690" y="246" width="8" height="3" fill="#fff" stroke="#2f8e95" stroke-width="1.2"/>
+<text x="544" y="246" font-size="10.5" font-weight="bold" fill="#1f7d84">Application Component</text>
+<text x="627.0" y="266" font-size="11" font-weight="bold" fill="#3c4850" text-anchor="middle">AP-08</text>
+<text x="627.0" y="280.0" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">Ingesta y adaptadores de</text>
+<text x="627.0" y="293.5" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">eventos</text>
+<rect x="284" y="398" width="186" height="86" rx="2" fill="#d3f3f4" stroke="#2f8e95" stroke-width="1.8"/>
+<rect x="444" y="406" width="16" height="13" fill="none" stroke="#2f8e95" stroke-width="1.3"/><rect x="440" y="409" width="8" height="3" fill="#fff" stroke="#2f8e95" stroke-width="1.2"/><rect x="440" y="414" width="8" height="3" fill="#fff" stroke="#2f8e95" stroke-width="1.2"/>
+<text x="294" y="414" font-size="10.5" font-weight="bold" fill="#1f7d84">Application Component</text>
+<text x="377.0" y="434" font-size="11" font-weight="bold" fill="#3c4850" text-anchor="middle">AP-11</text>
+<text x="377.0" y="448.0" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">Monitor de excepciones y</text>
+<text x="377.0" y="461.5" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">calidad de datos</text>
+<rect x="534" y="398" width="186" height="86" rx="2" fill="#d3f3f4" stroke="#2f8e95" stroke-width="1.8"/>
+<rect x="694" y="406" width="16" height="13" fill="none" stroke="#2f8e95" stroke-width="1.3"/><rect x="690" y="409" width="8" height="3" fill="#fff" stroke="#2f8e95" stroke-width="1.2"/><rect x="690" y="414" width="8" height="3" fill="#fff" stroke="#2f8e95" stroke-width="1.2"/>
+<text x="544" y="414" font-size="10.5" font-weight="bold" fill="#1f7d84">Application Component</text>
+<text x="627.0" y="434" font-size="11" font-weight="bold" fill="#3c4850" text-anchor="middle">AP-09</text>
+<text x="627.0" y="448.0" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">Componente de</text>
+<text x="627.0" y="461.5" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">trazabilidad</text>
+<rect x="534" y="566" width="186" height="86" rx="2" fill="#d3f3f4" stroke="#2f8e95" stroke-width="1.8"/>
+<circle cx="708" cy="580" r="4.5" fill="none" stroke="#2f8e95" stroke-width="1.3"/><line x1="697" y1="580" x2="703.5" y2="580" stroke="#2f8e95" stroke-width="1.3"/>
+<text x="544" y="582" font-size="10.5" font-weight="bold" fill="#1f7d84">Application Interface</text>
+<text x="627.0" y="602" font-size="11" font-weight="bold" fill="#3c4850" text-anchor="middle">AIF-02</text>
+<text x="627.0" y="616.0" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">Interfaz de consulta de</text>
+<text x="627.0" y="629.5" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">historia</text>
+<rect x="409" y="734" width="186" height="86" rx="18" fill="#d3f3f4" stroke="#2f8e95" stroke-width="1.8"/>
+<text x="419" y="750" font-size="10.5" font-weight="bold" fill="#1f7d84">Application Service</text>
+<text x="502.0" y="770" font-size="11" font-weight="bold" fill="#3c4850" text-anchor="middle">ASV-02</text>
+<text x="502.0" y="784.0" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">Consulta autorizada de</text>
+<text x="502.0" y="797.5" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">historia</text>
+<rect x="659" y="734" width="186" height="86" rx="18" fill="#d3f3f4" stroke="#2f8e95" stroke-width="1.8"/>
+<text x="669" y="750" font-size="10.5" font-weight="bold" fill="#1f7d84">Application Service</text>
+<text x="752.0" y="770" font-size="11" font-weight="bold" fill="#3c4850" text-anchor="middle">ASV-03</text>
+<text x="752.0" y="784.0" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">Consulta de estado de</text>
+<text x="752.0" y="797.5" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">inspección</text>
+<rect x="409" y="902" width="186" height="86" rx="2" fill="#d3f3f4" stroke="#2f8e95" stroke-width="1.8"/>
+<rect x="569" y="910" width="16" height="13" fill="none" stroke="#2f8e95" stroke-width="1.3"/><rect x="565" y="913" width="8" height="3" fill="#fff" stroke="#2f8e95" stroke-width="1.2"/><rect x="565" y="918" width="8" height="3" fill="#fff" stroke="#2f8e95" stroke-width="1.2"/>
+<text x="419" y="918" font-size="10.5" font-weight="bold" fill="#1f7d84">Application Component</text>
+<text x="502.0" y="938" font-size="11" font-weight="bold" fill="#3c4850" text-anchor="middle">AP-10</text>
+<text x="502.0" y="952.0" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">Portal de consulta de</text>
+<text x="502.0" y="965.5" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">evidencia</text>
+<rect x="1034" y="734" width="186" height="86" rx="2" fill="#d3f3f4" stroke="#2f8e95" stroke-width="1.8"/>
+<rect x="1194" y="742" width="16" height="13" fill="none" stroke="#2f8e95" stroke-width="1.3"/><rect x="1190" y="745" width="8" height="3" fill="#fff" stroke="#2f8e95" stroke-width="1.2"/><rect x="1190" y="750" width="8" height="3" fill="#fff" stroke="#2f8e95" stroke-width="1.2"/>
+<text x="1044" y="750" font-size="10.5" font-weight="bold" fill="#1f7d84">Application Component</text>
+<text x="1127.0" y="770" font-size="11" font-weight="bold" fill="#3c4850" text-anchor="middle">AP-06</text>
+<text x="1127.0" y="784.0" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">SAP corporativo</text>
+<path d="M220.0,113.5 L534.0,236.5" fill="none" stroke="#46525a" stroke-width="1.6" stroke-dasharray="7,4" marker-end="url(#afill)"/>
+<path d="M431.8,120.0 L572.2,230.0" fill="none" stroke="#46525a" stroke-width="1.6" stroke-dasharray="7,4" marker-end="url(#afill)"/>
+<path d="M627.0,120.0 L627.0,230.0" fill="none" stroke="#46525a" stroke-width="1.6" stroke-dasharray="7,4" marker-end="url(#afill)"/>
+<path d="M822.2,120.0 L681.8,230.0" fill="none" stroke="#46525a" stroke-width="1.6" stroke-dasharray="7,4" marker-end="url(#afill)"/>
+<path d="M1034.0,113.5 L720.0,236.5" fill="none" stroke="#46525a" stroke-width="1.6" stroke-dasharray="7,4" marker-end="url(#afill)"/>
+<path d="M1127.0,734.0 L1127.0,273.0 L720.0,273.0" fill="none" stroke="#46525a" stroke-width="1.6" stroke-dasharray="7,4" marker-end="url(#afill)"/>
+<path d="M534.0,273.0 L470.0,273.0" fill="none" stroke="#46525a" stroke-width="1.5" marker-start="url(#dfill)"/>
+<path d="M627.0,484.0 L627.0,566.0" fill="none" stroke="#46525a" stroke-width="1.5" marker-start="url(#dfill)"/>
+<path d="M595.0,652.0 L534.0,734.0" fill="none" stroke="#46525a" stroke-width="1.5" marker-start="url(#dot)" marker-end="url(#afill)"/>
+<path d="M659.0,652.0 L720.0,734.0" fill="none" stroke="#46525a" stroke-width="1.5" marker-start="url(#dot)" marker-end="url(#afill)"/>
+<path d="M502.0,820.0 L502.0,902.0" fill="none" stroke="#46525a" stroke-width="1.5" marker-end="url(#open)"/>
+<path d="M845.0,777.0 L1034.0,777.0" fill="none" stroke="#46525a" stroke-width="1.5" marker-end="url(#open)"/>
+<path d="M627.0,316.0 L627.0,398.0" fill="none" stroke="#46525a" stroke-width="1.6" stroke-dasharray="7,4" marker-end="url(#afill)"/>
+<path d="M470.0,441.0 L534.0,441.0" fill="none" stroke="#46525a" stroke-width="1.6" stroke-dasharray="7,4" marker-end="url(#afill)"/>
+<rect x="360.9" y="167.0" width="32.2" height="14" rx="3" fill="#ffffff" fill-opacity="0.92"/><text x="377.0" y="178.0" font-size="9.5" fill="#4a565e" text-anchor="middle">IF-01</text>
+<rect x="485.9" y="167.0" width="32.2" height="14" rx="3" fill="#ffffff" fill-opacity="0.92"/><text x="502.0" y="178.0" font-size="9.5" fill="#4a565e" text-anchor="middle">IF-02</text>
+<rect x="610.9" y="167.0" width="32.2" height="14" rx="3" fill="#ffffff" fill-opacity="0.92"/><text x="627.0" y="178.0" font-size="9.5" fill="#4a565e" text-anchor="middle">IF-02</text>
+<rect x="735.9" y="167.0" width="32.2" height="14" rx="3" fill="#ffffff" fill-opacity="0.92"/><text x="752.0" y="178.0" font-size="9.5" fill="#4a565e" text-anchor="middle">IF-03</text>
+<rect x="860.9" y="167.0" width="32.2" height="14" rx="3" fill="#ffffff" fill-opacity="0.92"/><text x="877.0" y="178.0" font-size="9.5" fill="#4a565e" text-anchor="middle">IF-04</text>
+<rect x="1110.9" y="495.5" width="32.2" height="14" rx="3" fill="#ffffff" fill-opacity="0.92"/><text x="1127.0" y="506.5" font-size="9.5" fill="#4a565e" text-anchor="middle">IF-06</text>
+<rect x="470.6" y="208.0" width="62.8" height="14" rx="3" fill="#ffffff" fill-opacity="0.92"/><text x="502.0" y="219.0" font-size="9.5" fill="#4a565e" text-anchor="middle">Composition</text>
+<rect x="595.6" y="517.0" width="62.8" height="14" rx="3" fill="#ffffff" fill-opacity="0.92"/><text x="627.0" y="528.0" font-size="9.5" fill="#4a565e" text-anchor="middle">Composition</text>
+<rect x="534.7" y="685.0" width="59.6" height="14" rx="3" fill="#ffffff" fill-opacity="0.92"/><text x="564.5" y="696.0" font-size="9.5" fill="#4a565e" text-anchor="middle">Assignment</text>
+<rect x="659.7" y="685.0" width="59.6" height="14" rx="3" fill="#ffffff" fill-opacity="0.92"/><text x="689.5" y="696.0" font-size="9.5" fill="#4a565e" text-anchor="middle">Assignment</text>
+<rect x="485.9" y="853.0" width="32.2" height="14" rx="3" fill="#ffffff" fill-opacity="0.92"/><text x="502.0" y="864.0" font-size="9.5" fill="#4a565e" text-anchor="middle">IF-05</text>
+<rect x="871.1" y="769.0" width="136.7" height="14" rx="3" fill="#ffffff" fill-opacity="0.92"/><text x="939.5" y="780.0" font-size="9.5" fill="#4a565e" text-anchor="middle">IF-05 estado QA (solo lectura)</text>
+<rect x="584.0" y="349.0" width="86.0" height="14" rx="3" fill="#ffffff" fill-opacity="0.92"/><text x="627.0" y="360.0" font-size="9.5" fill="#4a565e" text-anchor="middle">eventos validados</text>
+<rect x="485.9" y="433.0" width="32.2" height="14" rx="3" fill="#ffffff" fill-opacity="0.92"/><text x="502.0" y="444.0" font-size="9.5" fill="#4a565e" text-anchor="middle">IF-07</text>
+<text x="26" y="1045.0" font-size="12" fill="#5f6b73">AP-V01-T · VP-C06 · C03/C07 · Grupo 04 · v0.3 (PC3)</text>
+<text x="26" y="1062.0" font-size="12" fill="#5f6b73">Target (DE) · componentes Target = ABB lógicos (nuevos) Productores publican por contrato IF-01…04/06 hacia la ingesta; SAP y el portal consumen por IF-05 en solo lectura: ninguna aplicación libera lotes (PR-07). Cada</text>
+<text x="26" y="1079.0" font-size="12" fill="#5f6b73">interfaz AIF-01/AIF-02 es parte de su componente (Composition) y expone los servicios por Assignment. Baseline comparable: AP-V01-B.</text>
+<text x="26" y="1096.0" font-size="11" fill="#7c868d">Notación ArchiMate 3.2: Assignment (●→) · Realization (- - ▷) · Serving (→ abierta) · Access (··· ; flecha = dirección del dato: escribe →objeto, lee →proceso) · Triggering (→ llena) · Flow (- - → llena) · Composition (◆) · Aggregation (◇) ·</text>
+<text x="26" y="1113.0" font-size="11" fill="#7c868d">Influence (- - →, +) · Association (—). Anidamiento = relación estructural del modelo.</text>
+</svg>

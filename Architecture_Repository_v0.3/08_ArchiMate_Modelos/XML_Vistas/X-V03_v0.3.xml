@@ -1,0 +1,385 @@
+<?xml version='1.0' encoding='utf-8'?>
+<model xmlns="http://www.opengroup.org/xsd/archimate/3.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" identifier="M-CAMPOSOL-X-V03-v03" xsi:schemaLocation="http://www.opengroup.org/xsd/archimate/3.0/ http://www.opengroup.org/xsd/archimate/3.1/archimate3_Diagram.xsd">
+  <name xml:lang="es">Camposol Chao · X-V03 · Vista integrada B–Data–Application–Technology · v0.3 (PC3)</name>
+  <documentation xml:lang="es">Extracto de una vista del modelo consolidado v0.3 (PC3): elementos de la vista y todas las relaciones entre ellos. Modelo académico SI605 Grupo 04; no representa sistemas reales de Camposol.</documentation>
+  <elements>
+    <element identifier="CAP-01" xsi:type="Capability">
+      <name xml:lang="es">CAP-01 Trazabilidad del lote</name>
+      <documentation xml:lang="es">Habilidad de identificar cada unidad física y reconstruir su historia y genealogía desde la recepción hasta el FCL.</documentation>
+      <properties>
+        <property propertyDefinitionRef="PD-01">
+          <value xml:lang="es">DE</value>
+        </property>
+        <property propertyDefinitionRef="PD-02">
+          <value xml:lang="es">A / B</value>
+        </property>
+        <property propertyDefinitionRef="PD-03">
+          <value xml:lang="es">N/A (motivación, estrategia o migración)</value>
+        </property>
+      </properties>
+    </element>
+    <element identifier="CAP-07" xsi:type="Capability">
+      <name xml:lang="es">CAP-07 Control de conformidad y liberación</name>
+      <documentation xml:lang="es">Habilidad de inspeccionar el producto y decidir liberar, retener o rechazar con autoridad exclusiva y evidencia.</documentation>
+      <properties>
+        <property propertyDefinitionRef="PD-01">
+          <value xml:lang="es">DE</value>
+        </property>
+        <property propertyDefinitionRef="PD-02">
+          <value xml:lang="es">A / B</value>
+        </property>
+        <property propertyDefinitionRef="PD-03">
+          <value xml:lang="es">N/A (motivación, estrategia o migración)</value>
+        </property>
+      </properties>
+    </element>
+    <element identifier="BP-03" xsi:type="BusinessProcess">
+      <name xml:lang="es">BP-03 Inspeccionar y decidir conformidad</name>
+      <documentation xml:lang="es">Estado: Ambos; Gap: Included (modificado)</documentation>
+      <properties>
+        <property propertyDefinitionRef="PD-01">
+          <value xml:lang="es">DE</value>
+        </property>
+        <property propertyDefinitionRef="PD-02">
+          <value xml:lang="es">B</value>
+        </property>
+        <property propertyDefinitionRef="PD-03">
+          <value xml:lang="es">Ambos; Gap: Included (modificado)</value>
+        </property>
+      </properties>
+    </element>
+    <element identifier="BP-04" xsi:type="BusinessProcess">
+      <name xml:lang="es">BP-04 Reconstruir historia del lote</name>
+      <documentation xml:lang="es">Estado: Target; Gap: New</documentation>
+      <properties>
+        <property propertyDefinitionRef="PD-01">
+          <value xml:lang="es">DE</value>
+        </property>
+        <property propertyDefinitionRef="PD-02">
+          <value xml:lang="es">B</value>
+        </property>
+        <property propertyDefinitionRef="PD-03">
+          <value xml:lang="es">Target; Gap: New</value>
+        </property>
+      </properties>
+    </element>
+    <element identifier="BSV-01" xsi:type="BusinessService">
+      <name xml:lang="es">BSV-01 Historial auditable del lote</name>
+      <documentation xml:lang="es">Estado: Target; Gap: New</documentation>
+      <properties>
+        <property propertyDefinitionRef="PD-01">
+          <value xml:lang="es">DE</value>
+        </property>
+        <property propertyDefinitionRef="PD-02">
+          <value xml:lang="es">B</value>
+        </property>
+        <property propertyDefinitionRef="PD-03">
+          <value xml:lang="es">Target; Gap: New</value>
+        </property>
+      </properties>
+    </element>
+    <element identifier="BSV-05" xsi:type="BusinessService">
+      <name xml:lang="es">BSV-05 Decisión de conformidad</name>
+      <documentation xml:lang="es">Estado: Ambos; Gap: Included (modificado)</documentation>
+      <properties>
+        <property propertyDefinitionRef="PD-01">
+          <value xml:lang="es">DE</value>
+        </property>
+        <property propertyDefinitionRef="PD-02">
+          <value xml:lang="es">B</value>
+        </property>
+        <property propertyDefinitionRef="PD-03">
+          <value xml:lang="es">Ambos; Gap: Included (modificado)</value>
+        </property>
+      </properties>
+    </element>
+    <element identifier="AP-04" xsi:type="ApplicationComponent">
+      <name xml:lang="es">AP-04 Registro de Calidad (planilla)</name>
+      <documentation xml:lang="es">Baseline · Registrar inspección y decisión · Disposición: Modernizar captura (candidato) conservando autoridad · Clase IA</documentation>
+      <properties>
+        <property propertyDefinitionRef="PD-01">
+          <value xml:lang="es">IA</value>
+        </property>
+        <property propertyDefinitionRef="PD-02">
+          <value xml:lang="es">C (Application)</value>
+        </property>
+        <property propertyDefinitionRef="PD-03">
+          <value xml:lang="es">Baseline y Target</value>
+        </property>
+      </properties>
+    </element>
+    <element identifier="AP-08" xsi:type="ApplicationComponent">
+      <name xml:lang="es">AP-08 Ingesta y adaptadores de eventos</name>
+      <documentation xml:lang="es">Target · Validar contrato, deduplicar y correlacionar eventos · Disposición: Incorporar (ABB lógico, sin producto) · Clase DE</documentation>
+      <properties>
+        <property propertyDefinitionRef="PD-01">
+          <value xml:lang="es">DE</value>
+        </property>
+        <property propertyDefinitionRef="PD-02">
+          <value xml:lang="es">C (Application)</value>
+        </property>
+        <property propertyDefinitionRef="PD-03">
+          <value xml:lang="es">Target</value>
+        </property>
+      </properties>
+    </element>
+    <element identifier="AP-09" xsi:type="ApplicationComponent">
+      <name xml:lang="es">AP-09 Componente de trazabilidad</name>
+      <documentation xml:lang="es">Target · Componer identidad, genealogía e historia; publicar estado QA · Disposición: Incorporar (ABB lógico) · Clase DE</documentation>
+      <properties>
+        <property propertyDefinitionRef="PD-01">
+          <value xml:lang="es">DE</value>
+        </property>
+        <property propertyDefinitionRef="PD-02">
+          <value xml:lang="es">C (Application)</value>
+        </property>
+        <property propertyDefinitionRef="PD-03">
+          <value xml:lang="es">Target</value>
+        </property>
+      </properties>
+    </element>
+    <element identifier="AF-02" xsi:type="ApplicationFunction">
+      <name xml:lang="es">AF-02 Componer historia del lote</name>
+      <documentation xml:lang="es">Función de AP-09: compone la historia del lote (identidad, genealogía, eventos, QA y frío) en LotHistory (DOBJ-12). Realiza ASV-02. Fuente: C2/App_x_Funcion_Aplicacion. Clase DE.</documentation>
+      <properties>
+        <property propertyDefinitionRef="PD-01">
+          <value xml:lang="es">DE</value>
+        </property>
+        <property propertyDefinitionRef="PD-02">
+          <value xml:lang="es">C (Application)</value>
+        </property>
+        <property propertyDefinitionRef="PD-03">
+          <value xml:lang="es">Target</value>
+        </property>
+      </properties>
+    </element>
+    <element identifier="ASV-02" xsi:type="ApplicationService">
+      <name xml:lang="es">ASV-02 Consulta autorizada de historia</name>
+      <documentation xml:lang="es">Servicio de consulta autorizada y auditada de la historia del lote por IF-05 (AR-A02, AR-A03); meta ≤ 30 min de extremo a extremo (KPI-01). Lo consumen ROL-B05 y ROL-B07 (UC-C01). Clase DE.</documentation>
+      <properties>
+        <property propertyDefinitionRef="PD-01">
+          <value xml:lang="es">DE</value>
+        </property>
+        <property propertyDefinitionRef="PD-02">
+          <value xml:lang="es">C (Application)</value>
+        </property>
+        <property propertyDefinitionRef="PD-03">
+          <value xml:lang="es">Target</value>
+        </property>
+      </properties>
+    </element>
+    <element identifier="DOBJ-12" xsi:type="DataObject">
+      <name xml:lang="es">DOBJ-12 LotHistory</name>
+      <documentation xml:lang="es">Vista consolidada y consultable de identidad, genealogía, eventos, inspección, frío y despacho de un lote, con procedencia.</documentation>
+      <properties>
+        <property propertyDefinitionRef="PD-01">
+          <value xml:lang="es">DE</value>
+        </property>
+        <property propertyDefinitionRef="PD-02">
+          <value xml:lang="es">C (Data)</value>
+        </property>
+        <property propertyDefinitionRef="PD-03">
+          <value xml:lang="es">Target</value>
+        </property>
+      </properties>
+    </element>
+    <element identifier="T-TAR02" xsi:type="Device">
+      <name xml:lang="es">T-TAR02 Estaciones de captura en punto</name>
+      <documentation xml:lang="es">Recepción, packing y laboratorio de Calidad; ejecutan AP-01/03/04 modernizados con cuenta nominal. · Estado: Target (nuevo) · Clase DE</documentation>
+      <properties>
+        <property propertyDefinitionRef="PD-01">
+          <value xml:lang="es">DE</value>
+        </property>
+        <property propertyDefinitionRef="PD-02">
+          <value xml:lang="es">D</value>
+        </property>
+        <property propertyDefinitionRef="PD-03">
+          <value xml:lang="es">Target (nuevo)</value>
+        </property>
+      </properties>
+    </element>
+    <element identifier="T-TAR03" xsi:type="Node">
+      <name xml:lang="es">T-TAR03 Nodo de borde de planta (par redundante)</name>
+      <documentation xml:lang="es">Zona Z-03. Cola persistente, ingesta de borde y réplica de lectura; autonomía ≥ 24 h ante corte WAN (PD-01). · Estado: Target (nuevo) · Clase DE</documentation>
+      <properties>
+        <property propertyDefinitionRef="PD-01">
+          <value xml:lang="es">DE</value>
+        </property>
+        <property propertyDefinitionRef="PD-02">
+          <value xml:lang="es">D</value>
+        </property>
+        <property propertyDefinitionRef="PD-03">
+          <value xml:lang="es">Target (nuevo)</value>
+        </property>
+      </properties>
+    </element>
+    <element identifier="T-TAR09" xsi:type="Node">
+      <name xml:lang="es">T-TAR09 Plataforma central de ejecución</name>
+      <documentation xml:lang="es">Zona Z-06 (DC o nube, NV-10). Ejecuta AP-08 central, AP-09, AP-10 y AP-11. · Estado: Target (nuevo) · Clase DE</documentation>
+      <properties>
+        <property propertyDefinitionRef="PD-01">
+          <value xml:lang="es">DE</value>
+        </property>
+        <property propertyDefinitionRef="PD-02">
+          <value xml:lang="es">D</value>
+        </property>
+        <property propertyDefinitionRef="PD-03">
+          <value xml:lang="es">Target (nuevo)</value>
+        </property>
+      </properties>
+    </element>
+    <element identifier="TS-02" xsi:type="TechnologyService">
+      <name xml:lang="es">TS-02 Almacenamiento y reenvío de eventos</name>
+      <documentation xml:lang="es">Store-and-forward con eventId estable, orden por lote y reintento idempotente. · Estado: Target (nuevo) · Clase DE</documentation>
+      <properties>
+        <property propertyDefinitionRef="PD-01">
+          <value xml:lang="es">DE</value>
+        </property>
+        <property propertyDefinitionRef="PD-02">
+          <value xml:lang="es">D</value>
+        </property>
+        <property propertyDefinitionRef="PD-03">
+          <value xml:lang="es">Target (nuevo)</value>
+        </property>
+      </properties>
+    </element>
+    <element identifier="TS-06" xsi:type="TechnologyService">
+      <name xml:lang="es">TS-06 Identidad y control de acceso</name>
+      <documentation xml:lang="es">Cuentas nominales, MFA, grupos por rol (ROL-B01…B08) e identidad de dispositivo. · Estado: Target (nuevo) · Clase DE</documentation>
+      <properties>
+        <property propertyDefinitionRef="PD-01">
+          <value xml:lang="es">DE</value>
+        </property>
+        <property propertyDefinitionRef="PD-02">
+          <value xml:lang="es">D</value>
+        </property>
+        <property propertyDefinitionRef="PD-03">
+          <value xml:lang="es">Target (nuevo)</value>
+        </property>
+      </properties>
+    </element>
+    <element identifier="ART-01" xsi:type="Artifact">
+      <name xml:lang="es">ART-01 Paquete de ingesta de borde</name>
+      <documentation xml:lang="es">Despliegue de AP-08 en T-TAR03 (adaptadores y validación de contrato en planta). · Estado: Target (nuevo) · Clase DE</documentation>
+      <properties>
+        <property propertyDefinitionRef="PD-01">
+          <value xml:lang="es">DE</value>
+        </property>
+        <property propertyDefinitionRef="PD-02">
+          <value xml:lang="es">D</value>
+        </property>
+        <property propertyDefinitionRef="PD-03">
+          <value xml:lang="es">Target (nuevo)</value>
+        </property>
+      </properties>
+    </element>
+    <element identifier="ART-03" xsi:type="Artifact">
+      <name xml:lang="es">ART-03 Paquete de trazabilidad</name>
+      <documentation xml:lang="es">Despliegue de AP-09 en T-TAR09. · Estado: Target (nuevo) · Clase DE</documentation>
+      <properties>
+        <property propertyDefinitionRef="PD-01">
+          <value xml:lang="es">DE</value>
+        </property>
+        <property propertyDefinitionRef="PD-02">
+          <value xml:lang="es">D</value>
+        </property>
+        <property propertyDefinitionRef="PD-03">
+          <value xml:lang="es">Target (nuevo)</value>
+        </property>
+      </properties>
+    </element>
+  </elements>
+  <relationships>
+    <relationship identifier="R152" source="BP-04" target="BSV-01" xsi:type="Realization" />
+    <relationship identifier="R156" source="BP-03" target="BSV-05" xsi:type="Realization" />
+    <relationship identifier="R172" source="BP-03" target="CAP-07" xsi:type="Realization" />
+    <relationship identifier="R214" source="AP-04" target="AP-08" xsi:type="Flow">
+      <name xml:lang="es">IF-03</name>
+    </relationship>
+    <relationship identifier="R218" source="AP-09" target="AF-02" xsi:type="Assignment" />
+    <relationship identifier="R223" source="AF-02" target="DOBJ-12" xsi:type="Access" accessType="Write" />
+    <relationship identifier="R225" source="ASV-02" target="DOBJ-12" xsi:type="Access" accessType="Read" />
+    <relationship identifier="R232" source="AF-02" target="ASV-02" xsi:type="Realization" />
+    <relationship identifier="R233" source="ASV-02" target="BP-04" xsi:type="Serving" />
+    <relationship identifier="R247" source="AP-08" target="AP-09" xsi:type="Flow">
+      <name xml:lang="es">eventos validados</name>
+    </relationship>
+    <relationship identifier="R255" source="BSV-01" target="CAP-01" xsi:type="Realization" />
+    <relationship identifier="R256" source="BSV-05" target="CAP-07" xsi:type="Realization" />
+    <relationship identifier="R290" source="T-TAR02" target="AP-04" xsi:type="Serving" />
+    <relationship identifier="R291" source="T-TAR03" target="ART-01" xsi:type="Assignment" />
+    <relationship identifier="R295" source="T-TAR09" target="ART-03" xsi:type="Assignment" />
+    <relationship identifier="R300" source="ART-01" target="AP-08" xsi:type="Realization" />
+    <relationship identifier="R302" source="ART-03" target="AP-09" xsi:type="Realization" />
+    <relationship identifier="R326" source="TS-02" target="AP-08" xsi:type="Serving" />
+    <relationship identifier="R333" source="TS-06" target="AP-04" xsi:type="Serving" />
+    <relationship identifier="R334" source="TS-06" target="AP-09" xsi:type="Serving" />
+    <relationship identifier="R532" source="AP-09" target="DOBJ-12" xsi:type="Access" accessType="Write">
+      <documentation xml:lang="es">Clase DE. Añadida en PC3 (DEC-PC3-08, M11–M14).</documentation>
+    </relationship>
+    <relationship identifier="R542" source="AP-04" target="BP-03" xsi:type="Serving">
+      <documentation xml:lang="es">Clase IA. Añadida en PC3 (DEC-PC3-08, M11–M14).</documentation>
+    </relationship>
+  </relationships>
+  <propertyDefinitions>
+    <propertyDefinition identifier="PD-01" type="string">
+      <name xml:lang="es">Evidencia</name>
+    </propertyDefinition>
+    <propertyDefinition identifier="PD-02" type="string">
+      <name xml:lang="es">Fase_ADM</name>
+    </propertyDefinition>
+    <propertyDefinition identifier="PD-03" type="string">
+      <name xml:lang="es">Estado</name>
+    </propertyDefinition>
+  </propertyDefinitions>
+  <views>
+    <diagrams>
+      <view identifier="V-X-V03" xsi:type="Diagram">
+        <name xml:lang="es">X-V03 · Vista integrada B–Data–Application–Technology</name>
+        <documentation xml:lang="es">X-V03 · VP-D11 · C01/C06/C07 · Grupo 04 · v0.3 (PC3). Cadena de historia: CAP-01 → BSV-01 → BP-04 ← ASV-02 ← AF-02 ← AP-09 ← ART-03 (T-TAR09); AP-08 alimenta AP-09 y se despliega en el borde (ART-01, T-TAR03) con TS-02 (NFR-T01/T02). Cadena de liberación: CAP-07 ← BSV-05 ← BP-03; AP-04 corre en la estación T-TAR02 con identidad nominal TS-06: la tecnología registra y transporta la decisión, solo ROL-B05 la toma (PR-07, DEC-D12). Lectura del estado QA por Despacho: X-V01.</documentation>
+        <node identifier="N-X-V03-01" elementRef="CAP-01" xsi:type="Element" x="46" y="24" w="186" h="86" />
+        <node identifier="N-X-V03-02" elementRef="BSV-01" xsi:type="Element" x="46" y="164" w="186" h="86" />
+        <node identifier="N-X-V03-03" elementRef="BP-04" xsi:type="Element" x="46" y="304" w="186" h="86" />
+        <node identifier="N-X-V03-04" elementRef="ASV-02" xsi:type="Element" x="46" y="444" w="186" h="86" />
+        <node identifier="N-X-V03-05" elementRef="DOBJ-12" xsi:type="Element" x="296" y="472" w="186" h="86" />
+        <node identifier="N-X-V03-06" elementRef="AF-02" xsi:type="Element" x="46" y="584" w="186" h="86" />
+        <node identifier="N-X-V03-07" elementRef="AP-09" xsi:type="Element" x="46" y="724" w="186" h="86" />
+        <node identifier="N-X-V03-08" elementRef="T-TAR09" xsi:type="Element" x="24" y="864" w="230" h="171">
+          <node identifier="N-X-V03-09" elementRef="ART-03" xsi:type="Element" x="46" y="927" w="186" h="86" />
+        </node>
+        <node identifier="N-X-V03-10" elementRef="TS-06" xsi:type="Element" x="546" y="584" w="186" h="86" />
+        <node identifier="N-X-V03-11" elementRef="AP-08" xsi:type="Element" x="546" y="724" w="186" h="86" />
+        <node identifier="N-X-V03-12" elementRef="T-TAR03" xsi:type="Element" x="524" y="864" w="230" h="171">
+          <node identifier="N-X-V03-13" elementRef="ART-01" xsi:type="Element" x="546" y="927" w="186" h="86" />
+        </node>
+        <node identifier="N-X-V03-14" elementRef="TS-02" xsi:type="Element" x="946" y="927" w="186" h="86" />
+        <node identifier="N-X-V03-15" elementRef="CAP-07" xsi:type="Element" x="1046" y="24" w="186" h="86" />
+        <node identifier="N-X-V03-16" elementRef="BSV-05" xsi:type="Element" x="1046" y="164" w="186" h="86" />
+        <node identifier="N-X-V03-17" elementRef="BP-03" xsi:type="Element" x="1046" y="304" w="186" h="86" />
+        <node identifier="N-X-V03-18" elementRef="AP-04" xsi:type="Element" x="1046" y="584" w="186" h="86" />
+        <node identifier="N-X-V03-19" elementRef="T-TAR02" xsi:type="Element" x="1046" y="752" w="186" h="86" />
+        <connection identifier="C-X-V03-R152" relationshipRef="R152" xsi:type="Relationship" source="N-X-V03-03" target="N-X-V03-02" />
+        <connection identifier="C-X-V03-R156" relationshipRef="R156" xsi:type="Relationship" source="N-X-V03-17" target="N-X-V03-16" />
+        <connection identifier="C-X-V03-R172" relationshipRef="R172" xsi:type="Relationship" source="N-X-V03-17" target="N-X-V03-15">
+          <bendpoint x="1277" y="347" />
+          <bendpoint x="1277" y="67" />
+        </connection>
+        <connection identifier="C-X-V03-R214" relationshipRef="R214" xsi:type="Relationship" source="N-X-V03-18" target="N-X-V03-11" />
+        <connection identifier="C-X-V03-R218" relationshipRef="R218" xsi:type="Relationship" source="N-X-V03-07" target="N-X-V03-06" />
+        <connection identifier="C-X-V03-R223" relationshipRef="R223" xsi:type="Relationship" source="N-X-V03-06" target="N-X-V03-05" />
+        <connection identifier="C-X-V03-R225" relationshipRef="R225" xsi:type="Relationship" source="N-X-V03-04" target="N-X-V03-05" />
+        <connection identifier="C-X-V03-R232" relationshipRef="R232" xsi:type="Relationship" source="N-X-V03-06" target="N-X-V03-04" />
+        <connection identifier="C-X-V03-R233" relationshipRef="R233" xsi:type="Relationship" source="N-X-V03-04" target="N-X-V03-03" />
+        <connection identifier="C-X-V03-R247" relationshipRef="R247" xsi:type="Relationship" source="N-X-V03-11" target="N-X-V03-07" />
+        <connection identifier="C-X-V03-R255" relationshipRef="R255" xsi:type="Relationship" source="N-X-V03-02" target="N-X-V03-01" />
+        <connection identifier="C-X-V03-R256" relationshipRef="R256" xsi:type="Relationship" source="N-X-V03-16" target="N-X-V03-15" />
+        <connection identifier="C-X-V03-R290" relationshipRef="R290" xsi:type="Relationship" source="N-X-V03-19" target="N-X-V03-18" />
+        <connection identifier="C-X-V03-R300" relationshipRef="R300" xsi:type="Relationship" source="N-X-V03-13" target="N-X-V03-11" />
+        <connection identifier="C-X-V03-R302" relationshipRef="R302" xsi:type="Relationship" source="N-X-V03-09" target="N-X-V03-07" />
+        <connection identifier="C-X-V03-R326" relationshipRef="R326" xsi:type="Relationship" source="N-X-V03-14" target="N-X-V03-11" />
+        <connection identifier="C-X-V03-R333" relationshipRef="R333" xsi:type="Relationship" source="N-X-V03-10" target="N-X-V03-18" />
+        <connection identifier="C-X-V03-R334" relationshipRef="R334" xsi:type="Relationship" source="N-X-V03-10" target="N-X-V03-07" />
+      </view>
+    </diagrams>
+  </views>
+</model>

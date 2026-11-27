@@ -1,0 +1,388 @@
+<?xml version='1.0' encoding='utf-8'?>
+<model xmlns="http://www.opengroup.org/xsd/archimate/3.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" identifier="M-CAMPOSOL-T-V06-v03" xsi:schemaLocation="http://www.opengroup.org/xsd/archimate/3.0/ http://www.opengroup.org/xsd/archimate/3.1/archimate3_Diagram.xsd">
+  <name xml:lang="es">Camposol Chao · T-V06 · Technology Services &amp; ABB · v0.3 (PC3)</name>
+  <documentation xml:lang="es">Extracto de una vista del modelo consolidado v0.3 (PC3): elementos de la vista y todas las relaciones entre ellos. Modelo académico SI605 Grupo 04; no representa sistemas reales de Camposol.</documentation>
+  <elements>
+    <element identifier="TSV-C01" xsi:type="TechnologyService">
+      <name xml:lang="es">TSV-C01 Continuidad de captura en planta (candidato)</name>
+      <documentation xml:lang="es">Servicio tecnológico candidato; Phase D define RTO/RPO y despliegue.</documentation>
+      <properties>
+        <property propertyDefinitionRef="PD-01">
+          <value xml:lang="es">DE (candidato)</value>
+        </property>
+        <property propertyDefinitionRef="PD-02">
+          <value xml:lang="es">D</value>
+        </property>
+        <property propertyDefinitionRef="PD-03">
+          <value xml:lang="es">Target</value>
+        </property>
+      </properties>
+    </element>
+    <element identifier="TS-01" xsi:type="TechnologyService">
+      <name xml:lang="es">TS-01 Captura de evidencia en el punto</name>
+      <documentation xml:lang="es">Lectura de códigos, registro en estación y lectura OT de solo lectura. · Estado: Target (nuevo) · Clase DE</documentation>
+      <properties>
+        <property propertyDefinitionRef="PD-01">
+          <value xml:lang="es">DE</value>
+        </property>
+        <property propertyDefinitionRef="PD-02">
+          <value xml:lang="es">D</value>
+        </property>
+        <property propertyDefinitionRef="PD-03">
+          <value xml:lang="es">Target (nuevo)</value>
+        </property>
+      </properties>
+    </element>
+    <element identifier="TS-02" xsi:type="TechnologyService">
+      <name xml:lang="es">TS-02 Almacenamiento y reenvío de eventos</name>
+      <documentation xml:lang="es">Store-and-forward con eventId estable, orden por lote y reintento idempotente. · Estado: Target (nuevo) · Clase DE</documentation>
+      <properties>
+        <property propertyDefinitionRef="PD-01">
+          <value xml:lang="es">DE</value>
+        </property>
+        <property propertyDefinitionRef="PD-02">
+          <value xml:lang="es">D</value>
+        </property>
+        <property propertyDefinitionRef="PD-03">
+          <value xml:lang="es">Target (nuevo)</value>
+        </property>
+      </properties>
+    </element>
+    <element identifier="TS-03" xsi:type="TechnologyService">
+      <name xml:lang="es">TS-03 Intercambio controlado OT/IT</name>
+      <documentation xml:lang="es">Paso de flujos solo por conductos registrados. · Estado: Target (nuevo) · Clase DE</documentation>
+      <properties>
+        <property propertyDefinitionRef="PD-01">
+          <value xml:lang="es">DE</value>
+        </property>
+        <property propertyDefinitionRef="PD-02">
+          <value xml:lang="es">D</value>
+        </property>
+        <property propertyDefinitionRef="PD-03">
+          <value xml:lang="es">Target (nuevo)</value>
+        </property>
+      </properties>
+    </element>
+    <element identifier="TS-04" xsi:type="TechnologyService">
+      <name xml:lang="es">TS-04 Ejecución de aplicaciones y API</name>
+      <documentation xml:lang="es">Runtime de AP-08 central, AP-09, AP-10 y AP-11. · Estado: Target (nuevo) · Clase DE</documentation>
+      <properties>
+        <property propertyDefinitionRef="PD-01">
+          <value xml:lang="es">DE</value>
+        </property>
+        <property propertyDefinitionRef="PD-02">
+          <value xml:lang="es">D</value>
+        </property>
+        <property propertyDefinitionRef="PD-03">
+          <value xml:lang="es">Target (nuevo)</value>
+        </property>
+      </properties>
+    </element>
+    <element identifier="TS-05" xsi:type="TechnologyService">
+      <name xml:lang="es">TS-05 Persistencia y retención de evidencias</name>
+      <documentation xml:lang="es">Append-only, integridad verificable y retención por objeto (NV-09). · Estado: Target (nuevo) · Clase DE</documentation>
+      <properties>
+        <property propertyDefinitionRef="PD-01">
+          <value xml:lang="es">DE</value>
+        </property>
+        <property propertyDefinitionRef="PD-02">
+          <value xml:lang="es">D</value>
+        </property>
+        <property propertyDefinitionRef="PD-03">
+          <value xml:lang="es">Target (nuevo)</value>
+        </property>
+      </properties>
+    </element>
+    <element identifier="TS-06" xsi:type="TechnologyService">
+      <name xml:lang="es">TS-06 Identidad y control de acceso</name>
+      <documentation xml:lang="es">Cuentas nominales, MFA, grupos por rol (ROL-B01…B08) e identidad de dispositivo. · Estado: Target (nuevo) · Clase DE</documentation>
+      <properties>
+        <property propertyDefinitionRef="PD-01">
+          <value xml:lang="es">DE</value>
+        </property>
+        <property propertyDefinitionRef="PD-02">
+          <value xml:lang="es">D</value>
+        </property>
+        <property propertyDefinitionRef="PD-03">
+          <value xml:lang="es">Target (nuevo)</value>
+        </property>
+      </properties>
+    </element>
+    <element identifier="TS-07" xsi:type="TechnologyService">
+      <name xml:lang="es">TS-07 Tiempo de referencia</name>
+      <documentation xml:lang="es">Sincronización ≤ 1 s y marca con zona horaria explícita. · Estado: Target (nuevo) · Clase DE</documentation>
+      <properties>
+        <property propertyDefinitionRef="PD-01">
+          <value xml:lang="es">DE</value>
+        </property>
+        <property propertyDefinitionRef="PD-02">
+          <value xml:lang="es">D</value>
+        </property>
+        <property propertyDefinitionRef="PD-03">
+          <value xml:lang="es">Target (nuevo)</value>
+        </property>
+      </properties>
+    </element>
+    <element identifier="TS-08" xsi:type="TechnologyService">
+      <name xml:lang="es">TS-08 Observabilidad y alertas</name>
+      <documentation xml:lang="es">Cola, enlace, errores, accesos denegados y cumplimiento de RTO/RPO. · Estado: Target (nuevo) · Clase DE</documentation>
+      <properties>
+        <property propertyDefinitionRef="PD-01">
+          <value xml:lang="es">DE</value>
+        </property>
+        <property propertyDefinitionRef="PD-02">
+          <value xml:lang="es">D</value>
+        </property>
+        <property propertyDefinitionRef="PD-03">
+          <value xml:lang="es">Target (nuevo)</value>
+        </property>
+      </properties>
+    </element>
+    <element identifier="TS-09" xsi:type="TechnologyService">
+      <name xml:lang="es">TS-09 Respaldo y recuperación</name>
+      <documentation xml:lang="es">Copias inmutables fuera de sitio y restauración probada. · Estado: Target (nuevo) · Clase DE</documentation>
+      <properties>
+        <property propertyDefinitionRef="PD-01">
+          <value xml:lang="es">DE</value>
+        </property>
+        <property propertyDefinitionRef="PD-02">
+          <value xml:lang="es">D</value>
+        </property>
+        <property propertyDefinitionRef="PD-03">
+          <value xml:lang="es">Target (nuevo)</value>
+        </property>
+      </properties>
+    </element>
+    <element identifier="TS-10" xsi:type="TechnologyService">
+      <name xml:lang="es">TS-10 Integración corporativa acotada</name>
+      <documentation xml:lang="es">Intercambio IF-05/IF-06 con SAP desde la zona central. · Estado: Target (nuevo) · Clase DE</documentation>
+      <properties>
+        <property propertyDefinitionRef="PD-01">
+          <value xml:lang="es">DE</value>
+        </property>
+        <property propertyDefinitionRef="PD-02">
+          <value xml:lang="es">D</value>
+        </property>
+        <property propertyDefinitionRef="PD-03">
+          <value xml:lang="es">Target (nuevo)</value>
+        </property>
+      </properties>
+    </element>
+    <element identifier="TS-11" xsi:type="TechnologyService">
+      <name xml:lang="es">TS-11 Acceso remoto de mantenimiento</name>
+      <documentation xml:lang="es">Sesiones temporales vía bastión, aprobadas y grabadas. · Estado: Target (nuevo) · Clase DE</documentation>
+      <properties>
+        <property propertyDefinitionRef="PD-01">
+          <value xml:lang="es">DE</value>
+        </property>
+        <property propertyDefinitionRef="PD-02">
+          <value xml:lang="es">D</value>
+        </property>
+        <property propertyDefinitionRef="PD-03">
+          <value xml:lang="es">Target (nuevo)</value>
+        </property>
+      </properties>
+    </element>
+    <element identifier="TS-14" xsi:type="TechnologyService">
+      <name xml:lang="es">TS-14 Consulta local en contingencia</name>
+      <documentation xml:lang="es">Estado QA e historia reciente servidos desde el borde durante corte WAN o falla central. · Estado: Target (nuevo) · Clase DE</documentation>
+      <properties>
+        <property propertyDefinitionRef="PD-01">
+          <value xml:lang="es">DE</value>
+        </property>
+        <property propertyDefinitionRef="PD-02">
+          <value xml:lang="es">D</value>
+        </property>
+        <property propertyDefinitionRef="PD-03">
+          <value xml:lang="es">Target (nuevo)</value>
+        </property>
+      </properties>
+    </element>
+    <element identifier="TS-15" xsi:type="TechnologyService">
+      <name xml:lang="es">TS-15 Control local de línea y frío</name>
+      <documentation xml:lang="es">PLC, HMI y registro térmico operan sin WAN ni plataforma central (PR-09, NFR-T05). · Estado: Baseline y Target · Clase IA</documentation>
+      <properties>
+        <property propertyDefinitionRef="PD-01">
+          <value xml:lang="es">IA</value>
+        </property>
+        <property propertyDefinitionRef="PD-02">
+          <value xml:lang="es">D</value>
+        </property>
+        <property propertyDefinitionRef="PD-03">
+          <value xml:lang="es">Baseline y Target</value>
+        </property>
+      </properties>
+    </element>
+    <element identifier="T-ABB01" xsi:type="Grouping">
+      <name xml:lang="es">T-ABB01 Captura de evidencia en borde</name>
+      <documentation xml:lang="es">Architecture Building Block tecnológico (lógico, sin producto). Servicios: TS-01, TS-07. NFR: NFR-T08; NFR-T12. · Estado: Target (nuevo) · Clase DE</documentation>
+      <properties>
+        <property propertyDefinitionRef="PD-01">
+          <value xml:lang="es">DE</value>
+        </property>
+        <property propertyDefinitionRef="PD-02">
+          <value xml:lang="es">D</value>
+        </property>
+        <property propertyDefinitionRef="PD-03">
+          <value xml:lang="es">Target (nuevo)</value>
+        </property>
+      </properties>
+    </element>
+    <element identifier="T-ABB02" xsi:type="Grouping">
+      <name xml:lang="es">T-ABB02 Control industrial autónomo</name>
+      <documentation xml:lang="es">Architecture Building Block tecnológico (lógico, sin producto). Servicios: TS-15. NFR: NFR-T05. · Estado: Target (nuevo) · Clase DE</documentation>
+      <properties>
+        <property propertyDefinitionRef="PD-01">
+          <value xml:lang="es">DE</value>
+        </property>
+        <property propertyDefinitionRef="PD-02">
+          <value xml:lang="es">D</value>
+        </property>
+        <property propertyDefinitionRef="PD-03">
+          <value xml:lang="es">Target (nuevo)</value>
+        </property>
+      </properties>
+    </element>
+    <element identifier="T-ABB03" xsi:type="Grouping">
+      <name xml:lang="es">T-ABB03 Corredor seguro IT/OT</name>
+      <documentation xml:lang="es">Architecture Building Block tecnológico (lógico, sin producto). Servicios: TS-03, TS-11. NFR: NFR-T06. · Estado: Target (nuevo) · Clase DE</documentation>
+      <properties>
+        <property propertyDefinitionRef="PD-01">
+          <value xml:lang="es">DE</value>
+        </property>
+        <property propertyDefinitionRef="PD-02">
+          <value xml:lang="es">D</value>
+        </property>
+        <property propertyDefinitionRef="PD-03">
+          <value xml:lang="es">Target (nuevo)</value>
+        </property>
+      </properties>
+    </element>
+    <element identifier="T-ABB04" xsi:type="Grouping">
+      <name xml:lang="es">T-ABB04 Transporte resiliente y réplica local</name>
+      <documentation xml:lang="es">Architecture Building Block tecnológico (lógico, sin producto). Servicios: TS-02, TS-14. NFR: NFR-T01; NFR-T02; NFR-T03. · Estado: Target (nuevo) · Clase DE</documentation>
+      <properties>
+        <property propertyDefinitionRef="PD-01">
+          <value xml:lang="es">DE</value>
+        </property>
+        <property propertyDefinitionRef="PD-02">
+          <value xml:lang="es">D</value>
+        </property>
+        <property propertyDefinitionRef="PD-03">
+          <value xml:lang="es">Target (nuevo)</value>
+        </property>
+      </properties>
+    </element>
+    <element identifier="T-ABB05" xsi:type="Grouping">
+      <name xml:lang="es">T-ABB05 Persistencia de evidencias</name>
+      <documentation xml:lang="es">Architecture Building Block tecnológico (lógico, sin producto). Servicios: TS-05. NFR: NFR-T10. · Estado: Target (nuevo) · Clase DE</documentation>
+      <properties>
+        <property propertyDefinitionRef="PD-01">
+          <value xml:lang="es">DE</value>
+        </property>
+        <property propertyDefinitionRef="PD-02">
+          <value xml:lang="es">D</value>
+        </property>
+        <property propertyDefinitionRef="PD-03">
+          <value xml:lang="es">Target (nuevo)</value>
+        </property>
+      </properties>
+    </element>
+    <element identifier="T-ABB06" xsi:type="Grouping">
+      <name xml:lang="es">T-ABB06 Ejecución de aplicaciones, identidad e integración</name>
+      <documentation xml:lang="es">Architecture Building Block tecnológico (lógico, sin producto). Servicios: TS-04, TS-06, TS-10. NFR: NFR-T03; NFR-T07; NFR-T09; NFR-T11. · Estado: Target (nuevo) · Clase DE</documentation>
+      <properties>
+        <property propertyDefinitionRef="PD-01">
+          <value xml:lang="es">DE</value>
+        </property>
+        <property propertyDefinitionRef="PD-02">
+          <value xml:lang="es">D</value>
+        </property>
+        <property propertyDefinitionRef="PD-03">
+          <value xml:lang="es">Target (nuevo)</value>
+        </property>
+      </properties>
+    </element>
+    <element identifier="T-ABB07" xsi:type="Grouping">
+      <name xml:lang="es">T-ABB07 Observabilidad y recuperación</name>
+      <documentation xml:lang="es">Architecture Building Block tecnológico (lógico, sin producto). Servicios: TS-08, TS-09. NFR: NFR-T04; NFR-T13. · Estado: Target (nuevo) · Clase DE</documentation>
+      <properties>
+        <property propertyDefinitionRef="PD-01">
+          <value xml:lang="es">DE</value>
+        </property>
+        <property propertyDefinitionRef="PD-02">
+          <value xml:lang="es">D</value>
+        </property>
+        <property propertyDefinitionRef="PD-03">
+          <value xml:lang="es">Target (nuevo)</value>
+        </property>
+      </properties>
+    </element>
+  </elements>
+  <relationships>
+    <relationship identifier="R341" source="TSV-C01" target="TS-01" xsi:type="Aggregation" />
+    <relationship identifier="R342" source="TSV-C01" target="TS-02" xsi:type="Aggregation" />
+    <relationship identifier="R451" source="T-ABB01" target="TS-01" xsi:type="Aggregation" />
+    <relationship identifier="R452" source="T-ABB01" target="TS-07" xsi:type="Aggregation" />
+    <relationship identifier="R453" source="T-ABB02" target="TS-15" xsi:type="Aggregation" />
+    <relationship identifier="R454" source="T-ABB03" target="TS-03" xsi:type="Aggregation" />
+    <relationship identifier="R455" source="T-ABB03" target="TS-11" xsi:type="Aggregation" />
+    <relationship identifier="R456" source="T-ABB04" target="TS-02" xsi:type="Aggregation" />
+    <relationship identifier="R457" source="T-ABB04" target="TS-14" xsi:type="Aggregation" />
+    <relationship identifier="R458" source="T-ABB05" target="TS-05" xsi:type="Aggregation" />
+    <relationship identifier="R459" source="T-ABB06" target="TS-04" xsi:type="Aggregation" />
+    <relationship identifier="R460" source="T-ABB06" target="TS-06" xsi:type="Aggregation" />
+    <relationship identifier="R461" source="T-ABB06" target="TS-10" xsi:type="Aggregation" />
+    <relationship identifier="R462" source="T-ABB07" target="TS-08" xsi:type="Aggregation" />
+    <relationship identifier="R463" source="T-ABB07" target="TS-09" xsi:type="Aggregation" />
+  </relationships>
+  <propertyDefinitions>
+    <propertyDefinition identifier="PD-01" type="string">
+      <name xml:lang="es">Evidencia</name>
+    </propertyDefinition>
+    <propertyDefinition identifier="PD-02" type="string">
+      <name xml:lang="es">Fase_ADM</name>
+    </propertyDefinition>
+    <propertyDefinition identifier="PD-03" type="string">
+      <name xml:lang="es">Estado</name>
+    </propertyDefinition>
+  </propertyDefinitions>
+  <views>
+    <diagrams>
+      <view identifier="V-T-V06" xsi:type="Diagram">
+        <name xml:lang="es">T-V06 · Technology Services &amp; ABB</name>
+        <documentation xml:lang="es">T-V06 · VP-D06 · C03/C05 · Grupo 04 · v0.3 (PC3) · Target (DE) · ABB lógicos sin producto. Cada Grouping T-ABB agrega los servicios tecnológicos de un bloque: captura, control autónomo, corredor seguro, transporte resiliente, persistencia, ejecución/identidad/integración y observabilidad. El sensado visual (ex T-ABB08) se retiró del Target (DEC-D09, OPP-IA-01). TSV-C01 (candidato de Phase A) se detalla en TS-01 y TS-02. Requisito NFR-T que realiza cada servicio: T1/04 y T1/11; nodos que los realizan: T-V01-T, T-V05 y T-V09.</documentation>
+        <node identifier="N-T-V06-01" elementRef="TSV-C01" xsi:type="Element" x="671" y="24" w="186" h="86" />
+        <node identifier="N-T-V06-02" elementRef="T-ABB01" xsi:type="Element" x="24" y="193" w="480" h="156">
+          <node identifier="N-T-V06-03" elementRef="TS-01" xsi:type="Element" x="46" y="241" w="186" h="86" />
+          <node identifier="N-T-V06-04" elementRef="TS-07" xsi:type="Element" x="296" y="241" w="186" h="86" />
+        </node>
+        <node identifier="N-T-V06-05" elementRef="T-ABB02" xsi:type="Element" x="524" y="178" w="230" h="171">
+          <node identifier="N-T-V06-06" elementRef="TS-15" xsi:type="Element" x="546" y="241" w="186" h="86" />
+        </node>
+        <node identifier="N-T-V06-07" elementRef="T-ABB03" xsi:type="Element" x="774" y="193" w="480" h="156">
+          <node identifier="N-T-V06-08" elementRef="TS-03" xsi:type="Element" x="796" y="241" w="186" h="86" />
+          <node identifier="N-T-V06-09" elementRef="TS-11" xsi:type="Element" x="1046" y="241" w="186" h="86" />
+        </node>
+        <node identifier="N-T-V06-10" elementRef="T-ABB04" xsi:type="Element" x="1274" y="193" w="480" h="156">
+          <node identifier="N-T-V06-11" elementRef="TS-02" xsi:type="Element" x="1296" y="241" w="186" h="86" />
+          <node identifier="N-T-V06-12" elementRef="TS-14" xsi:type="Element" x="1546" y="241" w="186" h="86" />
+        </node>
+        <node identifier="N-T-V06-13" elementRef="T-ABB05" xsi:type="Element" x="24" y="430" w="230" h="171">
+          <node identifier="N-T-V06-14" elementRef="TS-05" xsi:type="Element" x="46" y="493" w="186" h="86" />
+        </node>
+        <node identifier="N-T-V06-15" elementRef="T-ABB06" xsi:type="Element" x="274" y="445" w="730" h="156">
+          <node identifier="N-T-V06-16" elementRef="TS-04" xsi:type="Element" x="296" y="493" w="186" h="86" />
+          <node identifier="N-T-V06-17" elementRef="TS-06" xsi:type="Element" x="546" y="493" w="186" h="86" />
+          <node identifier="N-T-V06-18" elementRef="TS-10" xsi:type="Element" x="796" y="493" w="186" h="86" />
+        </node>
+        <node identifier="N-T-V06-19" elementRef="T-ABB07" xsi:type="Element" x="1024" y="445" w="480" h="156">
+          <node identifier="N-T-V06-20" elementRef="TS-08" xsi:type="Element" x="1046" y="493" w="186" h="86" />
+          <node identifier="N-T-V06-21" elementRef="TS-09" xsi:type="Element" x="1296" y="493" w="186" h="86" />
+        </node>
+        <connection identifier="C-T-V06-R341" relationshipRef="R341" xsi:type="Relationship" source="N-T-V06-01" target="N-T-V06-03" />
+        <connection identifier="C-T-V06-R342" relationshipRef="R342" xsi:type="Relationship" source="N-T-V06-01" target="N-T-V06-11" />
+      </view>
+    </diagrams>
+  </views>
+</model>

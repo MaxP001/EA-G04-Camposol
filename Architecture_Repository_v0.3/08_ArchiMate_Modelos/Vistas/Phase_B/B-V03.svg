@@ -1,0 +1,108 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1780.0" height="623.0" viewBox="0 0 1780.0 623.0" font-family="Helvetica, Arial, sans-serif">
+<defs>
+<marker id="afill" viewBox="0 0 12 10" refX="11" refY="5" markerWidth="11" markerHeight="9" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L12,5 L0,10 z" fill="#46525a"/></marker>
+<marker id="thol" viewBox="0 0 14 12" refX="13" refY="6" markerWidth="14" markerHeight="12" orient="auto" markerUnits="userSpaceOnUse"><path d="M1,1 L13,6 L1,11 z" fill="#ffffff" stroke="#46525a" stroke-width="1.3"/></marker>
+<marker id="open" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="12" markerHeight="12" orient="auto" markerUnits="userSpaceOnUse"><path d="M1,1 L11,6 L1,11" fill="none" stroke="#46525a" stroke-width="1.5"/></marker>
+<marker id="acc" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto" markerUnits="userSpaceOnUse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#46525a" stroke-width="1.3"/></marker>
+<marker id="accs" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="9" markerHeight="9" orient="auto" markerUnits="userSpaceOnUse"><path d="M9,1 L1,5 L9,9" fill="none" stroke="#46525a" stroke-width="1.3"/></marker>
+<marker id="dot" viewBox="0 0 10 10" refX="4" refY="5" markerWidth="9" markerHeight="9" orient="auto" markerUnits="userSpaceOnUse"><circle cx="5" cy="5" r="3.6" fill="#46525a"/></marker>
+<marker id="dfill" viewBox="0 0 18 10" refX="1" refY="5" markerWidth="18" markerHeight="10" orient="auto" markerUnits="userSpaceOnUse"><path d="M1,5 L9,1 L17,5 L9,9 z" fill="#46525a"/></marker>
+<marker id="dhol" viewBox="0 0 18 10" refX="1" refY="5" markerWidth="18" markerHeight="10" orient="auto" markerUnits="userSpaceOnUse"><path d="M1,5 L9,1 L17,5 L9,9 z" fill="#ffffff" stroke="#46525a" stroke-width="1.2"/></marker>
+</defs>
+<rect x="1" y="1" width="1778.0" height="622.0" rx="14" fill="#ffffff" stroke="#dde3e6" stroke-width="2"/>
+<rect x="34" y="34" width="1468" height="156" rx="3" fill="#fde6bd" stroke="#b5862a" stroke-width="1.8"/>
+<text x="46" y="52" font-size="11.5" fill="#9c6f12" font-weight="bold">Value Stream</text>
+<text x="46" y="69" font-size="13" fill="#1d252b" font-weight="bold">VS-01 Aseguramiento de fruta exportable</text>
+<path d="M50,84 L220,84 L236,127.0 L220,170 L50,170 L66,127.0 Z" fill="#fde6bd" stroke="#b5862a" stroke-width="1.8"/>
+<text x="60" y="100" font-size="10.5" font-weight="bold" fill="#9c6f12">Value Stream</text>
+<text x="143.0" y="120.0" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">VS-S1 Recepcionar bins</text>
+<path d="M300,84 L470,84 L486,127.0 L470,170 L300,170 L316,127.0 Z" fill="#fde6bd" stroke="#b5862a" stroke-width="1.8"/>
+<text x="310" y="100" font-size="10.5" font-weight="bold" fill="#9c6f12">Value Stream</text>
+<text x="393.0" y="120.0" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">VS-S2 Calibrar y empacar</text>
+<path d="M550,84 L720,84 L736,127.0 L720,170 L550,170 L566,127.0 Z" fill="#fde6bd" stroke="#b5862a" stroke-width="1.8"/>
+<text x="560" y="100" font-size="10.5" font-weight="bold" fill="#9c6f12">Value Stream</text>
+<text x="643.0" y="120.0" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">VS-S3 Verificar</text>
+<text x="643.0" y="133.5" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">conformidad</text>
+<path d="M800,84 L970,84 L986,127.0 L970,170 L800,170 L816,127.0 Z" fill="#fde6bd" stroke="#b5862a" stroke-width="1.8"/>
+<text x="810" y="100" font-size="10.5" font-weight="bold" fill="#9c6f12">Value Stream</text>
+<text x="893.0" y="120.0" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">VS-S4 Pre-enfriar según</text>
+<text x="893.0" y="133.5" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">ruta</text>
+<path d="M1050,84 L1220,84 L1236,127.0 L1220,170 L1050,170 L1066,127.0 Z" fill="#fde6bd" stroke="#b5862a" stroke-width="1.8"/>
+<text x="1060" y="100" font-size="10.5" font-weight="bold" fill="#9c6f12">Value Stream</text>
+<text x="1143.0" y="120.0" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">VS-S5 Custodiar en</text>
+<text x="1143.0" y="133.5" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">cámara</text>
+<path d="M1300,84 L1470,84 L1486,127.0 L1470,170 L1300,170 L1316,127.0 Z" fill="#fde6bd" stroke="#b5862a" stroke-width="1.8"/>
+<text x="1310" y="100" font-size="10.5" font-weight="bold" fill="#9c6f12">Value Stream</text>
+<text x="1393.0" y="120.0" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">VS-S6 Cargar y entregar</text>
+<text x="1393.0" y="133.5" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">FCL</text>
+<rect x="50" y="364" width="186" height="86" rx="7" fill="#fde6bd" stroke="#b5862a" stroke-width="1.8"/>
+<text x="60" y="380" font-size="10.5" font-weight="bold" fill="#9c6f12">Capability</text>
+<text x="143.0" y="400" font-size="11" font-weight="bold" fill="#3c4850" text-anchor="middle">CAP-04</text>
+<text x="143.0" y="414.0" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">Coordinación de</text>
+<text x="143.0" y="427.5" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">transferencias</text>
+<rect x="300" y="364" width="186" height="86" rx="7" fill="#fde6bd" stroke="#b5862a" stroke-width="1.8"/>
+<text x="310" y="380" font-size="10.5" font-weight="bold" fill="#9c6f12">Capability</text>
+<text x="393.0" y="400" font-size="11" font-weight="bold" fill="#3c4850" text-anchor="middle">CAP-01</text>
+<text x="393.0" y="414.0" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">Trazabilidad del lote</text>
+<rect x="550" y="364" width="186" height="86" rx="7" fill="#fde6bd" stroke="#b5862a" stroke-width="1.8"/>
+<text x="560" y="380" font-size="10.5" font-weight="bold" fill="#9c6f12">Capability</text>
+<text x="643.0" y="400" font-size="11" font-weight="bold" fill="#3c4850" text-anchor="middle">CAP-02</text>
+<text x="643.0" y="414.0" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">Gestión de evidencia</text>
+<text x="643.0" y="427.5" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">operativa</text>
+<rect x="800" y="364" width="186" height="86" rx="7" fill="#fde6bd" stroke="#b5862a" stroke-width="1.8"/>
+<text x="810" y="380" font-size="10.5" font-weight="bold" fill="#9c6f12">Capability</text>
+<text x="893.0" y="400" font-size="11" font-weight="bold" fill="#3c4850" text-anchor="middle">CAP-07</text>
+<text x="893.0" y="414.0" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">Control de conformidad y</text>
+<text x="893.0" y="427.5" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">liberación</text>
+<rect x="1050" y="364" width="186" height="86" rx="7" fill="#fde6bd" stroke="#b5862a" stroke-width="1.8"/>
+<text x="1060" y="380" font-size="10.5" font-weight="bold" fill="#9c6f12">Capability</text>
+<text x="1143.0" y="400" font-size="11" font-weight="bold" fill="#3c4850" text-anchor="middle">CAP-03</text>
+<text x="1143.0" y="414.0" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">Gestión de la cadena de</text>
+<text x="1143.0" y="427.5" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">frío</text>
+<rect x="1560" y="20" width="186" height="86" rx="7" fill="#fde6bd" stroke="#b5862a" stroke-width="1.8"/>
+<text x="1570" y="36" font-size="10.5" font-weight="bold" fill="#9c6f12">Capability</text>
+<text x="1653.0" y="56" font-size="11" font-weight="bold" fill="#3c4850" text-anchor="middle">CAP-05</text>
+<text x="1653.0" y="70.0" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">Medición del desempeño y</text>
+<text x="1653.0" y="83.5" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">mejora</text>
+<rect x="1560" y="124" width="186" height="86" rx="7" fill="#fde6bd" stroke="#b5862a" stroke-width="1.8"/>
+<text x="1570" y="140" font-size="10.5" font-weight="bold" fill="#9c6f12">Capability</text>
+<text x="1653.0" y="160" font-size="11" font-weight="bold" fill="#3c4850" text-anchor="middle">CAP-06</text>
+<text x="1653.0" y="174.0" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">Gestión de excepciones de</text>
+<text x="1653.0" y="187.5" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">negocio</text>
+<path d="M236.0,127.0 L300.0,127.0" fill="none" stroke="#46525a" stroke-width="1.6" stroke-dasharray="7,4" marker-end="url(#afill)"/>
+<path d="M486.0,127.0 L550.0,127.0" fill="none" stroke="#46525a" stroke-width="1.6" stroke-dasharray="7,4" marker-end="url(#afill)"/>
+<path d="M736.0,127.0 L800.0,127.0" fill="none" stroke="#46525a" stroke-width="1.6" stroke-dasharray="7,4" marker-end="url(#afill)"/>
+<path d="M986.0,127.0 L1050.0,127.0" fill="none" stroke="#46525a" stroke-width="1.6" stroke-dasharray="7,4" marker-end="url(#afill)"/>
+<path d="M1236.0,127.0 L1300.0,127.0" fill="none" stroke="#46525a" stroke-width="1.6" stroke-dasharray="7,4" marker-end="url(#afill)"/>
+<path d="M354.6,364.0 L181.4,170.0" fill="none" stroke="#46525a" stroke-width="1.5" marker-end="url(#open)"/>
+<path d="M143.0,364.0 L143.0,170.0" fill="none" stroke="#46525a" stroke-width="1.5" marker-end="url(#open)"/>
+<path d="M393.0,364.0 L393.0,170.0" fill="none" stroke="#46525a" stroke-width="1.5" marker-end="url(#open)"/>
+<path d="M604.6,364.0 L431.4,170.0" fill="none" stroke="#46525a" stroke-width="1.5" marker-end="url(#open)"/>
+<path d="M854.6,364.0 L681.4,170.0" fill="none" stroke="#46525a" stroke-width="1.5" marker-end="url(#open)"/>
+<path d="M1104.6,364.0 L931.4,170.0" fill="none" stroke="#46525a" stroke-width="1.5" marker-end="url(#open)"/>
+<path d="M1143.0,364.0 L1143.0,170.0" fill="none" stroke="#46525a" stroke-width="1.5" marker-end="url(#open)"/>
+<path d="M157.5,450.0 L173.0,496.0 L1413.0,496.0 L1395.3,170.0" fill="none" stroke="#46525a" stroke-width="1.5" marker-end="url(#open)"/>
+<path d="M411.7,450.0 L423.0,476.0 L1373.0,476.0 L1390.5,170.0" fill="none" stroke="#46525a" stroke-width="1.5" marker-end="url(#open)"/>
+<path d="M1560.0,70.0 L1502.0,70.0" fill="none" stroke="#46525a" stroke-width="1.5" marker-end="url(#open)"/>
+<path d="M1560.0,157.0 L1502.0,157.0" fill="none" stroke="#46525a" stroke-width="1.5" marker-end="url(#open)"/>
+<rect x="253.0" y="119.0" width="30.1" height="14" rx="3" fill="#ffffff" fill-opacity="0.92"/><text x="268.0" y="130.0" font-size="9.5" fill="#4a565e" text-anchor="middle">Flow</text>
+<rect x="503.0" y="119.0" width="30.1" height="14" rx="3" fill="#ffffff" fill-opacity="0.92"/><text x="518.0" y="130.0" font-size="9.5" fill="#4a565e" text-anchor="middle">Flow</text>
+<rect x="753.0" y="119.0" width="30.1" height="14" rx="3" fill="#ffffff" fill-opacity="0.92"/><text x="768.0" y="130.0" font-size="9.5" fill="#4a565e" text-anchor="middle">Flow</text>
+<rect x="1003.0" y="119.0" width="30.1" height="14" rx="3" fill="#ffffff" fill-opacity="0.92"/><text x="1018.0" y="130.0" font-size="9.5" fill="#4a565e" text-anchor="middle">Flow</text>
+<rect x="1253.0" y="119.0" width="30.1" height="14" rx="3" fill="#ffffff" fill-opacity="0.92"/><text x="1268.0" y="130.0" font-size="9.5" fill="#4a565e" text-anchor="middle">Flow</text>
+<rect x="246.9" y="259.0" width="42.2" height="14" rx="3" fill="#ffffff" fill-opacity="0.92"/><text x="268.0" y="270.0" font-size="9.5" fill="#4a565e" text-anchor="middle">Serving</text>
+<rect x="121.9" y="259.0" width="42.2" height="14" rx="3" fill="#ffffff" fill-opacity="0.92"/><text x="143.0" y="270.0" font-size="9.5" fill="#4a565e" text-anchor="middle">Serving</text>
+<rect x="371.9" y="259.0" width="42.2" height="14" rx="3" fill="#ffffff" fill-opacity="0.92"/><text x="393.0" y="270.0" font-size="9.5" fill="#4a565e" text-anchor="middle">Serving</text>
+<rect x="496.9" y="259.0" width="42.2" height="14" rx="3" fill="#ffffff" fill-opacity="0.92"/><text x="518.0" y="270.0" font-size="9.5" fill="#4a565e" text-anchor="middle">Serving</text>
+<rect x="746.9" y="259.0" width="42.2" height="14" rx="3" fill="#ffffff" fill-opacity="0.92"/><text x="768.0" y="270.0" font-size="9.5" fill="#4a565e" text-anchor="middle">Serving</text>
+<rect x="996.9" y="259.0" width="42.2" height="14" rx="3" fill="#ffffff" fill-opacity="0.92"/><text x="1018.0" y="270.0" font-size="9.5" fill="#4a565e" text-anchor="middle">Serving</text>
+<rect x="1121.9" y="259.0" width="42.2" height="14" rx="3" fill="#ffffff" fill-opacity="0.92"/><text x="1143.0" y="270.0" font-size="9.5" fill="#4a565e" text-anchor="middle">Serving</text>
+<rect x="771.9" y="488.0" width="42.2" height="14" rx="3" fill="#ffffff" fill-opacity="0.92"/><text x="793.0" y="499.0" font-size="9.5" fill="#4a565e" text-anchor="middle">Serving</text>
+<rect x="876.9" y="468.0" width="42.2" height="14" rx="3" fill="#ffffff" fill-opacity="0.92"/><text x="898.0" y="479.0" font-size="9.5" fill="#4a565e" text-anchor="middle">Serving</text>
+<rect x="1509.9" y="62.0" width="42.2" height="14" rx="3" fill="#ffffff" fill-opacity="0.92"/><text x="1531.0" y="73.0" font-size="9.5" fill="#4a565e" text-anchor="middle">Serving</text>
+<rect x="1509.9" y="149.0" width="42.2" height="14" rx="3" fill="#ffffff" fill-opacity="0.92"/><text x="1531.0" y="160.0" font-size="9.5" fill="#4a565e" text-anchor="middle">Serving</text>
+<text x="26" y="563.0" font-size="12" fill="#5f6b73">B-V03 · VP-B02 Value stream × capacidades · Grupo 04 · v0.3 (PC3)</text>
+<text x="26" y="580.0" font-size="12" fill="#5f6b73">Etapas anidadas en VS-01 = Composition. Fila superior: capacidad primaria (P) de cada etapa (Serving a la etapa, B-03). Fila inferior: CAP-05 y CAP-06, transversales (S en varias etapas), con Serving al value stream completo. Las 7 capacidades del catálogo están en la vista. Handoffs críticos: HO-01 (S1), HO-03 (S3) y</text>
+<text x="26" y="597.0" font-size="12" fill="#5f6b73">HO-05 (S6).</text>
+<text x="26" y="614.0" font-size="11" fill="#7c868d">Notación ArchiMate 3.2: Assignment (●→) · Realization (- - ▷) · Serving (→ abierta) · Access (··· ; flecha = dirección del dato: escribe →objeto, lee →proceso) · Triggering (→ llena) · Flow (- - → llena) · Composition (◆) · Aggregation (◇) · Influence (- - →, +) · Association (—). Anidamiento = relación estructural del modelo.</text>
+</svg>

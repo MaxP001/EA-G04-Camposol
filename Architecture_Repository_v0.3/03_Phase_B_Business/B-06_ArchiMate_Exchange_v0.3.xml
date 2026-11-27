@@ -1,0 +1,1761 @@
+<?xml version='1.0' encoding='utf-8'?>
+<model xmlns="http://www.opengroup.org/xsd/archimate/3.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.opengroup.org/xsd/archimate/3.0/ http://www.opengroup.org/xsd/archimate/3.1/archimate3_Diagram.xsd" identifier="M-CAMPOSOL-B06-v03">
+  <name xml:lang="es">B-06 · Camposol Chao · Vistas de Phase A y Phase B (extracto del modelo consolidado v0.3, PC3)</name>
+  <documentation xml:lang="es">Entregable B-06 de Phase B: extracto de las vistas VIEW-A01…A04 y B-V01…B-V05 con sus elementos y todas las relaciones entre ellos, tomado del modelo consolidado 08_ArchiMate_Modelos/Camposol_PC3_Modelo_ArchiMate_OpenExchange_v0.3.xml (fuente única). La versión de PC2 se conserva en 00_Control_Gobierno/Historico/Modelos. Baseline IA; Target DE; no representa sistemas reales de Camposol.</documentation>
+  <elements>
+    <element identifier="ACT-01" xsi:type="BusinessActor">
+      <name xml:lang="es">ACT-01 Operaciones de planta</name>
+      <documentation xml:lang="es">Recepción y packing; owner de handoffs y excepciones</documentation>
+      <properties>
+        <property propertyDefinitionRef="PD-01">
+          <value xml:lang="es">DE</value>
+        </property>
+        <property propertyDefinitionRef="PD-02">
+          <value xml:lang="es">B</value>
+        </property>
+        <property propertyDefinitionRef="PD-03">
+          <value xml:lang="es">Target</value>
+        </property>
+      </properties>
+    </element>
+    <element identifier="ACT-02" xsi:type="BusinessActor">
+      <name xml:lang="es">ACT-02 Aseguramiento de Calidad</name>
+      <documentation xml:lang="es">Inspección y liberación</documentation>
+      <properties>
+        <property propertyDefinitionRef="PD-01">
+          <value xml:lang="es">DE</value>
+        </property>
+        <property propertyDefinitionRef="PD-02">
+          <value xml:lang="es">B</value>
+        </property>
+        <property propertyDefinitionRef="PD-03">
+          <value xml:lang="es">Target</value>
+        </property>
+      </properties>
+    </element>
+    <element identifier="ACT-03" xsi:type="BusinessActor">
+      <name xml:lang="es">ACT-03 Cadena de Frío</name>
+      <documentation xml:lang="es">Pre-frío y cámaras</documentation>
+      <properties>
+        <property propertyDefinitionRef="PD-01">
+          <value xml:lang="es">DE</value>
+        </property>
+        <property propertyDefinitionRef="PD-02">
+          <value xml:lang="es">B</value>
+        </property>
+        <property propertyDefinitionRef="PD-03">
+          <value xml:lang="es">Target</value>
+        </property>
+      </properties>
+    </element>
+    <element identifier="ACT-04" xsi:type="BusinessActor">
+      <name xml:lang="es">ACT-04 Despacho y Exportación</name>
+      <documentation xml:lang="es">Carga y entrega del FCL</documentation>
+      <properties>
+        <property propertyDefinitionRef="PD-01">
+          <value xml:lang="es">DE</value>
+        </property>
+        <property propertyDefinitionRef="PD-02">
+          <value xml:lang="es">B</value>
+        </property>
+        <property propertyDefinitionRef="PD-03">
+          <value xml:lang="es">Target</value>
+        </property>
+      </properties>
+    </element>
+    <element identifier="ACT-05" xsi:type="BusinessActor">
+      <name xml:lang="es">ACT-05 Mejora Continua</name>
+      <documentation xml:lang="es">Medición e indicadores</documentation>
+      <properties>
+        <property propertyDefinitionRef="PD-01">
+          <value xml:lang="es">DE</value>
+        </property>
+        <property propertyDefinitionRef="PD-02">
+          <value xml:lang="es">B</value>
+        </property>
+        <property propertyDefinitionRef="PD-03">
+          <value xml:lang="es">Target</value>
+        </property>
+      </properties>
+    </element>
+    <element identifier="ACT-06" xsi:type="BusinessActor">
+      <name xml:lang="es">ACT-06 Fundo proveedor</name>
+      <documentation xml:lang="es">Externo: origen de bins (frontera)</documentation>
+      <properties>
+        <property propertyDefinitionRef="PD-01">
+          <value xml:lang="es">DE</value>
+        </property>
+        <property propertyDefinitionRef="PD-02">
+          <value xml:lang="es">B</value>
+        </property>
+        <property propertyDefinitionRef="PD-03">
+          <value xml:lang="es">Target</value>
+        </property>
+      </properties>
+    </element>
+    <element identifier="ACT-07" xsi:type="BusinessActor">
+      <name xml:lang="es">ACT-07 Transportista</name>
+      <documentation xml:lang="es">Externo: receptor inmediato del FCL</documentation>
+      <properties>
+        <property propertyDefinitionRef="PD-01">
+          <value xml:lang="es">DE</value>
+        </property>
+        <property propertyDefinitionRef="PD-02">
+          <value xml:lang="es">B</value>
+        </property>
+        <property propertyDefinitionRef="PD-03">
+          <value xml:lang="es">Target</value>
+        </property>
+      </properties>
+    </element>
+    <element identifier="ASV-C01" xsi:type="ApplicationService">
+      <name xml:lang="es">ASV-C01 Registro de eventos de negocio (candidato)</name>
+      <documentation xml:lang="es">Servicio lógico candidato; Phase C define componentes. Sin producto.</documentation>
+      <properties>
+        <property propertyDefinitionRef="PD-01">
+          <value xml:lang="es">DE (candidato)</value>
+        </property>
+        <property propertyDefinitionRef="PD-02">
+          <value xml:lang="es">C (Application)</value>
+        </property>
+        <property propertyDefinitionRef="PD-03">
+          <value xml:lang="es">Target</value>
+        </property>
+      </properties>
+    </element>
+    <element identifier="ASV-C02" xsi:type="ApplicationService">
+      <name xml:lang="es">ASV-C02 Consulta de historia del lote (candidato)</name>
+      <documentation xml:lang="es">Servicio lógico candidato para BSV-01. Sin producto.</documentation>
+      <properties>
+        <property propertyDefinitionRef="PD-01">
+          <value xml:lang="es">DE (candidato)</value>
+        </property>
+        <property propertyDefinitionRef="PD-02">
+          <value xml:lang="es">C (Application)</value>
+        </property>
+        <property propertyDefinitionRef="PD-03">
+          <value xml:lang="es">Target</value>
+        </property>
+      </properties>
+    </element>
+    <element identifier="BO-01" xsi:type="BusinessObject">
+      <name xml:lang="es">BO-01 Lote</name>
+      <documentation xml:lang="es">Identidad de planta del lote de recepción, batch y pallet, con referencia de origen (fundo, sector, fecha y lote de cosecha) y códigos locales.</documentation>
+      <properties>
+        <property propertyDefinitionRef="PD-01">
+          <value xml:lang="es">DE</value>
+        </property>
+        <property propertyDefinitionRef="PD-02">
+          <value xml:lang="es">B</value>
+        </property>
+        <property propertyDefinitionRef="PD-03">
+          <value xml:lang="es">Baseline y Target</value>
+        </property>
+      </properties>
+    </element>
+    <element identifier="BO-02" xsi:type="BusinessObject">
+      <name xml:lang="es">BO-02 Genealogía del lote</name>
+      <documentation xml:lang="es">Relaciones padre/hijo N:M fechadas por división o mezcla entre lote de recepción, batch, pallet y FCL.</documentation>
+      <properties>
+        <property propertyDefinitionRef="PD-01">
+          <value xml:lang="es">DE</value>
+        </property>
+        <property propertyDefinitionRef="PD-02">
+          <value xml:lang="es">B</value>
+        </property>
+        <property propertyDefinitionRef="PD-03">
+          <value xml:lang="es">Target</value>
+        </property>
+      </properties>
+    </element>
+    <element identifier="BO-03" xsi:type="BusinessObject">
+      <name xml:lang="es">BO-03 Resultado de inspección</name>
+      <documentation xml:lang="es">Estado (liberado, retenido HOLD, rechazado), aprobador, fecha, motivo y muestra; decisión exclusiva de Calidad.</documentation>
+      <properties>
+        <property propertyDefinitionRef="PD-01">
+          <value xml:lang="es">DE</value>
+        </property>
+        <property propertyDefinitionRef="PD-02">
+          <value xml:lang="es">B</value>
+        </property>
+        <property propertyDefinitionRef="PD-03">
+          <value xml:lang="es">Baseline y Target</value>
+        </property>
+      </properties>
+    </element>
+    <element identifier="BO-04" xsi:type="BusinessObject">
+      <name xml:lang="es">BO-04 Condición de despacho</name>
+      <documentation xml:lang="es">Decisión de carga/precinto de Despacho; no deriva automáticamente de BO-03.</documentation>
+      <properties>
+        <property propertyDefinitionRef="PD-01">
+          <value xml:lang="es">DE</value>
+        </property>
+        <property propertyDefinitionRef="PD-02">
+          <value xml:lang="es">B</value>
+        </property>
+        <property propertyDefinitionRef="PD-03">
+          <value xml:lang="es">Baseline y Target</value>
+        </property>
+      </properties>
+    </element>
+    <element identifier="BO-05" xsi:type="BusinessObject">
+      <name xml:lang="es">BO-05 Serie térmica y custodia</name>
+      <documentation xml:lang="es">Lecturas con fuente, reloj, intervalo y unidad; posición en cámara y transferencias de custodia.</documentation>
+      <properties>
+        <property propertyDefinitionRef="PD-01">
+          <value xml:lang="es">DE</value>
+        </property>
+        <property propertyDefinitionRef="PD-02">
+          <value xml:lang="es">B</value>
+        </property>
+        <property propertyDefinitionRef="PD-03">
+          <value xml:lang="es">Baseline y Target</value>
+        </property>
+      </properties>
+    </element>
+    <element identifier="BO-06" xsi:type="BusinessObject">
+      <name xml:lang="es">BO-06 Acta de handoff</name>
+      <documentation xml:lang="es">Emisor, receptor, unidad, información, instante, aceptación u observación.</documentation>
+      <properties>
+        <property propertyDefinitionRef="PD-01">
+          <value xml:lang="es">DE</value>
+        </property>
+        <property propertyDefinitionRef="PD-02">
+          <value xml:lang="es">B</value>
+        </property>
+        <property propertyDefinitionRef="PD-03">
+          <value xml:lang="es">Target</value>
+        </property>
+      </properties>
+    </element>
+    <element identifier="BO-07" xsi:type="BusinessObject">
+      <name xml:lang="es">BO-07 Registro de evento de negocio</name>
+      <documentation xml:lang="es">Evento con lote, tipo, instante con zona, fuente y actor; base de la historia.</documentation>
+      <properties>
+        <property propertyDefinitionRef="PD-01">
+          <value xml:lang="es">DE</value>
+        </property>
+        <property propertyDefinitionRef="PD-02">
+          <value xml:lang="es">B</value>
+        </property>
+        <property propertyDefinitionRef="PD-03">
+          <value xml:lang="es">Target</value>
+        </property>
+      </properties>
+    </element>
+    <element identifier="BO-08" xsi:type="BusinessObject">
+      <name xml:lang="es">BO-08 Registro de excepción</name>
+      <documentation xml:lang="es">Discrepancia, impacto, autoridad, tratamiento, cierre y evidencia.</documentation>
+      <properties>
+        <property propertyDefinitionRef="PD-01">
+          <value xml:lang="es">DE</value>
+        </property>
+        <property propertyDefinitionRef="PD-02">
+          <value xml:lang="es">B</value>
+        </property>
+        <property propertyDefinitionRef="PD-03">
+          <value xml:lang="es">Target</value>
+        </property>
+      </properties>
+    </element>
+    <element identifier="BO-09" xsi:type="BusinessObject">
+      <name xml:lang="es">BO-09 Planilla puente de conciliación</name>
+      <documentation xml:lang="es">Planilla compartida que concilia códigos de recepción, packing y cámara a mano.</documentation>
+      <properties>
+        <property propertyDefinitionRef="PD-01">
+          <value xml:lang="es">DE</value>
+        </property>
+        <property propertyDefinitionRef="PD-02">
+          <value xml:lang="es">B</value>
+        </property>
+        <property propertyDefinitionRef="PD-03">
+          <value xml:lang="es">Baseline</value>
+        </property>
+      </properties>
+    </element>
+    <element identifier="BP-01" xsi:type="BusinessProcess">
+      <name xml:lang="es">BP-01 Recepcionar y registrar origen</name>
+      <documentation xml:lang="es">Estado: Ambos; Gap: Included (modificado)</documentation>
+      <properties>
+        <property propertyDefinitionRef="PD-01">
+          <value xml:lang="es">DE</value>
+        </property>
+        <property propertyDefinitionRef="PD-02">
+          <value xml:lang="es">B</value>
+        </property>
+        <property propertyDefinitionRef="PD-03">
+          <value xml:lang="es">Ambos; Gap: Included (modificado)</value>
+        </property>
+      </properties>
+    </element>
+    <element identifier="BP-02" xsi:type="BusinessProcess">
+      <name xml:lang="es">BP-02 Calibrar, empacar y registrar genealogía</name>
+      <documentation xml:lang="es">Estado: Ambos; Gap: Included (modificado)</documentation>
+      <properties>
+        <property propertyDefinitionRef="PD-01">
+          <value xml:lang="es">DE</value>
+        </property>
+        <property propertyDefinitionRef="PD-02">
+          <value xml:lang="es">B</value>
+        </property>
+        <property propertyDefinitionRef="PD-03">
+          <value xml:lang="es">Ambos; Gap: Included (modificado)</value>
+        </property>
+      </properties>
+    </element>
+    <element identifier="BP-03" xsi:type="BusinessProcess">
+      <name xml:lang="es">BP-03 Inspeccionar y decidir conformidad</name>
+      <documentation xml:lang="es">Estado: Ambos; Gap: Included (modificado)</documentation>
+      <properties>
+        <property propertyDefinitionRef="PD-01">
+          <value xml:lang="es">DE</value>
+        </property>
+        <property propertyDefinitionRef="PD-02">
+          <value xml:lang="es">B</value>
+        </property>
+        <property propertyDefinitionRef="PD-03">
+          <value xml:lang="es">Ambos; Gap: Included (modificado)</value>
+        </property>
+      </properties>
+    </element>
+    <element identifier="BP-04" xsi:type="BusinessProcess">
+      <name xml:lang="es">BP-04 Reconstruir historia del lote</name>
+      <documentation xml:lang="es">Estado: Target; Gap: New</documentation>
+      <properties>
+        <property propertyDefinitionRef="PD-01">
+          <value xml:lang="es">DE</value>
+        </property>
+        <property propertyDefinitionRef="PD-02">
+          <value xml:lang="es">B</value>
+        </property>
+        <property propertyDefinitionRef="PD-03">
+          <value xml:lang="es">Target; Gap: New</value>
+        </property>
+      </properties>
+    </element>
+    <element identifier="BP-05" xsi:type="BusinessProcess">
+      <name xml:lang="es">BP-05 Pre-enfriar y registrar serie térmica</name>
+      <documentation xml:lang="es">Estado: Ambos; Gap: Included (modificado)</documentation>
+      <properties>
+        <property propertyDefinitionRef="PD-01">
+          <value xml:lang="es">DE</value>
+        </property>
+        <property propertyDefinitionRef="PD-02">
+          <value xml:lang="es">B</value>
+        </property>
+        <property propertyDefinitionRef="PD-03">
+          <value xml:lang="es">Ambos; Gap: Included (modificado)</value>
+        </property>
+      </properties>
+    </element>
+    <element identifier="BP-06" xsi:type="BusinessProcess">
+      <name xml:lang="es">BP-06 Custodiar en cámara</name>
+      <documentation xml:lang="es">Estado: Ambos; Gap: Included (modificado)</documentation>
+      <properties>
+        <property propertyDefinitionRef="PD-01">
+          <value xml:lang="es">DE</value>
+        </property>
+        <property propertyDefinitionRef="PD-02">
+          <value xml:lang="es">B</value>
+        </property>
+        <property propertyDefinitionRef="PD-03">
+          <value xml:lang="es">Ambos; Gap: Included (modificado)</value>
+        </property>
+      </properties>
+    </element>
+    <element identifier="BP-07" xsi:type="BusinessProcess">
+      <name xml:lang="es">BP-07 Verificar estados y cargar FCL</name>
+      <documentation xml:lang="es">Estado: Ambos; Gap: Included (modificado)</documentation>
+      <properties>
+        <property propertyDefinitionRef="PD-01">
+          <value xml:lang="es">DE</value>
+        </property>
+        <property propertyDefinitionRef="PD-02">
+          <value xml:lang="es">B</value>
+        </property>
+        <property propertyDefinitionRef="PD-03">
+          <value xml:lang="es">Ambos; Gap: Included (modificado)</value>
+        </property>
+      </properties>
+    </element>
+    <element identifier="BP-08" xsi:type="BusinessProcess">
+      <name xml:lang="es">BP-08 Gestionar excepción de negocio</name>
+      <documentation xml:lang="es">Estado: Target; Gap: New</documentation>
+      <properties>
+        <property propertyDefinitionRef="PD-01">
+          <value xml:lang="es">DE</value>
+        </property>
+        <property propertyDefinitionRef="PD-02">
+          <value xml:lang="es">B</value>
+        </property>
+        <property propertyDefinitionRef="PD-03">
+          <value xml:lang="es">Target; Gap: New</value>
+        </property>
+      </properties>
+    </element>
+    <element identifier="BP-09" xsi:type="BusinessProcess">
+      <name xml:lang="es">BP-09 Conciliar registros en planilla puente</name>
+      <documentation xml:lang="es">Estado: Baseline; Gap: Eliminated</documentation>
+      <properties>
+        <property propertyDefinitionRef="PD-01">
+          <value xml:lang="es">DE</value>
+        </property>
+        <property propertyDefinitionRef="PD-02">
+          <value xml:lang="es">B</value>
+        </property>
+        <property propertyDefinitionRef="PD-03">
+          <value xml:lang="es">Baseline; Gap: Eliminated</value>
+        </property>
+      </properties>
+    </element>
+    <element identifier="BSV-01" xsi:type="BusinessService">
+      <name xml:lang="es">BSV-01 Historial auditable del lote</name>
+      <documentation xml:lang="es">Estado: Target; Gap: New</documentation>
+      <properties>
+        <property propertyDefinitionRef="PD-01">
+          <value xml:lang="es">DE</value>
+        </property>
+        <property propertyDefinitionRef="PD-02">
+          <value xml:lang="es">B</value>
+        </property>
+        <property propertyDefinitionRef="PD-03">
+          <value xml:lang="es">Target; Gap: New</value>
+        </property>
+      </properties>
+    </element>
+    <element identifier="BSV-02" xsi:type="BusinessService">
+      <name xml:lang="es">BSV-02 Coordinación de entrega al transportista</name>
+      <documentation xml:lang="es">Estado: Ambos; Gap: Included (modificado)</documentation>
+      <properties>
+        <property propertyDefinitionRef="PD-01">
+          <value xml:lang="es">DE</value>
+        </property>
+        <property propertyDefinitionRef="PD-02">
+          <value xml:lang="es">B</value>
+        </property>
+        <property propertyDefinitionRef="PD-03">
+          <value xml:lang="es">Ambos; Gap: Included (modificado)</value>
+        </property>
+      </properties>
+    </element>
+    <element identifier="BSV-03" xsi:type="BusinessService">
+      <name xml:lang="es">BSV-03 Resolución controlada de excepciones</name>
+      <documentation xml:lang="es">Estado: Target; Gap: New</documentation>
+      <properties>
+        <property propertyDefinitionRef="PD-01">
+          <value xml:lang="es">DE</value>
+        </property>
+        <property propertyDefinitionRef="PD-02">
+          <value xml:lang="es">B</value>
+        </property>
+        <property propertyDefinitionRef="PD-03">
+          <value xml:lang="es">Target; Gap: New</value>
+        </property>
+      </properties>
+    </element>
+    <element identifier="BSV-04" xsi:type="BusinessService">
+      <name xml:lang="es">BSV-04 Evaluación de evidencia térmica y custodia</name>
+      <documentation xml:lang="es">Estado: Ambos; Gap: Included (modificado)</documentation>
+      <properties>
+        <property propertyDefinitionRef="PD-01">
+          <value xml:lang="es">DE</value>
+        </property>
+        <property propertyDefinitionRef="PD-02">
+          <value xml:lang="es">B</value>
+        </property>
+        <property propertyDefinitionRef="PD-03">
+          <value xml:lang="es">Ambos; Gap: Included (modificado)</value>
+        </property>
+      </properties>
+    </element>
+    <element identifier="BSV-05" xsi:type="BusinessService">
+      <name xml:lang="es">BSV-05 Decisión de conformidad</name>
+      <documentation xml:lang="es">Estado: Ambos; Gap: Included (modificado)</documentation>
+      <properties>
+        <property propertyDefinitionRef="PD-01">
+          <value xml:lang="es">DE</value>
+        </property>
+        <property propertyDefinitionRef="PD-02">
+          <value xml:lang="es">B</value>
+        </property>
+        <property propertyDefinitionRef="PD-03">
+          <value xml:lang="es">Ambos; Gap: Included (modificado)</value>
+        </property>
+      </properties>
+    </element>
+    <element identifier="BSV-06" xsi:type="BusinessService">
+      <name xml:lang="es">BSV-06 Consulta ad hoc de registros</name>
+      <documentation xml:lang="es">Estado: Baseline; Gap: Eliminated</documentation>
+      <properties>
+        <property propertyDefinitionRef="PD-01">
+          <value xml:lang="es">DE</value>
+        </property>
+        <property propertyDefinitionRef="PD-02">
+          <value xml:lang="es">B</value>
+        </property>
+        <property propertyDefinitionRef="PD-03">
+          <value xml:lang="es">Baseline; Gap: Eliminated</value>
+        </property>
+      </properties>
+    </element>
+    <element identifier="CAP-01" xsi:type="Capability">
+      <name xml:lang="es">CAP-01 Trazabilidad del lote</name>
+      <documentation xml:lang="es">Habilidad de identificar cada unidad física y reconstruir su historia y genealogía desde la recepción hasta el FCL.</documentation>
+      <properties>
+        <property propertyDefinitionRef="PD-01">
+          <value xml:lang="es">DE</value>
+        </property>
+        <property propertyDefinitionRef="PD-02">
+          <value xml:lang="es">A / B</value>
+        </property>
+        <property propertyDefinitionRef="PD-03">
+          <value xml:lang="es">N/A (motivación, estrategia o migración)</value>
+        </property>
+      </properties>
+    </element>
+    <element identifier="CAP-02" xsi:type="Capability">
+      <name xml:lang="es">CAP-02 Gestión de evidencia operativa</name>
+      <documentation xml:lang="es">Habilidad de capturar, conservar y reconciliar los eventos de negocio con fuente, instante y responsable, incluso ante cortes.</documentation>
+      <properties>
+        <property propertyDefinitionRef="PD-01">
+          <value xml:lang="es">DE</value>
+        </property>
+        <property propertyDefinitionRef="PD-02">
+          <value xml:lang="es">A / B</value>
+        </property>
+        <property propertyDefinitionRef="PD-03">
+          <value xml:lang="es">N/A (motivación, estrategia o migración)</value>
+        </property>
+      </properties>
+    </element>
+    <element identifier="CAP-03" xsi:type="Capability">
+      <name xml:lang="es">CAP-03 Gestión de la cadena de frío</name>
+      <documentation xml:lang="es">Habilidad de mantener y demostrar la condición térmica y la custodia de cada pallet.</documentation>
+      <properties>
+        <property propertyDefinitionRef="PD-01">
+          <value xml:lang="es">DE</value>
+        </property>
+        <property propertyDefinitionRef="PD-02">
+          <value xml:lang="es">A / B</value>
+        </property>
+        <property propertyDefinitionRef="PD-03">
+          <value xml:lang="es">N/A (motivación, estrategia o migración)</value>
+        </property>
+      </properties>
+    </element>
+    <element identifier="CAP-04" xsi:type="Capability">
+      <name xml:lang="es">CAP-04 Coordinación de transferencias</name>
+      <documentation xml:lang="es">Habilidad de transferir unidades e información entre áreas con emisor, receptor, aceptación y excepción explícitos.</documentation>
+      <properties>
+        <property propertyDefinitionRef="PD-01">
+          <value xml:lang="es">DE</value>
+        </property>
+        <property propertyDefinitionRef="PD-02">
+          <value xml:lang="es">A / B</value>
+        </property>
+        <property propertyDefinitionRef="PD-03">
+          <value xml:lang="es">N/A (motivación, estrategia o migración)</value>
+        </property>
+      </properties>
+    </element>
+    <element identifier="CAP-07" xsi:type="Capability">
+      <name xml:lang="es">CAP-07 Control de conformidad y liberación</name>
+      <documentation xml:lang="es">Habilidad de inspeccionar el producto y decidir liberar, retener o rechazar con autoridad exclusiva y evidencia.</documentation>
+      <properties>
+        <property propertyDefinitionRef="PD-01">
+          <value xml:lang="es">DE</value>
+        </property>
+        <property propertyDefinitionRef="PD-02">
+          <value xml:lang="es">A / B</value>
+        </property>
+        <property propertyDefinitionRef="PD-03">
+          <value xml:lang="es">N/A (motivación, estrategia o migración)</value>
+        </property>
+      </properties>
+    </element>
+    <element identifier="CoA-01" xsi:type="CourseOfAction">
+      <name xml:lang="es">CoA-01 Gobernar identidad y evidencia por pallet en cada transferencia</name>
+      <documentation xml:lang="es">Realiza OUT-01 y OUT-02; lo habilitan CAP-01, CAP-04 y CAP-07</documentation>
+      <properties>
+        <property propertyDefinitionRef="PD-01">
+          <value xml:lang="es">DE</value>
+        </property>
+        <property propertyDefinitionRef="PD-02">
+          <value xml:lang="es">A / B</value>
+        </property>
+        <property propertyDefinitionRef="PD-03">
+          <value xml:lang="es">N/A (motivación, estrategia o migración)</value>
+        </property>
+      </properties>
+    </element>
+    <element identifier="DO-C01" xsi:type="DataObject">
+      <name xml:lang="es">DO-C01 Historia del lote (conceptual)</name>
+      <documentation xml:lang="es">Objeto de datos conceptual; Phase C lo detalla (Lot, LotEvent, LotGenealogy).</documentation>
+      <properties>
+        <property propertyDefinitionRef="PD-01">
+          <value xml:lang="es">DE (candidato)</value>
+        </property>
+        <property propertyDefinitionRef="PD-02">
+          <value xml:lang="es">C (Data)</value>
+        </property>
+        <property propertyDefinitionRef="PD-03">
+          <value xml:lang="es">Target</value>
+        </property>
+      </properties>
+    </element>
+    <element identifier="DRV-01" xsi:type="Driver">
+      <name xml:lang="es">DRV-01 Riesgo comercial por incidentes de calidad y frío en destino</name>
+      <documentation xml:lang="es">Clase IA; IA-02; F05 (P, certificaciones)</documentation>
+      <properties>
+        <property propertyDefinitionRef="PD-01">
+          <value xml:lang="es">IA</value>
+        </property>
+        <property propertyDefinitionRef="PD-02">
+          <value xml:lang="es">Preliminary / A</value>
+        </property>
+        <property propertyDefinitionRef="PD-03">
+          <value xml:lang="es">N/A (motivación, estrategia o migración)</value>
+        </property>
+      </properties>
+    </element>
+    <element identifier="DRV-02" xsi:type="Driver">
+      <name xml:lang="es">DRV-02 Exigencias de trazabilidad y cumplimiento de mercados y SENASA</name>
+      <documentation xml:lang="es">Clase HP; F05; F08 (aplicabilidad local NV-08)</documentation>
+      <properties>
+        <property propertyDefinitionRef="PD-01">
+          <value xml:lang="es">HP</value>
+        </property>
+        <property propertyDefinitionRef="PD-02">
+          <value xml:lang="es">Preliminary / A</value>
+        </property>
+        <property propertyDefinitionRef="PD-03">
+          <value xml:lang="es">N/A (motivación, estrategia o migración)</value>
+        </property>
+      </properties>
+    </element>
+    <element identifier="DRV-03" xsi:type="Driver">
+      <name xml:lang="es">DRV-03 Fragmentación de la evidencia operativa entre etapas</name>
+      <documentation xml:lang="es">Clase IA; DS-CS-02; DS-CS-04</documentation>
+      <properties>
+        <property propertyDefinitionRef="PD-01">
+          <value xml:lang="es">IA</value>
+        </property>
+        <property propertyDefinitionRef="PD-02">
+          <value xml:lang="es">Preliminary / A</value>
+        </property>
+        <property propertyDefinitionRef="PD-03">
+          <value xml:lang="es">N/A (motivación, estrategia o migración)</value>
+        </property>
+      </properties>
+    </element>
+    <element identifier="DRV-04" xsi:type="Driver">
+      <name xml:lang="es">DRV-04 Presión de coordinación por duplicación de capacidad en Chao</name>
+      <documentation xml:lang="es">Clase HP; F03</documentation>
+      <properties>
+        <property propertyDefinitionRef="PD-01">
+          <value xml:lang="es">HP</value>
+        </property>
+        <property propertyDefinitionRef="PD-02">
+          <value xml:lang="es">Preliminary / A</value>
+        </property>
+        <property propertyDefinitionRef="PD-03">
+          <value xml:lang="es">N/A (motivación, estrategia o migración)</value>
+        </property>
+      </properties>
+    </element>
+    <element identifier="EV-01" xsi:type="BusinessEvent">
+      <name xml:lang="es">EV-01 Bins arribados a planta</name>
+      <documentation xml:lang="es">Dispara BP-01</documentation>
+      <properties>
+        <property propertyDefinitionRef="PD-01">
+          <value xml:lang="es">DE</value>
+        </property>
+        <property propertyDefinitionRef="PD-02">
+          <value xml:lang="es">B</value>
+        </property>
+        <property propertyDefinitionRef="PD-03">
+          <value xml:lang="es">Baseline y Target</value>
+        </property>
+      </properties>
+    </element>
+    <element identifier="EV-02" xsi:type="BusinessEvent">
+      <name xml:lang="es">EV-02 Pallet cerrado</name>
+      <documentation xml:lang="es">Dispara BP-03 y BP-05</documentation>
+      <properties>
+        <property propertyDefinitionRef="PD-01">
+          <value xml:lang="es">DE</value>
+        </property>
+        <property propertyDefinitionRef="PD-02">
+          <value xml:lang="es">B</value>
+        </property>
+        <property propertyDefinitionRef="PD-03">
+          <value xml:lang="es">Baseline y Target</value>
+        </property>
+      </properties>
+    </element>
+    <element identifier="EV-03" xsi:type="BusinessEvent">
+      <name xml:lang="es">EV-03 Lote retenido (HOLD)</name>
+      <documentation xml:lang="es">Dispara BP-08; bloquea BP-07</documentation>
+      <properties>
+        <property propertyDefinitionRef="PD-01">
+          <value xml:lang="es">DE</value>
+        </property>
+        <property propertyDefinitionRef="PD-02">
+          <value xml:lang="es">B</value>
+        </property>
+        <property propertyDefinitionRef="PD-03">
+          <value xml:lang="es">Target</value>
+        </property>
+      </properties>
+    </element>
+    <element identifier="EV-04" xsi:type="BusinessEvent">
+      <name xml:lang="es">EV-04 Lote liberado</name>
+      <documentation xml:lang="es">Habilita BP-07</documentation>
+      <properties>
+        <property propertyDefinitionRef="PD-01">
+          <value xml:lang="es">DE</value>
+        </property>
+        <property propertyDefinitionRef="PD-02">
+          <value xml:lang="es">B</value>
+        </property>
+        <property propertyDefinitionRef="PD-03">
+          <value xml:lang="es">Target</value>
+        </property>
+      </properties>
+    </element>
+    <element identifier="EV-05" xsi:type="BusinessEvent">
+      <name xml:lang="es">EV-05 Desviación térmica detectada</name>
+      <documentation xml:lang="es">Dispara BP-08</documentation>
+      <properties>
+        <property propertyDefinitionRef="PD-01">
+          <value xml:lang="es">DE</value>
+        </property>
+        <property propertyDefinitionRef="PD-02">
+          <value xml:lang="es">B</value>
+        </property>
+        <property propertyDefinitionRef="PD-03">
+          <value xml:lang="es">Target</value>
+        </property>
+      </properties>
+    </element>
+    <element identifier="EV-08" xsi:type="BusinessEvent">
+      <name xml:lang="es">EV-08 Solicitud de historia</name>
+      <documentation xml:lang="es">Dispara BP-04</documentation>
+      <properties>
+        <property propertyDefinitionRef="PD-01">
+          <value xml:lang="es">DE</value>
+        </property>
+        <property propertyDefinitionRef="PD-02">
+          <value xml:lang="es">B</value>
+        </property>
+        <property propertyDefinitionRef="PD-03">
+          <value xml:lang="es">Target</value>
+        </property>
+      </properties>
+    </element>
+    <element identifier="GOAL-01" xsi:type="Goal">
+      <name xml:lang="es">GOAL-01 Asegurar integridad y reconstrucción oportuna de la evidencia del lote</name>
+      <documentation xml:lang="es">Meta derivada de DRV-01, DRV-02 y DRV-03: que la evidencia del lote sea íntegra y se reconstruya a tiempo. Se concreta en OUT-01 y se mide con KPI-01, KPI-02, KPI-03 y KPI-06. Fuente: Estrategia_Catalog.csv. Clase DE.</documentation>
+      <properties>
+        <property propertyDefinitionRef="PD-01">
+          <value xml:lang="es">DE</value>
+        </property>
+        <property propertyDefinitionRef="PD-02">
+          <value xml:lang="es">Preliminary / A</value>
+        </property>
+        <property propertyDefinitionRef="PD-03">
+          <value xml:lang="es">N/A (motivación, estrategia o migración)</value>
+        </property>
+      </properties>
+    </element>
+    <element identifier="GOAL-02" xsi:type="Goal">
+      <name xml:lang="es">GOAL-02 Asegurar handoffs y estados consistentes entre áreas</name>
+      <documentation xml:lang="es">Meta derivada de DRV-02 y DRV-04: transferencias entre áreas con aceptación explícita y estados de Calidad y Despacho que no se contradicen. Se concreta en OUT-02 y se mide con KPI-04. Fuente: Estrategia_Catalog.csv. Clase DE.</documentation>
+      <properties>
+        <property propertyDefinitionRef="PD-01">
+          <value xml:lang="es">DE</value>
+        </property>
+        <property propertyDefinitionRef="PD-02">
+          <value xml:lang="es">Preliminary / A</value>
+        </property>
+        <property propertyDefinitionRef="PD-03">
+          <value xml:lang="es">N/A (motivación, estrategia o migración)</value>
+        </property>
+      </properties>
+    </element>
+    <element identifier="GOAL-03" xsi:type="Goal">
+      <name xml:lang="es">GOAL-03 Sostener la coordinación interáreas y la gestión de excepciones en picos</name>
+      <documentation xml:lang="es">Meta derivada de DRV-04: sostener la coordinación y la gestión de excepciones en los picos de campaña. Se concreta en OUT-03 y se mide con KPI-05 y KPI-07. Fuente: Estrategia_Catalog.csv. Clase DE.</documentation>
+      <properties>
+        <property propertyDefinitionRef="PD-01">
+          <value xml:lang="es">DE</value>
+        </property>
+        <property propertyDefinitionRef="PD-02">
+          <value xml:lang="es">Preliminary / A</value>
+        </property>
+        <property propertyDefinitionRef="PD-03">
+          <value xml:lang="es">N/A (motivación, estrategia o migración)</value>
+        </property>
+      </properties>
+    </element>
+    <element identifier="GRP-01" xsi:type="Grouping">
+      <name xml:lang="es">GRP-01 Alcance Planta Chao (VS-01)</name>
+      <documentation xml:lang="es">Frontera del alcance: de la recepción con origen a la entrega del FCL</documentation>
+      <properties>
+        <property propertyDefinitionRef="PD-01">
+          <value xml:lang="es">DE</value>
+        </property>
+        <property propertyDefinitionRef="PD-02">
+          <value xml:lang="es">A</value>
+        </property>
+        <property propertyDefinitionRef="PD-03">
+          <value xml:lang="es">Agrupación</value>
+        </property>
+      </properties>
+    </element>
+    <element identifier="OUT-01" xsi:type="Outcome">
+      <name xml:lang="es">OUT-01 Historia del lote íntegra, segura y recuperable para decisiones</name>
+      <documentation xml:lang="es">Resultado esperado de GOAL-01: historia del lote íntegra, segura y recuperable. KPI-01 historia revisada ≤ 30 min (Baseline IA 120 min); KPI-02 ≥ 95 % de pallets con serie térmica y custodia (Baseline IA 65 %). Fuente: Estrategia_Catalog.csv. Clase DE.</documentation>
+      <properties>
+        <property propertyDefinitionRef="PD-01">
+          <value xml:lang="es">DE</value>
+        </property>
+        <property propertyDefinitionRef="PD-02">
+          <value xml:lang="es">Preliminary / A</value>
+        </property>
+        <property propertyDefinitionRef="PD-03">
+          <value xml:lang="es">N/A (motivación, estrategia o migración)</value>
+        </property>
+      </properties>
+    </element>
+    <element identifier="OUT-02" xsi:type="Outcome">
+      <name xml:lang="es">OUT-02 Handoffs con aceptación y excepción explícitas y estados separados</name>
+      <documentation xml:lang="es">Resultado esperado de GOAL-02: handoffs con aceptación y excepción explícitas y estados separados. KPI-04 ≥ 95 % de handoffs completos al primer intento (Baseline IA 78 %). Fuente: Estrategia_Catalog.csv. Clase DE.</documentation>
+      <properties>
+        <property propertyDefinitionRef="PD-01">
+          <value xml:lang="es">DE</value>
+        </property>
+        <property propertyDefinitionRef="PD-02">
+          <value xml:lang="es">Preliminary / A</value>
+        </property>
+        <property propertyDefinitionRef="PD-03">
+          <value xml:lang="es">N/A (motivación, estrategia o migración)</value>
+        </property>
+      </properties>
+    </element>
+    <element identifier="OUT-03" xsi:type="Outcome">
+      <name xml:lang="es">OUT-03 Excepciones gestionadas y desempeño medido de forma gobernada</name>
+      <documentation xml:lang="es">Resultado esperado de GOAL-03: excepciones gestionadas y desempeño medido de forma gobernada. KPI-05 100 % de excepciones cerradas con causa y responsable; KPI-07 7/7 indicadores gobernados. Fuente: Estrategia_Catalog.csv. Clase DE.</documentation>
+      <properties>
+        <property propertyDefinitionRef="PD-01">
+          <value xml:lang="es">DE</value>
+        </property>
+        <property propertyDefinitionRef="PD-02">
+          <value xml:lang="es">Preliminary / A</value>
+        </property>
+        <property propertyDefinitionRef="PD-03">
+          <value xml:lang="es">N/A (motivación, estrategia o migración)</value>
+        </property>
+      </properties>
+    </element>
+    <element identifier="PR-02" xsi:type="Principle">
+      <name xml:lang="es">PR-02 Identidad canónica y genealogía del lote</name>
+      <documentation xml:lang="es">Cada unidad física (lote de recepción, batch, pallet, FCL) tendrá una identidad única y no reutilizable, vinculada a su origen de cosecha y a todas sus unidades padre e hijas.</documentation>
+      <properties>
+        <property propertyDefinitionRef="PD-01">
+          <value xml:lang="es">DE</value>
+        </property>
+        <property propertyDefinitionRef="PD-02">
+          <value xml:lang="es">Preliminary / A</value>
+        </property>
+        <property propertyDefinitionRef="PD-03">
+          <value xml:lang="es">N/A (motivación, estrategia o migración)</value>
+        </property>
+      </properties>
+    </element>
+    <element identifier="PR-03" xsi:type="Principle">
+      <name xml:lang="es">PR-03 Evidencia con responsable y procedencia</name>
+      <documentation xml:lang="es">Todo registro que sustente una decisión de calidad, frío o despacho tendrá fuente, instante con zona horaria, autor y un owner de negocio identificado.</documentation>
+      <properties>
+        <property propertyDefinitionRef="PD-01">
+          <value xml:lang="es">DE</value>
+        </property>
+        <property propertyDefinitionRef="PD-02">
+          <value xml:lang="es">Preliminary / A</value>
+        </property>
+        <property propertyDefinitionRef="PD-03">
+          <value xml:lang="es">N/A (motivación, estrategia o migración)</value>
+        </property>
+      </properties>
+    </element>
+    <element identifier="PR-06" xsi:type="Principle">
+      <name xml:lang="es">PR-06 Continuidad operativa y acceso seguro</name>
+      <documentation xml:lang="es">La captura de evidencia en planta no dependerá de la disponibilidad del enlace externo, y todo acceso a la evidencia será autorizado y auditado.</documentation>
+      <properties>
+        <property propertyDefinitionRef="PD-01">
+          <value xml:lang="es">DE</value>
+        </property>
+        <property propertyDefinitionRef="PD-02">
+          <value xml:lang="es">Preliminary / A</value>
+        </property>
+        <property propertyDefinitionRef="PD-03">
+          <value xml:lang="es">N/A (motivación, estrategia o migración)</value>
+        </property>
+      </properties>
+    </element>
+    <element identifier="PR-08" xsi:type="Principle">
+      <name xml:lang="es">PR-08 Interoperabilidad por contrato</name>
+      <documentation xml:lang="es">Los intercambios de información entre áreas y sistemas se regirán por contratos con significado, versión, emisor, receptor y tratamiento de errores definidos.</documentation>
+      <properties>
+        <property propertyDefinitionRef="PD-01">
+          <value xml:lang="es">DE</value>
+        </property>
+        <property propertyDefinitionRef="PD-02">
+          <value xml:lang="es">Preliminary / A</value>
+        </property>
+        <property propertyDefinitionRef="PD-03">
+          <value xml:lang="es">N/A (motivación, estrategia o migración)</value>
+        </property>
+      </properties>
+    </element>
+    <element identifier="REQ-01" xsi:type="Requirement">
+      <name xml:lang="es">REQ-01 Identidad y genealogía</name>
+      <documentation xml:lang="es">Todo pallet despachado deberá vincularse a todos sus lotes de recepción y a su origen de cosecha, incluidas divisiones y mezclas, sin unidades huérfanas.</documentation>
+      <properties>
+        <property propertyDefinitionRef="PD-01">
+          <value xml:lang="es">DE</value>
+        </property>
+        <property propertyDefinitionRef="PD-02">
+          <value xml:lang="es">Preliminary / A</value>
+        </property>
+        <property propertyDefinitionRef="PD-03">
+          <value xml:lang="es">N/A (motivación, estrategia o migración)</value>
+        </property>
+      </properties>
+    </element>
+    <element identifier="REQ-02" xsi:type="Requirement">
+      <name xml:lang="es">REQ-02 Historia recuperable</name>
+      <documentation xml:lang="es">La historia completa de un pallet deberá entregarse revisada por Calidad en ≤ 30 min desde la solicitud completa.</documentation>
+      <properties>
+        <property propertyDefinitionRef="PD-01">
+          <value xml:lang="es">DE</value>
+        </property>
+        <property propertyDefinitionRef="PD-02">
+          <value xml:lang="es">Preliminary / A</value>
+        </property>
+        <property propertyDefinitionRef="PD-03">
+          <value xml:lang="es">N/A (motivación, estrategia o migración)</value>
+        </property>
+      </properties>
+    </element>
+    <element identifier="REQ-03" xsi:type="Requirement">
+      <name xml:lang="es">REQ-03 Continuidad y reconciliación</name>
+      <documentation xml:lang="es">Ante un corte del enlace externo, los eventos de planta deberán conservarse y reconciliarse sin pérdida, duplicado efectivo ni huérfanos.</documentation>
+      <properties>
+        <property propertyDefinitionRef="PD-01">
+          <value xml:lang="es">DE</value>
+        </property>
+        <property propertyDefinitionRef="PD-02">
+          <value xml:lang="es">Preliminary / A</value>
+        </property>
+        <property propertyDefinitionRef="PD-03">
+          <value xml:lang="es">N/A (motivación, estrategia o migración)</value>
+        </property>
+      </properties>
+    </element>
+    <element identifier="ROL-B01" xsi:type="BusinessRole">
+      <name xml:lang="es">ROL-B01 Gestor de evidencia</name>
+      <documentation xml:lang="es">Prepara y entrega la historia del lote; steward propuesto de la evidencia (Target, nuevo)</documentation>
+      <properties>
+        <property propertyDefinitionRef="PD-01">
+          <value xml:lang="es">DE</value>
+        </property>
+        <property propertyDefinitionRef="PD-02">
+          <value xml:lang="es">B</value>
+        </property>
+        <property propertyDefinitionRef="PD-03">
+          <value xml:lang="es">Target</value>
+        </property>
+      </properties>
+    </element>
+    <element identifier="ROL-B02" xsi:type="BusinessRole">
+      <name xml:lang="es">ROL-B02 Responsable de medición</name>
+      <documentation xml:lang="es">Mantiene fichas y medición de KPI (Target, nuevo)</documentation>
+      <properties>
+        <property propertyDefinitionRef="PD-01">
+          <value xml:lang="es">DE</value>
+        </property>
+        <property propertyDefinitionRef="PD-02">
+          <value xml:lang="es">B</value>
+        </property>
+        <property propertyDefinitionRef="PD-03">
+          <value xml:lang="es">Target</value>
+        </property>
+      </properties>
+    </element>
+    <element identifier="ROL-B03" xsi:type="BusinessRole">
+      <name xml:lang="es">ROL-B03 Operador de recepción</name>
+      <documentation xml:lang="es">Registra origen y crea el lote de recepción</documentation>
+      <properties>
+        <property propertyDefinitionRef="PD-01">
+          <value xml:lang="es">DE</value>
+        </property>
+        <property propertyDefinitionRef="PD-02">
+          <value xml:lang="es">B</value>
+        </property>
+        <property propertyDefinitionRef="PD-03">
+          <value xml:lang="es">Target</value>
+        </property>
+      </properties>
+    </element>
+    <element identifier="ROL-B04" xsi:type="BusinessRole">
+      <name xml:lang="es">ROL-B04 Supervisor de packing</name>
+      <documentation xml:lang="es">Registra calibrado, divisiones, mezclas y paletizado</documentation>
+      <properties>
+        <property propertyDefinitionRef="PD-01">
+          <value xml:lang="es">DE</value>
+        </property>
+        <property propertyDefinitionRef="PD-02">
+          <value xml:lang="es">B</value>
+        </property>
+        <property propertyDefinitionRef="PD-03">
+          <value xml:lang="es">Target</value>
+        </property>
+      </properties>
+    </element>
+    <element identifier="ROL-B05" xsi:type="BusinessRole">
+      <name xml:lang="es">ROL-B05 Aprobador de Calidad</name>
+      <documentation xml:lang="es">Decide liberar, retener o rechazar (autoridad exclusiva)</documentation>
+      <properties>
+        <property propertyDefinitionRef="PD-01">
+          <value xml:lang="es">DE</value>
+        </property>
+        <property propertyDefinitionRef="PD-02">
+          <value xml:lang="es">B</value>
+        </property>
+        <property propertyDefinitionRef="PD-03">
+          <value xml:lang="es">Target</value>
+        </property>
+      </properties>
+    </element>
+    <element identifier="ROL-B06" xsi:type="BusinessRole">
+      <name xml:lang="es">ROL-B06 Custodio de frío</name>
+      <documentation xml:lang="es">Registra pre-frío, serie térmica y custodia</documentation>
+      <properties>
+        <property propertyDefinitionRef="PD-01">
+          <value xml:lang="es">DE</value>
+        </property>
+        <property propertyDefinitionRef="PD-02">
+          <value xml:lang="es">B</value>
+        </property>
+        <property propertyDefinitionRef="PD-03">
+          <value xml:lang="es">Target</value>
+        </property>
+      </properties>
+    </element>
+    <element identifier="ROL-B07" xsi:type="BusinessRole">
+      <name xml:lang="es">ROL-B07 Responsable de despacho</name>
+      <documentation xml:lang="es">Verifica estados por separado, carga y entrega</documentation>
+      <properties>
+        <property propertyDefinitionRef="PD-01">
+          <value xml:lang="es">DE</value>
+        </property>
+        <property propertyDefinitionRef="PD-02">
+          <value xml:lang="es">B</value>
+        </property>
+        <property propertyDefinitionRef="PD-03">
+          <value xml:lang="es">Target</value>
+        </property>
+      </properties>
+    </element>
+    <element identifier="ROL-B08" xsi:type="BusinessRole">
+      <name xml:lang="es">ROL-B08 Transportista receptor</name>
+      <documentation xml:lang="es">Acepta u observa la entrega del FCL</documentation>
+      <properties>
+        <property propertyDefinitionRef="PD-01">
+          <value xml:lang="es">DE</value>
+        </property>
+        <property propertyDefinitionRef="PD-02">
+          <value xml:lang="es">B</value>
+        </property>
+        <property propertyDefinitionRef="PD-03">
+          <value xml:lang="es">Target</value>
+        </property>
+      </properties>
+    </element>
+    <element identifier="STK-01" xsi:type="Stakeholder">
+      <name xml:lang="es">STK-01 Operaciones de planta</name>
+      <documentation xml:lang="es">Jefe/Gerente de Planta Chao (cargo tipo, S)</documentation>
+      <properties>
+        <property propertyDefinitionRef="PD-01">
+          <value xml:lang="es">SV (cargo tipo)</value>
+        </property>
+        <property propertyDefinitionRef="PD-02">
+          <value xml:lang="es">Preliminary / A</value>
+        </property>
+        <property propertyDefinitionRef="PD-03">
+          <value xml:lang="es">N/A (motivación, estrategia o migración)</value>
+        </property>
+      </properties>
+    </element>
+    <element identifier="STK-02" xsi:type="Stakeholder">
+      <name xml:lang="es">STK-02 Calidad e Inocuidad</name>
+      <documentation xml:lang="es">Jefe de Aseguramiento de Calidad (cargo tipo, S)</documentation>
+      <properties>
+        <property propertyDefinitionRef="PD-01">
+          <value xml:lang="es">SV (cargo tipo)</value>
+        </property>
+        <property propertyDefinitionRef="PD-02">
+          <value xml:lang="es">Preliminary / A</value>
+        </property>
+        <property propertyDefinitionRef="PD-03">
+          <value xml:lang="es">N/A (motivación, estrategia o migración)</value>
+        </property>
+      </properties>
+    </element>
+    <element identifier="STK-03" xsi:type="Stakeholder">
+      <name xml:lang="es">STK-03 Cadena de Frío</name>
+      <documentation xml:lang="es">Supervisor de Frío y Cámaras (cargo tipo, S)</documentation>
+      <properties>
+        <property propertyDefinitionRef="PD-01">
+          <value xml:lang="es">SV (cargo tipo)</value>
+        </property>
+        <property propertyDefinitionRef="PD-02">
+          <value xml:lang="es">Preliminary / A</value>
+        </property>
+        <property propertyDefinitionRef="PD-03">
+          <value xml:lang="es">N/A (motivación, estrategia o migración)</value>
+        </property>
+      </properties>
+    </element>
+    <element identifier="STK-07" xsi:type="Stakeholder">
+      <name xml:lang="es">STK-07 Transformación Digital</name>
+      <documentation xml:lang="es">Dirección corporativa de Transformación Digital (cargo tipo, S)</documentation>
+      <properties>
+        <property propertyDefinitionRef="PD-01">
+          <value xml:lang="es">SV (cargo tipo)</value>
+        </property>
+        <property propertyDefinitionRef="PD-02">
+          <value xml:lang="es">Preliminary / A</value>
+        </property>
+        <property propertyDefinitionRef="PD-03">
+          <value xml:lang="es">N/A (motivación, estrategia o migración)</value>
+        </property>
+      </properties>
+    </element>
+    <element identifier="TSV-C01" xsi:type="TechnologyService">
+      <name xml:lang="es">TSV-C01 Continuidad de captura en planta (candidato)</name>
+      <documentation xml:lang="es">Servicio tecnológico candidato; Phase D define RTO/RPO y despliegue.</documentation>
+      <properties>
+        <property propertyDefinitionRef="PD-01">
+          <value xml:lang="es">DE (candidato)</value>
+        </property>
+        <property propertyDefinitionRef="PD-02">
+          <value xml:lang="es">D</value>
+        </property>
+        <property propertyDefinitionRef="PD-03">
+          <value xml:lang="es">Target</value>
+        </property>
+      </properties>
+    </element>
+    <element identifier="VS-01" xsi:type="ValueStream">
+      <name xml:lang="es">VS-01 Aseguramiento de fruta exportable</name>
+      <documentation xml:lang="es">Value stream único del expediente (nombre de PC2, DEC-PC3-01). Alcance: desde la recepción de bins en packing hasta la entrega del FCL refrigerado al transportista en rampa. Propuesta de valor: arándanos exportables con identidad, conformidad y frío demostrables. Clase DE.</documentation>
+      <properties>
+        <property propertyDefinitionRef="PD-01">
+          <value xml:lang="es">DE</value>
+        </property>
+        <property propertyDefinitionRef="PD-02">
+          <value xml:lang="es">A / B</value>
+        </property>
+        <property propertyDefinitionRef="PD-03">
+          <value xml:lang="es">N/A (motivación, estrategia o migración)</value>
+        </property>
+      </properties>
+    </element>
+    <element identifier="VS-S1" xsi:type="ValueStream">
+      <name xml:lang="es">VS-S1 Recepcionar bins</name>
+      <documentation xml:lang="es">Entra: Bins con guía de remisión e identidad de origen (fundo, sector, fecha y lote de cosecha). Criterio de frontera del handoff Cosecha → Packing. | Acción: Pesar, verificar documentos y asignar identidad de lote de planta vinculada al origen. | Salida: Lote de recepción aceptado, o excepción registrada si falta el origen. | Valor: El origen queda demostrable desde el ingreso. | Actor: Recepción (ROL-B03)</documentation>
+      <properties>
+        <property propertyDefinitionRef="PD-01">
+          <value xml:lang="es">DE</value>
+        </property>
+        <property propertyDefinitionRef="PD-02">
+          <value xml:lang="es">A / B</value>
+        </property>
+        <property propertyDefinitionRef="PD-03">
+          <value xml:lang="es">N/A (motivación, estrategia o migración)</value>
+        </property>
+      </properties>
+    </element>
+    <element identifier="VS-S2" xsi:type="ValueStream">
+      <name xml:lang="es">VS-S2 Calibrar y empacar</name>
+      <documentation xml:lang="es">Entra: Lote de recepción aceptado. | Acción: Seleccionar y calibrar, registrar divisiones y mezclas de lotes en batches, empacar y paletizar. | Salida: Pallets cerrados ligados a todos sus lotes de origen (genealogía N:M). | Valor: Cada caja conserva su composición y origen. | Actor: Packing (ROL-B04)</documentation>
+      <properties>
+        <property propertyDefinitionRef="PD-01">
+          <value xml:lang="es">DE</value>
+        </property>
+        <property propertyDefinitionRef="PD-02">
+          <value xml:lang="es">A / B</value>
+        </property>
+        <property propertyDefinitionRef="PD-03">
+          <value xml:lang="es">N/A (motivación, estrategia o migración)</value>
+        </property>
+      </properties>
+    </element>
+    <element identifier="VS-S3" xsi:type="ValueStream">
+      <name xml:lang="es">VS-S3 Verificar conformidad</name>
+      <documentation xml:lang="es">Entra: Pallet cerrado con genealogía y muestra según plan de muestreo. | Acción: Inspeccionar y decidir: liberar, retener (HOLD) o rechazar. | Salida: Decisión de Calidad registrada con aprobador, fecha y motivo. | Valor: Despacho trabaja con evidencia confiable y autorizada. | Actor: Aseguramiento de Calidad (ROL-B05, autoridad exclusiva)</documentation>
+      <properties>
+        <property propertyDefinitionRef="PD-01">
+          <value xml:lang="es">DE</value>
+        </property>
+        <property propertyDefinitionRef="PD-02">
+          <value xml:lang="es">A / B</value>
+        </property>
+        <property propertyDefinitionRef="PD-03">
+          <value xml:lang="es">N/A (motivación, estrategia o migración)</value>
+        </property>
+      </properties>
+    </element>
+    <element identifier="VS-S4" xsi:type="ValueStream">
+      <name xml:lang="es">VS-S4 Pre-enfriar según ruta</name>
+      <documentation xml:lang="es">Entra: Pallet identificado con ruta térmica asignada. | Acción: Aplicar pre-frío y abrir la serie térmica del pallet. | Salida: Pallet a temperatura objetivo con serie iniciada. | Valor: Inicia la cadena de frío demostrable. | Actor: Frío (ROL-B06)</documentation>
+      <properties>
+        <property propertyDefinitionRef="PD-01">
+          <value xml:lang="es">DE</value>
+        </property>
+        <property propertyDefinitionRef="PD-02">
+          <value xml:lang="es">A / B</value>
+        </property>
+        <property propertyDefinitionRef="PD-03">
+          <value xml:lang="es">N/A (motivación, estrategia o migración)</value>
+        </property>
+      </properties>
+    </element>
+    <element identifier="VS-S5" xsi:type="ValueStream">
+      <name xml:lang="es">VS-S5 Custodiar en cámara</name>
+      <documentation xml:lang="es">Entra: Pallet pre-enfriado. | Acción: Ubicar, registrar posición y serie térmica continua, y transferir custodia. | Salida: Pallet con custodia y serie válidas hasta la carga. | Valor: Integridad térmica verificable por pallet. | Actor: Frío (ROL-B06)</documentation>
+      <properties>
+        <property propertyDefinitionRef="PD-01">
+          <value xml:lang="es">DE</value>
+        </property>
+        <property propertyDefinitionRef="PD-02">
+          <value xml:lang="es">A / B</value>
+        </property>
+        <property propertyDefinitionRef="PD-03">
+          <value xml:lang="es">N/A (motivación, estrategia o migración)</value>
+        </property>
+      </properties>
+    </element>
+    <element identifier="VS-S6" xsi:type="ValueStream">
+      <name xml:lang="es">VS-S6 Cargar y entregar FCL</name>
+      <documentation xml:lang="es">Entra: Pallets liberados por Calidad y con condición térmica válida. | Acción: Verificar por separado ambos estados, cargar, precintar y entregar. | Salida: FCL entregado con acta de handoff aceptada por el transportista. | Valor: El comprador recibe fruta conforme con evidencia. | Actor: Despacho (ROL-B07)</documentation>
+      <properties>
+        <property propertyDefinitionRef="PD-01">
+          <value xml:lang="es">DE</value>
+        </property>
+        <property propertyDefinitionRef="PD-02">
+          <value xml:lang="es">A / B</value>
+        </property>
+        <property propertyDefinitionRef="PD-03">
+          <value xml:lang="es">N/A (motivación, estrategia o migración)</value>
+        </property>
+      </properties>
+    </element>
+  </elements>
+  <relationships>
+    <relationship identifier="R001" source="STK-01" target="DRV-04" xsi:type="Association" />
+    <relationship identifier="R002" source="STK-02" target="DRV-02" xsi:type="Association" />
+    <relationship identifier="R003" source="STK-02" target="DRV-03" xsi:type="Association" />
+    <relationship identifier="R004" source="STK-03" target="DRV-01" xsi:type="Association" />
+    <relationship identifier="R005" source="STK-07" target="DRV-01" xsi:type="Association" />
+    <relationship identifier="R006" source="DRV-01" target="GOAL-01" xsi:type="Influence" modifier="+">
+      <name xml:lang="es">+</name>
+    </relationship>
+    <relationship identifier="R007" source="DRV-02" target="GOAL-01" xsi:type="Influence" modifier="+">
+      <name xml:lang="es">+</name>
+    </relationship>
+    <relationship identifier="R008" source="DRV-03" target="GOAL-01" xsi:type="Influence" modifier="+">
+      <name xml:lang="es">+</name>
+    </relationship>
+    <relationship identifier="R009" source="DRV-02" target="GOAL-02" xsi:type="Influence" modifier="+">
+      <name xml:lang="es">+</name>
+    </relationship>
+    <relationship identifier="R010" source="DRV-04" target="GOAL-02" xsi:type="Influence" modifier="+">
+      <name xml:lang="es">+</name>
+    </relationship>
+    <relationship identifier="R011" source="DRV-04" target="GOAL-03" xsi:type="Influence" modifier="+">
+      <name xml:lang="es">+</name>
+    </relationship>
+    <relationship identifier="R012" source="OUT-01" target="GOAL-01" xsi:type="Realization" />
+    <relationship identifier="R013" source="OUT-02" target="GOAL-02" xsi:type="Realization" />
+    <relationship identifier="R014" source="OUT-03" target="GOAL-03" xsi:type="Realization" />
+    <relationship identifier="R015" source="REQ-01" target="OUT-01" xsi:type="Realization" />
+    <relationship identifier="R016" source="REQ-01" target="PR-02" xsi:type="Realization" />
+    <relationship identifier="R017" source="REQ-02" target="OUT-01" xsi:type="Realization" />
+    <relationship identifier="R018" source="REQ-02" target="PR-03" xsi:type="Realization" />
+    <relationship identifier="R019" source="REQ-03" target="OUT-01" xsi:type="Realization" />
+    <relationship identifier="R020" source="REQ-03" target="PR-06" xsi:type="Realization" />
+    <relationship identifier="R021" source="REQ-03" target="PR-08" xsi:type="Realization" />
+    <relationship identifier="R034" source="VS-01" target="VS-S1" xsi:type="Composition" />
+    <relationship identifier="R035" source="VS-01" target="VS-S2" xsi:type="Composition" />
+    <relationship identifier="R036" source="VS-S1" target="VS-S2" xsi:type="Flow" />
+    <relationship identifier="R037" source="VS-01" target="VS-S3" xsi:type="Composition" />
+    <relationship identifier="R038" source="VS-S2" target="VS-S3" xsi:type="Flow" />
+    <relationship identifier="R039" source="VS-01" target="VS-S4" xsi:type="Composition" />
+    <relationship identifier="R040" source="VS-S3" target="VS-S4" xsi:type="Flow" />
+    <relationship identifier="R041" source="VS-01" target="VS-S5" xsi:type="Composition" />
+    <relationship identifier="R042" source="VS-S4" target="VS-S5" xsi:type="Flow" />
+    <relationship identifier="R043" source="VS-01" target="VS-S6" xsi:type="Composition" />
+    <relationship identifier="R044" source="VS-S5" target="VS-S6" xsi:type="Flow" />
+    <relationship identifier="R045" source="CAP-01" target="VS-S1" xsi:type="Serving" />
+    <relationship identifier="R046" source="CAP-04" target="VS-S1" xsi:type="Serving" />
+    <relationship identifier="R047" source="CAP-01" target="VS-S2" xsi:type="Serving" />
+    <relationship identifier="R048" source="CAP-02" target="VS-S2" xsi:type="Serving" />
+    <relationship identifier="R049" source="CAP-07" target="VS-S3" xsi:type="Serving" />
+    <relationship identifier="R050" source="CAP-03" target="VS-S4" xsi:type="Serving" />
+    <relationship identifier="R051" source="CAP-03" target="VS-S5" xsi:type="Serving" />
+    <relationship identifier="R052" source="CAP-04" target="VS-S6" xsi:type="Serving" />
+    <relationship identifier="R053" source="CAP-01" target="VS-S6" xsi:type="Serving" />
+    <relationship identifier="R054" source="VS-01" target="OUT-01" xsi:type="Realization" />
+    <relationship identifier="R055" source="VS-01" target="OUT-02" xsi:type="Realization" />
+    <relationship identifier="R056" source="VS-01" target="OUT-03" xsi:type="Realization" />
+    <relationship identifier="R057" source="CoA-01" target="OUT-01" xsi:type="Realization" />
+    <relationship identifier="R058" source="CoA-01" target="OUT-02" xsi:type="Realization" />
+    <relationship identifier="R059" source="CAP-01" target="CoA-01" xsi:type="Association" />
+    <relationship identifier="R060" source="CAP-04" target="CoA-01" xsi:type="Association" />
+    <relationship identifier="R061" source="CAP-07" target="CoA-01" xsi:type="Association" />
+    <relationship identifier="R062" source="CAP-01" target="VS-01" xsi:type="Serving" />
+    <relationship identifier="R063" source="CAP-02" target="VS-01" xsi:type="Serving" />
+    <relationship identifier="R064" source="CAP-03" target="VS-01" xsi:type="Serving" />
+    <relationship identifier="R065" source="CAP-04" target="VS-01" xsi:type="Serving" />
+    <relationship identifier="R068" source="CAP-07" target="VS-01" xsi:type="Serving" />
+    <relationship identifier="R069" source="GRP-01" target="VS-S1" xsi:type="Aggregation" />
+    <relationship identifier="R070" source="GRP-01" target="VS-S2" xsi:type="Aggregation" />
+    <relationship identifier="R071" source="GRP-01" target="VS-S3" xsi:type="Aggregation" />
+    <relationship identifier="R072" source="GRP-01" target="VS-S4" xsi:type="Aggregation" />
+    <relationship identifier="R073" source="GRP-01" target="VS-S5" xsi:type="Aggregation" />
+    <relationship identifier="R074" source="GRP-01" target="VS-S6" xsi:type="Aggregation" />
+    <relationship identifier="R075" source="ACT-06" target="VS-S1" xsi:type="Association">
+      <name xml:lang="es">entrega bins con origen (HO-01)</name>
+    </relationship>
+    <relationship identifier="R076" source="VS-S6" target="ACT-07" xsi:type="Association">
+      <name xml:lang="es">recibe FCL (HO-06)</name>
+    </relationship>
+    <relationship identifier="R077" source="TSV-C01" target="ASV-C01" xsi:type="Serving" />
+    <relationship identifier="R078" source="ASV-C01" target="DO-C01" xsi:type="Access" accessType="Write" />
+    <relationship identifier="R079" source="ASV-C02" target="DO-C01" xsi:type="Access" accessType="Read" />
+    <relationship identifier="R080" source="ASV-C01" target="BP-02" xsi:type="Serving" />
+    <relationship identifier="R081" source="ASV-C02" target="BP-04" xsi:type="Serving" />
+    <relationship identifier="R082" source="ASV-C01" target="REQ-01" xsi:type="Realization" />
+    <relationship identifier="R083" source="ASV-C02" target="REQ-02" xsi:type="Realization" />
+    <relationship identifier="R084" source="TSV-C01" target="REQ-03" xsi:type="Realization" />
+    <relationship identifier="R085" source="ACT-02" target="ROL-B01" xsi:type="Assignment" />
+    <relationship identifier="R086" source="ACT-05" target="ROL-B02" xsi:type="Assignment" />
+    <relationship identifier="R087" source="ACT-01" target="ROL-B03" xsi:type="Assignment" />
+    <relationship identifier="R088" source="ACT-01" target="ROL-B04" xsi:type="Assignment" />
+    <relationship identifier="R089" source="ACT-02" target="ROL-B05" xsi:type="Assignment" />
+    <relationship identifier="R090" source="ACT-03" target="ROL-B06" xsi:type="Assignment" />
+    <relationship identifier="R091" source="ACT-04" target="ROL-B07" xsi:type="Assignment" />
+    <relationship identifier="R092" source="ACT-07" target="ROL-B08" xsi:type="Assignment" />
+    <relationship identifier="R098" source="ROL-B03" target="BP-01" xsi:type="Assignment" />
+    <relationship identifier="R099" source="ROL-B04" target="BP-02" xsi:type="Assignment" />
+    <relationship identifier="R100" source="ROL-B05" target="BP-03" xsi:type="Assignment" />
+    <relationship identifier="R101" source="ROL-B01" target="BP-04" xsi:type="Assignment" />
+    <relationship identifier="R102" source="ROL-B06" target="BP-05" xsi:type="Assignment" />
+    <relationship identifier="R103" source="ROL-B06" target="BP-06" xsi:type="Assignment" />
+    <relationship identifier="R104" source="ROL-B07" target="BP-07" xsi:type="Assignment" />
+    <relationship identifier="R105" source="ROL-B04" target="BP-08" xsi:type="Assignment" />
+    <relationship identifier="R106" source="ROL-B04" target="BP-09" xsi:type="Assignment" />
+    <relationship identifier="R116" source="BP-01" target="BP-02" xsi:type="Triggering" />
+    <relationship identifier="R117" source="BP-02" target="BP-03" xsi:type="Triggering" />
+    <relationship identifier="R118" source="BP-02" target="BP-05" xsi:type="Triggering" />
+    <relationship identifier="R119" source="BP-05" target="BP-06" xsi:type="Triggering" />
+    <relationship identifier="R120" source="BP-06" target="BP-07" xsi:type="Triggering" />
+    <relationship identifier="R121" source="BP-03" target="BP-07" xsi:type="Triggering" />
+    <relationship identifier="R122" source="BP-03" target="BP-09" xsi:type="Triggering" />
+    <relationship identifier="R123" source="BP-09" target="BP-07" xsi:type="Triggering" />
+    <relationship identifier="R124" source="EV-01" target="BP-01" xsi:type="Triggering" />
+    <relationship identifier="R125" source="EV-02" target="BP-03" xsi:type="Triggering" />
+    <relationship identifier="R126" source="EV-03" target="BP-08" xsi:type="Triggering" />
+    <relationship identifier="R127" source="EV-04" target="BP-07" xsi:type="Triggering" />
+    <relationship identifier="R128" source="EV-05" target="BP-08" xsi:type="Triggering" />
+    <relationship identifier="R129" source="EV-08" target="BP-04" xsi:type="Triggering" />
+    <relationship identifier="R130" source="BP-01" target="BO-01" xsi:type="Access" accessType="Write" />
+    <relationship identifier="R131" source="BP-01" target="BO-07" xsi:type="Access" accessType="Write" />
+    <relationship identifier="R132" source="BP-01" target="BO-06" xsi:type="Access" accessType="Write" />
+    <relationship identifier="R133" source="BP-02" target="BO-01" xsi:type="Access" accessType="Write" />
+    <relationship identifier="R134" source="BP-02" target="BO-02" xsi:type="Access" accessType="Write" />
+    <relationship identifier="R135" source="BP-02" target="BO-07" xsi:type="Access" accessType="Write" />
+    <relationship identifier="R136" source="BP-03" target="BO-02" xsi:type="Access" accessType="Read" />
+    <relationship identifier="R137" source="BP-03" target="BO-03" xsi:type="Access" accessType="Write" />
+    <relationship identifier="R138" source="BP-05" target="BO-05" xsi:type="Access" accessType="Write" />
+    <relationship identifier="R139" source="BP-06" target="BO-05" xsi:type="Access" accessType="Write" />
+    <relationship identifier="R140" source="BP-06" target="BO-06" xsi:type="Access" accessType="Write" />
+    <relationship identifier="R141" source="BP-04" target="BO-07" xsi:type="Access" accessType="Read" />
+    <relationship identifier="R142" source="BP-04" target="BO-02" xsi:type="Access" accessType="Read" />
+    <relationship identifier="R143" source="BP-04" target="BO-03" xsi:type="Access" accessType="Read" />
+    <relationship identifier="R144" source="BP-04" target="BO-05" xsi:type="Access" accessType="Read" />
+    <relationship identifier="R145" source="BP-07" target="BO-03" xsi:type="Access" accessType="Read" />
+    <relationship identifier="R146" source="BP-07" target="BO-05" xsi:type="Access" accessType="Read" />
+    <relationship identifier="R147" source="BP-07" target="BO-04" xsi:type="Access" accessType="Write" />
+    <relationship identifier="R148" source="BP-07" target="BO-06" xsi:type="Access" accessType="Write" />
+    <relationship identifier="R149" source="BP-08" target="BO-08" xsi:type="Access" accessType="Write" />
+    <relationship identifier="R150" source="BP-09" target="BO-09" xsi:type="Access" accessType="ReadWrite" />
+    <relationship identifier="R151" source="BP-07" target="BO-09" xsi:type="Access" accessType="Read" />
+    <relationship identifier="R152" source="BP-04" target="BSV-01" xsi:type="Realization" />
+    <relationship identifier="R153" source="BP-07" target="BSV-02" xsi:type="Realization" />
+    <relationship identifier="R154" source="BP-08" target="BSV-03" xsi:type="Realization" />
+    <relationship identifier="R155" source="BP-06" target="BSV-04" xsi:type="Realization" />
+    <relationship identifier="R156" source="BP-03" target="BSV-05" xsi:type="Realization" />
+    <relationship identifier="R157" source="BP-09" target="BSV-06" xsi:type="Realization" />
+    <relationship identifier="R158" source="BSV-01" target="ROL-B05" xsi:type="Serving" />
+    <relationship identifier="R159" source="BSV-01" target="ROL-B07" xsi:type="Serving" />
+    <relationship identifier="R160" source="BSV-02" target="ROL-B08" xsi:type="Serving" />
+    <relationship identifier="R161" source="BSV-03" target="ROL-B04" xsi:type="Serving" />
+    <relationship identifier="R162" source="BSV-03" target="ROL-B05" xsi:type="Serving" />
+    <relationship identifier="R163" source="BSV-03" target="ROL-B06" xsi:type="Serving" />
+    <relationship identifier="R164" source="BSV-03" target="ROL-B07" xsi:type="Serving" />
+    <relationship identifier="R165" source="BSV-04" target="ROL-B05" xsi:type="Serving" />
+    <relationship identifier="R166" source="BSV-04" target="ROL-B07" xsi:type="Serving" />
+    <relationship identifier="R167" source="BSV-05" target="ROL-B07" xsi:type="Serving" />
+    <relationship identifier="R168" source="BSV-06" target="ROL-B05" xsi:type="Serving" />
+    <relationship identifier="R169" source="BSV-06" target="ROL-B07" xsi:type="Serving" />
+    <relationship identifier="R170" source="BP-01" target="CAP-01" xsi:type="Realization" />
+    <relationship identifier="R171" source="BP-02" target="CAP-01" xsi:type="Realization" />
+    <relationship identifier="R172" source="BP-03" target="CAP-07" xsi:type="Realization" />
+    <relationship identifier="R173" source="BP-05" target="CAP-03" xsi:type="Realization" />
+    <relationship identifier="R174" source="BP-06" target="CAP-03" xsi:type="Realization" />
+    <relationship identifier="R175" source="BP-07" target="CAP-04" xsi:type="Realization" />
+    <relationship identifier="R255" source="BSV-01" target="CAP-01" xsi:type="Realization" />
+    <relationship identifier="R256" source="BSV-05" target="CAP-07" xsi:type="Realization" />
+  </relationships>
+  <propertyDefinitions>
+    <propertyDefinition identifier="PD-01" type="string">
+      <name xml:lang="es">Evidencia</name>
+    </propertyDefinition>
+    <propertyDefinition identifier="PD-02" type="string">
+      <name xml:lang="es">Fase_ADM</name>
+    </propertyDefinition>
+    <propertyDefinition identifier="PD-03" type="string">
+      <name xml:lang="es">Estado</name>
+    </propertyDefinition>
+  </propertyDefinitions>
+  <views>
+    <diagrams>
+      <view identifier="V-VIEW-A01" xsi:type="Diagram">
+        <name xml:lang="es">VIEW-A01 Motivación</name>
+        <documentation xml:lang="es">VIEW-A01 · VP-A01 Motivación · Concerns C01/C05/C06/C07 · Grupo 04 · v0.3 (PC3) Cadena del porqué: stakeholder → driver (HP/IA) → goal → outcome. Los REQ que realizan cada outcome están en Matriz_Trazabilidad y B-04; VIEW-A04 muestra los principios que justifican los requisitos de la solución.</documentation>
+        <node identifier="N-VIEW-A01-01" elementRef="STK-07" xsi:type="Element" x="34" y="34" w="186" h="86" />
+        <node identifier="N-VIEW-A01-02" elementRef="STK-03" xsi:type="Element" x="34" y="181" w="186" h="86" />
+        <node identifier="N-VIEW-A01-03" elementRef="STK-02" xsi:type="Element" x="34" y="321" w="186" h="86" />
+        <node identifier="N-VIEW-A01-04" elementRef="STK-01" xsi:type="Element" x="34" y="531" w="186" h="86" />
+        <node identifier="N-VIEW-A01-05" elementRef="DRV-01" xsi:type="Element" x="284" y="111" w="186" h="86" />
+        <node identifier="N-VIEW-A01-06" elementRef="DRV-03" xsi:type="Element" x="284" y="251" w="186" h="86" />
+        <node identifier="N-VIEW-A01-07" elementRef="DRV-02" xsi:type="Element" x="284" y="391" w="186" h="86" />
+        <node identifier="N-VIEW-A01-08" elementRef="DRV-04" xsi:type="Element" x="284" y="531" w="186" h="86" />
+        <node identifier="N-VIEW-A01-09" elementRef="GOAL-01" xsi:type="Element" x="534" y="251" w="186" h="86" />
+        <node identifier="N-VIEW-A01-10" elementRef="GOAL-02" xsi:type="Element" x="534" y="461" w="186" h="86" />
+        <node identifier="N-VIEW-A01-11" elementRef="GOAL-03" xsi:type="Element" x="534" y="601" w="186" h="86" />
+        <node identifier="N-VIEW-A01-12" elementRef="OUT-01" xsi:type="Element" x="784" y="251" w="186" h="86" />
+        <node identifier="N-VIEW-A01-13" elementRef="OUT-02" xsi:type="Element" x="784" y="461" w="186" h="86" />
+        <node identifier="N-VIEW-A01-14" elementRef="OUT-03" xsi:type="Element" x="784" y="601" w="186" h="86" />
+        <connection identifier="C-VIEW-A01-R001" relationshipRef="R001" xsi:type="Relationship" source="N-VIEW-A01-04" target="N-VIEW-A01-08" />
+        <connection identifier="C-VIEW-A01-R002" relationshipRef="R002" xsi:type="Relationship" source="N-VIEW-A01-03" target="N-VIEW-A01-07" />
+        <connection identifier="C-VIEW-A01-R003" relationshipRef="R003" xsi:type="Relationship" source="N-VIEW-A01-03" target="N-VIEW-A01-06" />
+        <connection identifier="C-VIEW-A01-R004" relationshipRef="R004" xsi:type="Relationship" source="N-VIEW-A01-02" target="N-VIEW-A01-05" />
+        <connection identifier="C-VIEW-A01-R005" relationshipRef="R005" xsi:type="Relationship" source="N-VIEW-A01-01" target="N-VIEW-A01-05" />
+        <connection identifier="C-VIEW-A01-R006" relationshipRef="R006" xsi:type="Relationship" source="N-VIEW-A01-05" target="N-VIEW-A01-09" />
+        <connection identifier="C-VIEW-A01-R007" relationshipRef="R007" xsi:type="Relationship" source="N-VIEW-A01-07" target="N-VIEW-A01-09" />
+        <connection identifier="C-VIEW-A01-R008" relationshipRef="R008" xsi:type="Relationship" source="N-VIEW-A01-06" target="N-VIEW-A01-09" />
+        <connection identifier="C-VIEW-A01-R009" relationshipRef="R009" xsi:type="Relationship" source="N-VIEW-A01-07" target="N-VIEW-A01-10" />
+        <connection identifier="C-VIEW-A01-R010" relationshipRef="R010" xsi:type="Relationship" source="N-VIEW-A01-08" target="N-VIEW-A01-10" />
+        <connection identifier="C-VIEW-A01-R011" relationshipRef="R011" xsi:type="Relationship" source="N-VIEW-A01-08" target="N-VIEW-A01-11" />
+        <connection identifier="C-VIEW-A01-R012" relationshipRef="R012" xsi:type="Relationship" source="N-VIEW-A01-12" target="N-VIEW-A01-09" />
+        <connection identifier="C-VIEW-A01-R013" relationshipRef="R013" xsi:type="Relationship" source="N-VIEW-A01-13" target="N-VIEW-A01-10" />
+        <connection identifier="C-VIEW-A01-R014" relationshipRef="R014" xsi:type="Relationship" source="N-VIEW-A01-14" target="N-VIEW-A01-11" />
+      </view>
+      <view identifier="V-VIEW-A02" xsi:type="Diagram">
+        <name xml:lang="es">VIEW-A02 Estrategia: curso de acción, value stream y capacidades</name>
+        <documentation xml:lang="es">VIEW-A02 · VP-A02 Estrategia · Concerns C01/C05/C06 · Grupo 04 · v0.3 (PC3) CoA-01 y VS-01 realizan los outcomes; CAP-01, CAP-04 y CAP-07 habilitan el curso de acción. Concern acotado: el Serving de cada capacidad hacia las etapas del VS-01 se muestra en B-V03 (por etapa).</documentation>
+        <node identifier="N-VIEW-A02-01" elementRef="CAP-01" xsi:type="Element" x="34" y="34" w="186" h="86" />
+        <node identifier="N-VIEW-A02-02" elementRef="CAP-04" xsi:type="Element" x="34" y="174" w="186" h="86" />
+        <node identifier="N-VIEW-A02-03" elementRef="CAP-07" xsi:type="Element" x="34" y="314" w="186" h="86" />
+        <node identifier="N-VIEW-A02-04" elementRef="CoA-01" xsi:type="Element" x="284" y="104" w="186" h="86" />
+        <node identifier="N-VIEW-A02-05" elementRef="OUT-01" xsi:type="Element" x="534" y="34" w="186" h="86" />
+        <node identifier="N-VIEW-A02-06" elementRef="OUT-02" xsi:type="Element" x="534" y="174" w="186" h="86" />
+        <node identifier="N-VIEW-A02-07" elementRef="OUT-03" xsi:type="Element" x="534" y="314" w="186" h="86" />
+        <node identifier="N-VIEW-A02-08" elementRef="VS-01" xsi:type="Element" x="784" y="174" w="186" h="86" />
+        <connection identifier="C-VIEW-A02-R054" relationshipRef="R054" xsi:type="Relationship" source="N-VIEW-A02-08" target="N-VIEW-A02-05" />
+        <connection identifier="C-VIEW-A02-R055" relationshipRef="R055" xsi:type="Relationship" source="N-VIEW-A02-08" target="N-VIEW-A02-06" />
+        <connection identifier="C-VIEW-A02-R056" relationshipRef="R056" xsi:type="Relationship" source="N-VIEW-A02-08" target="N-VIEW-A02-07" />
+        <connection identifier="C-VIEW-A02-R057" relationshipRef="R057" xsi:type="Relationship" source="N-VIEW-A02-04" target="N-VIEW-A02-05" />
+        <connection identifier="C-VIEW-A02-R058" relationshipRef="R058" xsi:type="Relationship" source="N-VIEW-A02-04" target="N-VIEW-A02-06" />
+        <connection identifier="C-VIEW-A02-R059" relationshipRef="R059" xsi:type="Relationship" source="N-VIEW-A02-01" target="N-VIEW-A02-04" />
+        <connection identifier="C-VIEW-A02-R060" relationshipRef="R060" xsi:type="Relationship" source="N-VIEW-A02-02" target="N-VIEW-A02-04" />
+        <connection identifier="C-VIEW-A02-R061" relationshipRef="R061" xsi:type="Relationship" source="N-VIEW-A02-03" target="N-VIEW-A02-04" />
+      </view>
+      <view identifier="V-VIEW-A03" xsi:type="Diagram">
+        <name xml:lang="es">VIEW-A03 Contexto y alcance de Planta Chao</name>
+        <documentation xml:lang="es">VIEW-A03 · VP-A03 Contexto · Concerns C02/C06 · Grupo 04 · v0.3 (PC3) Grouping = alcance (de la recepción con origen a la entrega del FCL, DEC-B06); fundo y transportista quedan fuera. Handoffs críticos: HO-01 (S1), HO-03 (S3) y HO-05 (S6). Las etapas anidadas en el Grouping expresan su Aggregation. Fuera de alcance: cosecha, transporte marítimo, puertos y ERP corporativo (solo interfaz).</documentation>
+        <node identifier="N-VIEW-A03-01" elementRef="GRP-01" xsi:type="Element" x="372" y="34" w="734" h="306">
+          <node identifier="N-VIEW-A03-02" elementRef="VS-S1" xsi:type="Element" x="396" y="86" w="186" h="86" />
+          <node identifier="N-VIEW-A03-03" elementRef="VS-S2" xsi:type="Element" x="646" y="86" w="186" h="86" />
+          <node identifier="N-VIEW-A03-04" elementRef="VS-S3" xsi:type="Element" x="896" y="86" w="186" h="86" />
+          <node identifier="N-VIEW-A03-05" elementRef="VS-S4" xsi:type="Element" x="896" y="226" w="186" h="86" />
+          <node identifier="N-VIEW-A03-06" elementRef="VS-S5" xsi:type="Element" x="646" y="226" w="186" h="86" />
+          <node identifier="N-VIEW-A03-07" elementRef="VS-S6" xsi:type="Element" x="396" y="226" w="186" h="86" />
+        </node>
+        <node identifier="N-VIEW-A03-08" elementRef="ACT-06" xsi:type="Element" x="34" y="86" w="186" h="86" />
+        <node identifier="N-VIEW-A03-09" elementRef="ACT-07" xsi:type="Element" x="34" y="226" w="186" h="86" />
+        <connection identifier="C-VIEW-A03-R036" relationshipRef="R036" xsi:type="Relationship" source="N-VIEW-A03-02" target="N-VIEW-A03-03" />
+        <connection identifier="C-VIEW-A03-R038" relationshipRef="R038" xsi:type="Relationship" source="N-VIEW-A03-03" target="N-VIEW-A03-04" />
+        <connection identifier="C-VIEW-A03-R040" relationshipRef="R040" xsi:type="Relationship" source="N-VIEW-A03-04" target="N-VIEW-A03-05" />
+        <connection identifier="C-VIEW-A03-R042" relationshipRef="R042" xsi:type="Relationship" source="N-VIEW-A03-05" target="N-VIEW-A03-06" />
+        <connection identifier="C-VIEW-A03-R044" relationshipRef="R044" xsi:type="Relationship" source="N-VIEW-A03-06" target="N-VIEW-A03-07" />
+        <connection identifier="C-VIEW-A03-R075" relationshipRef="R075" xsi:type="Relationship" source="N-VIEW-A03-08" target="N-VIEW-A03-02" />
+        <connection identifier="C-VIEW-A03-R076" relationshipRef="R076" xsi:type="Relationship" source="N-VIEW-A03-07" target="N-VIEW-A03-09" />
+      </view>
+      <view identifier="V-VIEW-A04" xsi:type="Diagram">
+        <name xml:lang="es">VIEW-A04 Concepto de solución (candidatos)</name>
+        <documentation xml:lang="es">VIEW-A04 · VP-A04 Concepto de solución · Concerns C03/C04/C05 · Grupo 04 · v0.3 (PC3) Principio → requisito → servicio candidato → proceso/objeto: cada candidato realiza un REQ y se justifica por un principio (Value Before Technology). Sin producto ni topología (PR-05). Candidatos de Phase A; Phase C los detalla (ASV-C01 → ASV-01, ASV-C02 → ASV-02, DO-C01 → DOBJ-12).</documentation>
+        <node identifier="N-VIEW-A04-01" elementRef="PR-06" xsi:type="Element" x="34" y="34" w="186" h="86" />
+        <node identifier="N-VIEW-A04-02" elementRef="PR-08" xsi:type="Element" x="284" y="34" w="186" h="86" />
+        <node identifier="N-VIEW-A04-03" elementRef="PR-02" xsi:type="Element" x="534" y="34" w="186" h="86" />
+        <node identifier="N-VIEW-A04-04" elementRef="PR-03" xsi:type="Element" x="784" y="34" w="186" h="86" />
+        <node identifier="N-VIEW-A04-05" elementRef="REQ-03" xsi:type="Element" x="159" y="174" w="186" h="86" />
+        <node identifier="N-VIEW-A04-06" elementRef="REQ-01" xsi:type="Element" x="534" y="174" w="186" h="86" />
+        <node identifier="N-VIEW-A04-07" elementRef="REQ-02" xsi:type="Element" x="784" y="174" w="186" h="86" />
+        <node identifier="N-VIEW-A04-08" elementRef="TSV-C01" xsi:type="Element" x="159" y="314" w="186" h="86" />
+        <node identifier="N-VIEW-A04-09" elementRef="ASV-C01" xsi:type="Element" x="534" y="314" w="186" h="86" />
+        <node identifier="N-VIEW-A04-10" elementRef="ASV-C02" xsi:type="Element" x="784" y="314" w="186" h="86" />
+        <node identifier="N-VIEW-A04-11" elementRef="BP-02" xsi:type="Element" x="409" y="454" w="186" h="86" />
+        <node identifier="N-VIEW-A04-12" elementRef="DO-C01" xsi:type="Element" x="659" y="454" w="186" h="86" />
+        <node identifier="N-VIEW-A04-13" elementRef="BP-04" xsi:type="Element" x="909" y="454" w="186" h="86" />
+        <connection identifier="C-VIEW-A04-R016" relationshipRef="R016" xsi:type="Relationship" source="N-VIEW-A04-06" target="N-VIEW-A04-03" />
+        <connection identifier="C-VIEW-A04-R018" relationshipRef="R018" xsi:type="Relationship" source="N-VIEW-A04-07" target="N-VIEW-A04-04" />
+        <connection identifier="C-VIEW-A04-R020" relationshipRef="R020" xsi:type="Relationship" source="N-VIEW-A04-05" target="N-VIEW-A04-01" />
+        <connection identifier="C-VIEW-A04-R021" relationshipRef="R021" xsi:type="Relationship" source="N-VIEW-A04-05" target="N-VIEW-A04-02" />
+        <connection identifier="C-VIEW-A04-R077" relationshipRef="R077" xsi:type="Relationship" source="N-VIEW-A04-08" target="N-VIEW-A04-09" />
+        <connection identifier="C-VIEW-A04-R078" relationshipRef="R078" xsi:type="Relationship" source="N-VIEW-A04-09" target="N-VIEW-A04-12" />
+        <connection identifier="C-VIEW-A04-R079" relationshipRef="R079" xsi:type="Relationship" source="N-VIEW-A04-10" target="N-VIEW-A04-12" />
+        <connection identifier="C-VIEW-A04-R080" relationshipRef="R080" xsi:type="Relationship" source="N-VIEW-A04-09" target="N-VIEW-A04-11" />
+        <connection identifier="C-VIEW-A04-R081" relationshipRef="R081" xsi:type="Relationship" source="N-VIEW-A04-10" target="N-VIEW-A04-13" />
+        <connection identifier="C-VIEW-A04-R082" relationshipRef="R082" xsi:type="Relationship" source="N-VIEW-A04-09" target="N-VIEW-A04-06" />
+        <connection identifier="C-VIEW-A04-R083" relationshipRef="R083" xsi:type="Relationship" source="N-VIEW-A04-10" target="N-VIEW-A04-07" />
+        <connection identifier="C-VIEW-A04-R084" relationshipRef="R084" xsi:type="Relationship" source="N-VIEW-A04-08" target="N-VIEW-A04-05" />
+      </view>
+      <view identifier="V-B-V01" xsi:type="Diagram">
+        <name xml:lang="es">B-V01 Cooperación de negocio · Baseline (IA)</name>
+        <documentation xml:lang="es">B-V01 · VP-B01 Baseline · escenario generado por IA (DS-CS-02…10) · Grupo 04 · v0.3 (PC3) · misma rejilla que B-V02 La historia se concilia con BP-09 sobre la planilla BO-09; Despacho (BP-07) lee la planilla, no el resultado de inspección BO-03 (DS-CS-06). ✕ = eliminado en Target (B-04). Quién ejecuta cada proceso: B-V05. Servicios que consume cada rol: B-V04.</documentation>
+        <node identifier="N-B-V01-01" elementRef="EV-02" xsi:type="Element" x="284" y="34" w="186" h="86" />
+        <node identifier="N-B-V01-02" elementRef="BO-03" xsi:type="Element" x="534" y="34" w="186" h="86" />
+        <node identifier="N-B-V01-03" elementRef="BSV-06" xsi:type="Element" x="784" y="34" w="186" h="86" />
+        <node identifier="N-B-V01-04" elementRef="EV-01" xsi:type="Element" x="34" y="174" w="186" h="86" />
+        <node identifier="N-B-V01-05" elementRef="BP-03" xsi:type="Element" x="534" y="174" w="186" h="86" />
+        <node identifier="N-B-V01-06" elementRef="BP-09" xsi:type="Element" x="784" y="174" w="186" h="86" />
+        <node identifier="N-B-V01-07" elementRef="BO-09" xsi:type="Element" x="1034" y="174" w="186" h="86" />
+        <node identifier="N-B-V01-08" elementRef="BP-01" xsi:type="Element" x="34" y="314" w="186" h="86" />
+        <node identifier="N-B-V01-09" elementRef="BP-02" xsi:type="Element" x="284" y="314" w="186" h="86" />
+        <node identifier="N-B-V01-10" elementRef="BP-05" xsi:type="Element" x="534" y="314" w="186" h="86" />
+        <node identifier="N-B-V01-11" elementRef="BP-06" xsi:type="Element" x="784" y="314" w="186" h="86" />
+        <node identifier="N-B-V01-12" elementRef="BP-07" xsi:type="Element" x="1034" y="314" w="186" h="86" />
+        <node identifier="N-B-V01-13" elementRef="BO-01" xsi:type="Element" x="34" y="454" w="186" h="86" />
+        <node identifier="N-B-V01-14" elementRef="BO-05" xsi:type="Element" x="659" y="454" w="186" h="86" />
+        <node identifier="N-B-V01-15" elementRef="BO-04" xsi:type="Element" x="1159" y="454" w="186" h="86" />
+        <connection identifier="C-B-V01-R116" relationshipRef="R116" xsi:type="Relationship" source="N-B-V01-08" target="N-B-V01-09" />
+        <connection identifier="C-B-V01-R117" relationshipRef="R117" xsi:type="Relationship" source="N-B-V01-09" target="N-B-V01-05" />
+        <connection identifier="C-B-V01-R118" relationshipRef="R118" xsi:type="Relationship" source="N-B-V01-09" target="N-B-V01-10" />
+        <connection identifier="C-B-V01-R119" relationshipRef="R119" xsi:type="Relationship" source="N-B-V01-10" target="N-B-V01-11" />
+        <connection identifier="C-B-V01-R120" relationshipRef="R120" xsi:type="Relationship" source="N-B-V01-11" target="N-B-V01-12" />
+        <connection identifier="C-B-V01-R122" relationshipRef="R122" xsi:type="Relationship" source="N-B-V01-05" target="N-B-V01-06" />
+        <connection identifier="C-B-V01-R123" relationshipRef="R123" xsi:type="Relationship" source="N-B-V01-06" target="N-B-V01-12" />
+        <connection identifier="C-B-V01-R124" relationshipRef="R124" xsi:type="Relationship" source="N-B-V01-04" target="N-B-V01-08" />
+        <connection identifier="C-B-V01-R125" relationshipRef="R125" xsi:type="Relationship" source="N-B-V01-01" target="N-B-V01-05" />
+        <connection identifier="C-B-V01-R130" relationshipRef="R130" xsi:type="Relationship" source="N-B-V01-08" target="N-B-V01-13" />
+        <connection identifier="C-B-V01-R133" relationshipRef="R133" xsi:type="Relationship" source="N-B-V01-09" target="N-B-V01-13" />
+        <connection identifier="C-B-V01-R137" relationshipRef="R137" xsi:type="Relationship" source="N-B-V01-05" target="N-B-V01-02" />
+        <connection identifier="C-B-V01-R138" relationshipRef="R138" xsi:type="Relationship" source="N-B-V01-10" target="N-B-V01-14" />
+        <connection identifier="C-B-V01-R139" relationshipRef="R139" xsi:type="Relationship" source="N-B-V01-11" target="N-B-V01-14" />
+        <connection identifier="C-B-V01-R147" relationshipRef="R147" xsi:type="Relationship" source="N-B-V01-12" target="N-B-V01-15" />
+        <connection identifier="C-B-V01-R150" relationshipRef="R150" xsi:type="Relationship" source="N-B-V01-06" target="N-B-V01-07" />
+        <connection identifier="C-B-V01-R151" relationshipRef="R151" xsi:type="Relationship" source="N-B-V01-12" target="N-B-V01-07" />
+        <connection identifier="C-B-V01-R157" relationshipRef="R157" xsi:type="Relationship" source="N-B-V01-06" target="N-B-V01-03" />
+      </view>
+      <view identifier="V-B-V02" xsi:type="Diagram">
+        <name xml:lang="es">B-V02 Cooperación de negocio · Target (DE)</name>
+        <documentation xml:lang="es">B-V02 · VP-B01 Target · decisión DE · Grupo 04 · v0.3 (PC3) · misma rejilla que B-V01 · ★ New = building block nuevo (B-04); las demás vistas no marcan estado Calidad (BP-03) escribe BO-03 y Despacho (BP-07) solo lo lee (PR-07); la genealogía BO-02, el acta BO-06 y el registro de evento BO-07 reemplazan a la planilla puente. Procesos transversales BP-04 y BP-08 con sus servicios y eventos: B-V04. Quién ejecuta cada proceso: B-V05.</documentation>
+        <node identifier="N-B-V02-01" elementRef="EV-02" xsi:type="Element" x="326" y="34" w="186" h="86" />
+        <node identifier="N-B-V02-02" elementRef="BO-03" xsi:type="Element" x="576" y="34" w="186" h="86" />
+        <node identifier="N-B-V02-03" elementRef="EV-01" xsi:type="Element" x="76" y="174" w="186" h="86" />
+        <node identifier="N-B-V02-04" elementRef="BO-02" xsi:type="Element" x="326" y="174" w="186" h="86" />
+        <node identifier="N-B-V02-05" elementRef="BP-03" xsi:type="Element" x="576" y="174" w="186" h="86" />
+        <node identifier="N-B-V02-06" elementRef="BP-01" xsi:type="Element" x="76" y="314" w="186" h="86" />
+        <node identifier="N-B-V02-07" elementRef="BP-02" xsi:type="Element" x="326" y="314" w="186" h="86" />
+        <node identifier="N-B-V02-08" elementRef="BP-05" xsi:type="Element" x="576" y="314" w="186" h="86" />
+        <node identifier="N-B-V02-09" elementRef="BP-06" xsi:type="Element" x="826" y="314" w="186" h="86" />
+        <node identifier="N-B-V02-10" elementRef="BP-07" xsi:type="Element" x="1076" y="314" w="186" h="86" />
+        <node identifier="N-B-V02-11" elementRef="EV-04" xsi:type="Element" x="1363" y="314" w="186" h="86" />
+        <node identifier="N-B-V02-12" elementRef="BO-01" xsi:type="Element" x="76" y="454" w="186" h="86" />
+        <node identifier="N-B-V02-13" elementRef="BO-07" xsi:type="Element" x="326" y="454" w="186" h="86" />
+        <node identifier="N-B-V02-14" elementRef="BO-05" xsi:type="Element" x="701" y="454" w="186" h="86" />
+        <node identifier="N-B-V02-15" elementRef="BO-06" xsi:type="Element" x="951" y="454" w="186" h="86" />
+        <node identifier="N-B-V02-16" elementRef="BO-04" xsi:type="Element" x="1201" y="454" w="186" h="86" />
+        <connection identifier="C-B-V02-R116" relationshipRef="R116" xsi:type="Relationship" source="N-B-V02-06" target="N-B-V02-07" />
+        <connection identifier="C-B-V02-R117" relationshipRef="R117" xsi:type="Relationship" source="N-B-V02-07" target="N-B-V02-05" />
+        <connection identifier="C-B-V02-R118" relationshipRef="R118" xsi:type="Relationship" source="N-B-V02-07" target="N-B-V02-08" />
+        <connection identifier="C-B-V02-R119" relationshipRef="R119" xsi:type="Relationship" source="N-B-V02-08" target="N-B-V02-09" />
+        <connection identifier="C-B-V02-R120" relationshipRef="R120" xsi:type="Relationship" source="N-B-V02-09" target="N-B-V02-10" />
+        <connection identifier="C-B-V02-R121" relationshipRef="R121" xsi:type="Relationship" source="N-B-V02-05" target="N-B-V02-10">
+          <bendpoint x="1135" y="217" />
+        </connection>
+        <connection identifier="C-B-V02-R124" relationshipRef="R124" xsi:type="Relationship" source="N-B-V02-03" target="N-B-V02-06" />
+        <connection identifier="C-B-V02-R125" relationshipRef="R125" xsi:type="Relationship" source="N-B-V02-01" target="N-B-V02-05" />
+        <connection identifier="C-B-V02-R127" relationshipRef="R127" xsi:type="Relationship" source="N-B-V02-11" target="N-B-V02-10" />
+        <connection identifier="C-B-V02-R130" relationshipRef="R130" xsi:type="Relationship" source="N-B-V02-06" target="N-B-V02-12" />
+        <connection identifier="C-B-V02-R131" relationshipRef="R131" xsi:type="Relationship" source="N-B-V02-06" target="N-B-V02-13" />
+        <connection identifier="C-B-V02-R132" relationshipRef="R132" xsi:type="Relationship" source="N-B-V02-06" target="N-B-V02-15">
+          <bendpoint x="54" y="357" />
+          <bendpoint x="54" y="566" />
+          <bendpoint x="1044" y="566" />
+        </connection>
+        <connection identifier="C-B-V02-R133" relationshipRef="R133" xsi:type="Relationship" source="N-B-V02-07" target="N-B-V02-12" />
+        <connection identifier="C-B-V02-R134" relationshipRef="R134" xsi:type="Relationship" source="N-B-V02-07" target="N-B-V02-04" />
+        <connection identifier="C-B-V02-R135" relationshipRef="R135" xsi:type="Relationship" source="N-B-V02-07" target="N-B-V02-13" />
+        <connection identifier="C-B-V02-R136" relationshipRef="R136" xsi:type="Relationship" source="N-B-V02-05" target="N-B-V02-04" />
+        <connection identifier="C-B-V02-R137" relationshipRef="R137" xsi:type="Relationship" source="N-B-V02-05" target="N-B-V02-02" />
+        <connection identifier="C-B-V02-R138" relationshipRef="R138" xsi:type="Relationship" source="N-B-V02-08" target="N-B-V02-14" />
+        <connection identifier="C-B-V02-R139" relationshipRef="R139" xsi:type="Relationship" source="N-B-V02-09" target="N-B-V02-14" />
+        <connection identifier="C-B-V02-R140" relationshipRef="R140" xsi:type="Relationship" source="N-B-V02-09" target="N-B-V02-15" />
+        <connection identifier="C-B-V02-R145" relationshipRef="R145" xsi:type="Relationship" source="N-B-V02-10" target="N-B-V02-02">
+          <bendpoint x="1203" y="77" />
+        </connection>
+        <connection identifier="C-B-V02-R146" relationshipRef="R146" xsi:type="Relationship" source="N-B-V02-10" target="N-B-V02-14" />
+        <connection identifier="C-B-V02-R147" relationshipRef="R147" xsi:type="Relationship" source="N-B-V02-10" target="N-B-V02-16" />
+        <connection identifier="C-B-V02-R148" relationshipRef="R148" xsi:type="Relationship" source="N-B-V02-10" target="N-B-V02-15" />
+      </view>
+      <view identifier="V-B-V03" xsi:type="Diagram">
+        <name xml:lang="es">B-V03 Value stream × capacidades</name>
+        <documentation xml:lang="es">B-V03 · VP-B02 Value stream × capacidades · Grupo 04 · v0.3 (PC3) Etapas anidadas en VS-01 = Composition. Solo se dibujan las capacidades primarias (P) de cada etapa (B-03); CAP-05 y CAP-06 son transversales (S en todas). Handoffs críticos: HO-01 (S1), HO-03 (S3) y HO-05 (S6). El Serving agregado CAP → VS-01 está en el modelo y se deriva de esta vista.</documentation>
+        <node identifier="N-B-V03-01" elementRef="VS-01" xsi:type="Element" x="34" y="34" w="1468" h="156">
+          <node identifier="N-B-V03-02" elementRef="VS-S1" xsi:type="Element" x="50" y="84" w="186" h="86" />
+          <node identifier="N-B-V03-03" elementRef="VS-S2" xsi:type="Element" x="300" y="84" w="186" h="86" />
+          <node identifier="N-B-V03-04" elementRef="VS-S3" xsi:type="Element" x="550" y="84" w="186" h="86" />
+          <node identifier="N-B-V03-05" elementRef="VS-S4" xsi:type="Element" x="800" y="84" w="186" h="86" />
+          <node identifier="N-B-V03-06" elementRef="VS-S5" xsi:type="Element" x="1050" y="84" w="186" h="86" />
+          <node identifier="N-B-V03-07" elementRef="VS-S6" xsi:type="Element" x="1300" y="84" w="186" h="86" />
+        </node>
+        <node identifier="N-B-V03-08" elementRef="CAP-04" xsi:type="Element" x="50" y="364" w="186" h="86" />
+        <node identifier="N-B-V03-09" elementRef="CAP-01" xsi:type="Element" x="300" y="364" w="186" h="86" />
+        <node identifier="N-B-V03-10" elementRef="CAP-02" xsi:type="Element" x="550" y="364" w="186" h="86" />
+        <node identifier="N-B-V03-11" elementRef="CAP-07" xsi:type="Element" x="800" y="364" w="186" h="86" />
+        <node identifier="N-B-V03-12" elementRef="CAP-03" xsi:type="Element" x="1050" y="364" w="186" h="86" />
+        <connection identifier="C-B-V03-R036" relationshipRef="R036" xsi:type="Relationship" source="N-B-V03-02" target="N-B-V03-03" />
+        <connection identifier="C-B-V03-R038" relationshipRef="R038" xsi:type="Relationship" source="N-B-V03-03" target="N-B-V03-04" />
+        <connection identifier="C-B-V03-R040" relationshipRef="R040" xsi:type="Relationship" source="N-B-V03-04" target="N-B-V03-05" />
+        <connection identifier="C-B-V03-R042" relationshipRef="R042" xsi:type="Relationship" source="N-B-V03-05" target="N-B-V03-06" />
+        <connection identifier="C-B-V03-R044" relationshipRef="R044" xsi:type="Relationship" source="N-B-V03-06" target="N-B-V03-07" />
+        <connection identifier="C-B-V03-R045" relationshipRef="R045" xsi:type="Relationship" source="N-B-V03-09" target="N-B-V03-02" />
+        <connection identifier="C-B-V03-R046" relationshipRef="R046" xsi:type="Relationship" source="N-B-V03-08" target="N-B-V03-02" />
+        <connection identifier="C-B-V03-R047" relationshipRef="R047" xsi:type="Relationship" source="N-B-V03-09" target="N-B-V03-03" />
+        <connection identifier="C-B-V03-R048" relationshipRef="R048" xsi:type="Relationship" source="N-B-V03-10" target="N-B-V03-03" />
+        <connection identifier="C-B-V03-R049" relationshipRef="R049" xsi:type="Relationship" source="N-B-V03-11" target="N-B-V03-04" />
+        <connection identifier="C-B-V03-R050" relationshipRef="R050" xsi:type="Relationship" source="N-B-V03-12" target="N-B-V03-05" />
+        <connection identifier="C-B-V03-R051" relationshipRef="R051" xsi:type="Relationship" source="N-B-V03-12" target="N-B-V03-06" />
+        <connection identifier="C-B-V03-R052" relationshipRef="R052" xsi:type="Relationship" source="N-B-V03-08" target="N-B-V03-07">
+          <bendpoint x="173" y="496" />
+          <bendpoint x="1413" y="496" />
+        </connection>
+        <connection identifier="C-B-V03-R053" relationshipRef="R053" xsi:type="Relationship" source="N-B-V03-09" target="N-B-V03-07">
+          <bendpoint x="423" y="476" />
+          <bendpoint x="1373" y="476" />
+        </connection>
+      </view>
+      <view identifier="V-B-V04" xsi:type="Diagram">
+        <name xml:lang="es">B-V04 Servicios de negocio y consumidores · Target (DE)</name>
+        <documentation xml:lang="es">B-V04 · VP-B03 Servicios y eventos · Grupo 04 · v0.3 (PC3) Evento → proceso → servicio de negocio → rol que lo consume; BP-04 (historia) y BP-08 (excepciones) son los procesos transversales nuevos. Concern acotado: la secuencia entre procesos está en B-V02 y la asignación rol → proceso en B-V05.</documentation>
+        <node identifier="N-B-V04-01" elementRef="BP-03" xsi:type="Element" x="284" y="34" w="186" h="86" />
+        <node identifier="N-B-V04-02" elementRef="BSV-05" xsi:type="Element" x="534" y="34" w="186" h="86" />
+        <node identifier="N-B-V04-03" elementRef="EV-08" xsi:type="Element" x="34" y="174" w="186" h="86" />
+        <node identifier="N-B-V04-04" elementRef="BP-04" xsi:type="Element" x="284" y="174" w="186" h="86" />
+        <node identifier="N-B-V04-05" elementRef="BSV-01" xsi:type="Element" x="534" y="174" w="186" h="86" />
+        <node identifier="N-B-V04-06" elementRef="BP-06" xsi:type="Element" x="284" y="314" w="186" h="86" />
+        <node identifier="N-B-V04-07" elementRef="BSV-04" xsi:type="Element" x="534" y="314" w="186" h="86" />
+        <node identifier="N-B-V04-08" elementRef="BP-07" xsi:type="Element" x="284" y="454" w="186" h="86" />
+        <node identifier="N-B-V04-09" elementRef="BSV-02" xsi:type="Element" x="534" y="454" w="186" h="86" />
+        <node identifier="N-B-V04-10" elementRef="EV-03" xsi:type="Element" x="34" y="594" w="186" h="86" />
+        <node identifier="N-B-V04-11" elementRef="BP-08" xsi:type="Element" x="284" y="594" w="186" h="86" />
+        <node identifier="N-B-V04-12" elementRef="BSV-03" xsi:type="Element" x="534" y="594" w="186" h="86" />
+        <node identifier="N-B-V04-13" elementRef="EV-05" xsi:type="Element" x="34" y="734" w="186" h="86" />
+        <node identifier="N-B-V04-14" elementRef="BO-08" xsi:type="Element" x="284" y="734" w="186" h="86" />
+        <node identifier="N-B-V04-15" elementRef="ROL-B07" xsi:type="Element" x="934" y="174" w="186" h="86" />
+        <node identifier="N-B-V04-16" elementRef="ROL-B05" xsi:type="Element" x="934" y="314" w="186" h="86" />
+        <node identifier="N-B-V04-17" elementRef="ROL-B08" xsi:type="Element" x="934" y="454" w="186" h="86" />
+        <node identifier="N-B-V04-18" elementRef="ROL-B06" xsi:type="Element" x="934" y="594" w="186" h="86" />
+        <node identifier="N-B-V04-19" elementRef="ROL-B04" xsi:type="Element" x="934" y="734" w="186" h="86" />
+        <connection identifier="C-B-V04-R126" relationshipRef="R126" xsi:type="Relationship" source="N-B-V04-10" target="N-B-V04-11" />
+        <connection identifier="C-B-V04-R128" relationshipRef="R128" xsi:type="Relationship" source="N-B-V04-13" target="N-B-V04-11" />
+        <connection identifier="C-B-V04-R129" relationshipRef="R129" xsi:type="Relationship" source="N-B-V04-03" target="N-B-V04-04" />
+        <connection identifier="C-B-V04-R149" relationshipRef="R149" xsi:type="Relationship" source="N-B-V04-11" target="N-B-V04-14" />
+        <connection identifier="C-B-V04-R152" relationshipRef="R152" xsi:type="Relationship" source="N-B-V04-04" target="N-B-V04-05" />
+        <connection identifier="C-B-V04-R153" relationshipRef="R153" xsi:type="Relationship" source="N-B-V04-08" target="N-B-V04-09" />
+        <connection identifier="C-B-V04-R154" relationshipRef="R154" xsi:type="Relationship" source="N-B-V04-11" target="N-B-V04-12" />
+        <connection identifier="C-B-V04-R155" relationshipRef="R155" xsi:type="Relationship" source="N-B-V04-06" target="N-B-V04-07" />
+        <connection identifier="C-B-V04-R156" relationshipRef="R156" xsi:type="Relationship" source="N-B-V04-01" target="N-B-V04-02" />
+        <connection identifier="C-B-V04-R158" relationshipRef="R158" xsi:type="Relationship" source="N-B-V04-05" target="N-B-V04-16" />
+        <connection identifier="C-B-V04-R159" relationshipRef="R159" xsi:type="Relationship" source="N-B-V04-05" target="N-B-V04-15" />
+        <connection identifier="C-B-V04-R160" relationshipRef="R160" xsi:type="Relationship" source="N-B-V04-09" target="N-B-V04-17" />
+        <connection identifier="C-B-V04-R161" relationshipRef="R161" xsi:type="Relationship" source="N-B-V04-12" target="N-B-V04-19" />
+        <connection identifier="C-B-V04-R162" relationshipRef="R162" xsi:type="Relationship" source="N-B-V04-12" target="N-B-V04-16" />
+        <connection identifier="C-B-V04-R163" relationshipRef="R163" xsi:type="Relationship" source="N-B-V04-12" target="N-B-V04-18" />
+        <connection identifier="C-B-V04-R164" relationshipRef="R164" xsi:type="Relationship" source="N-B-V04-12" target="N-B-V04-15" />
+        <connection identifier="C-B-V04-R165" relationshipRef="R165" xsi:type="Relationship" source="N-B-V04-07" target="N-B-V04-16" />
+        <connection identifier="C-B-V04-R166" relationshipRef="R166" xsi:type="Relationship" source="N-B-V04-07" target="N-B-V04-15" />
+        <connection identifier="C-B-V04-R167" relationshipRef="R167" xsi:type="Relationship" source="N-B-V04-02" target="N-B-V04-15" />
+      </view>
+      <view identifier="V-B-V05" xsi:type="Diagram">
+        <name xml:lang="es">B-V05 Actores, roles y procesos asignados · Target (DE)</name>
+        <documentation xml:lang="es">B-V05 · VP-B04 Organización y responsabilidades · Grupo 04 · v0.3 (PC3) Quién ejecuta cada proceso: actor → rol → proceso (Assignment). Baseline igual salvo BP-09 (ROL-B04) y sin ROL-B01/ROL-B02. ROL-B02 mide KPI (sin proceso del VS); ROL-B08 es externo (consume BSV-02, ver B-V04).</documentation>
+        <node identifier="N-B-V05-01" elementRef="BP-01" xsi:type="Element" x="534" y="34" w="186" h="86" />
+        <node identifier="N-B-V05-02" elementRef="BP-02" xsi:type="Element" x="534" y="174" w="186" h="86" />
+        <node identifier="N-B-V05-03" elementRef="BP-08" xsi:type="Element" x="534" y="314" w="186" h="86" />
+        <node identifier="N-B-V05-04" elementRef="BP-03" xsi:type="Element" x="534" y="454" w="186" h="86" />
+        <node identifier="N-B-V05-05" elementRef="BP-04" xsi:type="Element" x="534" y="594" w="186" h="86" />
+        <node identifier="N-B-V05-06" elementRef="BP-05" xsi:type="Element" x="534" y="734" w="186" h="86" />
+        <node identifier="N-B-V05-07" elementRef="BP-06" xsi:type="Element" x="534" y="874" w="186" h="86" />
+        <node identifier="N-B-V05-08" elementRef="BP-07" xsi:type="Element" x="534" y="1014" w="186" h="86" />
+        <node identifier="N-B-V05-09" elementRef="ROL-B03" xsi:type="Element" x="284" y="34" w="186" h="86" />
+        <node identifier="N-B-V05-10" elementRef="ROL-B04" xsi:type="Element" x="284" y="244" w="186" h="86" />
+        <node identifier="N-B-V05-11" elementRef="ROL-B05" xsi:type="Element" x="284" y="454" w="186" h="86" />
+        <node identifier="N-B-V05-12" elementRef="ROL-B01" xsi:type="Element" x="284" y="594" w="186" h="86" />
+        <node identifier="N-B-V05-13" elementRef="ROL-B06" xsi:type="Element" x="284" y="804" w="186" h="86" />
+        <node identifier="N-B-V05-14" elementRef="ROL-B07" xsi:type="Element" x="284" y="1014" w="186" h="86" />
+        <node identifier="N-B-V05-15" elementRef="ROL-B02" xsi:type="Element" x="284" y="1154" w="186" h="86" />
+        <node identifier="N-B-V05-16" elementRef="ROL-B08" xsi:type="Element" x="284" y="1294" w="186" h="86" />
+        <node identifier="N-B-V05-17" elementRef="ACT-01" xsi:type="Element" x="34" y="139" w="186" h="86" />
+        <node identifier="N-B-V05-18" elementRef="ACT-02" xsi:type="Element" x="34" y="524" w="186" h="86" />
+        <node identifier="N-B-V05-19" elementRef="ACT-03" xsi:type="Element" x="34" y="804" w="186" h="86" />
+        <node identifier="N-B-V05-20" elementRef="ACT-04" xsi:type="Element" x="34" y="1014" w="186" h="86" />
+        <node identifier="N-B-V05-21" elementRef="ACT-05" xsi:type="Element" x="34" y="1154" w="186" h="86" />
+        <node identifier="N-B-V05-22" elementRef="ACT-07" xsi:type="Element" x="34" y="1294" w="186" h="86" />
+        <connection identifier="C-B-V05-R085" relationshipRef="R085" xsi:type="Relationship" source="N-B-V05-18" target="N-B-V05-12" />
+        <connection identifier="C-B-V05-R086" relationshipRef="R086" xsi:type="Relationship" source="N-B-V05-21" target="N-B-V05-15" />
+        <connection identifier="C-B-V05-R087" relationshipRef="R087" xsi:type="Relationship" source="N-B-V05-17" target="N-B-V05-09" />
+        <connection identifier="C-B-V05-R088" relationshipRef="R088" xsi:type="Relationship" source="N-B-V05-17" target="N-B-V05-10" />
+        <connection identifier="C-B-V05-R089" relationshipRef="R089" xsi:type="Relationship" source="N-B-V05-18" target="N-B-V05-11" />
+        <connection identifier="C-B-V05-R090" relationshipRef="R090" xsi:type="Relationship" source="N-B-V05-19" target="N-B-V05-13" />
+        <connection identifier="C-B-V05-R091" relationshipRef="R091" xsi:type="Relationship" source="N-B-V05-20" target="N-B-V05-14" />
+        <connection identifier="C-B-V05-R092" relationshipRef="R092" xsi:type="Relationship" source="N-B-V05-22" target="N-B-V05-16" />
+        <connection identifier="C-B-V05-R098" relationshipRef="R098" xsi:type="Relationship" source="N-B-V05-09" target="N-B-V05-01" />
+        <connection identifier="C-B-V05-R099" relationshipRef="R099" xsi:type="Relationship" source="N-B-V05-10" target="N-B-V05-02" />
+        <connection identifier="C-B-V05-R100" relationshipRef="R100" xsi:type="Relationship" source="N-B-V05-11" target="N-B-V05-04" />
+        <connection identifier="C-B-V05-R101" relationshipRef="R101" xsi:type="Relationship" source="N-B-V05-12" target="N-B-V05-05" />
+        <connection identifier="C-B-V05-R102" relationshipRef="R102" xsi:type="Relationship" source="N-B-V05-13" target="N-B-V05-06" />
+        <connection identifier="C-B-V05-R103" relationshipRef="R103" xsi:type="Relationship" source="N-B-V05-13" target="N-B-V05-07" />
+        <connection identifier="C-B-V05-R104" relationshipRef="R104" xsi:type="Relationship" source="N-B-V05-14" target="N-B-V05-08" />
+        <connection identifier="C-B-V05-R105" relationshipRef="R105" xsi:type="Relationship" source="N-B-V05-10" target="N-B-V05-03" />
+      </view>
+    </diagrams>
+  </views>
+</model>

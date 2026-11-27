@@ -1,0 +1,276 @@
+<?xml version='1.0' encoding='utf-8'?>
+<model xmlns="http://www.opengroup.org/xsd/archimate/3.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" identifier="M-CAMPOSOL-T-V01-B-v03" xsi:schemaLocation="http://www.opengroup.org/xsd/archimate/3.0/ http://www.opengroup.org/xsd/archimate/3.1/archimate3_Diagram.xsd">
+  <name xml:lang="es">Camposol Chao · T-V01-B · Despliegue de aplicaciones · Baseline · v0.3 (PC3)</name>
+  <documentation xml:lang="es">Extracto de una vista del modelo consolidado v0.3 (PC3): elementos de la vista y todas las relaciones entre ellos. Modelo académico SI605 Grupo 04; no representa sistemas reales de Camposol.</documentation>
+  <elements>
+    <element identifier="AP-01" xsi:type="ApplicationComponent">
+      <name xml:lang="es">AP-01 Registro de recepción (planilla)</name>
+      <documentation xml:lang="es">Baseline · Registrar bins y origen · Disposición: Modernizar captura (candidato; decisión en Phase E) · Clase IA</documentation>
+      <properties>
+        <property propertyDefinitionRef="PD-01">
+          <value xml:lang="es">IA</value>
+        </property>
+        <property propertyDefinitionRef="PD-02">
+          <value xml:lang="es">C (Application)</value>
+        </property>
+        <property propertyDefinitionRef="PD-03">
+          <value xml:lang="es">Baseline y Target</value>
+        </property>
+      </properties>
+    </element>
+    <element identifier="AP-02" xsi:type="ApplicationComponent">
+      <name xml:lang="es">AP-02 Sistema de la calibradora</name>
+      <documentation xml:lang="es">Baseline · Calibrar y registrar batches, división y mezcla · Disposición: Mantener + adaptador de eventos · Clase HP existencia (F04)</documentation>
+      <properties>
+        <property propertyDefinitionRef="PD-01">
+          <value xml:lang="es">HP existencia (F04)</value>
+        </property>
+        <property propertyDefinitionRef="PD-02">
+          <value xml:lang="es">C (Application)</value>
+        </property>
+        <property propertyDefinitionRef="PD-03">
+          <value xml:lang="es">Baseline y Target</value>
+        </property>
+      </properties>
+    </element>
+    <element identifier="AP-03" xsi:type="ApplicationComponent">
+      <name xml:lang="es">AP-03 Planilla de packing</name>
+      <documentation xml:lang="es">Baseline · Registrar pallets y composición · Disposición: Modernizar captura (candidato) · Clase IA</documentation>
+      <properties>
+        <property propertyDefinitionRef="PD-01">
+          <value xml:lang="es">IA</value>
+        </property>
+        <property propertyDefinitionRef="PD-02">
+          <value xml:lang="es">C (Application)</value>
+        </property>
+        <property propertyDefinitionRef="PD-03">
+          <value xml:lang="es">Baseline y Target</value>
+        </property>
+      </properties>
+    </element>
+    <element identifier="AP-04" xsi:type="ApplicationComponent">
+      <name xml:lang="es">AP-04 Registro de Calidad (planilla)</name>
+      <documentation xml:lang="es">Baseline · Registrar inspección y decisión · Disposición: Modernizar captura (candidato) conservando autoridad · Clase IA</documentation>
+      <properties>
+        <property propertyDefinitionRef="PD-01">
+          <value xml:lang="es">IA</value>
+        </property>
+        <property propertyDefinitionRef="PD-02">
+          <value xml:lang="es">C (Application)</value>
+        </property>
+        <property propertyDefinitionRef="PD-03">
+          <value xml:lang="es">Baseline y Target</value>
+        </property>
+      </properties>
+    </element>
+    <element identifier="AP-05" xsi:type="ApplicationComponent">
+      <name xml:lang="es">AP-05 Registro térmico de cámaras</name>
+      <documentation xml:lang="es">Baseline · Registrar temperatura por posición · Disposición: Integrar por contrato si NV-05 confirma la fuente · Clase IA / NV-05</documentation>
+      <properties>
+        <property propertyDefinitionRef="PD-01">
+          <value xml:lang="es">IA / NV-05</value>
+        </property>
+        <property propertyDefinitionRef="PD-02">
+          <value xml:lang="es">C (Application)</value>
+        </property>
+        <property propertyDefinitionRef="PD-03">
+          <value xml:lang="es">Baseline y Target</value>
+        </property>
+      </properties>
+    </element>
+    <element identifier="AP-06" xsi:type="ApplicationComponent">
+      <name xml:lang="es">AP-06 SAP corporativo</name>
+      <documentation xml:lang="es">Baseline · Embarque y documentación de exportación · Disposición: Mantener; consumir historia y estado QA sin liberar · Clase HP (F01/F02)</documentation>
+      <properties>
+        <property propertyDefinitionRef="PD-01">
+          <value xml:lang="es">HP (F01/F02)</value>
+        </property>
+        <property propertyDefinitionRef="PD-02">
+          <value xml:lang="es">C (Application)</value>
+        </property>
+        <property propertyDefinitionRef="PD-03">
+          <value xml:lang="es">Baseline y Target</value>
+        </property>
+      </properties>
+    </element>
+    <element identifier="AP-07" xsi:type="ApplicationComponent">
+      <name xml:lang="es">AP-07 Planilla puente</name>
+      <documentation xml:lang="es">Baseline · Conciliar códigos a mano · Disposición: Eliminar tras gate (M-04) · Clase IA</documentation>
+      <properties>
+        <property propertyDefinitionRef="PD-01">
+          <value xml:lang="es">IA</value>
+        </property>
+        <property propertyDefinitionRef="PD-02">
+          <value xml:lang="es">C (Application)</value>
+        </property>
+        <property propertyDefinitionRef="PD-03">
+          <value xml:lang="es">Baseline</value>
+        </property>
+      </properties>
+    </element>
+    <element identifier="T-BASE02" xsi:type="Node">
+      <name xml:lang="es">T-BASE02 PC/HMI de calibradora</name>
+      <documentation xml:lang="es">Software del fabricante; ejecuta AP-02. Se mantiene; expone eventos solo por CD-01 (lectura). · Estado: Baseline y Target · Clase IA (DS-CS-33) · P existencia F04</documentation>
+      <properties>
+        <property propertyDefinitionRef="PD-01">
+          <value xml:lang="es">IA (DS-CS-33) · HP existencia F04</value>
+        </property>
+        <property propertyDefinitionRef="PD-02">
+          <value xml:lang="es">D</value>
+        </property>
+        <property propertyDefinitionRef="PD-03">
+          <value xml:lang="es">Baseline y Target</value>
+        </property>
+      </properties>
+    </element>
+    <element identifier="T-BASE04" xsi:type="Node">
+      <name xml:lang="es">T-BASE04 PC de registro térmico</name>
+      <documentation xml:lang="es">Ejecuta AP-05; en Target el CSV nocturno se reemplaza por lectura continua vía gateway (CD-02). · Estado: Baseline y Target · Clase IA (DS-CS-34)</documentation>
+      <properties>
+        <property propertyDefinitionRef="PD-01">
+          <value xml:lang="es">IA (DS-CS-34)</value>
+        </property>
+        <property propertyDefinitionRef="PD-02">
+          <value xml:lang="es">D</value>
+        </property>
+        <property propertyDefinitionRef="PD-03">
+          <value xml:lang="es">Baseline y Target</value>
+        </property>
+      </properties>
+    </element>
+    <element identifier="T-BASE05" xsi:type="Device">
+      <name xml:lang="es">T-BASE05 PCs de oficina de planta</name>
+      <documentation xml:lang="es">Baseline: planillas AP-01/03/04/07. Target: ofimática, cliente SAP y consulta AP-10 desde Z-05. · Estado: Baseline y Target · Clase IA (DS-CS-35)</documentation>
+      <properties>
+        <property propertyDefinitionRef="PD-01">
+          <value xml:lang="es">IA (DS-CS-35)</value>
+        </property>
+        <property propertyDefinitionRef="PD-02">
+          <value xml:lang="es">D</value>
+        </property>
+        <property propertyDefinitionRef="PD-03">
+          <value xml:lang="es">Baseline y Target</value>
+        </property>
+      </properties>
+    </element>
+    <element identifier="T-BASE06" xsi:type="Node">
+      <name xml:lang="es">T-BASE06 Servidor local único (carpeta compartida)</name>
+      <documentation xml:lang="es">Sin redundancia ni prueba de restauración. Eliminado en Target: su contenido migra al almacén de evidencias. · Estado: Baseline (eliminado en Target) · Clase IA (DS-CS-35/38)</documentation>
+      <properties>
+        <property propertyDefinitionRef="PD-01">
+          <value xml:lang="es">IA (DS-CS-35/38)</value>
+        </property>
+        <property propertyDefinitionRef="PD-02">
+          <value xml:lang="es">D</value>
+        </property>
+        <property propertyDefinitionRef="PD-03">
+          <value xml:lang="es">Baseline (eliminado en Target)</value>
+        </property>
+      </properties>
+    </element>
+    <element identifier="T-BASE07" xsi:type="Node">
+      <name xml:lang="es">T-BASE07 Plataforma SAP corporativa</name>
+      <documentation xml:lang="es">Ejecuta AP-06. Se mantiene fuera del alcance de diseño; interfaz local no verificada (NV-01). · Estado: Baseline y Target · Clase HP (F01/F02) · NV-01</documentation>
+      <properties>
+        <property propertyDefinitionRef="PD-01">
+          <value xml:lang="es">HP (F01/F02) · NV-01</value>
+        </property>
+        <property propertyDefinitionRef="PD-02">
+          <value xml:lang="es">D</value>
+        </property>
+        <property propertyDefinitionRef="PD-03">
+          <value xml:lang="es">Baseline y Target</value>
+        </property>
+      </properties>
+    </element>
+    <element identifier="TS-13" xsi:type="TechnologyService">
+      <name xml:lang="es">TS-13 Respaldo semanal manual</name>
+      <documentation xml:lang="es">Baseline: disco externo sin prueba de restauración (DS-CS-38). Eliminado. · Estado: Baseline (eliminado en Target) · Clase IA</documentation>
+      <properties>
+        <property propertyDefinitionRef="PD-01">
+          <value xml:lang="es">IA</value>
+        </property>
+        <property propertyDefinitionRef="PD-02">
+          <value xml:lang="es">D</value>
+        </property>
+        <property propertyDefinitionRef="PD-03">
+          <value xml:lang="es">Baseline (eliminado en Target)</value>
+        </property>
+      </properties>
+    </element>
+  </elements>
+  <relationships>
+    <relationship identifier="R249" source="AP-01" target="AP-07" xsi:type="Flow">
+      <name xml:lang="es">planilla por turno</name>
+    </relationship>
+    <relationship identifier="R250" source="AP-03" target="AP-07" xsi:type="Flow">
+      <name xml:lang="es">planilla por turno</name>
+    </relationship>
+    <relationship identifier="R251" source="AP-04" target="AP-07" xsi:type="Flow">
+      <name xml:lang="es">correo</name>
+    </relationship>
+    <relationship identifier="R252" source="AP-05" target="AP-07" xsi:type="Flow">
+      <name xml:lang="es">CSV nocturno</name>
+    </relationship>
+    <relationship identifier="R253" source="AP-02" target="AP-03" xsi:type="Flow">
+      <name xml:lang="es">exportación manual</name>
+    </relationship>
+    <relationship identifier="R254" source="AP-07" target="AP-06" xsi:type="Flow">
+      <name xml:lang="es">digitación manual</name>
+    </relationship>
+    <relationship identifier="R280" source="T-BASE02" target="AP-02" xsi:type="Serving" />
+    <relationship identifier="R281" source="T-BASE04" target="AP-05" xsi:type="Serving" />
+    <relationship identifier="R282" source="T-BASE05" target="AP-01" xsi:type="Serving" />
+    <relationship identifier="R283" source="T-BASE05" target="AP-03" xsi:type="Serving" />
+    <relationship identifier="R284" source="T-BASE05" target="AP-04" xsi:type="Serving" />
+    <relationship identifier="R285" source="T-BASE05" target="AP-07" xsi:type="Serving" />
+    <relationship identifier="R286" source="T-BASE06" target="AP-07" xsi:type="Serving" />
+    <relationship identifier="R287" source="T-BASE07" target="AP-06" xsi:type="Serving" />
+    <relationship identifier="R324" source="T-BASE06" target="TS-13" xsi:type="Realization" />
+    <relationship identifier="R547" source="TS-13" target="AP-07" xsi:type="Serving">
+      <documentation xml:lang="es">Clase IA. Añadida en PC3 (DEC-PC3-08, M11–M14).</documentation>
+    </relationship>
+  </relationships>
+  <propertyDefinitions>
+    <propertyDefinition identifier="PD-01" type="string">
+      <name xml:lang="es">Evidencia</name>
+    </propertyDefinition>
+    <propertyDefinition identifier="PD-02" type="string">
+      <name xml:lang="es">Fase_ADM</name>
+    </propertyDefinition>
+    <propertyDefinition identifier="PD-03" type="string">
+      <name xml:lang="es">Estado</name>
+    </propertyDefinition>
+  </propertyDefinitions>
+  <views>
+    <diagrams>
+      <view identifier="V-T-V01-B" xsi:type="Diagram">
+        <name xml:lang="es">T-V01-B · Despliegue de aplicaciones · Baseline</name>
+        <documentation xml:lang="es">T-V01-B · VP-D12 · C02/C04 · Grupo 04 · v0.3 (PC3) · Baseline IA (DS-CS-31…41) · responde «¿dónde se despliegan los componentes y servicios?» (guía PC3 §4.5, T-V01 Baseline). Cada aplicación Baseline corre en un PC o en el servidor local (Serving nodo → aplicación); las planillas AP-03, AP-04 y AP-07 viven en PCs de oficina y en la carpeta del servidor único T-BASE06, cuyo único servicio técnico es el respaldo semanal manual TS-13. SAP corre en la plataforma corporativa (HP F01/F02). No hay artefactos versionados en la Baseline (GAP-T04, GAP-T06). Ubicaciones y red: T-V02-B. Target: T-V01-T (plataforma y artefactos), T-V05 (nodos) y T-V06 (servicios).</documentation>
+        <node identifier="N-T-V01-B-01" elementRef="T-BASE02" xsi:type="Element" x="34" y="34" w="186" h="86" />
+        <node identifier="N-T-V01-B-02" elementRef="T-BASE04" xsi:type="Element" x="264" y="34" w="186" h="86" />
+        <node identifier="N-T-V01-B-03" elementRef="T-BASE05" xsi:type="Element" x="724" y="34" w="186" h="86" />
+        <node identifier="N-T-V01-B-04" elementRef="TS-13" xsi:type="Element" x="954" y="34" w="186" h="86" />
+        <node identifier="N-T-V01-B-05" elementRef="T-BASE06" xsi:type="Element" x="1184" y="34" w="186" h="86" />
+        <node identifier="N-T-V01-B-06" elementRef="T-BASE07" xsi:type="Element" x="1414" y="34" w="186" h="86" />
+        <node identifier="N-T-V01-B-07" elementRef="AP-02" xsi:type="Element" x="34" y="250" w="186" h="86" />
+        <node identifier="N-T-V01-B-08" elementRef="AP-05" xsi:type="Element" x="264" y="250" w="186" h="86" />
+        <node identifier="N-T-V01-B-09" elementRef="AP-01" xsi:type="Element" x="494" y="250" w="186" h="86" />
+        <node identifier="N-T-V01-B-10" elementRef="AP-03" xsi:type="Element" x="724" y="250" w="186" h="86" />
+        <node identifier="N-T-V01-B-11" elementRef="AP-04" xsi:type="Element" x="954" y="250" w="186" h="86" />
+        <node identifier="N-T-V01-B-12" elementRef="AP-07" xsi:type="Element" x="1184" y="250" w="186" h="86" />
+        <node identifier="N-T-V01-B-13" elementRef="AP-06" xsi:type="Element" x="1414" y="250" w="186" h="86" />
+        <connection identifier="C-T-V01-B-01" relationshipRef="R280" xsi:type="Relationship" source="N-T-V01-B-01" target="N-T-V01-B-07" />
+        <connection identifier="C-T-V01-B-02" relationshipRef="R281" xsi:type="Relationship" source="N-T-V01-B-02" target="N-T-V01-B-08" />
+        <connection identifier="C-T-V01-B-03" relationshipRef="R282" xsi:type="Relationship" source="N-T-V01-B-03" target="N-T-V01-B-09" />
+        <connection identifier="C-T-V01-B-04" relationshipRef="R283" xsi:type="Relationship" source="N-T-V01-B-03" target="N-T-V01-B-10" />
+        <connection identifier="C-T-V01-B-05" relationshipRef="R284" xsi:type="Relationship" source="N-T-V01-B-03" target="N-T-V01-B-11" />
+        <connection identifier="C-T-V01-B-06" relationshipRef="R285" xsi:type="Relationship" source="N-T-V01-B-03" target="N-T-V01-B-12" />
+        <connection identifier="C-T-V01-B-07" relationshipRef="R286" xsi:type="Relationship" source="N-T-V01-B-05" target="N-T-V01-B-12" />
+        <connection identifier="C-T-V01-B-08" relationshipRef="R287" xsi:type="Relationship" source="N-T-V01-B-06" target="N-T-V01-B-13" />
+        <connection identifier="C-T-V01-B-09" relationshipRef="R324" xsi:type="Relationship" source="N-T-V01-B-05" target="N-T-V01-B-04" />
+        <connection identifier="C-T-V01-B-10" relationshipRef="R547" xsi:type="Relationship" source="N-T-V01-B-04" target="N-T-V01-B-12" />
+      </view>
+    </diagrams>
+  </views>
+</model>

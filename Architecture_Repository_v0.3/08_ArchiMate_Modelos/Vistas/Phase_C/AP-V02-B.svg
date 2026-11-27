@@ -1,0 +1,142 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="854.0" height="1058.0" viewBox="0 0 854.0 1058.0" font-family="Helvetica, Arial, sans-serif">
+<defs>
+<marker id="afill" viewBox="0 0 12 10" refX="11" refY="5" markerWidth="11" markerHeight="9" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L12,5 L0,10 z" fill="#46525a"/></marker>
+<marker id="thol" viewBox="0 0 14 12" refX="13" refY="6" markerWidth="14" markerHeight="12" orient="auto" markerUnits="userSpaceOnUse"><path d="M1,1 L13,6 L1,11 z" fill="#ffffff" stroke="#46525a" stroke-width="1.3"/></marker>
+<marker id="open" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="12" markerHeight="12" orient="auto" markerUnits="userSpaceOnUse"><path d="M1,1 L11,6 L1,11" fill="none" stroke="#46525a" stroke-width="1.5"/></marker>
+<marker id="acc" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto" markerUnits="userSpaceOnUse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#46525a" stroke-width="1.3"/></marker>
+<marker id="accs" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="9" markerHeight="9" orient="auto" markerUnits="userSpaceOnUse"><path d="M9,1 L1,5 L9,9" fill="none" stroke="#46525a" stroke-width="1.3"/></marker>
+<marker id="dot" viewBox="0 0 10 10" refX="4" refY="5" markerWidth="9" markerHeight="9" orient="auto" markerUnits="userSpaceOnUse"><circle cx="5" cy="5" r="3.6" fill="#46525a"/></marker>
+<marker id="dfill" viewBox="0 0 18 10" refX="1" refY="5" markerWidth="18" markerHeight="10" orient="auto" markerUnits="userSpaceOnUse"><path d="M1,5 L9,1 L17,5 L9,9 z" fill="#46525a"/></marker>
+<marker id="dhol" viewBox="0 0 18 10" refX="1" refY="5" markerWidth="18" markerHeight="10" orient="auto" markerUnits="userSpaceOnUse"><path d="M1,5 L9,1 L17,5 L9,9 z" fill="#ffffff" stroke="#46525a" stroke-width="1.2"/></marker>
+</defs>
+<rect x="1" y="1" width="852.0" height="1057.0" rx="14" fill="#ffffff" stroke="#dde3e6" stroke-width="2"/>
+<rect x="34" y="34" width="186" height="86" rx="2" fill="#d3f3f4" stroke="#2f8e95" stroke-width="1.8"/>
+<rect x="194" y="42" width="16" height="13" fill="none" stroke="#2f8e95" stroke-width="1.3"/><rect x="190" y="45" width="8" height="3" fill="#fff" stroke="#2f8e95" stroke-width="1.2"/><rect x="190" y="50" width="8" height="3" fill="#fff" stroke="#2f8e95" stroke-width="1.2"/>
+<text x="44" y="50" font-size="10.5" font-weight="bold" fill="#1f7d84">Application Component</text>
+<text x="127.0" y="70" font-size="11" font-weight="bold" fill="#3c4850" text-anchor="middle">AP-01</text>
+<text x="127.0" y="84.0" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">Registro de recepción</text>
+<text x="127.0" y="97.5" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">(planilla)</text>
+<rect x="34" y="144" width="186" height="86" rx="2" fill="#d3f3f4" stroke="#2f8e95" stroke-width="1.8"/>
+<rect x="194" y="152" width="16" height="13" fill="none" stroke="#2f8e95" stroke-width="1.3"/><rect x="190" y="155" width="8" height="3" fill="#fff" stroke="#2f8e95" stroke-width="1.2"/><rect x="190" y="160" width="8" height="3" fill="#fff" stroke="#2f8e95" stroke-width="1.2"/>
+<text x="44" y="160" font-size="10.5" font-weight="bold" fill="#1f7d84">Application Component</text>
+<text x="127.0" y="180" font-size="11" font-weight="bold" fill="#3c4850" text-anchor="middle">AP-02</text>
+<text x="127.0" y="194.0" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">Sistema de la calibradora</text>
+<rect x="34" y="254" width="186" height="86" rx="2" fill="#d3f3f4" stroke="#2f8e95" stroke-width="1.8"/>
+<rect x="194" y="262" width="16" height="13" fill="none" stroke="#2f8e95" stroke-width="1.3"/><rect x="190" y="265" width="8" height="3" fill="#fff" stroke="#2f8e95" stroke-width="1.2"/><rect x="190" y="270" width="8" height="3" fill="#fff" stroke="#2f8e95" stroke-width="1.2"/>
+<text x="44" y="270" font-size="10.5" font-weight="bold" fill="#1f7d84">Application Component</text>
+<text x="127.0" y="290" font-size="11" font-weight="bold" fill="#3c4850" text-anchor="middle">AP-03</text>
+<text x="127.0" y="304.0" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">Planilla de packing</text>
+<rect x="34" y="364" width="186" height="86" rx="2" fill="#d3f3f4" stroke="#2f8e95" stroke-width="1.8"/>
+<rect x="194" y="372" width="16" height="13" fill="none" stroke="#2f8e95" stroke-width="1.3"/><rect x="190" y="375" width="8" height="3" fill="#fff" stroke="#2f8e95" stroke-width="1.2"/><rect x="190" y="380" width="8" height="3" fill="#fff" stroke="#2f8e95" stroke-width="1.2"/>
+<text x="44" y="380" font-size="10.5" font-weight="bold" fill="#1f7d84">Application Component</text>
+<text x="127.0" y="400" font-size="11" font-weight="bold" fill="#3c4850" text-anchor="middle">AP-04</text>
+<text x="127.0" y="414.0" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">Registro de Calidad</text>
+<text x="127.0" y="427.5" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">(planilla)</text>
+<rect x="34" y="529" width="186" height="86" rx="2" fill="#d3f3f4" stroke="#2f8e95" stroke-width="1.8"/>
+<rect x="194" y="537" width="16" height="13" fill="none" stroke="#2f8e95" stroke-width="1.3"/><rect x="190" y="540" width="8" height="3" fill="#fff" stroke="#2f8e95" stroke-width="1.2"/><rect x="190" y="545" width="8" height="3" fill="#fff" stroke="#2f8e95" stroke-width="1.2"/>
+<text x="44" y="545" font-size="10.5" font-weight="bold" fill="#1f7d84">Application Component</text>
+<text x="127.0" y="565" font-size="11" font-weight="bold" fill="#3c4850" text-anchor="middle">AP-05</text>
+<text x="127.0" y="579.0" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">Registro térmico de</text>
+<text x="127.0" y="592.5" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">cámaras</text>
+<rect x="34" y="694" width="186" height="86" rx="2" fill="#d3f3f4" stroke="#2f8e95" stroke-width="1.8"/>
+<rect x="194" y="702" width="16" height="13" fill="none" stroke="#2f8e95" stroke-width="1.3"/><rect x="190" y="705" width="8" height="3" fill="#fff" stroke="#2f8e95" stroke-width="1.2"/><rect x="190" y="710" width="8" height="3" fill="#fff" stroke="#2f8e95" stroke-width="1.2"/>
+<text x="44" y="710" font-size="10.5" font-weight="bold" fill="#1f7d84">Application Component</text>
+<text x="127.0" y="730" font-size="11" font-weight="bold" fill="#3c4850" text-anchor="middle">AP-06</text>
+<text x="127.0" y="744.0" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">SAP corporativo</text>
+<rect x="34" y="804" width="186" height="86" rx="2" fill="#d3f3f4" stroke="#2f8e95" stroke-width="1.8"/>
+<rect x="194" y="812" width="16" height="13" fill="none" stroke="#2f8e95" stroke-width="1.3"/><rect x="190" y="815" width="8" height="3" fill="#fff" stroke="#2f8e95" stroke-width="1.2"/><rect x="190" y="820" width="8" height="3" fill="#fff" stroke="#2f8e95" stroke-width="1.2"/>
+<text x="44" y="820" font-size="10.5" font-weight="bold" fill="#1f7d84">Application Component</text>
+<text x="127.0" y="840" font-size="11" font-weight="bold" fill="#3c4850" text-anchor="middle">AP-07</text>
+<text x="127.0" y="854.0" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">Planilla puente</text>
+<rect x="334" y="34" width="186" height="86" rx="7" fill="#fff3b8" stroke="#b5951e" stroke-width="1.8"/>
+<path d="M492,45 L501,45 L501,42 L508,48 L501,54 L501,51 L492,51 Z" fill="none" stroke="#b5951e" stroke-width="1.3"/>
+<text x="344" y="50" font-size="10.5" font-weight="bold" fill="#937a0c">Business Process</text>
+<text x="427.0" y="70" font-size="11" font-weight="bold" fill="#3c4850" text-anchor="middle">BP-01</text>
+<text x="427.0" y="84.0" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">Recepcionar y registrar</text>
+<text x="427.0" y="97.5" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">origen</text>
+<rect x="334" y="199" width="186" height="86" rx="7" fill="#fff3b8" stroke="#b5951e" stroke-width="1.8"/>
+<path d="M492,210 L501,210 L501,207 L508,213 L501,219 L501,216 L492,216 Z" fill="none" stroke="#b5951e" stroke-width="1.3"/>
+<text x="344" y="215" font-size="10.5" font-weight="bold" fill="#937a0c">Business Process</text>
+<text x="427.0" y="235" font-size="11" font-weight="bold" fill="#3c4850" text-anchor="middle">BP-02</text>
+<text x="427.0" y="249.0" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">Calibrar, empacar y</text>
+<text x="427.0" y="262.5" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">registrar genealogía</text>
+<rect x="334" y="364" width="186" height="86" rx="7" fill="#fff3b8" stroke="#b5951e" stroke-width="1.8"/>
+<path d="M492,375 L501,375 L501,372 L508,378 L501,384 L501,381 L492,381 Z" fill="none" stroke="#b5951e" stroke-width="1.3"/>
+<text x="344" y="380" font-size="10.5" font-weight="bold" fill="#937a0c">Business Process</text>
+<text x="427.0" y="400" font-size="11" font-weight="bold" fill="#3c4850" text-anchor="middle">BP-03</text>
+<text x="427.0" y="414.0" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">Inspeccionar y decidir</text>
+<text x="427.0" y="427.5" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">conformidad</text>
+<rect x="334" y="474" width="186" height="86" rx="7" fill="#fff3b8" stroke="#b5951e" stroke-width="1.8"/>
+<path d="M492,485 L501,485 L501,482 L508,488 L501,494 L501,491 L492,491 Z" fill="none" stroke="#b5951e" stroke-width="1.3"/>
+<text x="344" y="490" font-size="10.5" font-weight="bold" fill="#937a0c">Business Process</text>
+<text x="427.0" y="510" font-size="11" font-weight="bold" fill="#3c4850" text-anchor="middle">BP-05</text>
+<text x="427.0" y="524.0" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">Pre-enfriar y registrar serie</text>
+<text x="427.0" y="537.5" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">térmica</text>
+<rect x="334" y="584" width="186" height="86" rx="7" fill="#fff3b8" stroke="#b5951e" stroke-width="1.8"/>
+<path d="M492,595 L501,595 L501,592 L508,598 L501,604 L501,601 L492,601 Z" fill="none" stroke="#b5951e" stroke-width="1.3"/>
+<text x="344" y="600" font-size="10.5" font-weight="bold" fill="#937a0c">Business Process</text>
+<text x="427.0" y="620" font-size="11" font-weight="bold" fill="#3c4850" text-anchor="middle">BP-06</text>
+<text x="427.0" y="634.0" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">Custodiar en cámara</text>
+<rect x="334" y="694" width="186" height="86" rx="7" fill="#fff3b8" stroke="#b5951e" stroke-width="1.8"/>
+<path d="M492,705 L501,705 L501,702 L508,708 L501,714 L501,711 L492,711 Z" fill="none" stroke="#b5951e" stroke-width="1.3"/>
+<text x="344" y="710" font-size="10.5" font-weight="bold" fill="#937a0c">Business Process</text>
+<text x="427.0" y="730" font-size="11" font-weight="bold" fill="#3c4850" text-anchor="middle">BP-07</text>
+<text x="427.0" y="744.0" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">Verificar estados y cargar</text>
+<text x="427.0" y="757.5" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">FCL</text>
+<rect x="334" y="804" width="186" height="86" rx="7" fill="#fff3b8" stroke="#b5951e" stroke-width="1.8"/>
+<path d="M492,815 L501,815 L501,812 L508,818 L501,824 L501,821 L492,821 Z" fill="none" stroke="#b5951e" stroke-width="1.3"/>
+<text x="344" y="820" font-size="10.5" font-weight="bold" fill="#937a0c">Business Process</text>
+<text x="427.0" y="840" font-size="11" font-weight="bold" fill="#3c4850" text-anchor="middle">BP-09</text>
+<text x="427.0" y="854.0" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">Conciliar registros en</text>
+<text x="427.0" y="867.5" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">planilla puente</text>
+<rect x="634" y="364" width="186" height="86" rx="18" fill="#fff3b8" stroke="#b5951e" stroke-width="1.8"/>
+<text x="644" y="380" font-size="10.5" font-weight="bold" fill="#937a0c">Business Service</text>
+<text x="727.0" y="400" font-size="11" font-weight="bold" fill="#3c4850" text-anchor="middle">BSV-05</text>
+<text x="727.0" y="414.0" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">Decisión de conformidad</text>
+<rect x="634" y="584" width="186" height="86" rx="18" fill="#fff3b8" stroke="#b5951e" stroke-width="1.8"/>
+<text x="644" y="600" font-size="10.5" font-weight="bold" fill="#937a0c">Business Service</text>
+<text x="727.0" y="620" font-size="11" font-weight="bold" fill="#3c4850" text-anchor="middle">BSV-04</text>
+<text x="727.0" y="634.0" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">Evaluación de evidencia</text>
+<text x="727.0" y="647.5" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">térmica y custodia</text>
+<rect x="634" y="694" width="186" height="86" rx="18" fill="#fff3b8" stroke="#b5951e" stroke-width="1.8"/>
+<text x="644" y="710" font-size="10.5" font-weight="bold" fill="#937a0c">Business Service</text>
+<text x="727.0" y="730" font-size="11" font-weight="bold" fill="#3c4850" text-anchor="middle">BSV-02</text>
+<text x="727.0" y="744.0" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">Coordinación de entrega al</text>
+<text x="727.0" y="757.5" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">transportista</text>
+<rect x="634" y="804" width="186" height="86" rx="18" fill="#fff3b8" stroke="#b5951e" stroke-width="1.8"/>
+<text x="644" y="820" font-size="10.5" font-weight="bold" fill="#937a0c">Business Service</text>
+<text x="727.0" y="840" font-size="11" font-weight="bold" fill="#3c4850" text-anchor="middle">BSV-06</text>
+<text x="727.0" y="854.0" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">Consulta ad hoc de</text>
+<text x="727.0" y="867.5" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">registros</text>
+<path d="M220.0,77.0 L334.0,77.0" fill="none" stroke="#46525a" stroke-width="1.5" marker-end="url(#open)"/>
+<path d="M220.0,204.1 L334.0,224.9" fill="none" stroke="#46525a" stroke-width="1.5" marker-end="url(#open)"/>
+<path d="M220.0,279.9 L334.0,259.1" fill="none" stroke="#46525a" stroke-width="1.5" marker-end="url(#open)"/>
+<path d="M220.0,407.0 L334.0,407.0" fill="none" stroke="#46525a" stroke-width="1.5" marker-end="url(#open)"/>
+<path d="M220.0,555.0 L334.0,534.0" fill="none" stroke="#46525a" stroke-width="1.5" marker-end="url(#open)"/>
+<path d="M220.0,589.0 L334.0,610.0" fill="none" stroke="#46525a" stroke-width="1.5" marker-end="url(#open)"/>
+<path d="M220.0,737.0 L334.0,737.0" fill="none" stroke="#46525a" stroke-width="1.5" marker-end="url(#open)"/>
+<path d="M220.0,847.0 L334.0,847.0" fill="none" stroke="#46525a" stroke-width="1.5" marker-end="url(#open)"/>
+<path d="M520.0,407.0 L634.0,407.0" fill="none" stroke="#46525a" stroke-width="1.4" stroke-dasharray="6,4" marker-end="url(#thol)"/>
+<path d="M520.0,627.0 L634.0,627.0" fill="none" stroke="#46525a" stroke-width="1.4" stroke-dasharray="6,4" marker-end="url(#thol)"/>
+<path d="M520.0,737.0 L634.0,737.0" fill="none" stroke="#46525a" stroke-width="1.4" stroke-dasharray="6,4" marker-end="url(#thol)"/>
+<path d="M520.0,847.0 L634.0,847.0" fill="none" stroke="#46525a" stroke-width="1.4" stroke-dasharray="6,4" marker-end="url(#thol)"/>
+<rect x="255.9" y="69.0" width="42.2" height="14" rx="3" fill="#ffffff" fill-opacity="0.92"/><text x="277.0" y="80.0" font-size="9.5" fill="#4a565e" text-anchor="middle">Serving</text>
+<rect x="255.9" y="206.5" width="42.2" height="14" rx="3" fill="#ffffff" fill-opacity="0.92"/><text x="277.0" y="217.5" font-size="9.5" fill="#4a565e" text-anchor="middle">Serving</text>
+<rect x="255.9" y="261.5" width="42.2" height="14" rx="3" fill="#ffffff" fill-opacity="0.92"/><text x="277.0" y="272.5" font-size="9.5" fill="#4a565e" text-anchor="middle">Serving</text>
+<rect x="255.9" y="399.0" width="42.2" height="14" rx="3" fill="#ffffff" fill-opacity="0.92"/><text x="277.0" y="410.0" font-size="9.5" fill="#4a565e" text-anchor="middle">Serving</text>
+<rect x="255.9" y="536.5" width="42.2" height="14" rx="3" fill="#ffffff" fill-opacity="0.92"/><text x="277.0" y="547.5" font-size="9.5" fill="#4a565e" text-anchor="middle">Serving</text>
+<rect x="255.9" y="591.5" width="42.2" height="14" rx="3" fill="#ffffff" fill-opacity="0.92"/><text x="277.0" y="602.5" font-size="9.5" fill="#4a565e" text-anchor="middle">Serving</text>
+<rect x="255.9" y="729.0" width="42.2" height="14" rx="3" fill="#ffffff" fill-opacity="0.92"/><text x="277.0" y="740.0" font-size="9.5" fill="#4a565e" text-anchor="middle">Serving</text>
+<rect x="255.9" y="839.0" width="42.2" height="14" rx="3" fill="#ffffff" fill-opacity="0.92"/><text x="277.0" y="850.0" font-size="9.5" fill="#4a565e" text-anchor="middle">Serving</text>
+<rect x="548.5" y="399.0" width="57.0" height="14" rx="3" fill="#ffffff" fill-opacity="0.92"/><text x="577.0" y="410.0" font-size="9.5" fill="#4a565e" text-anchor="middle">Realization</text>
+<rect x="548.5" y="619.0" width="57.0" height="14" rx="3" fill="#ffffff" fill-opacity="0.92"/><text x="577.0" y="630.0" font-size="9.5" fill="#4a565e" text-anchor="middle">Realization</text>
+<rect x="548.5" y="729.0" width="57.0" height="14" rx="3" fill="#ffffff" fill-opacity="0.92"/><text x="577.0" y="740.0" font-size="9.5" fill="#4a565e" text-anchor="middle">Realization</text>
+<rect x="548.5" y="839.0" width="57.0" height="14" rx="3" fill="#ffffff" fill-opacity="0.92"/><text x="577.0" y="850.0" font-size="9.5" fill="#4a565e" text-anchor="middle">Realization</text>
+<text x="26" y="947.0" font-size="12" fill="#5f6b73">AP-V02-B · VP-C09 · C01/C03 · Grupo 04 · v0.3 (PC3)</text>
+<text x="26" y="964.0" font-size="12" fill="#5f6b73">Baseline IA (DS-CS-25) · responde «¿qué actividad o servicio de negocio habilita cada aplicación?» (guía PC3 §4.5, AP-V02 Baseline). No existen</text>
+<text x="26" y="981.0" font-size="12" fill="#5f6b73">servicios de aplicación: cada aplicación sirve directamente a su proceso (Serving, clase IA, según C2/Proceso_x_App) y el proceso realiza el servicio</text>
+<text x="26" y="998.0" font-size="12" fill="#5f6b73">de negocio de B-V01. La historia del lote (BSV-06 consulta ad hoc) depende de la conciliación manual BP-09 sobre la planilla puente AP-07.</text>
+<text x="26" y="1015.0" font-size="12" fill="#5f6b73">Comparar con AP-V02-T (Target).</text>
+<text x="26" y="1032.0" font-size="11" fill="#7c868d">Notación ArchiMate 3.2: Assignment (●→) · Realization (- - ▷) · Serving (→ abierta) · Access (··· ; flecha = dirección del dato: escribe →objeto, lee →proceso) ·</text>
+<text x="26" y="1049.0" font-size="11" fill="#7c868d">Triggering (→ llena) · Flow (- - → llena) · Composition (◆) · Aggregation (◇) · Influence (- - →, +) · Association (—). Anidamiento = relación estructural del modelo.</text>
+</svg>

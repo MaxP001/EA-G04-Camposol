@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1140.5" height="494" viewBox="0 0 1140.5 494" font-family="Helvetica, Arial, sans-serif">
+<defs>
+<marker id="afill" viewBox="0 0 12 10" refX="11" refY="5" markerWidth="11" markerHeight="9" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L12,5 L0,10 z" fill="#46525a"/></marker>
+<marker id="thol" viewBox="0 0 14 12" refX="13" refY="6" markerWidth="14" markerHeight="12" orient="auto" markerUnits="userSpaceOnUse"><path d="M1,1 L13,6 L1,11 z" fill="#ffffff" stroke="#46525a" stroke-width="1.3"/></marker>
+<marker id="open" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="12" markerHeight="12" orient="auto" markerUnits="userSpaceOnUse"><path d="M1,1 L11,6 L1,11" fill="none" stroke="#46525a" stroke-width="1.5"/></marker>
+<marker id="acc" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto" markerUnits="userSpaceOnUse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#46525a" stroke-width="1.3"/></marker>
+<marker id="accs" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="9" markerHeight="9" orient="auto" markerUnits="userSpaceOnUse"><path d="M9,1 L1,5 L9,9" fill="none" stroke="#46525a" stroke-width="1.3"/></marker>
+<marker id="dot" viewBox="0 0 10 10" refX="4" refY="5" markerWidth="9" markerHeight="9" orient="auto" markerUnits="userSpaceOnUse"><circle cx="5" cy="5" r="3.6" fill="#46525a"/></marker>
+<marker id="dfill" viewBox="0 0 18 10" refX="1" refY="5" markerWidth="18" markerHeight="10" orient="auto" markerUnits="userSpaceOnUse"><path d="M1,5 L9,1 L17,5 L9,9 z" fill="#46525a"/></marker>
+<marker id="dhol" viewBox="0 0 18 10" refX="1" refY="5" markerWidth="18" markerHeight="10" orient="auto" markerUnits="userSpaceOnUse"><path d="M1,5 L9,1 L17,5 L9,9 z" fill="#ffffff" stroke="#46525a" stroke-width="1.2"/></marker>
+</defs>
+<rect x="1" y="1" width="1138.5" height="492" rx="14" fill="#ffffff" stroke="#dde3e6" stroke-width="2"/>
+<rect x="372.5" y="34" width="734" height="306" fill="none" stroke="#7a7a7a" stroke-width="1.6" stroke-dasharray="8,5" rx="4"/><text x="384.5" y="52" font-size="11.5" fill="#555555" font-weight="bold">Grouping</text><text x="384.5" y="69" font-size="13" fill="#1d252b" font-weight="bold">GRP-01 Alcance Planta Chao (VS-01)</text>
+<path d="M582.5,129.0 L646.5,129.0" fill="none" stroke="#46525a" stroke-width="1.6" stroke-dasharray="7,4" marker-end="url(#afill)"/>
+<path d="M832.5,129.0 L896.5,129.0" fill="none" stroke="#46525a" stroke-width="1.6" stroke-dasharray="7,4" marker-end="url(#afill)"/>
+<path d="M989.5,172.0 L989.5,226.0" fill="none" stroke="#46525a" stroke-width="1.6" stroke-dasharray="7,4" marker-end="url(#afill)"/>
+<path d="M896.5,269.0 L832.5,269.0" fill="none" stroke="#46525a" stroke-width="1.6" stroke-dasharray="7,4" marker-end="url(#afill)"/>
+<path d="M646.5,269.0 L582.5,269.0" fill="none" stroke="#46525a" stroke-width="1.6" stroke-dasharray="7,4" marker-end="url(#afill)"/>
+<path d="M220.0,129.0 L396.5,129.0" fill="none" stroke="#6d777e" stroke-width="1.3"/>
+<path d="M396.5,269.0 L220.0,269.0" fill="none" stroke="#6d777e" stroke-width="1.3"/>
+<path d="M396.5,86 L566.5,86 L582.5,129.0 L566.5,172 L396.5,172 L412.5,129.0 Z" fill="#fde6bd" stroke="#b5862a" stroke-width="1.8"/>
+
+<text x="416.5" y="102" font-size="10.5" font-weight="bold" fill="#9c6f12">Value Stream</text>
+<text x="489.5" y="122" font-size="11" font-weight="bold" fill="#3c4850" text-anchor="middle">VS-S1</text>
+<text x="489.5" y="136.0" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">Recepcionar bins</text>
+<path d="M646.5,86 L816.5,86 L832.5,129.0 L816.5,172 L646.5,172 L662.5,129.0 Z" fill="#fde6bd" stroke="#b5862a" stroke-width="1.8"/>
+
+<text x="666.5" y="102" font-size="10.5" font-weight="bold" fill="#9c6f12">Value Stream</text>
+<text x="739.5" y="122" font-size="11" font-weight="bold" fill="#3c4850" text-anchor="middle">VS-S2</text>
+<text x="739.5" y="136.0" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">Calibrar y empacar</text>
+<path d="M896.5,86 L1066.5,86 L1082.5,129.0 L1066.5,172 L896.5,172 L912.5,129.0 Z" fill="#fde6bd" stroke="#b5862a" stroke-width="1.8"/>
+
+<text x="916.5" y="102" font-size="10.5" font-weight="bold" fill="#9c6f12">Value Stream</text>
+<text x="989.5" y="122" font-size="11" font-weight="bold" fill="#3c4850" text-anchor="middle">VS-S3</text>
+<text x="989.5" y="136.0" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">Verificar conformidad</text>
+<path d="M896.5,226 L1066.5,226 L1082.5,269.0 L1066.5,312 L896.5,312 L912.5,269.0 Z" fill="#fde6bd" stroke="#b5862a" stroke-width="1.8"/>
+
+<text x="916.5" y="242" font-size="10.5" font-weight="bold" fill="#9c6f12">Value Stream</text>
+<text x="989.5" y="262" font-size="11" font-weight="bold" fill="#3c4850" text-anchor="middle">VS-S4</text>
+<text x="989.5" y="276.0" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">Pre-enfriar según ruta</text>
+<path d="M646.5,226 L816.5,226 L832.5,269.0 L816.5,312 L646.5,312 L662.5,269.0 Z" fill="#fde6bd" stroke="#b5862a" stroke-width="1.8"/>
+
+<text x="666.5" y="242" font-size="10.5" font-weight="bold" fill="#9c6f12">Value Stream</text>
+<text x="739.5" y="262" font-size="11" font-weight="bold" fill="#3c4850" text-anchor="middle">VS-S5</text>
+<text x="739.5" y="276.0" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">Custodiar en cámara</text>
+<path d="M396.5,226 L566.5,226 L582.5,269.0 L566.5,312 L396.5,312 L412.5,269.0 Z" fill="#fde6bd" stroke="#b5862a" stroke-width="1.8"/>
+
+<text x="416.5" y="242" font-size="10.5" font-weight="bold" fill="#9c6f12">Value Stream</text>
+<text x="489.5" y="262" font-size="11" font-weight="bold" fill="#3c4850" text-anchor="middle">VS-S6</text>
+<text x="489.5" y="276.0" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">Cargar y entregar FCL</text>
+<rect x="34.0" y="86" width="186" height="86" rx="2" fill="#fff3b8" stroke="#b5951e" stroke-width="1.8"/>
+<circle cx="204.0" cy="96" r="3" fill="none" stroke="#b5951e" stroke-width="1.3"/><path d="M204.0,99 L204.0,104 M199.0,101 L209.0,101 M204.0,104 L200.0,109 M204.0,104 L208.0,109" fill="none" stroke="#b5951e" stroke-width="1.3"/>
+<text x="44.0" y="102" font-size="10.5" font-weight="bold" fill="#937a0c">Business Actor</text>
+<text x="127.0" y="122" font-size="11" font-weight="bold" fill="#3c4850" text-anchor="middle">ACT-06</text>
+<text x="127.0" y="136.0" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">Fundo proveedor</text>
+<rect x="34.0" y="226" width="186" height="86" rx="2" fill="#fff3b8" stroke="#b5951e" stroke-width="1.8"/>
+<circle cx="204.0" cy="236" r="3" fill="none" stroke="#b5951e" stroke-width="1.3"/><path d="M204.0,239 L204.0,244 M199.0,241 L209.0,241 M204.0,244 L200.0,249 M204.0,244 L208.0,249" fill="none" stroke="#b5951e" stroke-width="1.3"/>
+<text x="44.0" y="242" font-size="10.5" font-weight="bold" fill="#937a0c">Business Actor</text>
+<text x="127.0" y="262" font-size="11" font-weight="bold" fill="#3c4850" text-anchor="middle">ACT-07</text>
+<text x="127.0" y="276.0" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">Transportista</text>
+<rect x="599.3" y="121.0" width="30.4" height="14" rx="3" fill="#ffffff" fill-opacity="0.92"/><text x="614.5" y="132.0" font-size="9.5" fill="#4a565e" text-anchor="middle">Flow</text>
+<rect x="849.3" y="121.0" width="30.4" height="14" rx="3" fill="#ffffff" fill-opacity="0.92"/><text x="864.5" y="132.0" font-size="9.5" fill="#4a565e" text-anchor="middle">Flow</text>
+<rect x="995.5" y="191.0" width="30.4" height="14" rx="3" fill="#ffffff" fill-opacity="0.92"/><text x="1010.7" y="202.0" font-size="9.5" fill="#4a565e" text-anchor="middle">Flow</text>
+<rect x="849.3" y="261.0" width="30.4" height="14" rx="3" fill="#ffffff" fill-opacity="0.92"/><text x="864.5" y="272.0" font-size="9.5" fill="#4a565e" text-anchor="middle">Flow</text>
+<rect x="599.3" y="261.0" width="30.4" height="14" rx="3" fill="#ffffff" fill-opacity="0.92"/><text x="614.5" y="272.0" font-size="9.5" fill="#4a565e" text-anchor="middle">Flow</text>
+<rect x="217.4" y="109.0" width="181.6" height="14" rx="3" fill="#ffffff" fill-opacity="0.92"/><text x="308.2" y="120.0" font-size="9.5" fill="#4a565e" text-anchor="middle">entrega bins con origen (HO-01)</text>
+<rect x="253.8" y="261.0" width="108.8" height="14" rx="3" fill="#ffffff" fill-opacity="0.92"/><text x="308.2" y="272.0" font-size="9.5" fill="#4a565e" text-anchor="middle">recibe FCL (HO-06)</text>
+<text x="26" y="396" font-size="12" fill="#5f6b73">VIEW-A03 · VP-A03 Contexto · Concerns C02/C06 · Grupo 04 · v0.3 (PC3)</text>
+<text x="26" y="413" font-size="12" fill="#5f6b73">Grouping = alcance (de la recepción con origen a la entrega del FCL, DEC-B06); fundo y transportista quedan fuera. Handoffs críticos: HO-01 (S1), HO-03 (S3) y</text>
+<text x="26" y="430" font-size="12" fill="#5f6b73">HO-05 (S6).</text>
+<text x="26" y="447" font-size="12" fill="#5f6b73">Las etapas anidadas en el Grouping expresan su Aggregation. Fuera de alcance: cosecha, transporte marítimo, puertos y ERP corporativo (solo interfaz).</text>
+<text x="26" y="464" font-size="11" fill="#7c868d">Notación ArchiMate 3.2: Assignment (●→) · Realization (- - ▷) · Serving (→ abierta) · Access (··· ; flecha = dirección del dato: escribe →objeto, lee →proceso) · Triggering (→</text>
+<text x="26" y="481" font-size="11" fill="#7c868d">llena) · Flow (- - → llena) · Composition (◆) · Aggregation (◇) · Influence (- - →, +) · Association (—). Anidamiento = relación estructural del modelo.</text>
+</svg>

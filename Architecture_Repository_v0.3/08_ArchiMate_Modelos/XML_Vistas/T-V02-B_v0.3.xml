@@ -1,0 +1,326 @@
+<?xml version='1.0' encoding='utf-8'?>
+<model xmlns="http://www.opengroup.org/xsd/archimate/3.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" identifier="M-CAMPOSOL-T-V02-B-v03" xsi:schemaLocation="http://www.opengroup.org/xsd/archimate/3.0/ http://www.opengroup.org/xsd/archimate/3.1/archimate3_Diagram.xsd">
+  <name xml:lang="es">Camposol Chao · T-V02-B · Environments &amp; Locations · Baseline · v0.3 (PC3)</name>
+  <documentation xml:lang="es">Extracto de una vista del modelo consolidado v0.3 (PC3): elementos de la vista y todas las relaciones entre ellos. Modelo académico SI605 Grupo 04; no representa sistemas reales de Camposol.</documentation>
+  <elements>
+    <element identifier="LOC-01" xsi:type="Location">
+      <name xml:lang="es">LOC-01 Planta Packing Chao</name>
+      <documentation xml:lang="es">Planta Packing Chao (La Libertad), planta de empaque de arándano fresco de Camposol. Hecho público HP (F03, F04): calibradoras y ampliación de capacidad. Agrega las instalaciones FAC-01…03 (T-V02-B, T-V05). Fuente: B-05; Fuentes_y_Evidencias.csv.</documentation>
+      <properties>
+        <property propertyDefinitionRef="PD-01">
+          <value xml:lang="es">HP</value>
+        </property>
+        <property propertyDefinitionRef="PD-02">
+          <value xml:lang="es">D</value>
+        </property>
+        <property propertyDefinitionRef="PD-03">
+          <value xml:lang="es">N/A (motivación, estrategia o migración)</value>
+        </property>
+      </properties>
+    </element>
+    <element identifier="T-BASE01" xsi:type="Device">
+      <name xml:lang="es">T-BASE01 PLC de calibradora (2 líneas)</name>
+      <documentation xml:lang="es">ISA-95 nivel 1–2. Control local de la línea; se mantiene. Ningún mando remoto desde zonas IT o central (PR-09). · Estado: Baseline y Target · Clase IA (DS-CS-33)</documentation>
+      <properties>
+        <property propertyDefinitionRef="PD-01">
+          <value xml:lang="es">IA (DS-CS-33)</value>
+        </property>
+        <property propertyDefinitionRef="PD-02">
+          <value xml:lang="es">D</value>
+        </property>
+        <property propertyDefinitionRef="PD-03">
+          <value xml:lang="es">Baseline y Target</value>
+        </property>
+      </properties>
+    </element>
+    <element identifier="T-BASE02" xsi:type="Node">
+      <name xml:lang="es">T-BASE02 PC/HMI de calibradora</name>
+      <documentation xml:lang="es">Software del fabricante; ejecuta AP-02. Se mantiene; expone eventos solo por CD-01 (lectura). · Estado: Baseline y Target · Clase IA (DS-CS-33) · P existencia F04</documentation>
+      <properties>
+        <property propertyDefinitionRef="PD-01">
+          <value xml:lang="es">IA (DS-CS-33) · HP existencia F04</value>
+        </property>
+        <property propertyDefinitionRef="PD-02">
+          <value xml:lang="es">D</value>
+        </property>
+        <property propertyDefinitionRef="PD-03">
+          <value xml:lang="es">Baseline y Target</value>
+        </property>
+      </properties>
+    </element>
+    <element identifier="T-BASE03" xsi:type="Device">
+      <name xml:lang="es">T-BASE03 Sondas térmicas por posición (60)</name>
+      <documentation xml:lang="es">Lecturas cada 5 min; Target exige identificador de posición y reloj sincronizado (NV-05). · Estado: Baseline y Target · Clase IA (DS-CS-34)</documentation>
+      <properties>
+        <property propertyDefinitionRef="PD-01">
+          <value xml:lang="es">IA (DS-CS-34)</value>
+        </property>
+        <property propertyDefinitionRef="PD-02">
+          <value xml:lang="es">D</value>
+        </property>
+        <property propertyDefinitionRef="PD-03">
+          <value xml:lang="es">Baseline y Target</value>
+        </property>
+      </properties>
+    </element>
+    <element identifier="T-BASE04" xsi:type="Node">
+      <name xml:lang="es">T-BASE04 PC de registro térmico</name>
+      <documentation xml:lang="es">Ejecuta AP-05; en Target el CSV nocturno se reemplaza por lectura continua vía gateway (CD-02). · Estado: Baseline y Target · Clase IA (DS-CS-34)</documentation>
+      <properties>
+        <property propertyDefinitionRef="PD-01">
+          <value xml:lang="es">IA (DS-CS-34)</value>
+        </property>
+        <property propertyDefinitionRef="PD-02">
+          <value xml:lang="es">D</value>
+        </property>
+        <property propertyDefinitionRef="PD-03">
+          <value xml:lang="es">Baseline y Target</value>
+        </property>
+      </properties>
+    </element>
+    <element identifier="T-BASE05" xsi:type="Device">
+      <name xml:lang="es">T-BASE05 PCs de oficina de planta</name>
+      <documentation xml:lang="es">Baseline: planillas AP-01/03/04/07. Target: ofimática, cliente SAP y consulta AP-10 desde Z-05. · Estado: Baseline y Target · Clase IA (DS-CS-35)</documentation>
+      <properties>
+        <property propertyDefinitionRef="PD-01">
+          <value xml:lang="es">IA (DS-CS-35)</value>
+        </property>
+        <property propertyDefinitionRef="PD-02">
+          <value xml:lang="es">D</value>
+        </property>
+        <property propertyDefinitionRef="PD-03">
+          <value xml:lang="es">Baseline y Target</value>
+        </property>
+      </properties>
+    </element>
+    <element identifier="T-BASE06" xsi:type="Node">
+      <name xml:lang="es">T-BASE06 Servidor local único (carpeta compartida)</name>
+      <documentation xml:lang="es">Sin redundancia ni prueba de restauración. Eliminado en Target: su contenido migra al almacén de evidencias. · Estado: Baseline (eliminado en Target) · Clase IA (DS-CS-35/38)</documentation>
+      <properties>
+        <property propertyDefinitionRef="PD-01">
+          <value xml:lang="es">IA (DS-CS-35/38)</value>
+        </property>
+        <property propertyDefinitionRef="PD-02">
+          <value xml:lang="es">D</value>
+        </property>
+        <property propertyDefinitionRef="PD-03">
+          <value xml:lang="es">Baseline (eliminado en Target)</value>
+        </property>
+      </properties>
+    </element>
+    <element identifier="T-BASE07" xsi:type="Node">
+      <name xml:lang="es">T-BASE07 Plataforma SAP corporativa</name>
+      <documentation xml:lang="es">Ejecuta AP-06. Se mantiene fuera del alcance de diseño; interfaz local no verificada (NV-01). · Estado: Baseline y Target · Clase HP (F01/F02) · NV-01</documentation>
+      <properties>
+        <property propertyDefinitionRef="PD-01">
+          <value xml:lang="es">HP (F01/F02) · NV-01</value>
+        </property>
+        <property propertyDefinitionRef="PD-02">
+          <value xml:lang="es">D</value>
+        </property>
+        <property propertyDefinitionRef="PD-03">
+          <value xml:lang="es">Baseline y Target</value>
+        </property>
+      </properties>
+    </element>
+    <element identifier="T-BASE08" xsi:type="CommunicationNetwork">
+      <name xml:lang="es">T-BASE08 LAN plana de planta</name>
+      <documentation xml:lang="es">Oficina, calibradoras y frío en un mismo dominio (DS-CS-36). Eliminada en Target. · Estado: Baseline (eliminado en Target) · Clase IA (DS-CS-36)</documentation>
+      <properties>
+        <property propertyDefinitionRef="PD-01">
+          <value xml:lang="es">IA (DS-CS-36)</value>
+        </property>
+        <property propertyDefinitionRef="PD-02">
+          <value xml:lang="es">D</value>
+        </property>
+        <property propertyDefinitionRef="PD-03">
+          <value xml:lang="es">Baseline (eliminado en Target)</value>
+        </property>
+      </properties>
+    </element>
+    <element identifier="T-BASE09" xsi:type="CommunicationNetwork">
+      <name xml:lang="es">T-BASE09 Enlace WAN único (50 Mbps)</name>
+      <documentation xml:lang="es">Se mantiene; un segundo enlace se evalúa en Phase E como mejora de latencia, no de integridad (DEC-D13). · Estado: Baseline y Target · Clase IA (DS-CS-37)</documentation>
+      <properties>
+        <property propertyDefinitionRef="PD-01">
+          <value xml:lang="es">IA (DS-CS-37)</value>
+        </property>
+        <property propertyDefinitionRef="PD-02">
+          <value xml:lang="es">D</value>
+        </property>
+        <property propertyDefinitionRef="PD-03">
+          <value xml:lang="es">Baseline y Target</value>
+        </property>
+      </properties>
+    </element>
+    <element identifier="TS-13" xsi:type="TechnologyService">
+      <name xml:lang="es">TS-13 Respaldo semanal manual</name>
+      <documentation xml:lang="es">Baseline: disco externo sin prueba de restauración (DS-CS-38). Eliminado. · Estado: Baseline (eliminado en Target) · Clase IA</documentation>
+      <properties>
+        <property propertyDefinitionRef="PD-01">
+          <value xml:lang="es">IA</value>
+        </property>
+        <property propertyDefinitionRef="PD-02">
+          <value xml:lang="es">D</value>
+        </property>
+        <property propertyDefinitionRef="PD-03">
+          <value xml:lang="es">Baseline (eliminado en Target)</value>
+        </property>
+      </properties>
+    </element>
+    <element identifier="FAC-01" xsi:type="Facility">
+      <name xml:lang="es">FAC-01 Sala de proceso (calibrado y packing)</name>
+      <documentation xml:lang="es">Instalación física dentro de LOC-01; F04 (P) sustenta la existencia de calibradoras. · Estado: Baseline y Target · Clase IA (DS-CS-31)</documentation>
+      <properties>
+        <property propertyDefinitionRef="PD-01">
+          <value xml:lang="es">IA (DS-CS-31)</value>
+        </property>
+        <property propertyDefinitionRef="PD-02">
+          <value xml:lang="es">D</value>
+        </property>
+        <property propertyDefinitionRef="PD-03">
+          <value xml:lang="es">Baseline y Target</value>
+        </property>
+      </properties>
+    </element>
+    <element identifier="FAC-02" xsi:type="Facility">
+      <name xml:lang="es">FAC-02 Pre-frío y cámaras</name>
+      <documentation xml:lang="es">4 túneles de pre-frío y 3 cámaras (DS-CS-34). · Estado: Baseline y Target · Clase IA (DS-CS-34)</documentation>
+      <properties>
+        <property propertyDefinitionRef="PD-01">
+          <value xml:lang="es">IA (DS-CS-34)</value>
+        </property>
+        <property propertyDefinitionRef="PD-02">
+          <value xml:lang="es">D</value>
+        </property>
+        <property propertyDefinitionRef="PD-03">
+          <value xml:lang="es">Baseline y Target</value>
+        </property>
+      </properties>
+    </element>
+    <element identifier="FAC-03" xsi:type="Facility">
+      <name xml:lang="es">FAC-03 Sala técnica y oficina de planta</name>
+      <documentation xml:lang="es">Servidores, comunicaciones y PCs de oficina. · Estado: Baseline y Target · Clase IA (DS-CS-31)</documentation>
+      <properties>
+        <property propertyDefinitionRef="PD-01">
+          <value xml:lang="es">IA (DS-CS-31)</value>
+        </property>
+        <property propertyDefinitionRef="PD-02">
+          <value xml:lang="es">D</value>
+        </property>
+        <property propertyDefinitionRef="PD-03">
+          <value xml:lang="es">Baseline y Target</value>
+        </property>
+      </properties>
+    </element>
+    <element identifier="EQ-01" xsi:type="Equipment">
+      <name xml:lang="es">EQ-01 Calibradoras (2 líneas)</name>
+      <documentation xml:lang="es">Máquinas de calibrado; su control lo ejecuta T-BASE01 localmente. · Estado: Baseline y Target · Clase HP existencia (F04) · S detalle (DS-CS-33)</documentation>
+      <properties>
+        <property propertyDefinitionRef="PD-01">
+          <value xml:lang="es">HP existencia (F04) · IA detalle (DS-CS-33)</value>
+        </property>
+        <property propertyDefinitionRef="PD-02">
+          <value xml:lang="es">D</value>
+        </property>
+        <property propertyDefinitionRef="PD-03">
+          <value xml:lang="es">Baseline y Target</value>
+        </property>
+      </properties>
+    </element>
+    <element identifier="EQ-02" xsi:type="Equipment">
+      <name xml:lang="es">EQ-02 Túneles y cámaras de frío</name>
+      <documentation xml:lang="es">Equipos de frío con sondas por posición (T-BASE03). · Estado: Baseline y Target · Clase IA (DS-CS-34)</documentation>
+      <properties>
+        <property propertyDefinitionRef="PD-01">
+          <value xml:lang="es">IA (DS-CS-34)</value>
+        </property>
+        <property propertyDefinitionRef="PD-02">
+          <value xml:lang="es">D</value>
+        </property>
+        <property propertyDefinitionRef="PD-03">
+          <value xml:lang="es">Baseline y Target</value>
+        </property>
+      </properties>
+    </element>
+  </elements>
+  <relationships>
+    <relationship identifier="R257" source="LOC-01" target="FAC-01" xsi:type="Aggregation" />
+    <relationship identifier="R258" source="LOC-01" target="FAC-02" xsi:type="Aggregation" />
+    <relationship identifier="R259" source="LOC-01" target="FAC-03" xsi:type="Aggregation" />
+    <relationship identifier="R260" source="FAC-01" target="T-BASE02" xsi:type="Aggregation" />
+    <relationship identifier="R261" source="FAC-02" target="T-BASE04" xsi:type="Aggregation" />
+    <relationship identifier="R262" source="FAC-03" target="T-BASE05" xsi:type="Aggregation" />
+    <relationship identifier="R263" source="FAC-03" target="T-BASE06" xsi:type="Aggregation" />
+    <relationship identifier="R271" source="LOC-01" target="T-BASE08" xsi:type="Aggregation" />
+    <relationship identifier="R277" source="T-BASE01" target="T-BASE02" xsi:type="Flow">
+      <name xml:lang="es">estados de línea</name>
+    </relationship>
+    <relationship identifier="R278" source="T-BASE03" target="T-BASE04" xsi:type="Flow">
+      <name xml:lang="es">lecturas</name>
+    </relationship>
+    <relationship identifier="R324" source="T-BASE06" target="TS-13" xsi:type="Realization" />
+    <relationship identifier="R343" source="T-BASE08" target="T-BASE01" xsi:type="Association" />
+    <relationship identifier="R344" source="T-BASE08" target="T-BASE02" xsi:type="Association" />
+    <relationship identifier="R345" source="T-BASE08" target="T-BASE04" xsi:type="Association" />
+    <relationship identifier="R346" source="T-BASE08" target="T-BASE05" xsi:type="Association" />
+    <relationship identifier="R347" source="T-BASE08" target="T-BASE06" xsi:type="Association" />
+    <relationship identifier="R348" source="T-BASE09" target="T-BASE08" xsi:type="Association" />
+    <relationship identifier="R349" source="T-BASE09" target="T-BASE07" xsi:type="Association" />
+    <relationship identifier="R434" source="FAC-01" target="EQ-01" xsi:type="Aggregation" />
+    <relationship identifier="R435" source="FAC-02" target="EQ-02" xsi:type="Aggregation" />
+    <relationship identifier="R436" source="EQ-01" target="T-BASE01" xsi:type="Composition" />
+    <relationship identifier="R437" source="EQ-02" target="T-BASE03" xsi:type="Composition" />
+  </relationships>
+  <propertyDefinitions>
+    <propertyDefinition identifier="PD-01" type="string">
+      <name xml:lang="es">Evidencia</name>
+    </propertyDefinition>
+    <propertyDefinition identifier="PD-02" type="string">
+      <name xml:lang="es">Fase_ADM</name>
+    </propertyDefinition>
+    <propertyDefinition identifier="PD-03" type="string">
+      <name xml:lang="es">Estado</name>
+    </propertyDefinition>
+  </propertyDefinitions>
+  <views>
+    <diagrams>
+      <view identifier="V-T-V02-B" xsi:type="Diagram">
+        <name xml:lang="es">T-V02-B · Environments &amp; Locations · Baseline</name>
+        <documentation xml:lang="es">T-V02-B · VP-D01 · C02/C06 · Grupo 04 · v0.3 (PC3) · Baseline IA (DS-CS-31…41). LOC-01 (Phase B) agrega las instalaciones FAC-01…03; las calibradoras y el frío son Equipment con su PLC y sondas. Una LAN plana (T-BASE08) une oficina, calibradoras y registro térmico; un servidor local único guarda las planillas con respaldo semanal sin prueba (TS-13); un único enlace WAN (T-BASE09) lleva a SAP. Un activo no inventariado no equivale a inexistente (NV). Aplicaciones residentes: T1/08_App_Technology y AP-V03.</documentation>
+        <node identifier="N-T-V02-B-01" elementRef="LOC-01" xsi:type="Element" x="24" y="24" w="1121" h="625">
+          <node identifier="N-T-V02-B-02" elementRef="FAC-01" xsi:type="Element" x="46" y="87" w="502" h="226">
+            <node identifier="N-T-V02-B-03" elementRef="EQ-01" xsi:type="Element" x="68" y="135" w="230" h="156">
+              <node identifier="N-T-V02-B-04" elementRef="T-BASE01" xsi:type="Element" x="90" y="183" w="186" h="86" />
+            </node>
+            <node identifier="N-T-V02-B-05" elementRef="T-BASE02" xsi:type="Element" x="340" y="183" w="186" h="86" />
+          </node>
+          <node identifier="N-T-V02-B-06" elementRef="FAC-02" xsi:type="Element" x="621" y="72" w="502" h="241">
+            <node identifier="N-T-V02-B-07" elementRef="EQ-02" xsi:type="Element" x="643" y="120" w="230" h="171">
+              <node identifier="N-T-V02-B-08" elementRef="T-BASE03" xsi:type="Element" x="665" y="183" w="186" h="86" />
+            </node>
+            <node identifier="N-T-V02-B-09" elementRef="T-BASE04" xsi:type="Element" x="915" y="183" w="186" h="86" />
+          </node>
+          <node identifier="N-T-V02-B-10" elementRef="T-BASE08" xsi:type="Element" x="90" y="359" w="1011" h="56" />
+          <node identifier="N-T-V02-B-11" elementRef="FAC-03" xsi:type="Element" x="68" y="471" w="480" h="156">
+            <node identifier="N-T-V02-B-12" elementRef="T-BASE05" xsi:type="Element" x="90" y="519" w="186" h="86" />
+            <node identifier="N-T-V02-B-13" elementRef="T-BASE06" xsi:type="Element" x="340" y="519" w="186" h="86" />
+          </node>
+        </node>
+        <node identifier="N-T-V02-B-14" elementRef="T-BASE07" xsi:type="Element" x="1278" y="141" w="186" h="86" />
+        <node identifier="N-T-V02-B-15" elementRef="T-BASE09" xsi:type="Element" x="1278" y="359" w="186" h="56" />
+        <node identifier="N-T-V02-B-16" elementRef="TS-13" xsi:type="Element" x="1278" y="519" w="186" h="86" />
+        <connection identifier="C-T-V02-B-R277" relationshipRef="R277" xsi:type="Relationship" source="N-T-V02-B-04" target="N-T-V02-B-05" />
+        <connection identifier="C-T-V02-B-R278" relationshipRef="R278" xsi:type="Relationship" source="N-T-V02-B-08" target="N-T-V02-B-09" />
+        <connection identifier="C-T-V02-B-R324" relationshipRef="R324" xsi:type="Relationship" source="N-T-V02-B-13" target="N-T-V02-B-16" />
+        <connection identifier="C-T-V02-B-R343" relationshipRef="R343" xsi:type="Relationship" source="N-T-V02-B-10" target="N-T-V02-B-04" />
+        <connection identifier="C-T-V02-B-R344" relationshipRef="R344" xsi:type="Relationship" source="N-T-V02-B-10" target="N-T-V02-B-05" />
+        <connection identifier="C-T-V02-B-R345" relationshipRef="R345" xsi:type="Relationship" source="N-T-V02-B-10" target="N-T-V02-B-09" />
+        <connection identifier="C-T-V02-B-R346" relationshipRef="R346" xsi:type="Relationship" source="N-T-V02-B-10" target="N-T-V02-B-12" />
+        <connection identifier="C-T-V02-B-R347" relationshipRef="R347" xsi:type="Relationship" source="N-T-V02-B-10" target="N-T-V02-B-13" />
+        <connection identifier="C-T-V02-B-R348" relationshipRef="R348" xsi:type="Relationship" source="N-T-V02-B-15" target="N-T-V02-B-10" />
+        <connection identifier="C-T-V02-B-R349" relationshipRef="R349" xsi:type="Relationship" source="N-T-V02-B-15" target="N-T-V02-B-14" />
+      </view>
+    </diagrams>
+  </views>
+</model>

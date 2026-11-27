@@ -1,0 +1,143 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1369.0" height="1424.0" viewBox="0 0 1369.0 1424.0" font-family="Helvetica, Arial, sans-serif">
+<defs>
+<marker id="afill" viewBox="0 0 12 10" refX="11" refY="5" markerWidth="11" markerHeight="9" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L12,5 L0,10 z" fill="#46525a"/></marker>
+<marker id="thol" viewBox="0 0 14 12" refX="13" refY="6" markerWidth="14" markerHeight="12" orient="auto" markerUnits="userSpaceOnUse"><path d="M1,1 L13,6 L1,11 z" fill="#ffffff" stroke="#46525a" stroke-width="1.3"/></marker>
+<marker id="open" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="12" markerHeight="12" orient="auto" markerUnits="userSpaceOnUse"><path d="M1,1 L11,6 L1,11" fill="none" stroke="#46525a" stroke-width="1.5"/></marker>
+<marker id="acc" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto" markerUnits="userSpaceOnUse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#46525a" stroke-width="1.3"/></marker>
+<marker id="accs" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="9" markerHeight="9" orient="auto" markerUnits="userSpaceOnUse"><path d="M9,1 L1,5 L9,9" fill="none" stroke="#46525a" stroke-width="1.3"/></marker>
+<marker id="dot" viewBox="0 0 10 10" refX="4" refY="5" markerWidth="9" markerHeight="9" orient="auto" markerUnits="userSpaceOnUse"><circle cx="5" cy="5" r="3.6" fill="#46525a"/></marker>
+<marker id="dfill" viewBox="0 0 18 10" refX="1" refY="5" markerWidth="18" markerHeight="10" orient="auto" markerUnits="userSpaceOnUse"><path d="M1,5 L9,1 L17,5 L9,9 z" fill="#46525a"/></marker>
+<marker id="dhol" viewBox="0 0 18 10" refX="1" refY="5" markerWidth="18" markerHeight="10" orient="auto" markerUnits="userSpaceOnUse"><path d="M1,5 L9,1 L17,5 L9,9 z" fill="#ffffff" stroke="#46525a" stroke-width="1.2"/></marker>
+</defs>
+<rect x="1" y="1" width="1367.0" height="1422.0" rx="14" fill="#ffffff" stroke="#dde3e6" stroke-width="2"/>
+<path d="M267.0,1060.0 L267.0,1186.0" fill="none" stroke="#6d777e" stroke-width="1.3"/>
+<path d="M327.5,990.0 L517.7,880.0" fill="none" stroke="#6d777e" stroke-width="1.3"/>
+<path d="M917.0,1060.0 L917.0,1186.0" fill="none" stroke="#6d777e" stroke-width="1.3"/>
+<path d="M856.5,990.0 L666.3,880.0" fill="none" stroke="#6d777e" stroke-width="1.3"/>
+<path d="M592.0,682.0 L592.0,794.0" fill="none" stroke="#6d777e" stroke-width="1.3"/>
+<path d="M592.0,612.0 L592.0,502.0" fill="none" stroke="#6d777e" stroke-width="1.3"/>
+<path d="M592.0,297.0 L592.0,416.0" fill="none" stroke="#6d777e" stroke-width="1.3"/>
+<path d="M592.0,227.0 L592.0,110.0" fill="none" stroke="#6d777e" stroke-width="1.3"/>
+<path d="M1067.0,227.0 L1067.0,110.0" fill="none" stroke="#6d777e" stroke-width="1.3"/>
+<path d="M982.6,297.0 L685.0,420.4" fill="none" stroke="#6d777e" stroke-width="1.3"/>
+<path d="M1201.8,990.0 L641.4,502.0" fill="none" stroke="#6d777e" stroke-width="1.3"/>
+<path d="M1242.0,1060.0 L1242.0,1312.0 L267.0,1312.0 L267.0,1272.0" fill="none" stroke="#6d777e" stroke-width="1.3"/>
+<path d="M1186.2,1060.0 L985.5,1186.0" fill="none" stroke="#6d777e" stroke-width="1.3"/>
+<path d="M397.1,227.0 L539.6,110.0" fill="none" stroke="#6d777e" stroke-width="1.3"/>
+<path d="M311.9,227.0 L169.4,110.0" fill="none" stroke="#6d777e" stroke-width="1.3"/>
+<path d="M872.1,227.0 L1014.6,110.0" fill="none" stroke="#6d777e" stroke-width="1.3"/>
+<path d="M786.9,227.0 L644.4,110.0" fill="none" stroke="#6d777e" stroke-width="1.3"/>
+<path d="M592.0,990.0 L592.0,880.0" fill="none" stroke="#6d777e" stroke-width="1.3"/>
+<path d="M536.2,1060.0 L335.5,1186.0" fill="none" stroke="#6d777e" stroke-width="1.3"/>
+<path d="M647.8,1060.0 L848.5,1186.0" fill="none" stroke="#6d777e" stroke-width="1.3"/>
+<rect x="24.0" y="24" width="186" height="86" rx="4" fill="#fafafa" stroke="#7a7a7a" stroke-width="1.6" stroke-dasharray="8,5"/>
+<text x="34.0" y="40" font-size="10.5" font-weight="bold" fill="#555555">Grouping</text>
+<text x="117.0" y="62" font-size="11.5" font-weight="bold" fill="#3c4850" text-anchor="middle">Z-07</text>
+<text x="117.0" y="78.0" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">Zona corporativa (SAP e</text>
+<text x="117.0" y="91.5" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">identidad)</text>
+<rect x="499.0" y="24" width="186" height="86" rx="4" fill="#fafafa" stroke="#7a7a7a" stroke-width="1.6" stroke-dasharray="8,5"/>
+<text x="509.0" y="40" font-size="10.5" font-weight="bold" fill="#555555">Grouping</text>
+<text x="592.0" y="62" font-size="11.5" font-weight="bold" fill="#3c4850" text-anchor="middle">Z-06</text>
+<text x="592.0" y="78.0" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">Zona de plataforma</text>
+<text x="592.0" y="91.5" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">central</text>
+<rect x="974.0" y="24" width="186" height="86" rx="4" fill="#fafafa" stroke="#7a7a7a" stroke-width="1.6" stroke-dasharray="8,5"/>
+<text x="984.0" y="40" font-size="10.5" font-weight="bold" fill="#555555">Grouping</text>
+<text x="1067.0" y="62" font-size="11.5" font-weight="bold" fill="#3c4850" text-anchor="middle">Z-05</text>
+<text x="1067.0" y="78.0" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">Zona IT de planta</text>
+<rect x="261.5" y="227.0" width="186" height="70" rx="2" fill="#dcefd2" stroke="#5b9a3c" stroke-width="1.8"/>
+<path d="M417.5,243.0 L433.5,243.0" fill="none" stroke="#5b9a3c" stroke-width="1.3" stroke-dasharray="3,2"/><path d="M421.5,239.0 L416.5,243.0 L421.5,247.0 M429.5,239.0 L434.5,243.0 L429.5,247.0" fill="none" stroke="#5b9a3c" stroke-width="1.3"/>
+<text x="271.5" y="243.0" font-size="10.5" font-weight="bold" fill="#3f7a26">Path</text>
+<text x="354.5" y="260.0" font-size="11" font-weight="bold" fill="#3c4850" text-anchor="middle">CD-07</text>
+<text x="354.5" y="274.0" font-size="10.5" font-weight="bold" fill="#1d252b" text-anchor="middle">Central ↔ SAP (IF-05/IF-06)</text>
+<rect x="499.0" y="227.0" width="186" height="70" rx="2" fill="#dcefd2" stroke="#5b9a3c" stroke-width="1.8"/>
+<path d="M655.0,243.0 L671.0,243.0" fill="none" stroke="#5b9a3c" stroke-width="1.3" stroke-dasharray="3,2"/><path d="M659.0,239.0 L654.0,243.0 L659.0,247.0 M667.0,239.0 L672.0,243.0 L667.0,247.0" fill="none" stroke="#5b9a3c" stroke-width="1.3"/>
+<text x="509.0" y="243.0" font-size="10.5" font-weight="bold" fill="#3f7a26">Path</text>
+<text x="592.0" y="260.0" font-size="11" font-weight="bold" fill="#3c4850" text-anchor="middle">CD-04</text>
+<text x="592.0" y="274.0" font-size="10.5" font-weight="bold" fill="#1d252b" text-anchor="middle">DMZ → central por WAN</text>
+<rect x="736.5" y="227.0" width="186" height="70" rx="2" fill="#dcefd2" stroke="#5b9a3c" stroke-width="1.8"/>
+<path d="M892.5,243.0 L908.5,243.0" fill="none" stroke="#5b9a3c" stroke-width="1.3" stroke-dasharray="3,2"/><path d="M896.5,239.0 L891.5,243.0 L896.5,247.0 M904.5,239.0 L909.5,243.0 L904.5,247.0" fill="none" stroke="#5b9a3c" stroke-width="1.3"/>
+<text x="746.5" y="243.0" font-size="10.5" font-weight="bold" fill="#3f7a26">Path</text>
+<text x="829.5" y="260.0" font-size="11" font-weight="bold" fill="#3c4850" text-anchor="middle">CD-08</text>
+<text x="829.5" y="274.0" font-size="10.5" font-weight="bold" fill="#1d252b" text-anchor="middle">Usuarios IT → central</text>
+<text x="829.5" y="286.0" font-size="10.5" font-weight="bold" fill="#1d252b" text-anchor="middle">(AP-10)</text>
+<rect x="974.0" y="227.0" width="186" height="70" rx="2" fill="#dcefd2" stroke="#5b9a3c" stroke-width="1.8"/>
+<path d="M1130.0,243.0 L1146.0,243.0" fill="none" stroke="#5b9a3c" stroke-width="1.3" stroke-dasharray="3,2"/><path d="M1134.0,239.0 L1129.0,243.0 L1134.0,247.0 M1142.0,239.0 L1147.0,243.0 L1142.0,247.0" fill="none" stroke="#5b9a3c" stroke-width="1.3"/>
+<text x="984.0" y="243.0" font-size="10.5" font-weight="bold" fill="#3f7a26">Path</text>
+<text x="1067.0" y="260.0" font-size="11" font-weight="bold" fill="#3c4850" text-anchor="middle">CD-05</text>
+<text x="1067.0" y="274.0" font-size="10.5" font-weight="bold" fill="#1d252b" text-anchor="middle">IT → DMZ: mantenimiento por</text>
+<text x="1067.0" y="286.0" font-size="10.5" font-weight="bold" fill="#1d252b" text-anchor="middle">bastión</text>
+<rect x="499.0" y="416.0" width="186" height="86" rx="4" fill="#fafafa" stroke="#7a7a7a" stroke-width="1.6" stroke-dasharray="8,5"/>
+<text x="509.0" y="432.0" font-size="10.5" font-weight="bold" fill="#555555">Grouping</text>
+<text x="592.0" y="454.0" font-size="11.5" font-weight="bold" fill="#3c4850" text-anchor="middle">Z-04</text>
+<text x="592.0" y="470.0" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">DMZ industrial</text>
+<rect x="499.0" y="612.0" width="186" height="70" rx="2" fill="#dcefd2" stroke="#5b9a3c" stroke-width="1.8"/>
+<path d="M655.0,628.0 L671.0,628.0" fill="none" stroke="#5b9a3c" stroke-width="1.3" stroke-dasharray="3,2"/><path d="M659.0,624.0 L654.0,628.0 L659.0,632.0 M667.0,624.0 L672.0,628.0 L667.0,632.0" fill="none" stroke="#5b9a3c" stroke-width="1.3"/>
+<text x="509.0" y="628.0" font-size="10.5" font-weight="bold" fill="#3f7a26">Path</text>
+<text x="592.0" y="645.0" font-size="11" font-weight="bold" fill="#3c4850" text-anchor="middle">CD-03</text>
+<text x="592.0" y="659.0" font-size="10.5" font-weight="bold" fill="#1d252b" text-anchor="middle">Operaciones ↔ DMZ (iniciado</text>
+<text x="592.0" y="671.0" font-size="10.5" font-weight="bold" fill="#1d252b" text-anchor="middle">en borde)</text>
+<rect x="499.0" y="794.0" width="186" height="86" rx="4" fill="#fafafa" stroke="#7a7a7a" stroke-width="1.6" stroke-dasharray="8,5"/>
+<text x="509.0" y="810.0" font-size="10.5" font-weight="bold" fill="#555555">Grouping</text>
+<text x="592.0" y="832.0" font-size="11.5" font-weight="bold" fill="#3c4850" text-anchor="middle">Z-03</text>
+<text x="592.0" y="848.0" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">Zona de operaciones de</text>
+<text x="592.0" y="861.5" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">planta</text>
+<rect x="1149.0" y="990.0" width="186" height="70" rx="2" fill="#dcefd2" stroke="#5b9a3c" stroke-width="1.8"/>
+<path d="M1305.0,1006.0 L1321.0,1006.0" fill="none" stroke="#5b9a3c" stroke-width="1.3" stroke-dasharray="3,2"/><path d="M1309.0,1002.0 L1304.0,1006.0 L1309.0,1010.0 M1317.0,1002.0 L1322.0,1006.0 L1317.0,1010.0" fill="none" stroke="#5b9a3c" stroke-width="1.3"/>
+<text x="1159.0" y="1006.0" font-size="10.5" font-weight="bold" fill="#3f7a26">Path</text>
+<text x="1242.0" y="1023.0" font-size="11" font-weight="bold" fill="#3c4850" text-anchor="middle">CD-06</text>
+<text x="1242.0" y="1037.0" font-size="10.5" font-weight="bold" fill="#1d252b" text-anchor="middle">Bastión → células OT</text>
+<text x="1242.0" y="1049.0" font-size="10.5" font-weight="bold" fill="#1d252b" text-anchor="middle">(sesión aprobada)</text>
+<rect x="174.0" y="990.0" width="186" height="70" rx="2" fill="#dcefd2" stroke="#5b9a3c" stroke-width="1.8"/>
+<path d="M330.0,1006.0 L346.0,1006.0" fill="none" stroke="#5b9a3c" stroke-width="1.3" stroke-dasharray="3,2"/><path d="M334.0,1002.0 L329.0,1006.0 L334.0,1010.0 M342.0,1002.0 L347.0,1006.0 L342.0,1010.0" fill="none" stroke="#5b9a3c" stroke-width="1.3"/>
+<text x="184.0" y="1006.0" font-size="10.5" font-weight="bold" fill="#3f7a26">Path</text>
+<text x="267.0" y="1023.0" font-size="11" font-weight="bold" fill="#3c4850" text-anchor="middle">CD-01</text>
+<text x="267.0" y="1037.0" font-size="10.5" font-weight="bold" fill="#1d252b" text-anchor="middle">Calibrado → operaciones</text>
+<text x="267.0" y="1049.0" font-size="10.5" font-weight="bold" fill="#1d252b" text-anchor="middle">(solo lectura)</text>
+<rect x="499.0" y="990.0" width="186" height="70" rx="2" fill="#dcefd2" stroke="#5b9a3c" stroke-width="1.8"/>
+<path d="M655.0,1006.0 L671.0,1006.0" fill="none" stroke="#5b9a3c" stroke-width="1.3" stroke-dasharray="3,2"/><path d="M659.0,1002.0 L654.0,1006.0 L659.0,1010.0 M667.0,1002.0 L672.0,1006.0 L667.0,1010.0" fill="none" stroke="#5b9a3c" stroke-width="1.3"/>
+<text x="509.0" y="1006.0" font-size="10.5" font-weight="bold" fill="#3f7a26">Path</text>
+<text x="592.0" y="1023.0" font-size="11" font-weight="bold" fill="#3c4850" text-anchor="middle">CD-09</text>
+<text x="592.0" y="1037.0" font-size="10.5" font-weight="bold" fill="#1d252b" text-anchor="middle">Tiempo de referencia →</text>
+<text x="592.0" y="1049.0" font-size="10.5" font-weight="bold" fill="#1d252b" text-anchor="middle">células OT</text>
+<rect x="824.0" y="990.0" width="186" height="70" rx="2" fill="#dcefd2" stroke="#5b9a3c" stroke-width="1.8"/>
+<path d="M980.0,1006.0 L996.0,1006.0" fill="none" stroke="#5b9a3c" stroke-width="1.3" stroke-dasharray="3,2"/><path d="M984.0,1002.0 L979.0,1006.0 L984.0,1010.0 M992.0,1002.0 L997.0,1006.0 L992.0,1010.0" fill="none" stroke="#5b9a3c" stroke-width="1.3"/>
+<text x="834.0" y="1006.0" font-size="10.5" font-weight="bold" fill="#3f7a26">Path</text>
+<text x="917.0" y="1023.0" font-size="11" font-weight="bold" fill="#3c4850" text-anchor="middle">CD-02</text>
+<text x="917.0" y="1037.0" font-size="10.5" font-weight="bold" fill="#1d252b" text-anchor="middle">Frío → operaciones (solo</text>
+<text x="917.0" y="1049.0" font-size="10.5" font-weight="bold" fill="#1d252b" text-anchor="middle">lectura)</text>
+<rect x="174.0" y="1186.0" width="186" height="86" rx="4" fill="#fafafa" stroke="#7a7a7a" stroke-width="1.6" stroke-dasharray="8,5"/>
+<text x="184.0" y="1202.0" font-size="10.5" font-weight="bold" fill="#555555">Grouping</text>
+<text x="267.0" y="1224.0" font-size="11.5" font-weight="bold" fill="#3c4850" text-anchor="middle">Z-01</text>
+<text x="267.0" y="1240.0" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">Zona OT · célula de</text>
+<text x="267.0" y="1253.5" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">calibrado</text>
+<rect x="824.0" y="1186.0" width="186" height="86" rx="4" fill="#fafafa" stroke="#7a7a7a" stroke-width="1.6" stroke-dasharray="8,5"/>
+<text x="834.0" y="1202.0" font-size="10.5" font-weight="bold" fill="#555555">Grouping</text>
+<text x="917.0" y="1224.0" font-size="11.5" font-weight="bold" fill="#3c4850" text-anchor="middle">Z-02</text>
+<text x="917.0" y="1240.0" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">Zona OT · célula de frío</text>
+<rect x="233.9" y="1115.0" width="66.1" height="14" rx="3" fill="#ffffff" fill-opacity="0.92"/><text x="267.0" y="1126.0" font-size="9.5" fill="#4a565e" text-anchor="middle">Association</text>
+<rect x="389.5" y="927.0" width="66.1" height="14" rx="3" fill="#ffffff" fill-opacity="0.92"/><text x="422.6" y="938.0" font-size="9.5" fill="#4a565e" text-anchor="middle">Association</text>
+<rect x="884.0" y="1115.0" width="66.1" height="14" rx="3" fill="#ffffff" fill-opacity="0.92"/><text x="917.0" y="1126.0" font-size="9.5" fill="#4a565e" text-anchor="middle">Association</text>
+<rect x="728.4" y="927.0" width="66.1" height="14" rx="3" fill="#ffffff" fill-opacity="0.92"/><text x="761.4" y="938.0" font-size="9.5" fill="#4a565e" text-anchor="middle">Association</text>
+<rect x="559.0" y="730.0" width="66.1" height="14" rx="3" fill="#ffffff" fill-opacity="0.92"/><text x="592.0" y="741.0" font-size="9.5" fill="#4a565e" text-anchor="middle">Association</text>
+<rect x="559.0" y="549.0" width="66.1" height="14" rx="3" fill="#ffffff" fill-opacity="0.92"/><text x="592.0" y="560.0" font-size="9.5" fill="#4a565e" text-anchor="middle">Association</text>
+<rect x="559.0" y="348.5" width="66.1" height="14" rx="3" fill="#ffffff" fill-opacity="0.92"/><text x="592.0" y="359.5" font-size="9.5" fill="#4a565e" text-anchor="middle">Association</text>
+<rect x="559.0" y="160.5" width="66.1" height="14" rx="3" fill="#ffffff" fill-opacity="0.92"/><text x="592.0" y="171.5" font-size="9.5" fill="#4a565e" text-anchor="middle">Association</text>
+<rect x="1034.0" y="160.5" width="66.1" height="14" rx="3" fill="#ffffff" fill-opacity="0.92"/><text x="1067.0" y="171.5" font-size="9.5" fill="#4a565e" text-anchor="middle">Association</text>
+<rect x="800.8" y="350.7" width="66.1" height="14" rx="3" fill="#ffffff" fill-opacity="0.92"/><text x="833.8" y="361.7" font-size="9.5" fill="#4a565e" text-anchor="middle">Association</text>
+<rect x="888.5" y="738.0" width="66.1" height="14" rx="3" fill="#ffffff" fill-opacity="0.92"/><text x="921.6" y="749.0" font-size="9.5" fill="#4a565e" text-anchor="middle">Association</text>
+<rect x="721.5" y="1304.0" width="66.1" height="14" rx="3" fill="#ffffff" fill-opacity="0.92"/><text x="754.5" y="1315.0" font-size="9.5" fill="#4a565e" text-anchor="middle">Association</text>
+<rect x="1052.8" y="1115.0" width="66.1" height="14" rx="3" fill="#ffffff" fill-opacity="0.92"/><text x="1085.9" y="1126.0" font-size="9.5" fill="#4a565e" text-anchor="middle">Association</text>
+<rect x="435.3" y="160.5" width="66.1" height="14" rx="3" fill="#ffffff" fill-opacity="0.92"/><text x="468.4" y="171.5" font-size="9.5" fill="#4a565e" text-anchor="middle">Association</text>
+<rect x="207.6" y="160.5" width="66.1" height="14" rx="3" fill="#ffffff" fill-opacity="0.92"/><text x="240.6" y="171.5" font-size="9.5" fill="#4a565e" text-anchor="middle">Association</text>
+<rect x="910.3" y="160.5" width="66.1" height="14" rx="3" fill="#ffffff" fill-opacity="0.92"/><text x="943.4" y="171.5" font-size="9.5" fill="#4a565e" text-anchor="middle">Association</text>
+<rect x="682.6" y="160.5" width="66.1" height="14" rx="3" fill="#ffffff" fill-opacity="0.92"/><text x="715.6" y="171.5" font-size="9.5" fill="#4a565e" text-anchor="middle">Association</text>
+<rect x="559.0" y="927.0" width="66.1" height="14" rx="3" fill="#ffffff" fill-opacity="0.92"/><text x="592.0" y="938.0" font-size="9.5" fill="#4a565e" text-anchor="middle">Association</text>
+<rect x="402.8" y="1115.0" width="66.1" height="14" rx="3" fill="#ffffff" fill-opacity="0.92"/><text x="435.9" y="1126.0" font-size="9.5" fill="#4a565e" text-anchor="middle">Association</text>
+<rect x="715.1" y="1115.0" width="66.1" height="14" rx="3" fill="#ffffff" fill-opacity="0.92"/><text x="748.1" y="1126.0" font-size="9.5" fill="#4a565e" text-anchor="middle">Association</text>
+<text x="26" y="1329.0" font-size="12" fill="#5f6b73">T-V02-Z · VP-D08 · C06/C07 · Grupo 04 · v0.3 (PC3)</text>
+<text x="26" y="1346.0" font-size="12" fill="#5f6b73">Target (DE) · SL-T por validar (NV-13). Siete zonas (Grouping) y nueve conductos (Path) asociados a las zonas que conectan. Los conductos OT (CD-01/02) son solo de lectura; el borde inicia toda sesión hacia</text>
+<text x="26" y="1363.0" font-size="12" fill="#5f6b73">DMZ y central (CD-03/04); el mantenimiento entra solo por bastión (CD-05/06); SAP solo habla con la zona central (CD-07). Ninguna sesión desde Z-05, Z-06 o Z-07 hacia PLC/HMI (PR-09, PR-10). Activos de</text>
+<text x="26" y="1380.0" font-size="12" fill="#5f6b73">cada zona: T-V05 y T1/02 (columna Nivel/zona); redes físicas: T-V02-T; matriz completa: T1/10_Conduits_IT_OT.</text>
+<text x="26" y="1397.0" font-size="11" fill="#7c868d">Notación ArchiMate 3.2: Assignment (●→) · Realization (- - ▷) · Serving (→ abierta) · Access (··· ; flecha = dirección del dato) · Triggering (→ llena) · Flow (- - → llena) · Composition (◆) · Aggregation (◇) · Association</text>
+<text x="26" y="1414.0" font-size="11" fill="#7c868d">(—). Anidamiento = relación estructural del modelo (Aggregation, Composition o Assignment).</text>
+</svg>

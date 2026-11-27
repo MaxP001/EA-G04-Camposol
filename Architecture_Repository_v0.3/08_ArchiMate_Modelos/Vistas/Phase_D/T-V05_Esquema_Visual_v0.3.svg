@@ -1,0 +1,149 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2157.0" height="815.0" viewBox="0 0 2157.0 815.0" font-family="Helvetica, Arial, sans-serif">
+<defs>
+<marker id="afill" viewBox="0 0 12 10" refX="11" refY="5" markerWidth="11" markerHeight="9" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L12,5 L0,10 z" fill="#46525a"/></marker>
+<marker id="thol" viewBox="0 0 14 12" refX="13" refY="6" markerWidth="14" markerHeight="12" orient="auto" markerUnits="userSpaceOnUse"><path d="M1,1 L13,6 L1,11 z" fill="#ffffff" stroke="#46525a" stroke-width="1.3"/></marker>
+<marker id="open" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="12" markerHeight="12" orient="auto" markerUnits="userSpaceOnUse"><path d="M1,1 L11,6 L1,11" fill="none" stroke="#46525a" stroke-width="1.5"/></marker>
+<marker id="acc" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto" markerUnits="userSpaceOnUse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#46525a" stroke-width="1.3"/></marker>
+<marker id="accs" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="9" markerHeight="9" orient="auto" markerUnits="userSpaceOnUse"><path d="M9,1 L1,5 L9,9" fill="none" stroke="#46525a" stroke-width="1.3"/></marker>
+<marker id="dot" viewBox="0 0 10 10" refX="4" refY="5" markerWidth="9" markerHeight="9" orient="auto" markerUnits="userSpaceOnUse"><circle cx="5" cy="5" r="3.6" fill="#46525a"/></marker>
+<marker id="dfill" viewBox="0 0 18 10" refX="1" refY="5" markerWidth="18" markerHeight="10" orient="auto" markerUnits="userSpaceOnUse"><path d="M1,5 L9,1 L17,5 L9,9 z" fill="#46525a"/></marker>
+<marker id="dhol" viewBox="0 0 18 10" refX="1" refY="5" markerWidth="18" markerHeight="10" orient="auto" markerUnits="userSpaceOnUse"><path d="M1,5 L9,1 L17,5 L9,9 z" fill="#ffffff" stroke="#46525a" stroke-width="1.2"/></marker>
+</defs>
+<rect x="1" y="1" width="2155.0" height="814.0" rx="14" fill="#ffffff" stroke="#dde3e6" stroke-width="2"/>
+<rect x="24" y="24" width="1546" height="674" rx="6" fill="#fdf0e4" fill-opacity="0.6" stroke="#c4793a" stroke-width="1.6"/>
+<path d="M1551,50 L1546,41 A6,6 0 1 1 1556,41 Z" fill="none" stroke="#c4793a" stroke-width="1.3"/>
+<text x="36" y="42" font-size="11.5" fill="#a65f22" font-weight="bold">Location</text>
+<text x="36" y="59" font-size="13" fill="#1d252b" font-weight="bold">LOC-01 Planta Packing Chao</text>
+<rect x="46" y="87" width="752" height="226" rx="3" fill="#eef7e8" stroke="#4f8a33" stroke-width="1.8"/>
+<path d="M768,112 L768,101 L773,105 L773,101 L778,105 L778,97 L783,97 L783,112 Z" fill="none" stroke="#4f8a33" stroke-width="1.3"/>
+<text x="58" y="105" font-size="11.5" fill="#3a6b22" font-weight="bold">Facility</text>
+<text x="58" y="122" font-size="13" fill="#1d252b" font-weight="bold">FAC-01 Sala de proceso (calibrado y packing)</text>
+<rect x="68" y="135" width="230" height="156" rx="3" fill="#eef7e8" stroke="#4f8a33" stroke-width="1.8"/>
+<circle cx="276" cy="154" r="4.5" fill="none" stroke="#4f8a33" stroke-width="1.3"/><circle cx="276" cy="154" r="1.6" fill="#4f8a33"/><path d="M276,147 L276,149.5 M276,158.5 L276,161 M269,154 L271.5,154 M280.5,154 L283,154" fill="none" stroke="#4f8a33" stroke-width="1.3"/>
+<text x="80" y="153" font-size="11.5" fill="#3a6b22" font-weight="bold">Equipment</text>
+<text x="80" y="170" font-size="13" fill="#1d252b" font-weight="bold">EQ-01 Calibradoras (2 líneas)</text>
+<rect x="90" y="183" width="186" height="86" rx="2" fill="#dcefd2" stroke="#5b9a3c" stroke-width="1.8"/>
+<rect x="249" y="191" width="17" height="11" rx="2" fill="none" stroke="#5b9a3c" stroke-width="1.3"/><path d="M247,207 L268,207 L265,203 L250,203 Z" fill="none" stroke="#5b9a3c" stroke-width="1.3"/>
+<text x="100" y="199" font-size="10.5" font-weight="bold" fill="#3f7a26">Device</text>
+<text x="183.0" y="219" font-size="11" font-weight="bold" fill="#3c4850" text-anchor="middle">T-BASE01</text>
+<text x="183.0" y="233.0" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">PLC de calibradora (2</text>
+<text x="183.0" y="246.5" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">líneas)</text>
+<rect x="590" y="183" width="186" height="86" rx="2" fill="#dcefd2" stroke="#5b9a3c" stroke-width="1.8"/>
+<path d="M748,201 L753,196 L764,196 L764,207 L759,212 L748,212 Z M748,201 L759,201 L764,196 M759,201 L759,212" fill="none" stroke="#5b9a3c" stroke-width="1.3"/>
+<text x="600" y="199" font-size="10.5" font-weight="bold" fill="#3f7a26">Node</text>
+<text x="683.0" y="219" font-size="11" font-weight="bold" fill="#3c4850" text-anchor="middle">T-BASE02</text>
+<text x="683.0" y="233.0" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">PC/HMI de calibradora</text>
+<rect x="871" y="72" width="502" height="241" rx="3" fill="#eef7e8" stroke="#4f8a33" stroke-width="1.8"/>
+<path d="M1343,97 L1343,86 L1348,90 L1348,86 L1353,90 L1353,82 L1358,82 L1358,97 Z" fill="none" stroke="#4f8a33" stroke-width="1.3"/>
+<text x="883" y="90" font-size="11.5" fill="#3a6b22" font-weight="bold">Facility</text>
+<text x="883" y="107" font-size="13" fill="#1d252b" font-weight="bold">FAC-02 Pre-frío y cámaras</text>
+<rect x="893" y="120" width="230" height="171" rx="3" fill="#eef7e8" stroke="#4f8a33" stroke-width="1.8"/>
+<circle cx="1101" cy="139" r="4.5" fill="none" stroke="#4f8a33" stroke-width="1.3"/><circle cx="1101" cy="139" r="1.6" fill="#4f8a33"/><path d="M1101,132 L1101,134.5 M1101,143.5 L1101,146 M1094,139 L1096.5,139 M1105.5,139 L1108,139" fill="none" stroke="#4f8a33" stroke-width="1.3"/>
+<text x="905" y="138" font-size="11.5" fill="#3a6b22" font-weight="bold">Equipment</text>
+<text x="905" y="155" font-size="13" fill="#1d252b" font-weight="bold">EQ-02 Túneles y cámaras de frío</text>
+<rect x="915" y="183" width="186" height="86" rx="2" fill="#dcefd2" stroke="#5b9a3c" stroke-width="1.8"/>
+<rect x="1074" y="191" width="17" height="11" rx="2" fill="none" stroke="#5b9a3c" stroke-width="1.3"/><path d="M1072,207 L1093,207 L1090,203 L1075,203 Z" fill="none" stroke="#5b9a3c" stroke-width="1.3"/>
+<text x="925" y="199" font-size="10.5" font-weight="bold" fill="#3f7a26">Device</text>
+<text x="1008.0" y="219" font-size="11" font-weight="bold" fill="#3c4850" text-anchor="middle">T-BASE03</text>
+<text x="1008.0" y="233.0" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">Sondas térmicas por</text>
+<text x="1008.0" y="246.5" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">posición (60)</text>
+<rect x="1165" y="183" width="186" height="86" rx="2" fill="#dcefd2" stroke="#5b9a3c" stroke-width="1.8"/>
+<path d="M1323,201 L1328,196 L1339,196 L1339,207 L1334,212 L1323,212 Z M1323,201 L1334,201 L1339,196 M1334,201 L1334,212" fill="none" stroke="#5b9a3c" stroke-width="1.3"/>
+<text x="1175" y="199" font-size="10.5" font-weight="bold" fill="#3f7a26">Node</text>
+<text x="1258.0" y="219" font-size="11" font-weight="bold" fill="#3c4850" text-anchor="middle">T-BASE04</text>
+<text x="1258.0" y="233.0" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">PC de registro térmico</text>
+<rect x="90" y="372" width="186" height="86" rx="2" fill="#dcefd2" stroke="#5b9a3c" stroke-width="1.8"/>
+<rect x="249" y="380" width="17" height="11" rx="2" fill="none" stroke="#5b9a3c" stroke-width="1.3"/><path d="M247,396 L268,396 L265,392 L250,392 Z" fill="none" stroke="#5b9a3c" stroke-width="1.3"/>
+<text x="100" y="388" font-size="10.5" font-weight="bold" fill="#3f7a26">Device</text>
+<text x="183.0" y="408" font-size="11" font-weight="bold" fill="#3c4850" text-anchor="middle">T-TAR01</text>
+<text x="183.0" y="422.0" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">Lectores de código en</text>
+<text x="183.0" y="435.5" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">puntos de captura</text>
+<rect x="340" y="372" width="186" height="86" rx="2" fill="#dcefd2" stroke="#5b9a3c" stroke-width="1.8"/>
+<rect x="499" y="380" width="17" height="11" rx="2" fill="none" stroke="#5b9a3c" stroke-width="1.3"/><path d="M497,396 L518,396 L515,392 L500,392 Z" fill="none" stroke="#5b9a3c" stroke-width="1.3"/>
+<text x="350" y="388" font-size="10.5" font-weight="bold" fill="#3f7a26">Device</text>
+<text x="433.0" y="408" font-size="11" font-weight="bold" fill="#3c4850" text-anchor="middle">T-TAR02</text>
+<text x="433.0" y="422.0" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">Estaciones de captura en</text>
+<text x="433.0" y="435.5" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">punto</text>
+<rect x="68" y="520" width="1480" height="156" rx="3" fill="#eef7e8" stroke="#4f8a33" stroke-width="1.8"/>
+<path d="M1518,545 L1518,534 L1523,538 L1523,534 L1528,538 L1528,530 L1533,530 L1533,545 Z" fill="none" stroke="#4f8a33" stroke-width="1.3"/>
+<text x="80" y="538" font-size="11.5" fill="#3a6b22" font-weight="bold">Facility</text>
+<text x="80" y="555" font-size="13" fill="#1d252b" font-weight="bold">FAC-03 Sala técnica y oficina de planta</text>
+<rect x="90" y="568" width="186" height="86" rx="2" fill="#dcefd2" stroke="#5b9a3c" stroke-width="1.8"/>
+<path d="M248,586 L253,581 L264,581 L264,592 L259,597 L248,597 Z M248,586 L259,586 L264,581 M259,586 L259,597" fill="none" stroke="#5b9a3c" stroke-width="1.3"/>
+<text x="100" y="584" font-size="10.5" font-weight="bold" fill="#3f7a26">Node</text>
+<text x="183.0" y="604" font-size="11" font-weight="bold" fill="#3c4850" text-anchor="middle">T-TAR03</text>
+<text x="183.0" y="618.0" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">Nodo de borde de planta</text>
+<text x="183.0" y="631.5" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">(par redundante)</text>
+<rect x="340" y="568" width="186" height="86" rx="2" fill="#dcefd2" stroke="#5b9a3c" stroke-width="1.8"/>
+<path d="M498,586 L503,581 L514,581 L514,592 L509,597 L498,597 Z M498,586 L509,586 L514,581 M509,586 L509,597" fill="none" stroke="#5b9a3c" stroke-width="1.3"/>
+<text x="350" y="584" font-size="10.5" font-weight="bold" fill="#3f7a26">Node</text>
+<text x="433.0" y="604" font-size="11" font-weight="bold" fill="#3c4850" text-anchor="middle">T-TAR04</text>
+<text x="433.0" y="618.0" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">Gateway OT de solo</text>
+<text x="433.0" y="631.5" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">lectura</text>
+<rect x="590" y="568" width="186" height="86" rx="2" fill="#dcefd2" stroke="#5b9a3c" stroke-width="1.8"/>
+<path d="M748,586 L753,581 L764,581 L764,592 L759,597 L748,597 Z M748,586 L759,586 L764,581 M759,586 L759,597" fill="none" stroke="#5b9a3c" stroke-width="1.3"/>
+<text x="600" y="584" font-size="10.5" font-weight="bold" fill="#3f7a26">Node</text>
+<text x="683.0" y="604" font-size="11" font-weight="bold" fill="#3c4850" text-anchor="middle">T-TAR05</text>
+<text x="683.0" y="618.0" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">Servidor de tiempo de</text>
+<text x="683.0" y="631.5" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">planta</text>
+<rect x="840" y="568" width="186" height="86" rx="2" fill="#dcefd2" stroke="#5b9a3c" stroke-width="1.8"/>
+<path d="M998,586 L1003,581 L1014,581 L1014,592 L1009,597 L998,597 Z M998,586 L1009,586 L1014,581 M1009,586 L1009,597" fill="none" stroke="#5b9a3c" stroke-width="1.3"/>
+<text x="850" y="584" font-size="10.5" font-weight="bold" fill="#3f7a26">Node</text>
+<text x="933.0" y="604" font-size="11" font-weight="bold" fill="#3c4850" text-anchor="middle">T-TAR06</text>
+<text x="933.0" y="618.0" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">Cortafuegos de DMZ</text>
+<text x="933.0" y="631.5" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">industrial</text>
+<rect x="1090" y="568" width="186" height="86" rx="2" fill="#dcefd2" stroke="#5b9a3c" stroke-width="1.8"/>
+<path d="M1248,586 L1253,581 L1264,581 L1264,592 L1259,597 L1248,597 Z M1248,586 L1259,586 L1264,581 M1259,586 L1259,597" fill="none" stroke="#5b9a3c" stroke-width="1.3"/>
+<text x="1100" y="584" font-size="10.5" font-weight="bold" fill="#3f7a26">Node</text>
+<text x="1183.0" y="604" font-size="11" font-weight="bold" fill="#3c4850" text-anchor="middle">T-TAR07</text>
+<text x="1183.0" y="618.0" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">Bastión de acceso remoto</text>
+<rect x="1340" y="568" width="186" height="86" rx="2" fill="#dcefd2" stroke="#5b9a3c" stroke-width="1.8"/>
+<rect x="1499" y="576" width="17" height="11" rx="2" fill="none" stroke="#5b9a3c" stroke-width="1.3"/><path d="M1497,592 L1518,592 L1515,588 L1500,588 Z" fill="none" stroke="#5b9a3c" stroke-width="1.3"/>
+<text x="1350" y="584" font-size="10.5" font-weight="bold" fill="#3f7a26">Device</text>
+<text x="1433.0" y="604" font-size="11" font-weight="bold" fill="#3c4850" text-anchor="middle">T-BASE05</text>
+<text x="1433.0" y="618.0" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">PCs de oficina de planta</text>
+<rect x="1643" y="135" width="480" height="338" rx="3" fill="#eef7e8" stroke="#5b9a3c" stroke-width="1.8"/>
+<path d="M2095,153 L2100,148 L2111,148 L2111,159 L2106,164 L2095,164 Z M2095,153 L2106,153 L2111,148 M2106,153 L2106,164" fill="none" stroke="#5b9a3c" stroke-width="1.3"/>
+<text x="1655" y="153" font-size="11.5" fill="#3f7a26" font-weight="bold">Node</text>
+<text x="1655" y="170" font-size="13" fill="#1d252b" font-weight="bold">T-TAR08 Entorno central corporativo (DC o nube, NV-10)</text>
+<rect x="1665" y="183" width="186" height="86" rx="2" fill="#dcefd2" stroke="#5b9a3c" stroke-width="1.8"/>
+<path d="M1823,201 L1828,196 L1839,196 L1839,207 L1834,212 L1823,212 Z M1823,201 L1834,201 L1839,196 M1834,201 L1834,212" fill="none" stroke="#5b9a3c" stroke-width="1.3"/>
+<text x="1675" y="199" font-size="10.5" font-weight="bold" fill="#3f7a26">Node</text>
+<text x="1758.0" y="219" font-size="11" font-weight="bold" fill="#3c4850" text-anchor="middle">T-TAR09</text>
+<text x="1758.0" y="233.0" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">Plataforma central de</text>
+<text x="1758.0" y="246.5" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">ejecución</text>
+<rect x="1915" y="183" width="186" height="86" rx="2" fill="#dcefd2" stroke="#5b9a3c" stroke-width="1.8"/>
+<path d="M2073,201 L2078,196 L2089,196 L2089,207 L2084,212 L2073,212 Z M2073,201 L2084,201 L2089,196 M2084,201 L2084,212" fill="none" stroke="#5b9a3c" stroke-width="1.3"/>
+<text x="1925" y="199" font-size="10.5" font-weight="bold" fill="#3f7a26">Node</text>
+<text x="2008.0" y="219" font-size="11" font-weight="bold" fill="#3c4850" text-anchor="middle">T-TAR10</text>
+<text x="2008.0" y="233.0" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">Almacén central de</text>
+<text x="2008.0" y="246.5" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">evidencias</text>
+<rect x="1665" y="365" width="186" height="86" rx="2" fill="#dcefd2" stroke="#5b9a3c" stroke-width="1.8"/>
+<path d="M1823,383 L1828,378 L1839,378 L1839,389 L1834,394 L1823,394 Z M1823,383 L1834,383 L1839,378 M1834,383 L1834,394" fill="none" stroke="#5b9a3c" stroke-width="1.3"/>
+<text x="1675" y="381" font-size="10.5" font-weight="bold" fill="#3f7a26">Node</text>
+<text x="1758.0" y="401" font-size="11" font-weight="bold" fill="#3c4850" text-anchor="middle">T-TAR11</text>
+<text x="1758.0" y="415.0" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">Respaldo inmutable fuera</text>
+<text x="1758.0" y="428.5" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">de sitio</text>
+<rect x="1665" y="568" width="186" height="86" rx="2" fill="#dcefd2" stroke="#5b9a3c" stroke-width="1.8"/>
+<path d="M1823,586 L1828,581 L1839,581 L1839,592 L1834,597 L1823,597 Z M1823,586 L1834,586 L1839,581 M1834,586 L1834,597" fill="none" stroke="#5b9a3c" stroke-width="1.3"/>
+<text x="1675" y="584" font-size="10.5" font-weight="bold" fill="#3f7a26">Node</text>
+<text x="1758.0" y="604" font-size="11" font-weight="bold" fill="#3c4850" text-anchor="middle">T-BASE07</text>
+<text x="1758.0" y="618.0" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">Plataforma SAP</text>
+<text x="1758.0" y="631.5" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">corporativa</text>
+<rect x="1915" y="568" width="186" height="86" rx="2" fill="#dcefd2" stroke="#5b9a3c" stroke-width="1.8"/>
+<path d="M2073,586 L2078,581 L2089,581 L2089,592 L2084,597 L2073,597 Z M2073,586 L2084,586 L2089,581 M2084,586 L2084,597" fill="none" stroke="#5b9a3c" stroke-width="1.3"/>
+<text x="1925" y="584" font-size="10.5" font-weight="bold" fill="#3f7a26">Node</text>
+<text x="2008.0" y="604" font-size="11" font-weight="bold" fill="#3c4850" text-anchor="middle">T-TAR12</text>
+<text x="2008.0" y="618.0" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">Directorio e identidad</text>
+<text x="2008.0" y="631.5" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">corporativa</text>
+<path d="M276.0,226.0 L590.0,226.0" fill="none" stroke="#46525a" stroke-width="1.6" stroke-dasharray="7,4" marker-end="url(#afill)"/>
+<path d="M1101.0,226.0 L1165.0,226.0" fill="none" stroke="#46525a" stroke-width="1.6" stroke-dasharray="7,4" marker-end="url(#afill)"/>
+<path d="M276.0,415.0 L340.0,415.0" fill="none" stroke="#46525a" stroke-width="1.6" stroke-dasharray="7,4" marker-end="url(#afill)"/>
+<rect x="393.1" y="218.0" width="79.7" height="14" rx="3" fill="#ffffff" fill-opacity="0.92"/><text x="433.0" y="229.0" font-size="9.5" fill="#4a565e" text-anchor="middle">estados de línea</text>
+<rect x="1111.4" y="218.0" width="43.3" height="14" rx="3" fill="#ffffff" fill-opacity="0.92"/><text x="1133.0" y="229.0" font-size="9.5" fill="#4a565e" text-anchor="middle">lecturas</text>
+<rect x="272.6" y="350.0" width="70.7" height="14" rx="3" fill="#ffffff" fill-opacity="0.92"/><text x="308.0" y="361.0" font-size="9.5" fill="#4a565e" text-anchor="middle">códigos leídos</text>
+<text x="26" y="755.0" font-size="12" fill="#5f6b73">T-V05 · VP-D05 · C02/C06 · Grupo 04 · v0.3 (PC3)</text>
+<text x="26" y="772.0" font-size="12" fill="#5f6b73">Target (DE) · nivel físico-conceptual, sin modelo ni marca. Separa instalación (Facility), equipo físico (Equipment), dispositivo (Device) y nodo de cómputo (Node). PLC, HMI y registro térmico se mantienen (Included); la sala técnica concentra borde redundante, gateway OT de solo lectura, tiempo, cortafuegos y bastión; el entorno central (T-TAR08, DC o nube: NV-10) agrupa runtime, almacén</text>
+<text x="26" y="789.0" font-size="12" fill="#5f6b73">y respaldo. T-BASE06 se elimina. Redes: T-V02-T; zonas y conductos: T-V02-Z.</text>
+<text x="26" y="806.0" font-size="11" fill="#7c868d">Notación ArchiMate 3.2: Assignment (●→) · Realization (- - ▷) · Serving (→ abierta) · Access (··· ; flecha = dirección del dato) · Triggering (→ llena) · Flow (- - → llena) · Composition (◆) · Aggregation (◇) · Association (—). Anidamiento = relación estructural del modelo (Aggregation, Composition o Assignment).</text>
+</svg>

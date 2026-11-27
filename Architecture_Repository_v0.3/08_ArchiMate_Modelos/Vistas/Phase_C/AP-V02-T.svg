@@ -1,0 +1,154 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1254.0" height="691.0" viewBox="0 0 1254.0 691.0" font-family="Helvetica, Arial, sans-serif">
+<defs>
+<marker id="afill" viewBox="0 0 12 10" refX="11" refY="5" markerWidth="11" markerHeight="9" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L12,5 L0,10 z" fill="#46525a"/></marker>
+<marker id="thol" viewBox="0 0 14 12" refX="13" refY="6" markerWidth="14" markerHeight="12" orient="auto" markerUnits="userSpaceOnUse"><path d="M1,1 L13,6 L1,11 z" fill="#ffffff" stroke="#46525a" stroke-width="1.3"/></marker>
+<marker id="open" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="12" markerHeight="12" orient="auto" markerUnits="userSpaceOnUse"><path d="M1,1 L11,6 L1,11" fill="none" stroke="#46525a" stroke-width="1.5"/></marker>
+<marker id="acc" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto" markerUnits="userSpaceOnUse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#46525a" stroke-width="1.3"/></marker>
+<marker id="accs" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="9" markerHeight="9" orient="auto" markerUnits="userSpaceOnUse"><path d="M9,1 L1,5 L9,9" fill="none" stroke="#46525a" stroke-width="1.3"/></marker>
+<marker id="dot" viewBox="0 0 10 10" refX="4" refY="5" markerWidth="9" markerHeight="9" orient="auto" markerUnits="userSpaceOnUse"><circle cx="5" cy="5" r="3.6" fill="#46525a"/></marker>
+<marker id="dfill" viewBox="0 0 18 10" refX="1" refY="5" markerWidth="18" markerHeight="10" orient="auto" markerUnits="userSpaceOnUse"><path d="M1,5 L9,1 L17,5 L9,9 z" fill="#46525a"/></marker>
+<marker id="dhol" viewBox="0 0 18 10" refX="1" refY="5" markerWidth="18" markerHeight="10" orient="auto" markerUnits="userSpaceOnUse"><path d="M1,5 L9,1 L17,5 L9,9 z" fill="#ffffff" stroke="#46525a" stroke-width="1.2"/></marker>
+</defs>
+<rect x="1" y="1" width="1252.0" height="690.0" rx="14" fill="#ffffff" stroke="#dde3e6" stroke-width="2"/>
+<rect x="34" y="34" width="186" height="86" rx="2" fill="#d3f3f4" stroke="#2f8e95" stroke-width="1.8"/>
+<rect x="194" y="42" width="16" height="13" fill="none" stroke="#2f8e95" stroke-width="1.3"/><rect x="190" y="45" width="8" height="3" fill="#fff" stroke="#2f8e95" stroke-width="1.2"/><rect x="190" y="50" width="8" height="3" fill="#fff" stroke="#2f8e95" stroke-width="1.2"/>
+<text x="44" y="50" font-size="10.5" font-weight="bold" fill="#1f7d84">Application Component</text>
+<text x="127.0" y="70" font-size="11" font-weight="bold" fill="#3c4850" text-anchor="middle">AP-08</text>
+<text x="127.0" y="84.0" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">Ingesta y adaptadores de</text>
+<text x="127.0" y="97.5" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">eventos</text>
+<rect x="284" y="34" width="186" height="86" rx="7" fill="#d3f3f4" stroke="#2f8e95" stroke-width="1.8"/>
+<path d="M444,55 L444,46 L450,41 L456,46 L456,55 L450,50 Z" fill="none" stroke="#2f8e95" stroke-width="1.3"/>
+<text x="294" y="50" font-size="10.5" font-weight="bold" fill="#1f7d84">Application Function</text>
+<text x="377.0" y="70" font-size="11" font-weight="bold" fill="#3c4850" text-anchor="middle">AF-01</text>
+<text x="377.0" y="84.0" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">Validar y reconciliar</text>
+<text x="377.0" y="97.5" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">eventos</text>
+<rect x="534" y="34" width="186" height="86" rx="18" fill="#d3f3f4" stroke="#2f8e95" stroke-width="1.8"/>
+<text x="544" y="50" font-size="10.5" font-weight="bold" fill="#1f7d84">Application Service</text>
+<text x="627.0" y="70" font-size="11" font-weight="bold" fill="#3c4850" text-anchor="middle">ASV-01</text>
+<text x="627.0" y="84.0" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">Registro de eventos de</text>
+<text x="627.0" y="97.5" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">lote</text>
+<rect x="784" y="34" width="186" height="86" rx="7" fill="#fff3b8" stroke="#b5951e" stroke-width="1.8"/>
+<path d="M942,45 L951,45 L951,42 L958,48 L951,54 L951,51 L942,51 Z" fill="none" stroke="#b5951e" stroke-width="1.3"/>
+<text x="794" y="50" font-size="10.5" font-weight="bold" fill="#937a0c">Business Process</text>
+<text x="877.0" y="70" font-size="11" font-weight="bold" fill="#3c4850" text-anchor="middle">BP-01</text>
+<text x="877.0" y="84.0" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">Recepcionar y registrar</text>
+<text x="877.0" y="97.5" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">origen</text>
+<rect x="34" y="244" width="186" height="86" rx="2" fill="#d3f3f4" stroke="#2f8e95" stroke-width="1.8"/>
+<rect x="194" y="252" width="16" height="13" fill="none" stroke="#2f8e95" stroke-width="1.3"/><rect x="190" y="255" width="8" height="3" fill="#fff" stroke="#2f8e95" stroke-width="1.2"/><rect x="190" y="260" width="8" height="3" fill="#fff" stroke="#2f8e95" stroke-width="1.2"/>
+<text x="44" y="260" font-size="10.5" font-weight="bold" fill="#1f7d84">Application Component</text>
+<text x="127.0" y="280" font-size="11" font-weight="bold" fill="#3c4850" text-anchor="middle">AP-09</text>
+<text x="127.0" y="294.0" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">Componente de</text>
+<text x="127.0" y="307.5" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">trazabilidad</text>
+<rect x="284" y="174" width="186" height="86" rx="7" fill="#d3f3f4" stroke="#2f8e95" stroke-width="1.8"/>
+<path d="M444,195 L444,186 L450,181 L456,186 L456,195 L450,190 Z" fill="none" stroke="#2f8e95" stroke-width="1.3"/>
+<text x="294" y="190" font-size="10.5" font-weight="bold" fill="#1f7d84">Application Function</text>
+<text x="377.0" y="210" font-size="11" font-weight="bold" fill="#3c4850" text-anchor="middle">AF-02</text>
+<text x="377.0" y="224.0" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">Componer historia del lote</text>
+<rect x="534" y="174" width="186" height="86" rx="18" fill="#d3f3f4" stroke="#2f8e95" stroke-width="1.8"/>
+<text x="544" y="190" font-size="10.5" font-weight="bold" fill="#1f7d84">Application Service</text>
+<text x="627.0" y="210" font-size="11" font-weight="bold" fill="#3c4850" text-anchor="middle">ASV-02</text>
+<text x="627.0" y="224.0" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">Consulta autorizada de</text>
+<text x="627.0" y="237.5" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">historia</text>
+<rect x="784" y="174" width="186" height="86" rx="7" fill="#fff3b8" stroke="#b5951e" stroke-width="1.8"/>
+<path d="M942,185 L951,185 L951,182 L958,188 L951,194 L951,191 L942,191 Z" fill="none" stroke="#b5951e" stroke-width="1.3"/>
+<text x="794" y="190" font-size="10.5" font-weight="bold" fill="#937a0c">Business Process</text>
+<text x="877.0" y="210" font-size="11" font-weight="bold" fill="#3c4850" text-anchor="middle">BP-04</text>
+<text x="877.0" y="224.0" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">Reconstruir historia del</text>
+<text x="877.0" y="237.5" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">lote</text>
+<rect x="284" y="314" width="186" height="86" rx="7" fill="#d3f3f4" stroke="#2f8e95" stroke-width="1.8"/>
+<path d="M444,335 L444,326 L450,321 L456,326 L456,335 L450,330 Z" fill="none" stroke="#2f8e95" stroke-width="1.3"/>
+<text x="294" y="330" font-size="10.5" font-weight="bold" fill="#1f7d84">Application Function</text>
+<text x="377.0" y="350" font-size="11" font-weight="bold" fill="#3c4850" text-anchor="middle">AF-03</text>
+<text x="377.0" y="364.0" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">Publicar estado de</text>
+<text x="377.0" y="377.5" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">inspección</text>
+<rect x="534" y="314" width="186" height="86" rx="18" fill="#d3f3f4" stroke="#2f8e95" stroke-width="1.8"/>
+<text x="544" y="330" font-size="10.5" font-weight="bold" fill="#1f7d84">Application Service</text>
+<text x="627.0" y="350" font-size="11" font-weight="bold" fill="#3c4850" text-anchor="middle">ASV-03</text>
+<text x="627.0" y="364.0" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">Consulta de estado de</text>
+<text x="627.0" y="377.5" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">inspección</text>
+<rect x="784" y="314" width="186" height="86" rx="7" fill="#fff3b8" stroke="#b5951e" stroke-width="1.8"/>
+<path d="M942,325 L951,325 L951,322 L958,328 L951,334 L951,331 L942,331 Z" fill="none" stroke="#b5951e" stroke-width="1.3"/>
+<text x="794" y="330" font-size="10.5" font-weight="bold" fill="#937a0c">Business Process</text>
+<text x="877.0" y="350" font-size="11" font-weight="bold" fill="#3c4850" text-anchor="middle">BP-07</text>
+<text x="877.0" y="364.0" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">Verificar estados y cargar</text>
+<text x="877.0" y="377.5" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">FCL</text>
+<rect x="34" y="454" width="186" height="86" rx="2" fill="#d3f3f4" stroke="#2f8e95" stroke-width="1.8"/>
+<rect x="194" y="462" width="16" height="13" fill="none" stroke="#2f8e95" stroke-width="1.3"/><rect x="190" y="465" width="8" height="3" fill="#fff" stroke="#2f8e95" stroke-width="1.2"/><rect x="190" y="470" width="8" height="3" fill="#fff" stroke="#2f8e95" stroke-width="1.2"/>
+<text x="44" y="470" font-size="10.5" font-weight="bold" fill="#1f7d84">Application Component</text>
+<text x="127.0" y="490" font-size="11" font-weight="bold" fill="#3c4850" text-anchor="middle">AP-11</text>
+<text x="127.0" y="504.0" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">Monitor de excepciones y</text>
+<text x="127.0" y="517.5" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">calidad de datos</text>
+<rect x="284" y="454" width="186" height="86" rx="7" fill="#d3f3f4" stroke="#2f8e95" stroke-width="1.8"/>
+<path d="M444,475 L444,466 L450,461 L456,466 L456,475 L450,470 Z" fill="none" stroke="#2f8e95" stroke-width="1.3"/>
+<text x="294" y="470" font-size="10.5" font-weight="bold" fill="#1f7d84">Application Function</text>
+<text x="377.0" y="490" font-size="11" font-weight="bold" fill="#3c4850" text-anchor="middle">AF-04</text>
+<text x="377.0" y="504.0" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">Gestionar excepciones y</text>
+<text x="377.0" y="517.5" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">calidad de datos</text>
+<rect x="534" y="454" width="186" height="86" rx="18" fill="#d3f3f4" stroke="#2f8e95" stroke-width="1.8"/>
+<text x="544" y="470" font-size="10.5" font-weight="bold" fill="#1f7d84">Application Service</text>
+<text x="627.0" y="490" font-size="11" font-weight="bold" fill="#3c4850" text-anchor="middle">ASV-04</text>
+<text x="627.0" y="504.0" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">Gestión de excepciones y</text>
+<text x="627.0" y="517.5" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">reconciliación</text>
+<rect x="784" y="454" width="186" height="86" rx="7" fill="#fff3b8" stroke="#b5951e" stroke-width="1.8"/>
+<path d="M942,465 L951,465 L951,462 L958,468 L951,474 L951,471 L942,471 Z" fill="none" stroke="#b5951e" stroke-width="1.3"/>
+<text x="794" y="470" font-size="10.5" font-weight="bold" fill="#937a0c">Business Process</text>
+<text x="877.0" y="490" font-size="11" font-weight="bold" fill="#3c4850" text-anchor="middle">BP-08</text>
+<text x="877.0" y="504.0" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">Gestionar excepción de</text>
+<text x="877.0" y="517.5" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">negocio</text>
+<rect x="1034" y="174" width="186" height="86" rx="18" fill="#fff3b8" stroke="#b5951e" stroke-width="1.8"/>
+<text x="1044" y="190" font-size="10.5" font-weight="bold" fill="#937a0c">Business Service</text>
+<text x="1127.0" y="210" font-size="11" font-weight="bold" fill="#3c4850" text-anchor="middle">BSV-01</text>
+<text x="1127.0" y="224.0" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">Historial auditable del lote</text>
+<rect x="1034" y="314" width="186" height="86" rx="18" fill="#fff3b8" stroke="#b5951e" stroke-width="1.8"/>
+<text x="1044" y="330" font-size="10.5" font-weight="bold" fill="#937a0c">Business Service</text>
+<text x="1127.0" y="350" font-size="11" font-weight="bold" fill="#3c4850" text-anchor="middle">BSV-02</text>
+<text x="1127.0" y="364.0" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">Coordinación de entrega al</text>
+<text x="1127.0" y="377.5" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">transportista</text>
+<rect x="1034" y="454" width="186" height="86" rx="18" fill="#fff3b8" stroke="#b5951e" stroke-width="1.8"/>
+<text x="1044" y="470" font-size="10.5" font-weight="bold" fill="#937a0c">Business Service</text>
+<text x="1127.0" y="490" font-size="11" font-weight="bold" fill="#3c4850" text-anchor="middle">BSV-03</text>
+<text x="1127.0" y="504.0" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">Resolución controlada de</text>
+<text x="1127.0" y="517.5" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">excepciones</text>
+<path d="M220.0,77.0 L284.0,77.0" fill="none" stroke="#46525a" stroke-width="1.5" marker-start="url(#dot)" marker-end="url(#afill)"/>
+<path d="M220.0,261.0 L284.0,243.0" fill="none" stroke="#46525a" stroke-width="1.5" marker-start="url(#dot)" marker-end="url(#afill)"/>
+<path d="M220.0,313.0 L284.0,331.0" fill="none" stroke="#46525a" stroke-width="1.5" marker-start="url(#dot)" marker-end="url(#afill)"/>
+<path d="M220.0,497.0 L284.0,497.0" fill="none" stroke="#46525a" stroke-width="1.5" marker-start="url(#dot)" marker-end="url(#afill)"/>
+<path d="M377.0,120.0 L377.0,174.0" fill="none" stroke="#46525a" stroke-width="1.6" stroke-dasharray="7,4" marker-end="url(#afill)"/>
+<path d="M470.0,77.0 L534.0,77.0" fill="none" stroke="#46525a" stroke-width="1.4" stroke-dasharray="6,4" marker-end="url(#thol)"/>
+<path d="M720.0,77.0 L784.0,77.0" fill="none" stroke="#46525a" stroke-width="1.5" marker-end="url(#open)"/>
+<path d="M470.0,217.0 L534.0,217.0" fill="none" stroke="#46525a" stroke-width="1.4" stroke-dasharray="6,4" marker-end="url(#thol)"/>
+<path d="M720.0,217.0 L784.0,217.0" fill="none" stroke="#46525a" stroke-width="1.5" marker-end="url(#open)"/>
+<path d="M470.0,357.0 L534.0,357.0" fill="none" stroke="#46525a" stroke-width="1.4" stroke-dasharray="6,4" marker-end="url(#thol)"/>
+<path d="M720.0,357.0 L784.0,357.0" fill="none" stroke="#46525a" stroke-width="1.5" marker-end="url(#open)"/>
+<path d="M470.0,497.0 L534.0,497.0" fill="none" stroke="#46525a" stroke-width="1.4" stroke-dasharray="6,4" marker-end="url(#thol)"/>
+<path d="M720.0,497.0 L784.0,497.0" fill="none" stroke="#46525a" stroke-width="1.5" marker-end="url(#open)"/>
+<path d="M127.0,120.0 L127.0,244.0" fill="none" stroke="#46525a" stroke-width="1.6" stroke-dasharray="7,4" marker-end="url(#afill)"/>
+<path d="M127.0,454.0 L127.0,330.0" fill="none" stroke="#46525a" stroke-width="1.6" stroke-dasharray="7,4" marker-end="url(#afill)"/>
+<path d="M970.0,217.0 L1034.0,217.0" fill="none" stroke="#46525a" stroke-width="1.4" stroke-dasharray="6,4" marker-end="url(#thol)"/>
+<path d="M970.0,357.0 L1034.0,357.0" fill="none" stroke="#46525a" stroke-width="1.4" stroke-dasharray="6,4" marker-end="url(#thol)"/>
+<path d="M970.0,497.0 L1034.0,497.0" fill="none" stroke="#46525a" stroke-width="1.4" stroke-dasharray="6,4" marker-end="url(#thol)"/>
+<rect x="222.2" y="69.0" width="59.6" height="14" rx="3" fill="#ffffff" fill-opacity="0.92"/><text x="252.0" y="80.0" font-size="9.5" fill="#4a565e" text-anchor="middle">Assignment</text>
+<rect x="222.2" y="244.0" width="59.6" height="14" rx="3" fill="#ffffff" fill-opacity="0.92"/><text x="252.0" y="255.0" font-size="9.5" fill="#4a565e" text-anchor="middle">Assignment</text>
+<rect x="222.2" y="314.0" width="59.6" height="14" rx="3" fill="#ffffff" fill-opacity="0.92"/><text x="252.0" y="325.0" font-size="9.5" fill="#4a565e" text-anchor="middle">Assignment</text>
+<rect x="222.2" y="489.0" width="59.6" height="14" rx="3" fill="#ffffff" fill-opacity="0.92"/><text x="252.0" y="500.0" font-size="9.5" fill="#4a565e" text-anchor="middle">Assignment</text>
+<rect x="334.0" y="139.0" width="86.0" height="14" rx="3" fill="#ffffff" fill-opacity="0.92"/><text x="377.0" y="150.0" font-size="9.5" fill="#4a565e" text-anchor="middle">eventos validados</text>
+<rect x="473.5" y="69.0" width="57.0" height="14" rx="3" fill="#ffffff" fill-opacity="0.92"/><text x="502.0" y="80.0" font-size="9.5" fill="#4a565e" text-anchor="middle">Realization</text>
+<rect x="730.9" y="69.0" width="42.2" height="14" rx="3" fill="#ffffff" fill-opacity="0.92"/><text x="752.0" y="80.0" font-size="9.5" fill="#4a565e" text-anchor="middle">Serving</text>
+<rect x="473.5" y="209.0" width="57.0" height="14" rx="3" fill="#ffffff" fill-opacity="0.92"/><text x="502.0" y="220.0" font-size="9.5" fill="#4a565e" text-anchor="middle">Realization</text>
+<rect x="730.9" y="209.0" width="42.2" height="14" rx="3" fill="#ffffff" fill-opacity="0.92"/><text x="752.0" y="220.0" font-size="9.5" fill="#4a565e" text-anchor="middle">Serving</text>
+<rect x="473.5" y="349.0" width="57.0" height="14" rx="3" fill="#ffffff" fill-opacity="0.92"/><text x="502.0" y="360.0" font-size="9.5" fill="#4a565e" text-anchor="middle">Realization</text>
+<rect x="730.9" y="349.0" width="42.2" height="14" rx="3" fill="#ffffff" fill-opacity="0.92"/><text x="752.0" y="360.0" font-size="9.5" fill="#4a565e" text-anchor="middle">Serving</text>
+<rect x="473.5" y="489.0" width="57.0" height="14" rx="3" fill="#ffffff" fill-opacity="0.92"/><text x="502.0" y="500.0" font-size="9.5" fill="#4a565e" text-anchor="middle">Realization</text>
+<rect x="730.9" y="489.0" width="42.2" height="14" rx="3" fill="#ffffff" fill-opacity="0.92"/><text x="752.0" y="500.0" font-size="9.5" fill="#4a565e" text-anchor="middle">Serving</text>
+<rect x="84.0" y="174.0" width="86.0" height="14" rx="3" fill="#ffffff" fill-opacity="0.92"/><text x="127.0" y="185.0" font-size="9.5" fill="#4a565e" text-anchor="middle">eventos validados</text>
+<rect x="110.9" y="384.0" width="32.2" height="14" rx="3" fill="#ffffff" fill-opacity="0.92"/><text x="127.0" y="395.0" font-size="9.5" fill="#4a565e" text-anchor="middle">IF-07</text>
+<rect x="973.5" y="209.0" width="57.0" height="14" rx="3" fill="#ffffff" fill-opacity="0.92"/><text x="1002.0" y="220.0" font-size="9.5" fill="#4a565e" text-anchor="middle">Realization</text>
+<rect x="973.5" y="349.0" width="57.0" height="14" rx="3" fill="#ffffff" fill-opacity="0.92"/><text x="1002.0" y="360.0" font-size="9.5" fill="#4a565e" text-anchor="middle">Realization</text>
+<rect x="973.5" y="489.0" width="57.0" height="14" rx="3" fill="#ffffff" fill-opacity="0.92"/><text x="1002.0" y="500.0" font-size="9.5" fill="#4a565e" text-anchor="middle">Realization</text>
+<text x="26" y="597.0" font-size="12" fill="#5f6b73">AP-V02-T · VP-C05 · C01/C05 · Grupo 04 · v0.3 (PC3)</text>
+<text x="26" y="614.0" font-size="12" fill="#5f6b73">Target (DE) · responde «¿qué actividad o servicio de negocio habilita cada aplicación?» (guía PC3 §4.5, AP-V02 Target). Componente → función (Assignment) → servicio de aplicación (Realization) → proceso de negocio</text>
+<text x="26" y="631.0" font-size="12" fill="#5f6b73">(Serving) → servicio de negocio (Realization). ASV-01 también sirve a BP-02, BP-05 y BP-06 (C2/Proceso_x_App). Componentes Target = ABB lógicos, sin producto. Comparar con AP-V02-B (Baseline). Interfaces y contratos</text>
+<text x="26" y="648.0" font-size="12" fill="#5f6b73">IF: AP-V01-T.</text>
+<text x="26" y="665.0" font-size="11" fill="#7c868d">Notación ArchiMate 3.2: Assignment (●→) · Realization (- - ▷) · Serving (→ abierta) · Access (··· ; flecha = dirección del dato: escribe →objeto, lee →proceso) · Triggering (→ llena) · Flow (- - → llena) · Composition (◆) · Aggregation (◇) ·</text>
+<text x="26" y="682.0" font-size="11" fill="#7c868d">Influence (- - →, +) · Association (—). Anidamiento = relación estructural del modelo.</text>
+</svg>

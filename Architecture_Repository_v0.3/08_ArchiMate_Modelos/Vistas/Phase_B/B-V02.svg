@@ -1,0 +1,156 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1583.5" height="703.0" viewBox="0 0 1583.5 703.0" font-family="Helvetica, Arial, sans-serif">
+<defs>
+<marker id="afill" viewBox="0 0 12 10" refX="11" refY="5" markerWidth="11" markerHeight="9" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L12,5 L0,10 z" fill="#46525a"/></marker>
+<marker id="thol" viewBox="0 0 14 12" refX="13" refY="6" markerWidth="14" markerHeight="12" orient="auto" markerUnits="userSpaceOnUse"><path d="M1,1 L13,6 L1,11 z" fill="#ffffff" stroke="#46525a" stroke-width="1.3"/></marker>
+<marker id="open" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="12" markerHeight="12" orient="auto" markerUnits="userSpaceOnUse"><path d="M1,1 L11,6 L1,11" fill="none" stroke="#46525a" stroke-width="1.5"/></marker>
+<marker id="acc" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto" markerUnits="userSpaceOnUse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#46525a" stroke-width="1.3"/></marker>
+<marker id="accs" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="9" markerHeight="9" orient="auto" markerUnits="userSpaceOnUse"><path d="M9,1 L1,5 L9,9" fill="none" stroke="#46525a" stroke-width="1.3"/></marker>
+<marker id="dot" viewBox="0 0 10 10" refX="4" refY="5" markerWidth="9" markerHeight="9" orient="auto" markerUnits="userSpaceOnUse"><circle cx="5" cy="5" r="3.6" fill="#46525a"/></marker>
+<marker id="dfill" viewBox="0 0 18 10" refX="1" refY="5" markerWidth="18" markerHeight="10" orient="auto" markerUnits="userSpaceOnUse"><path d="M1,5 L9,1 L17,5 L9,9 z" fill="#46525a"/></marker>
+<marker id="dhol" viewBox="0 0 18 10" refX="1" refY="5" markerWidth="18" markerHeight="10" orient="auto" markerUnits="userSpaceOnUse"><path d="M1,5 L9,1 L17,5 L9,9 z" fill="#ffffff" stroke="#46525a" stroke-width="1.2"/></marker>
+</defs>
+<rect x="1" y="1" width="1581.5" height="701.0" rx="14" fill="#ffffff" stroke="#dde3e6" stroke-width="2"/>
+<path d="M262.0,357.0 L326.0,357.0" fill="none" stroke="#46525a" stroke-width="1.6" marker-end="url(#afill)"/>
+<path d="M495.8,314.0 L592.2,260.0" fill="none" stroke="#46525a" stroke-width="1.6" marker-end="url(#afill)"/>
+<path d="M512.0,357.0 L576.0,357.0" fill="none" stroke="#46525a" stroke-width="1.6" marker-end="url(#afill)"/>
+<path d="M762.0,357.0 L826.0,357.0" fill="none" stroke="#46525a" stroke-width="1.6" marker-end="url(#afill)"/>
+<path d="M1012.0,357.0 L1076.0,357.0" fill="none" stroke="#46525a" stroke-width="1.6" marker-end="url(#afill)"/>
+<path d="M762.0,217.0 L1135.0,217.0 L1158.6,314.0" fill="none" stroke="#46525a" stroke-width="1.6" marker-end="url(#afill)"/>
+<path d="M169.0,260.0 L169.0,314.0" fill="none" stroke="#46525a" stroke-width="1.6" marker-end="url(#afill)"/>
+<path d="M495.8,120.0 L592.2,174.0" fill="none" stroke="#46525a" stroke-width="1.6" marker-end="url(#afill)"/>
+<path d="M1363.5,357.0 L1262.0,357.0" fill="none" stroke="#46525a" stroke-width="1.6" marker-end="url(#afill)"/>
+<path d="M169.0,400.0 L169.0,454.0" fill="none" stroke="#46525a" stroke-width="1.3" stroke-dasharray="2,3" marker-end="url(#acc)"/>
+<path d="M245.8,400.0 L342.2,454.0" fill="none" stroke="#46525a" stroke-width="1.3" stroke-dasharray="2,3" marker-end="url(#acc)"/>
+<path d="M76.0,357.0 L54.0,357.0 L54.0,566.0 L1044.0,566.0 L1044.0,540.0" fill="none" stroke="#46525a" stroke-width="1.3" stroke-dasharray="2,3" marker-end="url(#acc)"/>
+<path d="M342.2,400.0 L245.8,454.0" fill="none" stroke="#46525a" stroke-width="1.3" stroke-dasharray="2,3" marker-end="url(#acc)"/>
+<path d="M419.0,314.0 L419.0,260.0" fill="none" stroke="#46525a" stroke-width="1.3" stroke-dasharray="2,3" marker-end="url(#acc)"/>
+<path d="M419.0,400.0 L419.0,454.0" fill="none" stroke="#46525a" stroke-width="1.3" stroke-dasharray="2,3" marker-end="url(#acc)"/>
+<path d="M576.0,217.0 L512.0,217.0" fill="none" stroke="#46525a" stroke-width="1.3" stroke-dasharray="2,3" marker-start="url(#accs)"/>
+<path d="M669.0,174.0 L669.0,120.0" fill="none" stroke="#46525a" stroke-width="1.3" stroke-dasharray="2,3" marker-end="url(#acc)"/>
+<path d="M707.4,400.0 L755.6,454.0" fill="none" stroke="#46525a" stroke-width="1.3" stroke-dasharray="2,3" marker-end="url(#acc)"/>
+<path d="M880.6,400.0 L832.4,454.0" fill="none" stroke="#46525a" stroke-width="1.3" stroke-dasharray="2,3" marker-end="url(#acc)"/>
+<path d="M957.4,400.0 L1005.6,454.0" fill="none" stroke="#46525a" stroke-width="1.3" stroke-dasharray="2,3" marker-end="url(#acc)"/>
+<path d="M1174.2,314.0 L1203.0,77.0 L762.0,77.0" fill="none" stroke="#46525a" stroke-width="1.3" stroke-dasharray="2,3" marker-start="url(#accs)"/>
+<path d="M1076.0,391.7 L887.0,462.3" fill="none" stroke="#46525a" stroke-width="1.3" stroke-dasharray="2,3" marker-start="url(#accs)"/>
+<path d="M1207.4,400.0 L1255.6,454.0" fill="none" stroke="#46525a" stroke-width="1.3" stroke-dasharray="2,3" marker-end="url(#acc)"/>
+<path d="M1130.6,400.0 L1082.4,454.0" fill="none" stroke="#46525a" stroke-width="1.3" stroke-dasharray="2,3" marker-end="url(#acc)"/>
+<path d="M326,34 L498,34 Q516,77.0 498,120 L326,120 L340,77.0 Z" fill="#fff3b8" stroke="#b5951e" stroke-width="1.8"/>
+
+<text x="344" y="50" font-size="10.5" font-weight="bold" fill="#937a0c">Business Event</text>
+<text x="419.0" y="70" font-size="11" font-weight="bold" fill="#3c4850" text-anchor="middle">EV-02</text>
+<text x="419.0" y="84.0" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">Pallet cerrado</text>
+<rect x="576" y="34" width="186" height="86" rx="2" fill="#fff3b8" stroke="#b5951e" stroke-width="1.8"/>
+<rect x="738" y="41" width="16" height="12" fill="none" stroke="#b5951e" stroke-width="1.3"/><line x1="738" y1="45" x2="754" y2="45" stroke="#b5951e" stroke-width="1.3"/>
+<text x="586" y="50" font-size="10.5" font-weight="bold" fill="#937a0c">Business Object</text>
+<text x="669.0" y="70" font-size="11" font-weight="bold" fill="#3c4850" text-anchor="middle">BO-03</text>
+<text x="669.0" y="84.0" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">Resultado de inspección</text>
+<path d="M76,174 L248,174 Q266,217.0 248,260 L76,260 L90,217.0 Z" fill="#fff3b8" stroke="#b5951e" stroke-width="1.8"/>
+
+<text x="94" y="190" font-size="10.5" font-weight="bold" fill="#937a0c">Business Event</text>
+<text x="169.0" y="210" font-size="11" font-weight="bold" fill="#3c4850" text-anchor="middle">EV-01</text>
+<text x="169.0" y="224.0" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">Bins arribados a planta</text>
+<rect x="326" y="174" width="186" height="86" rx="2" fill="#fff3b8" stroke="#c0392b" stroke-width="2.6"/>
+<rect x="488" y="181" width="16" height="12" fill="none" stroke="#b5951e" stroke-width="1.3"/><line x1="488" y1="185" x2="504" y2="185" stroke="#b5951e" stroke-width="1.3"/>
+<text x="336" y="190" font-size="10.5" font-weight="bold" fill="#937a0c">Business Object</text>
+<rect x="437.0" y="166" width="41.0" height="15" rx="7" fill="#c0392b"/><text x="457.5" y="177" font-size="9.5" font-weight="bold" fill="#ffffff" text-anchor="middle">★ New</text>
+<text x="419.0" y="210" font-size="11" font-weight="bold" fill="#3c4850" text-anchor="middle">BO-02</text>
+<text x="419.0" y="224.0" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">Genealogía del lote</text>
+<rect x="576" y="174" width="186" height="86" rx="7" fill="#fff3b8" stroke="#b5951e" stroke-width="1.8"/>
+<path d="M738,185 L747,185 L747,182 L754,188 L747,194 L747,191 L738,191 Z" fill="none" stroke="#b5951e" stroke-width="1.3"/>
+<text x="586" y="190" font-size="10.5" font-weight="bold" fill="#937a0c">Business Process</text>
+<text x="669.0" y="210" font-size="11" font-weight="bold" fill="#3c4850" text-anchor="middle">BP-03</text>
+<text x="669.0" y="224.0" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">Inspeccionar y decidir</text>
+<text x="669.0" y="237.5" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">conformidad</text>
+<rect x="76" y="314" width="186" height="86" rx="7" fill="#fff3b8" stroke="#b5951e" stroke-width="1.8"/>
+<path d="M238,325 L247,325 L247,322 L254,328 L247,334 L247,331 L238,331 Z" fill="none" stroke="#b5951e" stroke-width="1.3"/>
+<text x="86" y="330" font-size="10.5" font-weight="bold" fill="#937a0c">Business Process</text>
+<text x="169.0" y="350" font-size="11" font-weight="bold" fill="#3c4850" text-anchor="middle">BP-01</text>
+<text x="169.0" y="364.0" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">Recepcionar y registrar</text>
+<text x="169.0" y="377.5" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">origen</text>
+<rect x="326" y="314" width="186" height="86" rx="7" fill="#fff3b8" stroke="#b5951e" stroke-width="1.8"/>
+<path d="M488,325 L497,325 L497,322 L504,328 L497,334 L497,331 L488,331 Z" fill="none" stroke="#b5951e" stroke-width="1.3"/>
+<text x="336" y="330" font-size="10.5" font-weight="bold" fill="#937a0c">Business Process</text>
+<text x="419.0" y="350" font-size="11" font-weight="bold" fill="#3c4850" text-anchor="middle">BP-02</text>
+<text x="419.0" y="364.0" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">Calibrar, empacar y</text>
+<text x="419.0" y="377.5" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">registrar genealogía</text>
+<rect x="576" y="314" width="186" height="86" rx="7" fill="#fff3b8" stroke="#b5951e" stroke-width="1.8"/>
+<path d="M738,325 L747,325 L747,322 L754,328 L747,334 L747,331 L738,331 Z" fill="none" stroke="#b5951e" stroke-width="1.3"/>
+<text x="586" y="330" font-size="10.5" font-weight="bold" fill="#937a0c">Business Process</text>
+<text x="669.0" y="350" font-size="11" font-weight="bold" fill="#3c4850" text-anchor="middle">BP-05</text>
+<text x="669.0" y="364.0" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">Pre-enfriar y registrar</text>
+<text x="669.0" y="377.5" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">serie térmica</text>
+<rect x="826" y="314" width="186" height="86" rx="7" fill="#fff3b8" stroke="#b5951e" stroke-width="1.8"/>
+<path d="M988,325 L997,325 L997,322 L1004,328 L997,334 L997,331 L988,331 Z" fill="none" stroke="#b5951e" stroke-width="1.3"/>
+<text x="836" y="330" font-size="10.5" font-weight="bold" fill="#937a0c">Business Process</text>
+<text x="919.0" y="350" font-size="11" font-weight="bold" fill="#3c4850" text-anchor="middle">BP-06</text>
+<text x="919.0" y="364.0" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">Custodiar en cámara</text>
+<rect x="1076" y="314" width="186" height="86" rx="7" fill="#fff3b8" stroke="#b5951e" stroke-width="1.8"/>
+<path d="M1238,325 L1247,325 L1247,322 L1254,328 L1247,334 L1247,331 L1238,331 Z" fill="none" stroke="#b5951e" stroke-width="1.3"/>
+<text x="1086" y="330" font-size="10.5" font-weight="bold" fill="#937a0c">Business Process</text>
+<text x="1169.0" y="350" font-size="11" font-weight="bold" fill="#3c4850" text-anchor="middle">BP-07</text>
+<text x="1169.0" y="364.0" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">Verificar estados y cargar</text>
+<text x="1169.0" y="377.5" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">FCL</text>
+<path d="M1363.5,314 L1535.5,314 Q1553.5,357.0 1535.5,400 L1363.5,400 L1377.5,357.0 Z" fill="#fff3b8" stroke="#c0392b" stroke-width="2.6"/>
+
+<text x="1381.5" y="330" font-size="10.5" font-weight="bold" fill="#937a0c">Business Event</text>
+<rect x="1474.5" y="306" width="41.0" height="15" rx="7" fill="#c0392b"/><text x="1495.0" y="317" font-size="9.5" font-weight="bold" fill="#ffffff" text-anchor="middle">★ New</text>
+<text x="1456.5" y="350" font-size="11" font-weight="bold" fill="#3c4850" text-anchor="middle">EV-04</text>
+<text x="1456.5" y="364.0" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">Lote liberado</text>
+<rect x="76" y="454" width="186" height="86" rx="2" fill="#fff3b8" stroke="#b5951e" stroke-width="1.8"/>
+<rect x="238" y="461" width="16" height="12" fill="none" stroke="#b5951e" stroke-width="1.3"/><line x1="238" y1="465" x2="254" y2="465" stroke="#b5951e" stroke-width="1.3"/>
+<text x="86" y="470" font-size="10.5" font-weight="bold" fill="#937a0c">Business Object</text>
+<text x="169.0" y="490" font-size="11" font-weight="bold" fill="#3c4850" text-anchor="middle">BO-01</text>
+<text x="169.0" y="504.0" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">Lote</text>
+<rect x="326" y="454" width="186" height="86" rx="2" fill="#fff3b8" stroke="#c0392b" stroke-width="2.6"/>
+<rect x="488" y="461" width="16" height="12" fill="none" stroke="#b5951e" stroke-width="1.3"/><line x1="488" y1="465" x2="504" y2="465" stroke="#b5951e" stroke-width="1.3"/>
+<text x="336" y="470" font-size="10.5" font-weight="bold" fill="#937a0c">Business Object</text>
+<rect x="437.0" y="446" width="41.0" height="15" rx="7" fill="#c0392b"/><text x="457.5" y="457" font-size="9.5" font-weight="bold" fill="#ffffff" text-anchor="middle">★ New</text>
+<text x="419.0" y="490" font-size="11" font-weight="bold" fill="#3c4850" text-anchor="middle">BO-07</text>
+<text x="419.0" y="504.0" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">Registro de evento de</text>
+<text x="419.0" y="517.5" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">negocio</text>
+<rect x="701.0" y="454" width="186" height="86" rx="2" fill="#fff3b8" stroke="#b5951e" stroke-width="1.8"/>
+<rect x="863.0" y="461" width="16" height="12" fill="none" stroke="#b5951e" stroke-width="1.3"/><line x1="863.0" y1="465" x2="879.0" y2="465" stroke="#b5951e" stroke-width="1.3"/>
+<text x="711.0" y="470" font-size="10.5" font-weight="bold" fill="#937a0c">Business Object</text>
+<text x="794.0" y="490" font-size="11" font-weight="bold" fill="#3c4850" text-anchor="middle">BO-05</text>
+<text x="794.0" y="504.0" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">Serie térmica y custodia</text>
+<rect x="951.0" y="454" width="186" height="86" rx="2" fill="#fff3b8" stroke="#c0392b" stroke-width="2.6"/>
+<rect x="1113.0" y="461" width="16" height="12" fill="none" stroke="#b5951e" stroke-width="1.3"/><line x1="1113.0" y1="465" x2="1129.0" y2="465" stroke="#b5951e" stroke-width="1.3"/>
+<text x="961.0" y="470" font-size="10.5" font-weight="bold" fill="#937a0c">Business Object</text>
+<rect x="1062.0" y="446" width="41.0" height="15" rx="7" fill="#c0392b"/><text x="1082.5" y="457" font-size="9.5" font-weight="bold" fill="#ffffff" text-anchor="middle">★ New</text>
+<text x="1044.0" y="490" font-size="11" font-weight="bold" fill="#3c4850" text-anchor="middle">BO-06</text>
+<text x="1044.0" y="504.0" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">Acta de handoff</text>
+<rect x="1201.0" y="454" width="186" height="86" rx="2" fill="#fff3b8" stroke="#b5951e" stroke-width="1.8"/>
+<rect x="1363.0" y="461" width="16" height="12" fill="none" stroke="#b5951e" stroke-width="1.3"/><line x1="1363.0" y1="465" x2="1379.0" y2="465" stroke="#b5951e" stroke-width="1.3"/>
+<text x="1211.0" y="470" font-size="10.5" font-weight="bold" fill="#937a0c">Business Object</text>
+<text x="1294.0" y="490" font-size="11" font-weight="bold" fill="#3c4850" text-anchor="middle">BO-04</text>
+<text x="1294.0" y="504.0" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">Condición de despacho</text>
+<rect x="262.0" y="337.0" width="64.0" height="14" rx="3" fill="#ffffff" fill-opacity="0.92"/><text x="294.0" y="348.0" font-size="9.5" fill="#4a565e" text-anchor="middle">Triggering</text>
+<rect x="512.0" y="279.0" width="64.0" height="14" rx="3" fill="#ffffff" fill-opacity="0.92"/><text x="544.0" y="290.0" font-size="9.5" fill="#4a565e" text-anchor="middle">Triggering</text>
+<rect x="512.0" y="337.0" width="64.0" height="14" rx="3" fill="#ffffff" fill-opacity="0.92"/><text x="544.0" y="348.0" font-size="9.5" fill="#4a565e" text-anchor="middle">Triggering</text>
+<rect x="762.0" y="337.0" width="64.0" height="14" rx="3" fill="#ffffff" fill-opacity="0.92"/><text x="794.0" y="348.0" font-size="9.5" fill="#4a565e" text-anchor="middle">Triggering</text>
+<rect x="1012.0" y="337.0" width="64.0" height="14" rx="3" fill="#ffffff" fill-opacity="0.92"/><text x="1044.0" y="348.0" font-size="9.5" fill="#4a565e" text-anchor="middle">Triggering</text>
+<rect x="916.5" y="209.0" width="64.0" height="14" rx="3" fill="#ffffff" fill-opacity="0.92"/><text x="948.5" y="220.0" font-size="9.5" fill="#4a565e" text-anchor="middle">Triggering</text>
+<rect x="175.0" y="279.0" width="64.0" height="14" rx="3" fill="#ffffff" fill-opacity="0.92"/><text x="207.0" y="290.0" font-size="9.5" fill="#4a565e" text-anchor="middle">Triggering</text>
+<rect x="512.0" y="139.0" width="64.0" height="14" rx="3" fill="#ffffff" fill-opacity="0.92"/><text x="544.0" y="150.0" font-size="9.5" fill="#4a565e" text-anchor="middle">Triggering</text>
+<rect x="1280.8" y="349.0" width="64.0" height="14" rx="3" fill="#ffffff" fill-opacity="0.92"/><text x="1312.8" y="360.0" font-size="9.5" fill="#4a565e" text-anchor="middle">Triggering</text>
+<rect x="175.0" y="419.0" width="41.6" height="14" rx="3" fill="#ffffff" fill-opacity="0.92"/><text x="195.8" y="430.0" font-size="9.5" fill="#4a565e" text-anchor="middle">Access</text>
+<rect x="273.2" y="419.0" width="41.6" height="14" rx="3" fill="#ffffff" fill-opacity="0.92"/><text x="294.0" y="430.0" font-size="9.5" fill="#4a565e" text-anchor="middle">Access</text>
+<rect x="528.2" y="558.0" width="41.6" height="14" rx="3" fill="#ffffff" fill-opacity="0.92"/><text x="549.0" y="569.0" font-size="9.5" fill="#4a565e" text-anchor="middle">Access</text>
+<rect x="273.2" y="419.0" width="41.6" height="14" rx="3" fill="#ffffff" fill-opacity="0.92"/><text x="294.0" y="430.0" font-size="9.5" fill="#4a565e" text-anchor="middle">Access</text>
+<rect x="425.0" y="279.0" width="41.6" height="14" rx="3" fill="#ffffff" fill-opacity="0.92"/><text x="445.8" y="290.0" font-size="9.5" fill="#4a565e" text-anchor="middle">Access</text>
+<rect x="425.0" y="419.0" width="41.6" height="14" rx="3" fill="#ffffff" fill-opacity="0.92"/><text x="445.8" y="430.0" font-size="9.5" fill="#4a565e" text-anchor="middle">Access</text>
+<rect x="523.2" y="197.0" width="41.6" height="14" rx="3" fill="#ffffff" fill-opacity="0.92"/><text x="544.0" y="208.0" font-size="9.5" fill="#4a565e" text-anchor="middle">Access</text>
+<rect x="675.0" y="139.0" width="41.6" height="14" rx="3" fill="#ffffff" fill-opacity="0.92"/><text x="695.8" y="150.0" font-size="9.5" fill="#4a565e" text-anchor="middle">Access</text>
+<rect x="710.7" y="419.0" width="41.6" height="14" rx="3" fill="#ffffff" fill-opacity="0.92"/><text x="731.5" y="430.0" font-size="9.5" fill="#4a565e" text-anchor="middle">Access</text>
+<rect x="835.7" y="419.0" width="41.6" height="14" rx="3" fill="#ffffff" fill-opacity="0.92"/><text x="856.5" y="430.0" font-size="9.5" fill="#4a565e" text-anchor="middle">Access</text>
+<rect x="960.7" y="419.0" width="41.6" height="14" rx="3" fill="#ffffff" fill-opacity="0.92"/><text x="981.5" y="430.0" font-size="9.5" fill="#4a565e" text-anchor="middle">Access</text>
+<rect x="961.7" y="69.0" width="41.6" height="14" rx="3" fill="#ffffff" fill-opacity="0.92"/><text x="982.5" y="80.0" font-size="9.5" fill="#4a565e" text-anchor="middle">Access</text>
+<rect x="960.7" y="419.0" width="41.6" height="14" rx="3" fill="#ffffff" fill-opacity="0.92"/><text x="981.5" y="430.0" font-size="9.5" fill="#4a565e" text-anchor="middle">Access</text>
+<rect x="1210.7" y="419.0" width="41.6" height="14" rx="3" fill="#ffffff" fill-opacity="0.92"/><text x="1231.5" y="430.0" font-size="9.5" fill="#4a565e" text-anchor="middle">Access</text>
+<rect x="1085.7" y="419.0" width="41.6" height="14" rx="3" fill="#ffffff" fill-opacity="0.92"/><text x="1106.5" y="430.0" font-size="9.5" fill="#4a565e" text-anchor="middle">Access</text>
+<text x="26" y="622.0" font-size="12" fill="#5f6b73">B-V02 · VP-B01 Target · decisión DE · Grupo 04 · v0.3 (PC3) · misma rejilla que B-V01 · ★ New = building block nuevo (B-04); las demás vistas no marcan estado</text>
+<text x="26" y="639.0" font-size="12" fill="#5f6b73">Calidad (BP-03) escribe BO-03 y Despacho (BP-07) solo lo lee (PR-07); la genealogía BO-02, el acta BO-06 y el registro de evento BO-07 reemplazan a la planilla puente.</text>
+<text x="26" y="656.0" font-size="12" fill="#5f6b73">Procesos transversales BP-04 y BP-08 con sus servicios y eventos: B-V04. Quién ejecuta cada proceso: B-V05.</text>
+<text x="26" y="673.0" font-size="11" fill="#7c868d">Notación ArchiMate 3.2: Assignment (●→) · Realization (- - ▷) · Serving (→ abierta) · Access (··· ; flecha = dirección del dato: escribe →objeto, lee →proceso) · Triggering (→ llena) · Flow (- - → llena) · Composition (◆) · Aggregation (◇) · Influence</text>
+<text x="26" y="690.0" font-size="11" fill="#7c868d">(- - →, +) · Association (—). Anidamiento = relación estructural del modelo.</text>
+</svg>

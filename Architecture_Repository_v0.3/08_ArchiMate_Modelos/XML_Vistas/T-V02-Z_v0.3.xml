@@ -1,0 +1,327 @@
+<?xml version='1.0' encoding='utf-8'?>
+<model xmlns="http://www.opengroup.org/xsd/archimate/3.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" identifier="M-CAMPOSOL-T-V02-Z-v03" xsi:schemaLocation="http://www.opengroup.org/xsd/archimate/3.0/ http://www.opengroup.org/xsd/archimate/3.1/archimate3_Diagram.xsd">
+  <name xml:lang="es">Camposol Chao · T-V02-Z · IT/OT Cybersecurity · zonas y conductos · v0.3 (PC3)</name>
+  <documentation xml:lang="es">Extracto de una vista del modelo consolidado v0.3 (PC3): elementos de la vista y todas las relaciones entre ellos. Modelo académico SI605 Grupo 04; no representa sistemas reales de Camposol.</documentation>
+  <elements>
+    <element identifier="CD-01" xsi:type="Path">
+      <name xml:lang="es">CD-01 Calibrado → operaciones (solo lectura)</name>
+      <documentation xml:lang="es">Eventos de batch, división, mezcla y estado de línea. Extremos T-BASE02 → T-TAR04. Protocolo candidato: OPC UA si la calibradora lo soporta; si no, archivo exportado (NV-04). Política: Iniciado por el gateway; solo lectura; sin escritura en PLC/HMI. · Estado: Target (nuevo) · Clase DE</documentation>
+      <properties>
+        <property propertyDefinitionRef="PD-01">
+          <value xml:lang="es">DE</value>
+        </property>
+        <property propertyDefinitionRef="PD-02">
+          <value xml:lang="es">D</value>
+        </property>
+        <property propertyDefinitionRef="PD-03">
+          <value xml:lang="es">Target (nuevo)</value>
+        </property>
+      </properties>
+    </element>
+    <element identifier="CD-02" xsi:type="Path">
+      <name xml:lang="es">CD-02 Frío → operaciones (solo lectura)</name>
+      <documentation xml:lang="es">Lecturas térmicas por posición. Extremos T-BASE04 → T-TAR04. Protocolo candidato: OPC UA o protocolo industrial del registro (NV-05). Política: Iniciado por el gateway; solo lectura. · Estado: Target (nuevo) · Clase DE</documentation>
+      <properties>
+        <property propertyDefinitionRef="PD-01">
+          <value xml:lang="es">DE</value>
+        </property>
+        <property propertyDefinitionRef="PD-02">
+          <value xml:lang="es">D</value>
+        </property>
+        <property propertyDefinitionRef="PD-03">
+          <value xml:lang="es">Target (nuevo)</value>
+        </property>
+      </properties>
+    </element>
+    <element identifier="CD-03" xsi:type="Path">
+      <name xml:lang="es">CD-03 Operaciones ↔ DMZ (iniciado en borde)</name>
+      <documentation xml:lang="es">Eventos salientes; réplica de lectura de estado QA e historia. Extremos T-TAR03 ↔ T-TAR06. Protocolo candidato: MQTT o AMQP sobre TLS mutuo; HTTPS para réplica. Política: Sesiones iniciadas solo desde T-TAR03. · Estado: Target (nuevo) · Clase DE</documentation>
+      <properties>
+        <property propertyDefinitionRef="PD-01">
+          <value xml:lang="es">DE</value>
+        </property>
+        <property propertyDefinitionRef="PD-02">
+          <value xml:lang="es">D</value>
+        </property>
+        <property propertyDefinitionRef="PD-03">
+          <value xml:lang="es">Target (nuevo)</value>
+        </property>
+      </properties>
+    </element>
+    <element identifier="CD-04" xsi:type="Path">
+      <name xml:lang="es">CD-04 DMZ → central por WAN</name>
+      <documentation xml:lang="es">Reenvío de eventos y confirmaciones (ack). Extremos T-TAR06 → T-TAR09. Protocolo candidato: MQTT/AMQP o HTTPS sobre TLS mutuo; lista de destinos permitidos. Política: Salida iniciada desde planta; sin entrada no solicitada. · Estado: Target (nuevo) · Clase DE</documentation>
+      <properties>
+        <property propertyDefinitionRef="PD-01">
+          <value xml:lang="es">DE</value>
+        </property>
+        <property propertyDefinitionRef="PD-02">
+          <value xml:lang="es">D</value>
+        </property>
+        <property propertyDefinitionRef="PD-03">
+          <value xml:lang="es">Target (nuevo)</value>
+        </property>
+      </properties>
+    </element>
+    <element identifier="CD-05" xsi:type="Path">
+      <name xml:lang="es">CD-05 IT → DMZ: mantenimiento por bastión</name>
+      <documentation xml:lang="es">Sesión remota de diagnóstico. Extremos T-BASE05 → T-TAR07. Protocolo candidato: Escritorio remoto o SSH vía bastión; MFA. Política: Temporal; ventana aprobada por STK-04; sesión grabada. · Estado: Target (nuevo) · Clase DE</documentation>
+      <properties>
+        <property propertyDefinitionRef="PD-01">
+          <value xml:lang="es">DE</value>
+        </property>
+        <property propertyDefinitionRef="PD-02">
+          <value xml:lang="es">D</value>
+        </property>
+        <property propertyDefinitionRef="PD-03">
+          <value xml:lang="es">Target (nuevo)</value>
+        </property>
+      </properties>
+    </element>
+    <element identifier="CD-06" xsi:type="Path">
+      <name xml:lang="es">CD-06 Bastión → células OT (sesión aprobada)</name>
+      <documentation xml:lang="es">Diagnóstico de HMI y registro térmico. Extremos T-TAR07 → T-BASE02 / T-BASE04. Protocolo candidato: Según fabricante; dentro de sesión de bastión. Política: Solo con aprobación OT; prohibido desde Z-06/Z-07. · Estado: Target (nuevo) · Clase DE</documentation>
+      <properties>
+        <property propertyDefinitionRef="PD-01">
+          <value xml:lang="es">DE</value>
+        </property>
+        <property propertyDefinitionRef="PD-02">
+          <value xml:lang="es">D</value>
+        </property>
+        <property propertyDefinitionRef="PD-03">
+          <value xml:lang="es">Target (nuevo)</value>
+        </property>
+      </properties>
+    </element>
+    <element identifier="CD-07" xsi:type="Path">
+      <name xml:lang="es">CD-07 Central ↔ SAP (IF-05/IF-06)</name>
+      <documentation xml:lang="es">Consulta de estado QA e historia; ShipmentConfirmed. Extremos T-TAR09 ↔ T-BASE07. Protocolo candidato: Mecanismo por validar: API, archivo o mensaje (NV-01). Política: SAP solo lee estado QA; sin ruta hacia Z-01…Z-04. · Estado: Target (nuevo) · Clase DE</documentation>
+      <properties>
+        <property propertyDefinitionRef="PD-01">
+          <value xml:lang="es">DE</value>
+        </property>
+        <property propertyDefinitionRef="PD-02">
+          <value xml:lang="es">D</value>
+        </property>
+        <property propertyDefinitionRef="PD-03">
+          <value xml:lang="es">Target (nuevo)</value>
+        </property>
+      </properties>
+    </element>
+    <element identifier="CD-08" xsi:type="Path">
+      <name xml:lang="es">CD-08 Usuarios IT → central (AP-10)</name>
+      <documentation xml:lang="es">Consulta autorizada de historia. Extremos T-BASE05 → T-TAR09. Protocolo candidato: HTTPS con SSO y MFA (TS-06). Política: Por rol; consulta auditada (AR-A03). · Estado: Target (nuevo) · Clase DE</documentation>
+      <properties>
+        <property propertyDefinitionRef="PD-01">
+          <value xml:lang="es">DE</value>
+        </property>
+        <property propertyDefinitionRef="PD-02">
+          <value xml:lang="es">D</value>
+        </property>
+        <property propertyDefinitionRef="PD-03">
+          <value xml:lang="es">Target (nuevo)</value>
+        </property>
+      </properties>
+    </element>
+    <element identifier="CD-09" xsi:type="Path">
+      <name xml:lang="es">CD-09 Tiempo de referencia → células OT</name>
+      <documentation xml:lang="es">Sincronización horaria. Extremos T-TAR05 → T-BASE02 / T-BASE04. Protocolo candidato: NTP (o PTP si el equipo lo exige). Política: Solo servicio de tiempo; sin otros flujos. · Estado: Target (nuevo) · Clase DE</documentation>
+      <properties>
+        <property propertyDefinitionRef="PD-01">
+          <value xml:lang="es">DE</value>
+        </property>
+        <property propertyDefinitionRef="PD-02">
+          <value xml:lang="es">D</value>
+        </property>
+        <property propertyDefinitionRef="PD-03">
+          <value xml:lang="es">Target (nuevo)</value>
+        </property>
+      </properties>
+    </element>
+    <element identifier="Z-01" xsi:type="Grouping">
+      <name xml:lang="es">Z-01 Zona OT · célula de calibrado</name>
+      <documentation xml:lang="es">Zona ISA/IEC 62443 (ISA-95 L1–L2). Activos: T-BASE01; T-BASE02. Nivel de seguridad objetivo: SL-T 2 propuesto (NV-13). Owner STK-04. · Estado: Target (nuevo) · Clase DE</documentation>
+      <properties>
+        <property propertyDefinitionRef="PD-01">
+          <value xml:lang="es">DE</value>
+        </property>
+        <property propertyDefinitionRef="PD-02">
+          <value xml:lang="es">D</value>
+        </property>
+        <property propertyDefinitionRef="PD-03">
+          <value xml:lang="es">Target (nuevo)</value>
+        </property>
+      </properties>
+    </element>
+    <element identifier="Z-02" xsi:type="Grouping">
+      <name xml:lang="es">Z-02 Zona OT · célula de frío</name>
+      <documentation xml:lang="es">Zona ISA/IEC 62443 (ISA-95 L1–L2). Activos: T-BASE03; T-BASE04. Nivel de seguridad objetivo: SL-T 2 propuesto (NV-13). Owner STK-03. · Estado: Target (nuevo) · Clase DE</documentation>
+      <properties>
+        <property propertyDefinitionRef="PD-01">
+          <value xml:lang="es">DE</value>
+        </property>
+        <property propertyDefinitionRef="PD-02">
+          <value xml:lang="es">D</value>
+        </property>
+        <property propertyDefinitionRef="PD-03">
+          <value xml:lang="es">Target (nuevo)</value>
+        </property>
+      </properties>
+    </element>
+    <element identifier="Z-03" xsi:type="Grouping">
+      <name xml:lang="es">Z-03 Zona de operaciones de planta</name>
+      <documentation xml:lang="es">Zona ISA/IEC 62443 (ISA-95 L3). Activos: T-TAR01; T-TAR02; T-TAR03; T-TAR04; T-TAR05. Nivel de seguridad objetivo: SL-T 2 propuesto (NV-13). Owner STK-04. · Estado: Target (nuevo) · Clase DE</documentation>
+      <properties>
+        <property propertyDefinitionRef="PD-01">
+          <value xml:lang="es">DE</value>
+        </property>
+        <property propertyDefinitionRef="PD-02">
+          <value xml:lang="es">D</value>
+        </property>
+        <property propertyDefinitionRef="PD-03">
+          <value xml:lang="es">Target (nuevo)</value>
+        </property>
+      </properties>
+    </element>
+    <element identifier="Z-04" xsi:type="Grouping">
+      <name xml:lang="es">Z-04 DMZ industrial</name>
+      <documentation xml:lang="es">Zona ISA/IEC 62443 (Frontera L3/L4). Activos: T-TAR06; T-TAR07. Nivel de seguridad objetivo: SL-T 3 propuesto (NV-13). Owner STK-04. · Estado: Target (nuevo) · Clase DE</documentation>
+      <properties>
+        <property propertyDefinitionRef="PD-01">
+          <value xml:lang="es">DE</value>
+        </property>
+        <property propertyDefinitionRef="PD-02">
+          <value xml:lang="es">D</value>
+        </property>
+        <property propertyDefinitionRef="PD-03">
+          <value xml:lang="es">Target (nuevo)</value>
+        </property>
+      </properties>
+    </element>
+    <element identifier="Z-05" xsi:type="Grouping">
+      <name xml:lang="es">Z-05 Zona IT de planta</name>
+      <documentation xml:lang="es">Zona ISA/IEC 62443 (ISA-95 L4 (usuarios)). Activos: T-BASE05. Nivel de seguridad objetivo: Política corporativa. Owner STK-04. · Estado: Target (nuevo) · Clase DE</documentation>
+      <properties>
+        <property propertyDefinitionRef="PD-01">
+          <value xml:lang="es">DE</value>
+        </property>
+        <property propertyDefinitionRef="PD-02">
+          <value xml:lang="es">D</value>
+        </property>
+        <property propertyDefinitionRef="PD-03">
+          <value xml:lang="es">Target (nuevo)</value>
+        </property>
+      </properties>
+    </element>
+    <element identifier="Z-06" xsi:type="Grouping">
+      <name xml:lang="es">Z-06 Zona de plataforma central</name>
+      <documentation xml:lang="es">Zona ISA/IEC 62443 (Despliegue de funciones L3 fuera de planta). Activos: T-TAR09; T-TAR10; T-TAR11. Nivel de seguridad objetivo: Política corporativa + NFR-T04/T08. Owner STK-07. · Estado: Target (nuevo) · Clase DE</documentation>
+      <properties>
+        <property propertyDefinitionRef="PD-01">
+          <value xml:lang="es">DE</value>
+        </property>
+        <property propertyDefinitionRef="PD-02">
+          <value xml:lang="es">D</value>
+        </property>
+        <property propertyDefinitionRef="PD-03">
+          <value xml:lang="es">Target (nuevo)</value>
+        </property>
+      </properties>
+    </element>
+    <element identifier="Z-07" xsi:type="Grouping">
+      <name xml:lang="es">Z-07 Zona corporativa (SAP e identidad)</name>
+      <documentation xml:lang="es">Zona ISA/IEC 62443 (ISA-95 L4). Activos: T-BASE07; T-TAR12. Nivel de seguridad objetivo: Fuera del alcance de diseño. Owner STK-07. · Estado: Target (nuevo) · Clase DE</documentation>
+      <properties>
+        <property propertyDefinitionRef="PD-01">
+          <value xml:lang="es">DE</value>
+        </property>
+        <property propertyDefinitionRef="PD-02">
+          <value xml:lang="es">D</value>
+        </property>
+        <property propertyDefinitionRef="PD-03">
+          <value xml:lang="es">Target (nuevo)</value>
+        </property>
+      </properties>
+    </element>
+  </elements>
+  <relationships>
+    <relationship identifier="R383" source="CD-01" target="Z-01" xsi:type="Association" />
+    <relationship identifier="R384" source="CD-01" target="Z-03" xsi:type="Association" />
+    <relationship identifier="R385" source="CD-02" target="Z-02" xsi:type="Association" />
+    <relationship identifier="R386" source="CD-02" target="Z-03" xsi:type="Association" />
+    <relationship identifier="R387" source="CD-03" target="Z-03" xsi:type="Association" />
+    <relationship identifier="R388" source="CD-03" target="Z-04" xsi:type="Association" />
+    <relationship identifier="R389" source="CD-04" target="Z-04" xsi:type="Association" />
+    <relationship identifier="R390" source="CD-04" target="Z-06" xsi:type="Association" />
+    <relationship identifier="R391" source="CD-05" target="Z-05" xsi:type="Association" />
+    <relationship identifier="R392" source="CD-05" target="Z-04" xsi:type="Association" />
+    <relationship identifier="R393" source="CD-06" target="Z-04" xsi:type="Association" />
+    <relationship identifier="R394" source="CD-06" target="Z-01" xsi:type="Association" />
+    <relationship identifier="R395" source="CD-06" target="Z-02" xsi:type="Association" />
+    <relationship identifier="R396" source="CD-07" target="Z-06" xsi:type="Association" />
+    <relationship identifier="R397" source="CD-07" target="Z-07" xsi:type="Association" />
+    <relationship identifier="R398" source="CD-08" target="Z-05" xsi:type="Association" />
+    <relationship identifier="R399" source="CD-08" target="Z-06" xsi:type="Association" />
+    <relationship identifier="R400" source="CD-09" target="Z-03" xsi:type="Association" />
+    <relationship identifier="R401" source="CD-09" target="Z-01" xsi:type="Association" />
+    <relationship identifier="R402" source="CD-09" target="Z-02" xsi:type="Association" />
+  </relationships>
+  <propertyDefinitions>
+    <propertyDefinition identifier="PD-01" type="string">
+      <name xml:lang="es">Evidencia</name>
+    </propertyDefinition>
+    <propertyDefinition identifier="PD-02" type="string">
+      <name xml:lang="es">Fase_ADM</name>
+    </propertyDefinition>
+    <propertyDefinition identifier="PD-03" type="string">
+      <name xml:lang="es">Estado</name>
+    </propertyDefinition>
+  </propertyDefinitions>
+  <views>
+    <diagrams>
+      <view identifier="V-T-V02-Z" xsi:type="Diagram">
+        <name xml:lang="es">T-V02-Z · IT/OT Cybersecurity · zonas y conductos</name>
+        <documentation xml:lang="es">T-V02-Z · VP-D08 · C06/C07 · Grupo 04 · v0.3 (PC3) · Target (DE) · SL-T por validar (NV-13). Siete zonas (Grouping) y nueve conductos (Path) asociados a las zonas que conectan. Los conductos OT (CD-01/02) son solo de lectura; el borde inicia toda sesión hacia DMZ y central (CD-03/04); el mantenimiento entra solo por bastión (CD-05/06); SAP solo habla con la zona central (CD-07). Ninguna sesión desde Z-05, Z-06 o Z-07 hacia PLC/HMI (PR-09, PR-10). Activos de cada zona: T-V05 y T1/02 (columna Nivel/zona); redes físicas: T-V02-T; matriz completa: T1/10_Conduits_IT_OT.</documentation>
+        <node identifier="N-T-V02-Z-01" elementRef="Z-07" xsi:type="Element" x="24" y="24" w="186" h="86" />
+        <node identifier="N-T-V02-Z-02" elementRef="Z-06" xsi:type="Element" x="499" y="24" w="186" h="86" />
+        <node identifier="N-T-V02-Z-03" elementRef="Z-05" xsi:type="Element" x="974" y="24" w="186" h="86" />
+        <node identifier="N-T-V02-Z-04" elementRef="CD-07" xsi:type="Element" x="262" y="227" w="186" h="70" />
+        <node identifier="N-T-V02-Z-05" elementRef="CD-04" xsi:type="Element" x="499" y="227" w="186" h="70" />
+        <node identifier="N-T-V02-Z-06" elementRef="CD-08" xsi:type="Element" x="736" y="227" w="186" h="70" />
+        <node identifier="N-T-V02-Z-07" elementRef="CD-05" xsi:type="Element" x="974" y="227" w="186" h="70" />
+        <node identifier="N-T-V02-Z-08" elementRef="Z-04" xsi:type="Element" x="499" y="416" w="186" h="86" />
+        <node identifier="N-T-V02-Z-09" elementRef="CD-03" xsi:type="Element" x="499" y="612" w="186" h="70" />
+        <node identifier="N-T-V02-Z-10" elementRef="Z-03" xsi:type="Element" x="499" y="794" w="186" h="86" />
+        <node identifier="N-T-V02-Z-11" elementRef="CD-06" xsi:type="Element" x="1149" y="990" w="186" h="70" />
+        <node identifier="N-T-V02-Z-12" elementRef="CD-01" xsi:type="Element" x="174" y="990" w="186" h="70" />
+        <node identifier="N-T-V02-Z-13" elementRef="CD-09" xsi:type="Element" x="499" y="990" w="186" h="70" />
+        <node identifier="N-T-V02-Z-14" elementRef="CD-02" xsi:type="Element" x="824" y="990" w="186" h="70" />
+        <node identifier="N-T-V02-Z-15" elementRef="Z-01" xsi:type="Element" x="174" y="1186" w="186" h="86" />
+        <node identifier="N-T-V02-Z-16" elementRef="Z-02" xsi:type="Element" x="824" y="1186" w="186" h="86" />
+        <connection identifier="C-T-V02-Z-R383" relationshipRef="R383" xsi:type="Relationship" source="N-T-V02-Z-12" target="N-T-V02-Z-15" />
+        <connection identifier="C-T-V02-Z-R384" relationshipRef="R384" xsi:type="Relationship" source="N-T-V02-Z-12" target="N-T-V02-Z-10" />
+        <connection identifier="C-T-V02-Z-R385" relationshipRef="R385" xsi:type="Relationship" source="N-T-V02-Z-14" target="N-T-V02-Z-16" />
+        <connection identifier="C-T-V02-Z-R386" relationshipRef="R386" xsi:type="Relationship" source="N-T-V02-Z-14" target="N-T-V02-Z-10" />
+        <connection identifier="C-T-V02-Z-R387" relationshipRef="R387" xsi:type="Relationship" source="N-T-V02-Z-09" target="N-T-V02-Z-10" />
+        <connection identifier="C-T-V02-Z-R388" relationshipRef="R388" xsi:type="Relationship" source="N-T-V02-Z-09" target="N-T-V02-Z-08" />
+        <connection identifier="C-T-V02-Z-R389" relationshipRef="R389" xsi:type="Relationship" source="N-T-V02-Z-05" target="N-T-V02-Z-08" />
+        <connection identifier="C-T-V02-Z-R390" relationshipRef="R390" xsi:type="Relationship" source="N-T-V02-Z-05" target="N-T-V02-Z-02" />
+        <connection identifier="C-T-V02-Z-R391" relationshipRef="R391" xsi:type="Relationship" source="N-T-V02-Z-07" target="N-T-V02-Z-03" />
+        <connection identifier="C-T-V02-Z-R392" relationshipRef="R392" xsi:type="Relationship" source="N-T-V02-Z-07" target="N-T-V02-Z-08" />
+        <connection identifier="C-T-V02-Z-R393" relationshipRef="R393" xsi:type="Relationship" source="N-T-V02-Z-11" target="N-T-V02-Z-08" />
+        <connection identifier="C-T-V02-Z-R394" relationshipRef="R394" xsi:type="Relationship" source="N-T-V02-Z-11" target="N-T-V02-Z-15">
+          <bendpoint x="1242" y="1312" />
+          <bendpoint x="267" y="1312" />
+        </connection>
+        <connection identifier="C-T-V02-Z-R395" relationshipRef="R395" xsi:type="Relationship" source="N-T-V02-Z-11" target="N-T-V02-Z-16" />
+        <connection identifier="C-T-V02-Z-R396" relationshipRef="R396" xsi:type="Relationship" source="N-T-V02-Z-04" target="N-T-V02-Z-02" />
+        <connection identifier="C-T-V02-Z-R397" relationshipRef="R397" xsi:type="Relationship" source="N-T-V02-Z-04" target="N-T-V02-Z-01" />
+        <connection identifier="C-T-V02-Z-R398" relationshipRef="R398" xsi:type="Relationship" source="N-T-V02-Z-06" target="N-T-V02-Z-03" />
+        <connection identifier="C-T-V02-Z-R399" relationshipRef="R399" xsi:type="Relationship" source="N-T-V02-Z-06" target="N-T-V02-Z-02" />
+        <connection identifier="C-T-V02-Z-R400" relationshipRef="R400" xsi:type="Relationship" source="N-T-V02-Z-13" target="N-T-V02-Z-10" />
+        <connection identifier="C-T-V02-Z-R401" relationshipRef="R401" xsi:type="Relationship" source="N-T-V02-Z-13" target="N-T-V02-Z-15" />
+        <connection identifier="C-T-V02-Z-R402" relationshipRef="R402" xsi:type="Relationship" source="N-T-V02-Z-13" target="N-T-V02-Z-16" />
+      </view>
+    </diagrams>
+  </views>
+</model>

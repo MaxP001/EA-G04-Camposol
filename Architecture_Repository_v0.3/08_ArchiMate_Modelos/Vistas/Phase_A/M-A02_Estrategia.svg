@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1004" height="554" viewBox="0 0 1004 554" font-family="Helvetica, Arial, sans-serif">
+<defs>
+<marker id="afill" viewBox="0 0 12 10" refX="11" refY="5" markerWidth="11" markerHeight="9" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L12,5 L0,10 z" fill="#46525a"/></marker>
+<marker id="thol" viewBox="0 0 14 12" refX="13" refY="6" markerWidth="14" markerHeight="12" orient="auto" markerUnits="userSpaceOnUse"><path d="M1,1 L13,6 L1,11 z" fill="#ffffff" stroke="#46525a" stroke-width="1.3"/></marker>
+<marker id="open" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="12" markerHeight="12" orient="auto" markerUnits="userSpaceOnUse"><path d="M1,1 L11,6 L1,11" fill="none" stroke="#46525a" stroke-width="1.5"/></marker>
+<marker id="acc" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto" markerUnits="userSpaceOnUse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#46525a" stroke-width="1.3"/></marker>
+<marker id="accs" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="9" markerHeight="9" orient="auto" markerUnits="userSpaceOnUse"><path d="M9,1 L1,5 L9,9" fill="none" stroke="#46525a" stroke-width="1.3"/></marker>
+<marker id="dot" viewBox="0 0 10 10" refX="4" refY="5" markerWidth="9" markerHeight="9" orient="auto" markerUnits="userSpaceOnUse"><circle cx="5" cy="5" r="3.6" fill="#46525a"/></marker>
+<marker id="dfill" viewBox="0 0 18 10" refX="1" refY="5" markerWidth="18" markerHeight="10" orient="auto" markerUnits="userSpaceOnUse"><path d="M1,5 L9,1 L17,5 L9,9 z" fill="#46525a"/></marker>
+<marker id="dhol" viewBox="0 0 18 10" refX="1" refY="5" markerWidth="18" markerHeight="10" orient="auto" markerUnits="userSpaceOnUse"><path d="M1,5 L9,1 L17,5 L9,9 z" fill="#ffffff" stroke="#46525a" stroke-width="1.2"/></marker>
+</defs>
+<rect x="1" y="1" width="1002" height="552" rx="14" fill="#ffffff" stroke="#dde3e6" stroke-width="2"/>
+<path d="M800.2,174.0 L703.8,120.0" fill="none" stroke="#46525a" stroke-width="1.4" stroke-dasharray="6,4" marker-end="url(#thol)"/>
+<path d="M784.0,217.0 L720.0,217.0" fill="none" stroke="#46525a" stroke-width="1.4" stroke-dasharray="6,4" marker-end="url(#thol)"/>
+<path d="M800.2,260.0 L703.8,314.0" fill="none" stroke="#46525a" stroke-width="1.4" stroke-dasharray="6,4" marker-end="url(#thol)"/>
+<path d="M470.0,121.0 L534.0,103.0" fill="none" stroke="#46525a" stroke-width="1.4" stroke-dasharray="6,4" marker-end="url(#thol)"/>
+<path d="M470.0,173.0 L534.0,191.0" fill="none" stroke="#46525a" stroke-width="1.4" stroke-dasharray="6,4" marker-end="url(#thol)"/>
+<path d="M220.0,103.0 L284.0,121.0" fill="none" stroke="#6d777e" stroke-width="1.3"/>
+<path d="M220.0,191.0 L284.0,173.0" fill="none" stroke="#6d777e" stroke-width="1.3"/>
+<path d="M178.2,314.0 L325.8,190.0" fill="none" stroke="#6d777e" stroke-width="1.3"/>
+<rect x="34" y="34" width="186" height="86" rx="7" fill="#fde6bd" stroke="#b5862a" stroke-width="1.8"/>
+<path d="M196,55 L212,55 L212,41 L207,41 L207,46 L201,46 L201,51 L196,51 Z" fill="none" stroke="#b5862a" stroke-width="1.3"/>
+<text x="44" y="50" font-size="10.5" font-weight="bold" fill="#9c6f12">Capability</text>
+<text x="127.0" y="70" font-size="11" font-weight="bold" fill="#3c4850" text-anchor="middle">CAP-01</text>
+<text x="127.0" y="84.0" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">Trazabilidad del lote</text>
+<rect x="34" y="174" width="186" height="86" rx="7" fill="#fde6bd" stroke="#b5862a" stroke-width="1.8"/>
+<path d="M196,195 L212,195 L212,181 L207,181 L207,186 L201,186 L201,191 L196,191 Z" fill="none" stroke="#b5862a" stroke-width="1.3"/>
+<text x="44" y="190" font-size="10.5" font-weight="bold" fill="#9c6f12">Capability</text>
+<text x="127.0" y="210" font-size="11" font-weight="bold" fill="#3c4850" text-anchor="middle">CAP-04</text>
+<text x="127.0" y="224.0" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">Coordinación de</text>
+<text x="127.0" y="237.5" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">transferencias</text>
+<rect x="34" y="314" width="186" height="86" rx="7" fill="#fde6bd" stroke="#b5862a" stroke-width="1.8"/>
+<path d="M196,335 L212,335 L212,321 L207,321 L207,326 L201,326 L201,331 L196,331 Z" fill="none" stroke="#b5862a" stroke-width="1.3"/>
+<text x="44" y="330" font-size="10.5" font-weight="bold" fill="#9c6f12">Capability</text>
+<text x="127.0" y="350" font-size="11" font-weight="bold" fill="#3c4850" text-anchor="middle">CAP-07</text>
+<text x="127.0" y="364.0" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">Control de conformidad y</text>
+<text x="127.0" y="377.5" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">liberación</text>
+<rect x="284" y="104.0" width="186" height="86" rx="7" fill="#fde6bd" stroke="#b5862a" stroke-width="1.8"/>
+<circle cx="456" cy="117.0" r="5.5" fill="none" stroke="#b5862a" stroke-width="1.3"/><circle cx="456" cy="117.0" r="2" fill="#b5862a"/><path d="M446,126.0 Q448,120.0 452,121.0" fill="none" stroke="#b5862a" stroke-width="1.3"/>
+<text x="294" y="120.0" font-size="10.5" font-weight="bold" fill="#9c6f12">Course of Action</text>
+<text x="377.0" y="140.0" font-size="11" font-weight="bold" fill="#3c4850" text-anchor="middle">CoA-01</text>
+<text x="377.0" y="154.0" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">Gobernar identidad y</text>
+<text x="377.0" y="167.5" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">evidencia por pallet en</text>
+<text x="377.0" y="181.0" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">cada transferencia</text>
+<rect x="534" y="34" width="186" height="86" rx="2" fill="#efe2f6" stroke="#8b5fa8" stroke-width="1.8"/>
+<circle cx="704" cy="48" r="6.5" fill="none" stroke="#8b5fa8" stroke-width="1.3"/><circle cx="704" cy="48" r="3.5" fill="none" stroke="#8b5fa8" stroke-width="1.3"/><circle cx="704" cy="48" r="1" fill="#8b5fa8"/><path d="M704,48 L712,40" fill="none" stroke="#8b5fa8" stroke-width="1.3"/>
+<text x="544" y="50" font-size="10.5" font-weight="bold" fill="#7a4c99">Outcome</text>
+<text x="627.0" y="70" font-size="11" font-weight="bold" fill="#3c4850" text-anchor="middle">OUT-01</text>
+<text x="627.0" y="84.0" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">Historia del lote íntegra,</text>
+<text x="627.0" y="97.5" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">segura y recuperable para</text>
+<text x="627.0" y="111.0" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">decisiones</text>
+<rect x="534" y="174" width="186" height="86" rx="2" fill="#efe2f6" stroke="#8b5fa8" stroke-width="1.8"/>
+<circle cx="704" cy="188" r="6.5" fill="none" stroke="#8b5fa8" stroke-width="1.3"/><circle cx="704" cy="188" r="3.5" fill="none" stroke="#8b5fa8" stroke-width="1.3"/><circle cx="704" cy="188" r="1" fill="#8b5fa8"/><path d="M704,188 L712,180" fill="none" stroke="#8b5fa8" stroke-width="1.3"/>
+<text x="544" y="190" font-size="10.5" font-weight="bold" fill="#7a4c99">Outcome</text>
+<text x="627.0" y="210" font-size="11" font-weight="bold" fill="#3c4850" text-anchor="middle">OUT-02</text>
+<text x="627.0" y="224.0" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">Handoffs con aceptación y</text>
+<text x="627.0" y="237.5" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">excepción explícitas y</text>
+<text x="627.0" y="251.0" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">estados separados</text>
+<rect x="534" y="314" width="186" height="86" rx="2" fill="#efe2f6" stroke="#8b5fa8" stroke-width="1.8"/>
+<circle cx="704" cy="328" r="6.5" fill="none" stroke="#8b5fa8" stroke-width="1.3"/><circle cx="704" cy="328" r="3.5" fill="none" stroke="#8b5fa8" stroke-width="1.3"/><circle cx="704" cy="328" r="1" fill="#8b5fa8"/><path d="M704,328 L712,320" fill="none" stroke="#8b5fa8" stroke-width="1.3"/>
+<text x="544" y="330" font-size="10.5" font-weight="bold" fill="#7a4c99">Outcome</text>
+<text x="627.0" y="350" font-size="11" font-weight="bold" fill="#3c4850" text-anchor="middle">OUT-03</text>
+<text x="627.0" y="364.0" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">Excepciones gestionadas y</text>
+<text x="627.0" y="377.5" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">desempeño medido de forma</text>
+<text x="627.0" y="391.0" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">gobernada</text>
+<path d="M784,174 L954,174 L970,217.0 L954,260 L784,260 L800,217.0 Z" fill="#fde6bd" stroke="#b5862a" stroke-width="1.8"/>
+
+<text x="804" y="190" font-size="10.5" font-weight="bold" fill="#9c6f12">Value Stream</text>
+<text x="877.0" y="210" font-size="11" font-weight="bold" fill="#3c4850" text-anchor="middle">VS-01</text>
+<text x="877.0" y="224.0" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">Aseguramiento de fruta</text>
+<text x="877.0" y="237.5" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">exportable</text>
+<rect x="717.2" y="139.0" width="69.6" height="14" rx="3" fill="#ffffff" fill-opacity="0.92"/><text x="752.0" y="150.0" font-size="9.5" fill="#4a565e" text-anchor="middle">Realization</text>
+<rect x="717.2" y="197.0" width="69.6" height="14" rx="3" fill="#ffffff" fill-opacity="0.92"/><text x="752.0" y="208.0" font-size="9.5" fill="#4a565e" text-anchor="middle">Realization</text>
+<rect x="717.2" y="279.0" width="69.6" height="14" rx="3" fill="#ffffff" fill-opacity="0.92"/><text x="752.0" y="290.0" font-size="9.5" fill="#4a565e" text-anchor="middle">Realization</text>
+<rect x="467.2" y="92.0" width="69.6" height="14" rx="3" fill="#ffffff" fill-opacity="0.92"/><text x="502.0" y="103.0" font-size="9.5" fill="#4a565e" text-anchor="middle">Realization</text>
+<rect x="467.2" y="162.0" width="69.6" height="14" rx="3" fill="#ffffff" fill-opacity="0.92"/><text x="502.0" y="173.0" font-size="9.5" fill="#4a565e" text-anchor="middle">Realization</text>
+<rect x="217.2" y="92.0" width="69.6" height="14" rx="3" fill="#ffffff" fill-opacity="0.92"/><text x="252.0" y="103.0" font-size="9.5" fill="#4a565e" text-anchor="middle">Association</text>
+<rect x="217.2" y="162.0" width="69.6" height="14" rx="3" fill="#ffffff" fill-opacity="0.92"/><text x="252.0" y="173.0" font-size="9.5" fill="#4a565e" text-anchor="middle">Association</text>
+<rect x="217.2" y="244.0" width="69.6" height="14" rx="3" fill="#ffffff" fill-opacity="0.92"/><text x="252.0" y="255.0" font-size="9.5" fill="#4a565e" text-anchor="middle">Association</text>
+<text x="26" y="456" font-size="12" fill="#5f6b73">VIEW-A02 · VP-A02 Estrategia · Concerns C01/C05/C06 · Grupo 04 · v0.3 (PC3)</text>
+<text x="26" y="473" font-size="12" fill="#5f6b73">CoA-01 y VS-01 realizan los outcomes; CAP-01, CAP-04 y CAP-07 habilitan el curso de acción.</text>
+<text x="26" y="490" font-size="12" fill="#5f6b73">Concern acotado: el Serving de cada capacidad hacia las etapas del VS-01 se muestra en B-V03 (por etapa).</text>
+<text x="26" y="507" font-size="11" fill="#7c868d">Notación ArchiMate 3.2: Assignment (●→) · Realization (- - ▷) · Serving (→ abierta) · Access (··· ; flecha = dirección del dato: escribe →objeto, lee</text>
+<text x="26" y="524" font-size="11" fill="#7c868d">→proceso) · Triggering (→ llena) · Flow (- - → llena) · Composition (◆) · Aggregation (◇) · Influence (- - →, +) · Association (—). Anidamiento = relación</text>
+<text x="26" y="541" font-size="11" fill="#7c868d">estructural del modelo.</text>
+</svg>

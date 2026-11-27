@@ -1,0 +1,221 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1284.0" height="926.0" viewBox="0 0 1284.0 926.0" font-family="Helvetica, Arial, sans-serif">
+<defs>
+<marker id="afill" viewBox="0 0 12 10" refX="11" refY="5" markerWidth="11" markerHeight="9" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L12,5 L0,10 z" fill="#46525a"/></marker>
+<marker id="thol" viewBox="0 0 14 12" refX="13" refY="6" markerWidth="14" markerHeight="12" orient="auto" markerUnits="userSpaceOnUse"><path d="M1,1 L13,6 L1,11 z" fill="#ffffff" stroke="#46525a" stroke-width="1.3"/></marker>
+<marker id="open" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="12" markerHeight="12" orient="auto" markerUnits="userSpaceOnUse"><path d="M1,1 L11,6 L1,11" fill="none" stroke="#46525a" stroke-width="1.5"/></marker>
+<marker id="acc" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto" markerUnits="userSpaceOnUse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#46525a" stroke-width="1.3"/></marker>
+<marker id="accs" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="9" markerHeight="9" orient="auto" markerUnits="userSpaceOnUse"><path d="M9,1 L1,5 L9,9" fill="none" stroke="#46525a" stroke-width="1.3"/></marker>
+<marker id="dot" viewBox="0 0 10 10" refX="4" refY="5" markerWidth="9" markerHeight="9" orient="auto" markerUnits="userSpaceOnUse"><circle cx="5" cy="5" r="3.6" fill="#46525a"/></marker>
+<marker id="dfill" viewBox="0 0 18 10" refX="1" refY="5" markerWidth="18" markerHeight="10" orient="auto" markerUnits="userSpaceOnUse"><path d="M1,5 L9,1 L17,5 L9,9 z" fill="#46525a"/></marker>
+<marker id="dhol" viewBox="0 0 18 10" refX="1" refY="5" markerWidth="18" markerHeight="10" orient="auto" markerUnits="userSpaceOnUse"><path d="M1,5 L9,1 L17,5 L9,9 z" fill="#ffffff" stroke="#46525a" stroke-width="1.2"/></marker>
+</defs>
+<rect x="1" y="1" width="1282.0" height="925.0" rx="14" fill="#ffffff" stroke="#dde3e6" stroke-width="2"/>
+<rect x="34" y="20" width="186" height="86" rx="2" fill="#efe2f6" stroke="#8b5fa8" stroke-width="1.8"/>
+<path d="M193,29 L207,29 A5,6 0 0 1 207,41 L193,41 A5,6 0 0 1 193,29 Z M207,29 A5,6 0 0 0 207,41" fill="none" stroke="#8b5fa8" stroke-width="1.3"/>
+<text x="44" y="36" font-size="10.5" font-weight="bold" fill="#7a4c99">Stakeholder</text>
+<text x="127.0" y="56" font-size="11" font-weight="bold" fill="#3c4850" text-anchor="middle">STK-07</text>
+<text x="127.0" y="70.0" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">Transformación Digital</text>
+<rect x="34" y="120" width="186" height="86" rx="2" fill="#efe2f6" stroke="#8b5fa8" stroke-width="1.8"/>
+<path d="M193,129 L207,129 A5,6 0 0 1 207,141 L193,141 A5,6 0 0 1 193,129 Z M207,129 A5,6 0 0 0 207,141" fill="none" stroke="#8b5fa8" stroke-width="1.3"/>
+<text x="44" y="136" font-size="10.5" font-weight="bold" fill="#7a4c99">Stakeholder</text>
+<text x="127.0" y="156" font-size="11" font-weight="bold" fill="#3c4850" text-anchor="middle">STK-03</text>
+<text x="127.0" y="170.0" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">Cadena de Frío</text>
+<rect x="34" y="320" width="186" height="86" rx="2" fill="#efe2f6" stroke="#8b5fa8" stroke-width="1.8"/>
+<path d="M193,329 L207,329 A5,6 0 0 1 207,341 L193,341 A5,6 0 0 1 193,329 Z M207,329 A5,6 0 0 0 207,341" fill="none" stroke="#8b5fa8" stroke-width="1.3"/>
+<text x="44" y="336" font-size="10.5" font-weight="bold" fill="#7a4c99">Stakeholder</text>
+<text x="127.0" y="356" font-size="11" font-weight="bold" fill="#3c4850" text-anchor="middle">STK-02</text>
+<text x="127.0" y="370.0" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">Calidad e Inocuidad</text>
+<rect x="34" y="620" width="186" height="86" rx="2" fill="#efe2f6" stroke="#8b5fa8" stroke-width="1.8"/>
+<path d="M193,629 L207,629 A5,6 0 0 1 207,641 L193,641 A5,6 0 0 1 193,629 Z M207,629 A5,6 0 0 0 207,641" fill="none" stroke="#8b5fa8" stroke-width="1.3"/>
+<text x="44" y="636" font-size="10.5" font-weight="bold" fill="#7a4c99">Stakeholder</text>
+<text x="127.0" y="656" font-size="11" font-weight="bold" fill="#3c4850" text-anchor="middle">STK-01</text>
+<text x="127.0" y="670.0" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">Operaciones de planta</text>
+<rect x="284" y="111" width="186" height="86" rx="2" fill="#efe2f6" stroke="#8b5fa8" stroke-width="1.8"/>
+<circle cx="451" cy="127" r="7" fill="none" stroke="#8b5fa8" stroke-width="1.3"/><circle cx="451" cy="127" r="2" fill="#8b5fa8"/><path d="M441,127 L461,127 M451,117 L451,137 M444,120 L458,134 M444,134 L458,120" fill="none" stroke="#8b5fa8" stroke-width="1.3"/>
+<text x="294" y="127" font-size="10.5" font-weight="bold" fill="#7a4c99">Driver</text>
+<text x="377.0" y="147" font-size="11" font-weight="bold" fill="#3c4850" text-anchor="middle">DRV-01</text>
+<text x="377.0" y="161.0" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">Riesgo comercial por</text>
+<text x="377.0" y="174.5" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">incidentes de calidad y frío</text>
+<text x="377.0" y="188.0" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">en destino</text>
+<rect x="284" y="251" width="186" height="86" rx="2" fill="#efe2f6" stroke="#8b5fa8" stroke-width="1.8"/>
+<circle cx="451" cy="267" r="7" fill="none" stroke="#8b5fa8" stroke-width="1.3"/><circle cx="451" cy="267" r="2" fill="#8b5fa8"/><path d="M441,267 L461,267 M451,257 L451,277 M444,260 L458,274 M444,274 L458,260" fill="none" stroke="#8b5fa8" stroke-width="1.3"/>
+<text x="294" y="267" font-size="10.5" font-weight="bold" fill="#7a4c99">Driver</text>
+<text x="377.0" y="287" font-size="11" font-weight="bold" fill="#3c4850" text-anchor="middle">DRV-03</text>
+<text x="377.0" y="301.0" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">Fragmentación de la</text>
+<text x="377.0" y="314.5" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">evidencia operativa entre</text>
+<text x="377.0" y="328.0" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">etapas</text>
+<rect x="284" y="391" width="186" height="86" rx="2" fill="#efe2f6" stroke="#8b5fa8" stroke-width="1.8"/>
+<circle cx="451" cy="407" r="7" fill="none" stroke="#8b5fa8" stroke-width="1.3"/><circle cx="451" cy="407" r="2" fill="#8b5fa8"/><path d="M441,407 L461,407 M451,397 L451,417 M444,400 L458,414 M444,414 L458,400" fill="none" stroke="#8b5fa8" stroke-width="1.3"/>
+<text x="294" y="407" font-size="10.5" font-weight="bold" fill="#7a4c99">Driver</text>
+<text x="377.0" y="427" font-size="11" font-weight="bold" fill="#3c4850" text-anchor="middle">DRV-02</text>
+<text x="377.0" y="441.0" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">Exigencias de trazabilidad</text>
+<text x="377.0" y="454.5" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">y cumplimiento de</text>
+<text x="377.0" y="468.0" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">mercados y SENASA</text>
+<rect x="284" y="531" width="186" height="86" rx="2" fill="#efe2f6" stroke="#8b5fa8" stroke-width="1.8"/>
+<circle cx="451" cy="547" r="7" fill="none" stroke="#8b5fa8" stroke-width="1.3"/><circle cx="451" cy="547" r="2" fill="#8b5fa8"/><path d="M441,547 L461,547 M451,537 L451,557 M444,540 L458,554 M444,554 L458,540" fill="none" stroke="#8b5fa8" stroke-width="1.3"/>
+<text x="294" y="547" font-size="10.5" font-weight="bold" fill="#7a4c99">Driver</text>
+<text x="377.0" y="567" font-size="11" font-weight="bold" fill="#3c4850" text-anchor="middle">DRV-04</text>
+<text x="377.0" y="581.0" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">Presión de coordinación</text>
+<text x="377.0" y="594.5" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">por duplicación de</text>
+<text x="377.0" y="608.0" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">capacidad en Chao</text>
+<rect x="534" y="251" width="186" height="86" rx="2" fill="#efe2f6" stroke="#8b5fa8" stroke-width="1.8"/>
+<circle cx="701" cy="267" r="8" fill="none" stroke="#8b5fa8" stroke-width="1.3"/><circle cx="701" cy="267" r="4.5" fill="none" stroke="#8b5fa8" stroke-width="1.3"/><circle cx="701" cy="267" r="1.5" fill="#8b5fa8"/>
+<text x="544" y="267" font-size="10.5" font-weight="bold" fill="#7a4c99">Goal</text>
+<text x="627.0" y="287" font-size="11" font-weight="bold" fill="#3c4850" text-anchor="middle">GOAL-01</text>
+<text x="627.0" y="301.0" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">Asegurar integridad y</text>
+<text x="627.0" y="314.5" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">reconstrucción oportuna</text>
+<text x="627.0" y="328.0" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">de la evidencia del lote</text>
+<rect x="534" y="461" width="186" height="86" rx="2" fill="#efe2f6" stroke="#8b5fa8" stroke-width="1.8"/>
+<circle cx="701" cy="477" r="8" fill="none" stroke="#8b5fa8" stroke-width="1.3"/><circle cx="701" cy="477" r="4.5" fill="none" stroke="#8b5fa8" stroke-width="1.3"/><circle cx="701" cy="477" r="1.5" fill="#8b5fa8"/>
+<text x="544" y="477" font-size="10.5" font-weight="bold" fill="#7a4c99">Goal</text>
+<text x="627.0" y="497" font-size="11" font-weight="bold" fill="#3c4850" text-anchor="middle">GOAL-02</text>
+<text x="627.0" y="511.0" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">Asegurar handoffs y</text>
+<text x="627.0" y="524.5" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">estados consistentes entre</text>
+<text x="627.0" y="538.0" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">áreas</text>
+<rect x="534" y="601" width="186" height="86" rx="2" fill="#efe2f6" stroke="#8b5fa8" stroke-width="1.8"/>
+<circle cx="701" cy="617" r="8" fill="none" stroke="#8b5fa8" stroke-width="1.3"/><circle cx="701" cy="617" r="4.5" fill="none" stroke="#8b5fa8" stroke-width="1.3"/><circle cx="701" cy="617" r="1.5" fill="#8b5fa8"/>
+<text x="544" y="617" font-size="10.5" font-weight="bold" fill="#7a4c99">Goal</text>
+<text x="627.0" y="637" font-size="11" font-weight="bold" fill="#3c4850" text-anchor="middle">GOAL-03</text>
+<text x="627.0" y="651.0" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">Sostener la coordinación</text>
+<text x="627.0" y="664.5" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">interáreas y la gestión de</text>
+<text x="627.0" y="678.0" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">excepciones en picos</text>
+<rect x="784" y="251" width="186" height="86" rx="2" fill="#efe2f6" stroke="#8b5fa8" stroke-width="1.8"/>
+<circle cx="949" cy="268" r="7" fill="none" stroke="#8b5fa8" stroke-width="1.3"/><circle cx="949" cy="268" r="3.5" fill="none" stroke="#8b5fa8" stroke-width="1.3"/><path d="M949,268 L959,258 M955,258 L959,258 L959,262" fill="none" stroke="#8b5fa8" stroke-width="1.3"/>
+<text x="794" y="267" font-size="10.5" font-weight="bold" fill="#7a4c99">Outcome</text>
+<text x="877.0" y="287" font-size="11" font-weight="bold" fill="#3c4850" text-anchor="middle">OUT-01</text>
+<text x="877.0" y="301.0" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">Historia del lote íntegra,</text>
+<text x="877.0" y="314.5" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">segura y recuperable para</text>
+<text x="877.0" y="328.0" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">decisiones</text>
+<rect x="784" y="461" width="186" height="86" rx="2" fill="#efe2f6" stroke="#8b5fa8" stroke-width="1.8"/>
+<circle cx="949" cy="478" r="7" fill="none" stroke="#8b5fa8" stroke-width="1.3"/><circle cx="949" cy="478" r="3.5" fill="none" stroke="#8b5fa8" stroke-width="1.3"/><path d="M949,478 L959,468 M955,468 L959,468 L959,472" fill="none" stroke="#8b5fa8" stroke-width="1.3"/>
+<text x="794" y="477" font-size="10.5" font-weight="bold" fill="#7a4c99">Outcome</text>
+<text x="877.0" y="497" font-size="11" font-weight="bold" fill="#3c4850" text-anchor="middle">OUT-02</text>
+<text x="877.0" y="511.0" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">Handoffs con aceptación y</text>
+<text x="877.0" y="524.5" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">excepción explícitas y</text>
+<text x="877.0" y="538.0" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">estados separados</text>
+<rect x="784" y="601" width="186" height="86" rx="2" fill="#efe2f6" stroke="#8b5fa8" stroke-width="1.8"/>
+<circle cx="949" cy="618" r="7" fill="none" stroke="#8b5fa8" stroke-width="1.3"/><circle cx="949" cy="618" r="3.5" fill="none" stroke="#8b5fa8" stroke-width="1.3"/><path d="M949,618 L959,608 M955,608 L959,608 L959,612" fill="none" stroke="#8b5fa8" stroke-width="1.3"/>
+<text x="794" y="617" font-size="10.5" font-weight="bold" fill="#7a4c99">Outcome</text>
+<text x="877.0" y="637" font-size="11" font-weight="bold" fill="#3c4850" text-anchor="middle">OUT-03</text>
+<text x="877.0" y="651.0" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">Excepciones gestionadas</text>
+<text x="877.0" y="664.5" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">y desempeño medido de</text>
+<text x="877.0" y="678.0" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">forma gobernada</text>
+<rect x="1064" y="34" width="186" height="86" rx="2" fill="#efe2f6" stroke="#8b5fa8" stroke-width="1.8"/>
+<path d="M1225,43 L1241,43 L1236,54 L1220,54 Z" fill="none" stroke="#8b5fa8" stroke-width="1.3"/>
+<text x="1074" y="50" font-size="10.5" font-weight="bold" fill="#7a4c99">Requirement</text>
+<text x="1157.0" y="70" font-size="11" font-weight="bold" fill="#3c4850" text-anchor="middle">REQ-01</text>
+<text x="1157.0" y="84.0" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">Identidad y genealogía</text>
+<rect x="1064" y="130" width="186" height="86" rx="2" fill="#efe2f6" stroke="#8b5fa8" stroke-width="1.8"/>
+<path d="M1225,139 L1241,139 L1236,150 L1220,150 Z" fill="none" stroke="#8b5fa8" stroke-width="1.3"/>
+<text x="1074" y="146" font-size="10.5" font-weight="bold" fill="#7a4c99">Requirement</text>
+<text x="1157.0" y="166" font-size="11" font-weight="bold" fill="#3c4850" text-anchor="middle">REQ-02</text>
+<text x="1157.0" y="180.0" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">Historia recuperable</text>
+<rect x="1064" y="226" width="186" height="86" rx="2" fill="#efe2f6" stroke="#8b5fa8" stroke-width="1.8"/>
+<path d="M1225,235 L1241,235 L1236,246 L1220,246 Z" fill="none" stroke="#8b5fa8" stroke-width="1.3"/>
+<text x="1074" y="242" font-size="10.5" font-weight="bold" fill="#7a4c99">Requirement</text>
+<text x="1157.0" y="262" font-size="11" font-weight="bold" fill="#3c4850" text-anchor="middle">REQ-03</text>
+<text x="1157.0" y="276.0" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">Continuidad y</text>
+<text x="1157.0" y="289.5" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">reconciliación</text>
+<rect x="1064" y="322" width="186" height="86" rx="2" fill="#efe2f6" stroke="#8b5fa8" stroke-width="1.8"/>
+<path d="M1225,331 L1241,331 L1236,342 L1220,342 Z" fill="none" stroke="#8b5fa8" stroke-width="1.3"/>
+<text x="1074" y="338" font-size="10.5" font-weight="bold" fill="#7a4c99">Requirement</text>
+<text x="1157.0" y="358" font-size="11" font-weight="bold" fill="#3c4850" text-anchor="middle">REQ-04</text>
+<text x="1157.0" y="372.0" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">Evidencia térmica y</text>
+<text x="1157.0" y="385.5" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">custodia</text>
+<rect x="1064" y="418" width="186" height="86" rx="2" fill="#efe2f6" stroke="#8b5fa8" stroke-width="1.8"/>
+<path d="M1225,427 L1241,427 L1236,438 L1220,438 Z" fill="none" stroke="#8b5fa8" stroke-width="1.3"/>
+<text x="1074" y="434" font-size="10.5" font-weight="bold" fill="#7a4c99">Requirement</text>
+<text x="1157.0" y="454" font-size="11" font-weight="bold" fill="#3c4850" text-anchor="middle">REQ-05</text>
+<text x="1157.0" y="468.0" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">Acceso autorizado y</text>
+<text x="1157.0" y="481.5" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">auditoría</text>
+<rect x="1064" y="514" width="186" height="86" rx="2" fill="#efe2f6" stroke="#8b5fa8" stroke-width="1.8"/>
+<path d="M1225,523 L1241,523 L1236,534 L1220,534 Z" fill="none" stroke="#8b5fa8" stroke-width="1.3"/>
+<text x="1074" y="530" font-size="10.5" font-weight="bold" fill="#7a4c99">Requirement</text>
+<text x="1157.0" y="550" font-size="11" font-weight="bold" fill="#3c4850" text-anchor="middle">REQ-06</text>
+<text x="1157.0" y="564.0" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">Handoff y estados</text>
+<text x="1157.0" y="577.5" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">diferenciados</text>
+<rect x="1064" y="610" width="186" height="86" rx="2" fill="#efe2f6" stroke="#8b5fa8" stroke-width="1.8"/>
+<path d="M1225,619 L1241,619 L1236,630 L1220,630 Z" fill="none" stroke="#8b5fa8" stroke-width="1.3"/>
+<text x="1074" y="626" font-size="10.5" font-weight="bold" fill="#7a4c99">Requirement</text>
+<text x="1157.0" y="646" font-size="11" font-weight="bold" fill="#3c4850" text-anchor="middle">REQ-07</text>
+<text x="1157.0" y="660.0" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">Medición gobernada</text>
+<rect x="1064" y="706" width="186" height="86" rx="2" fill="#efe2f6" stroke="#8b5fa8" stroke-width="1.8"/>
+<path d="M1225,715 L1241,715 L1236,726 L1220,726 Z" fill="none" stroke="#8b5fa8" stroke-width="1.3"/>
+<text x="1074" y="722" font-size="10.5" font-weight="bold" fill="#7a4c99">Requirement</text>
+<text x="1157.0" y="742" font-size="11" font-weight="bold" fill="#3c4850" text-anchor="middle">REQ-08</text>
+<text x="1157.0" y="756.0" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">Excepciones con</text>
+<text x="1157.0" y="769.5" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">autoridad y cierre</text>
+<rect x="34" y="220" width="186" height="86" rx="2" fill="#efe2f6" stroke="#8b5fa8" stroke-width="1.8"/>
+<path d="M193,229 L207,229 A5,6 0 0 1 207,241 L193,241 A5,6 0 0 1 193,229 Z M207,229 A5,6 0 0 0 207,241" fill="none" stroke="#8b5fa8" stroke-width="1.3"/>
+<text x="44" y="236" font-size="10.5" font-weight="bold" fill="#7a4c99">Stakeholder</text>
+<text x="127.0" y="256" font-size="11" font-weight="bold" fill="#3c4850" text-anchor="middle">STK-04</text>
+<text x="127.0" y="270.0" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">TI/OT de planta</text>
+<rect x="34" y="420" width="186" height="86" rx="2" fill="#efe2f6" stroke="#8b5fa8" stroke-width="1.8"/>
+<path d="M193,429 L207,429 A5,6 0 0 1 207,441 L193,441 A5,6 0 0 1 193,429 Z M207,429 A5,6 0 0 0 207,441" fill="none" stroke="#8b5fa8" stroke-width="1.3"/>
+<text x="44" y="436" font-size="10.5" font-weight="bold" fill="#7a4c99">Stakeholder</text>
+<text x="127.0" y="456" font-size="11" font-weight="bold" fill="#3c4850" text-anchor="middle">STK-05</text>
+<text x="127.0" y="470.0" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">Operadores de línea y</text>
+<text x="127.0" y="483.5" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">packing</text>
+<rect x="34" y="520" width="186" height="86" rx="2" fill="#efe2f6" stroke="#8b5fa8" stroke-width="1.8"/>
+<path d="M193,529 L207,529 A5,6 0 0 1 207,541 L193,541 A5,6 0 0 1 193,529 Z M207,529 A5,6 0 0 0 207,541" fill="none" stroke="#8b5fa8" stroke-width="1.3"/>
+<text x="44" y="536" font-size="10.5" font-weight="bold" fill="#7a4c99">Stakeholder</text>
+<text x="127.0" y="556" font-size="11" font-weight="bold" fill="#3c4850" text-anchor="middle">STK-06</text>
+<text x="127.0" y="570.0" font-size="12" font-weight="bold" fill="#1d252b" text-anchor="middle">Despacho y Exportación</text>
+<path d="M220.0,629.9 L284.0,607.1" fill="none" stroke="#6d777e" stroke-width="1.3"/>
+<path d="M220.0,389.4 L284.0,407.6" fill="none" stroke="#6d777e" stroke-width="1.3"/>
+<path d="M220.0,337.3 L284.0,319.7" fill="none" stroke="#6d777e" stroke-width="1.3"/>
+<path d="M220.0,158.5 L284.0,158.5" fill="none" stroke="#6d777e" stroke-width="1.3"/>
+<path d="M220.0,96.9 L284.0,120.1" fill="none" stroke="#6d777e" stroke-width="1.3"/>
+<path d="M453.8,197.0 L550.2,251.0" fill="none" stroke="#46525a" stroke-width="1.4" stroke-dasharray="6,4" marker-end="url(#open)"/>
+<path d="M453.8,391.0 L550.2,337.0" fill="none" stroke="#46525a" stroke-width="1.4" stroke-dasharray="6,4" marker-end="url(#open)"/>
+<path d="M470.0,294.0 L534.0,294.0" fill="none" stroke="#46525a" stroke-width="1.4" stroke-dasharray="6,4" marker-end="url(#open)"/>
+<path d="M470.0,460.0 L534.0,478.0" fill="none" stroke="#46525a" stroke-width="1.4" stroke-dasharray="6,4" marker-end="url(#open)"/>
+<path d="M470.0,548.0 L534.0,530.0" fill="none" stroke="#46525a" stroke-width="1.4" stroke-dasharray="6,4" marker-end="url(#open)"/>
+<path d="M470.0,600.0 L534.0,618.0" fill="none" stroke="#46525a" stroke-width="1.4" stroke-dasharray="6,4" marker-end="url(#open)"/>
+<path d="M784.0,294.0 L720.0,294.0" fill="none" stroke="#46525a" stroke-width="1.4" stroke-dasharray="6,4" marker-end="url(#thol)"/>
+<path d="M784.0,504.0 L720.0,504.0" fill="none" stroke="#46525a" stroke-width="1.4" stroke-dasharray="6,4" marker-end="url(#thol)"/>
+<path d="M784.0,644.0 L720.0,644.0" fill="none" stroke="#46525a" stroke-width="1.4" stroke-dasharray="6,4" marker-end="url(#thol)"/>
+<path d="M1101.5,120.0 L932.5,251.0" fill="none" stroke="#46525a" stroke-width="1.4" stroke-dasharray="6,4" marker-end="url(#thol)"/>
+<path d="M1064.0,213.2 L970.0,253.8" fill="none" stroke="#46525a" stroke-width="1.4" stroke-dasharray="6,4" marker-end="url(#thol)"/>
+<path d="M1064.0,281.5 L970.0,281.5" fill="none" stroke="#46525a" stroke-width="1.4" stroke-dasharray="6,4" marker-end="url(#thol)"/>
+<path d="M1064.0,341.4 L970.0,317.6" fill="none" stroke="#46525a" stroke-width="1.4" stroke-dasharray="6,4" marker-end="url(#thol)"/>
+<path d="M1084.9,418.0 L949.1,337.0" fill="none" stroke="#46525a" stroke-width="1.4" stroke-dasharray="6,4" marker-end="url(#thol)"/>
+<path d="M1064.0,539.4 L970.0,521.6" fill="none" stroke="#46525a" stroke-width="1.4" stroke-dasharray="6,4" marker-end="url(#thol)"/>
+<path d="M1064.0,648.5 L970.0,648.5" fill="none" stroke="#46525a" stroke-width="1.4" stroke-dasharray="6,4" marker-end="url(#thol)"/>
+<path d="M1064.0,714.1 L970.0,678.9" fill="none" stroke="#46525a" stroke-width="1.4" stroke-dasharray="6,4" marker-end="url(#thol)"/>
+<path d="M220.0,278.5 L284.0,278.5" fill="none" stroke="#6d777e" stroke-width="1.3"/>
+<path d="M190.6,420.0 L313.4,337.0" fill="none" stroke="#6d777e" stroke-width="1.3"/>
+<path d="M220.0,568.5 L284.0,568.5" fill="none" stroke="#6d777e" stroke-width="1.3"/>
+<path d="M210.3,520.0 L293.7,477.0" fill="none" stroke="#6d777e" stroke-width="1.3"/>
+<rect x="222.7" y="610.5" width="58.6" height="14" rx="3" fill="#ffffff" fill-opacity="0.92"/><text x="252.0" y="621.5" font-size="9.5" fill="#4a565e" text-anchor="middle">Association</text>
+<rect x="222.7" y="390.5" width="58.6" height="14" rx="3" fill="#ffffff" fill-opacity="0.92"/><text x="252.0" y="401.5" font-size="9.5" fill="#4a565e" text-anchor="middle">Association</text>
+<rect x="222.7" y="320.5" width="58.6" height="14" rx="3" fill="#ffffff" fill-opacity="0.92"/><text x="252.0" y="331.5" font-size="9.5" fill="#4a565e" text-anchor="middle">Association</text>
+<rect x="222.7" y="150.5" width="58.6" height="14" rx="3" fill="#ffffff" fill-opacity="0.92"/><text x="252.0" y="161.5" font-size="9.5" fill="#4a565e" text-anchor="middle">Association</text>
+<rect x="222.7" y="100.5" width="58.6" height="14" rx="3" fill="#ffffff" fill-opacity="0.92"/><text x="252.0" y="111.5" font-size="9.5" fill="#4a565e" text-anchor="middle">Association</text>
+<rect x="494.2" y="216.0" width="15.5" height="14" rx="3" fill="#ffffff" fill-opacity="0.92"/><text x="502.0" y="227.0" font-size="9.5" fill="#4a565e" text-anchor="middle">+</text>
+<rect x="494.2" y="356.0" width="15.5" height="14" rx="3" fill="#ffffff" fill-opacity="0.92"/><text x="502.0" y="367.0" font-size="9.5" fill="#4a565e" text-anchor="middle">+</text>
+<rect x="494.2" y="286.0" width="15.5" height="14" rx="3" fill="#ffffff" fill-opacity="0.92"/><text x="502.0" y="297.0" font-size="9.5" fill="#4a565e" text-anchor="middle">+</text>
+<rect x="494.2" y="461.0" width="15.5" height="14" rx="3" fill="#ffffff" fill-opacity="0.92"/><text x="502.0" y="472.0" font-size="9.5" fill="#4a565e" text-anchor="middle">+</text>
+<rect x="494.2" y="531.0" width="15.5" height="14" rx="3" fill="#ffffff" fill-opacity="0.92"/><text x="502.0" y="542.0" font-size="9.5" fill="#4a565e" text-anchor="middle">+</text>
+<rect x="494.2" y="601.0" width="15.5" height="14" rx="3" fill="#ffffff" fill-opacity="0.92"/><text x="502.0" y="612.0" font-size="9.5" fill="#4a565e" text-anchor="middle">+</text>
+<rect x="723.5" y="286.0" width="57.0" height="14" rx="3" fill="#ffffff" fill-opacity="0.92"/><text x="752.0" y="297.0" font-size="9.5" fill="#4a565e" text-anchor="middle">Realization</text>
+<rect x="723.5" y="496.0" width="57.0" height="14" rx="3" fill="#ffffff" fill-opacity="0.92"/><text x="752.0" y="507.0" font-size="9.5" fill="#4a565e" text-anchor="middle">Realization</text>
+<rect x="723.5" y="636.0" width="57.0" height="14" rx="3" fill="#ffffff" fill-opacity="0.92"/><text x="752.0" y="647.0" font-size="9.5" fill="#4a565e" text-anchor="middle">Realization</text>
+<rect x="988.5" y="177.5" width="57.0" height="14" rx="3" fill="#ffffff" fill-opacity="0.92"/><text x="1017.0" y="188.5" font-size="9.5" fill="#4a565e" text-anchor="middle">Realization</text>
+<rect x="988.5" y="225.5" width="57.0" height="14" rx="3" fill="#ffffff" fill-opacity="0.92"/><text x="1017.0" y="236.5" font-size="9.5" fill="#4a565e" text-anchor="middle">Realization</text>
+<rect x="988.5" y="273.5" width="57.0" height="14" rx="3" fill="#ffffff" fill-opacity="0.92"/><text x="1017.0" y="284.5" font-size="9.5" fill="#4a565e" text-anchor="middle">Realization</text>
+<rect x="988.5" y="321.5" width="57.0" height="14" rx="3" fill="#ffffff" fill-opacity="0.92"/><text x="1017.0" y="332.5" font-size="9.5" fill="#4a565e" text-anchor="middle">Realization</text>
+<rect x="988.5" y="369.5" width="57.0" height="14" rx="3" fill="#ffffff" fill-opacity="0.92"/><text x="1017.0" y="380.5" font-size="9.5" fill="#4a565e" text-anchor="middle">Realization</text>
+<rect x="988.5" y="522.5" width="57.0" height="14" rx="3" fill="#ffffff" fill-opacity="0.92"/><text x="1017.0" y="533.5" font-size="9.5" fill="#4a565e" text-anchor="middle">Realization</text>
+<rect x="988.5" y="640.5" width="57.0" height="14" rx="3" fill="#ffffff" fill-opacity="0.92"/><text x="1017.0" y="651.5" font-size="9.5" fill="#4a565e" text-anchor="middle">Realization</text>
+<rect x="988.5" y="688.5" width="57.0" height="14" rx="3" fill="#ffffff" fill-opacity="0.92"/><text x="1017.0" y="699.5" font-size="9.5" fill="#4a565e" text-anchor="middle">Realization</text>
+<rect x="222.7" y="270.5" width="58.6" height="14" rx="3" fill="#ffffff" fill-opacity="0.92"/><text x="252.0" y="281.5" font-size="9.5" fill="#4a565e" text-anchor="middle">Association</text>
+<rect x="222.7" y="370.5" width="58.6" height="14" rx="3" fill="#ffffff" fill-opacity="0.92"/><text x="252.0" y="381.5" font-size="9.5" fill="#4a565e" text-anchor="middle">Association</text>
+<rect x="222.7" y="560.5" width="58.6" height="14" rx="3" fill="#ffffff" fill-opacity="0.92"/><text x="252.0" y="571.5" font-size="9.5" fill="#4a565e" text-anchor="middle">Association</text>
+<rect x="222.7" y="490.5" width="58.6" height="14" rx="3" fill="#ffffff" fill-opacity="0.92"/><text x="252.0" y="501.5" font-size="9.5" fill="#4a565e" text-anchor="middle">Association</text>
+<text x="26" y="849.0" font-size="12" fill="#5f6b73">VIEW-A01 · VP-A01 Motivación · Concerns C01–C07 · Grupo 04 · v0.3 (PC3)</text>
+<text x="26" y="866.0" font-size="12" fill="#5f6b73">Cadena del porqué: stakeholder → driver (HP/IA) → goal ← outcome ← requisito de negocio. Están los 7 stakeholders y los 8 requisitos REQ-01…08 (Realization hacia el outcome que realizan). Las asociaciones de STK-04,</text>
+<text x="26" y="883.0" font-size="12" fill="#5f6b73">STK-05 y STK-06 con sus drivers son SV (derivadas de sus concerns en Stakeholder_Catalog). VIEW-A04 muestra los principios que justifican los requisitos de la solución.</text>
+<text x="26" y="900.0" font-size="11" fill="#7c868d">Notación ArchiMate 3.2: Assignment (●→) · Realization (- - ▷) · Serving (→ abierta) · Access (··· ; flecha = dirección del dato: escribe →objeto, lee →proceso) · Triggering (→ llena) · Flow (- - → llena) · Composition (◆) · Aggregation (◇) · Influence (- -</text>
+<text x="26" y="917.0" font-size="11" fill="#7c868d">→, +) · Association (—). Anidamiento = relación estructural del modelo.</text>
+</svg>
